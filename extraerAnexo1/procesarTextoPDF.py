@@ -22,10 +22,12 @@ dictDatos = {key: None for key in datos}
 
 
 def leer_pdf_y_separar_por_secciones(archivo_pdf):
-    pattern = re.compile(r"([A-Z]?[a-z]+)\s*\n\s*([A-Z]+)")
-    pattern2 = re.compile(r"([A-Z]+)\s*\n\s*([A-Z])([a-z]+)")
+    pattern = re.compile(r"([A-Z]?[a-z]+).?[\s\n]*\n[\s\n]*([A-Z]+)")
+    pattern2 = re.compile(r"([A-Z]+)[\s\n]*\n[\s\n]*([^A-Za-z]*\s*[A-Z])([a-z]+)")
     patternApartado = re.compile(r"APARTADO[\s\n]*[A-Z]")
     patternParentesis = re.compile(r"([A-Z]+)\s*\(([a-zA-Z]+.*?)\)")
+    patternSeleccion = re.compile(r"([A-Z]+)[\s\n]*\n[\s\n]*([Xx]\s*)")
+
     # Crear un objeto PDFFileReader para leer el PDF
     with fitz.open(archivo_pdf) as doc:
         # Inicializar variables para almacenar el texto y las secciones
@@ -37,8 +39,13 @@ def leer_pdf_y_separar_por_secciones(archivo_pdf):
                 .replace(".\n", ". \n")
                 .replace(":", ". ")
                 .replace("Sí", "Si")
-                .replace(" No ", " No ")
+                .replace("NO PROCEDE", "No procede")
+                .replace(" NO ", " No ")
+                .replace(" SI ", " Si ")
+                .replace(" SI.", " Si ")
                 .replace("□", "")
+                .replace("TANTO ALZADO", "tanto alzado")
+                .replace("PRECIOS UNITARIOS", "precios unitarios")
                 .strip()
             )
             texto_completo += re.sub(
@@ -49,12 +56,14 @@ def leer_pdf_y_separar_por_secciones(archivo_pdf):
         # print(modified_text)
         modified_text = re.sub(pattern2, r"\1. \2\3", modified_text)
         modified_text = re.sub(patternParentesis, r"\1. ", modified_text)
+        modified_text = re.sub(patternSeleccion, r"\1. \2", modified_text)
+
         tokens = modified_text.split(". ")
         # print(re.sub(pattern, r"\1. \2", "vilidad\nATRIB"))
         # print(tokens)
         secciones = {}
         current_key = None
-
+        # print(tokens[806])
         for sentence in tokens:
             if sentence.isupper():
                 current_key = sentence.replace("\n", " ").strip().upper()
@@ -71,11 +80,11 @@ def guardar_secciones_de_datos(secciones):
         for dato in datos:
             if not dictDatos[dato] and dato in seccion:
                 dictDatos[dato] = secciones[seccion]
-    print(dictDatos)
+    pprint.pprint(dictDatos)
 
 
 # Ruta al archivo PDF
-archivo_pdf = "Anexo1Ejemplo.pdf"
+archivo_pdf = "Anexo1Ejemplo_3.pdf"
 
 # Leer el PDF y separar por secciones
 secciones_pdf = leer_pdf_y_separar_por_secciones(archivo_pdf)
