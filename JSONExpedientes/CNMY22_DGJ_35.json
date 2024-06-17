@@ -1,0 +1,196 @@
+{
+    "ABONOS A CUENTA": "x No. ",
+    "CLASIFICACIÓN": "Para el Lote 1 de Climatización, la clasificación es:\n- Categoría: 4\n- Grupo: Grupo J. Instalaciones mecánicas\n- Subgrupo: Subgrupo 2. De ventilación, calefacción y climatización\n\nPara el Lote 2 de Iluminación, la clasificación es:\n- Grupo: I Instalaciones Eléctricas\n- Subgrupo: 6. Distribución en baja tensión\n- Categoría: 2",
+    "CLASIFICACIÓN CPV": "45331200 -  Trabajos de instalación de ventilación y aire acondicionado.31500000 -  Material de iluminación y lámparas eléctricas.45310000 -  Trabajos de instalación eléctrica.45311000 -  Trabajos de instalación de cableado y accesorios eléctricos.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "(AL MENOS UNA DE ENTRE LAS PREVISTAS EN EL \n202.2 ES OBLIGATORIA): \n 20/20 \nEs condición especial para la ejecución de este contrato, que el adjudicatario imparta a las personas adscritas \na la ejecución del contrato, una acción de formación en el puesto de trabajo de un mínimo de duración de 15 \nhoras en el tiempo que dura el contrato, sobre la mejora de la ocupación y la adaptabilidad, así como de sus \ncapacidades y su calificación. El contenido formativo deberá guardar relación con el objeto del contrato. Para su acreditación, la empresa \nadjudicataria deberá presentar con carácter previo a la finalización del contrato, la relación de acciones \nformativas, con especificación del contenido formativo y de los asistentes, fecha y lugar de celebración. La \npersona responsable de formación de la empresa adjudicataria deberá rubricar la relación de acciones \nformativas realizadas, así como su contenido. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Favorecer la formación en el lugar de trabajo - Acción de formación en el puesto de trabajo de un mínimo de duración de 15 horas en el tiempo que dura el contrato, sobre la mejora de la ocupación y la adaptabilidad, así como de sus capacidades y su calificación. Ver apartado X Anexo I PCAP",
+    "CONSIDERACION COMO INFRACCION GRAVE": "No \nx SÍ, penalidades en su caso de la cláusula 35.3. . ",
+    "CONTRATACION DEL CONTROL": "x No. ",
+    "CRITERIOS DE ADJUDICACION": "x Precio, o coste, cálculo del coste del ciclo de vida \n Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación OFERTA ECONÓMICA",
+            "Porcentaje": 100,
+            "Puntuación máxima": 100,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "UMBRAL"
+        },
+        {
+            "Nombre": "MEJORAS COMO CRITERIO DE ADJUDICACIÓN",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "MEJORAS"
+        },
+        {
+            "Nombre": "COMITÉ DE EXPERTOS",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "CE"
+        },
+        {
+            "Nombre": "ORGANISMO TÉCNICO ESPECIALIZADO",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "OTE"
+        },
+        {
+            "Nombre": "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "UTE"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Lote 2. Iluminación. Declaración indicando el personal técnico, estén o no integrados en la empresa, de los que esta disponga \npara la ejecución de la obra. Comprenderá con dedicación total de un Jefe de Obra con titulación de \nIngeniero de Grado eléctrico, Ingeniero Técnico Industrial o Ingeniero Industrial (o titulación habilitante \nequivalente) y un Encargado (sin exigencia de titulación). Ambos con experiencia en estos puestos en al \nmenos 3 obras de reforma de instalación de iluminación en edificios y cuantía igual o superior. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \nSe considerará que una oferta se encuentra incursa en presunción de anormalidad, aquella oferta económica \nque sea inferior en un 10% de la media aritmética de las ofertas presentadas. \nEn el caso que alguna de las ofertas presentadas sea superior a la media aritmética en más de un 10%, se \ncalculará una nueva media aritmética solo con las ofertas presentadas que no cumplan esta última condición. \nLlegado el caso de identificación de una oferta en presunción de valor anormal o desproporcionado, se \nprocederá conforme al artículo 149 de la LCSP respecto a la justificación y razonamiento de las ofertas. \n \n",
+    "EL ADJUDICATARIO ES UNA PYME": "Sí",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "EMURTEL S.A.": "SI"
+    },
+    "EXPEDIENTE": "CNMY22/DGJ/35",
+    "FECHA ADJUDICACIÓN": "05-12-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "30-08-2022",
+    "FECHA FORMALIZACIÓN": "07-12-2022",
+    "FORMA DE PAGO": "De acuerdo con el artículo 198.2 LCSP, el pago del precio se hará de manera parcial, esto es, mediante la \nexpedición de certificaciones que comprendan la obra ejecutada, según lo establecido en el artículo 240.1. ",
+    "GARANTIA DEFINITIVA": "Al establecerse el precio del contrato en precios unitarios, el importe de la garantía \na constituir se fijará atendiendo al presupuesto base de licitación, IVA excluido, debiendo constituir el \npropuesto como adjudicatario una garantía definitiva correspondiente al 5% del presupuesto base de \nlicitación, IVA excluido. No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 euros. x Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo hasta un 5 \npor 100): \nDe conformidad con lo establecido en el artículo 107.2 de la LCSP 9/2017, en el caso de que el \nlicitador propuesto como adjudicatario resulte inicialmente incurso en presunción de \nanormalidad o desproporción, deberá presentar una garantía complementaria de un 5% del \nprecio final ofertado por el licitador, IVA excluido. ",
+    "GARANTIA PROVISIONAL": "No se exige de conformidad con lo dispuesto en el artículo 159.4 b). . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con lo establecido en el artículo 152 LCSP. . ",
+    "IMPORTE": "1.446.757,18  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "1.195.667,09  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "988.468,52 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "810.304,56 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No \nx SÍ. En València. ",
+    "LUGAR DE EJECUCIÓN": "ES521 Alicante/Alacant SEDE JUDICIAL DE TORREVIEJA Torrevieja (Aicante)",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/2231c69a-91fa-4b22-8cd4-1b3fa8cd0259/DOC20221115150520Informe+de+valoraciones+fichas_Torrevieja_F.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/4a383c2d-5cb5-4d52-afe8-ed4fa3a201fa/DOC20221115150034Acta+2+CNMY22_35+_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/bcc9df36-2530-434e-8e45-f5eb4aea9afd/DOC20221006085312ACTA+1+22DGJ35.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/264220ec-1065-462e-a6f2-a7748cc49652/DOC_CAN_ADJ2022-614538.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/72b99ea0-dc28-469a-afa4-52a761c39698/DOC20220810135856ANEXO_I_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/a1ecb9f1-37c0-40c8-abf8-5b4d1c04c3d7/DOC_CN2022-105953.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/6531d057-715c-4233-97e7-59a36e4813f2/DOC_FORM2022-644166.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=HYKhjfZ8bL%2BXQV0WE7lYPw%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/f008cf5a-6bad-46f0-b8ff-a920e33dec45/DOC_CD2022-105966.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "La acreditación de la solvencia técnica se realizará necesariamente a través del siguiente medio: \nLote 2. Iluminación. Declaración del equipo técnico requerido: un Jefe de Obra y currículum de este, detallando titulación, \ncualificación personal y experiencia, y un Encargado y currículum de este detallando su experiencia. A la \ndeclaración se adjuntará la documentación acreditativa pertinente cuando le sea requerido por los servicios \ndependientes del órgano de contratación. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000 €: \nLote 1. Climatización. Grupo. Grupo J. Instalaciones mecánicas \nSUBGrupo. Subgrupo 2. De ventilación, calefacción y climatización \nCATEGORÍA. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No \n SÍ: REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS \n \nCOMITÉ DE EXPERTOS. x No. ",
+    "NIF": "A03042181",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "HISPANA DE INSTALACIONES TÉCNICAS INDUSTRIALES, S.A.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 2,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 9,
+    "NÚMERO DE LICITADORES": 9,
+    "OBJETO": "Obra para la mejora de la eficiencia energética de las instalaciones de climatización e iluminación de la Sede Judicial de Torrevieja",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No \nx SÍ \nLAS CONDICIONES DE LA OFERTA PARA LA SUBCONTRATACIÓN, LA ACREDITACIÓN DE LA APTITUD DEL \nSUBCONTRATISTA Y LA ACREDITACIÓN DE LAS CONDICIONES DE EMERGENCIA O URGENCIA TIENE \nCARÁCTER DE OBLIGACIONES ESENCIALES. No \nx SÍ \n \nTAREAS CRÍTICAS QUE NO PODRÁN SER OBJETO DE SUBCONTRATACIÓN. x No. ",
+    "OFERTA ECONÓMICA": {
+        "ANFERVAL MANTENIMIENTOS SL": 203628.62,
+        "EIFFAGE ENERGIA, SLU": 203628.62,
+        "ELECTROMUR, S.A.": 216542.53,
+        "ELECTRONIC TRAFIC SA": 246030.85,
+        "SOCIEDAD IBERICA DE CONSTRUCCIONES": 199790.0,
+        "TECMO INSTALACIONES OBRAS Y SERVICIOS SA": 207146.95,
+        "VIVENDIO SOSTENIBILIDAD ENERGÉTICA SL": 251346.51
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "10 Mes(es)",
+    "PLAZO DE GARANTIA": "1 año a contar desde la recepción formal del objeto del contrato por la Administración. . ",
+    "PLAZO DE PRESENTACIÓN": "9/09/2022",
+    "PLAZO DE RECEPCION": "1 mes desde la comunicación fehaciente de la finalización de las obras, con el informe favorable de la \nDirección Facultativa, se realizará de acuerdo con lo establecido en el artículo 243 de la LCSP. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": null,
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 14,
+    "REGIMEN DE PENALIDADES": "1. Penalidades por incumplimiento parcial de la ejecución de la cláusula 35.1: Sí. 2. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del compromiso de dedicar \no adscribir a la ejecución del contrato los medios personales o materiales suficientes de la cláusula 35.3: Sí. 3. Penalidades por demora respecto del cumplimiento del plazo total de las previstas en la cláusula 35.4: Sí. 4. Penalidades distintas en caso de diferir de las previstas en la cláusula 35.4: No. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la aptitud \ndel subcontratista o de las condiciones de emergencia o urgencia: \n No \nx SÍ, en su caso: \nx Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. Resolución del contrato, si se ha declarado obligación esencial \n6.Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos \nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, de \nlas condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa con el \nplazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez terminada la \nprestación: \n No \nx SÍ: Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. ",
+    "REVISION DE PRECIOS": "x No. Motivación: No cumple los requisitos previstos en el artículo 103 de la LCSP, ni le será de aplicación el \nReal Decreto-ley 3/2022, de 1 de marzo, de medidas para la mejora de la sostenibilidad del transporte \nde mercancías por carretera y del funcionamiento de la cadena logística, y por el que se transpone la \nDirectiva (UE) 2020/1057, de 15 de julio de 2020, por la que se fijan normas específicas con respecto a \nla Directiva 96/71/CE y la Directiva 2014/67/UE para el desplazamiento de los conductores en el sector \n 10/20 \ndel transporte por carretera, y de medidas excepcionales en materia de revisión de precios en los \ncontratos públicos de obras. ",
+    "SISTEMA DE PRECIOS": "Contratación de obras a precios unitarios",
+    "SUBASTA ELECTRONICA": "x No \n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "COMITÉ DE EXPERTOS",
+            "Porcentaje": null,
+            "Puntuación máxima": null
+        },
+        {
+            "Nombre": "ORGANISMO TÉCNICO ESPECIALIZADO",
+            "Porcentaje": null,
+            "Puntuación máxima": null
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": null,
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección General de Infraestructuras Judiciales de la Dirección General de Modernización y Relaciones \ncon la Administración de Justicia. ATRIBUCIONES DE LA DIRECCIÓN FACULTATIVA (diferentes a las reguladas en el Pliego de Cláusulas \nAdministrativas Generales para la Contratación de Obras del Estado aprobado por Decreto 3854/1970, de \n31 de diciembre, en la LOE 38/1999, de 5 de noviembre y en la LOFCA 3/2004, de 30 de junio, de la \nGeneralitat): No procede. ",
+    "VALOR ESTIMADO DEL CONTRATO": "1.195.667,09  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "ANFERVAL MANTENIMIENTOS SL": {
+            "COMITÉ DE EXPERTOS (CE)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MEJORAS)": null,
+            "ORGANISMO TÉCNICO ESPECIALIZADO (OTE)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": 203628.62,
+            "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS (UMBRAL)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA (UTE)": null
+        },
+        "EIFFAGE ENERGIA, SLU": {
+            "COMITÉ DE EXPERTOS (CE)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MEJORAS)": null,
+            "ORGANISMO TÉCNICO ESPECIALIZADO (OTE)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": 203628.62,
+            "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS (UMBRAL)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA (UTE)": null
+        },
+        "ELECTROMUR, S.A.": {
+            "COMITÉ DE EXPERTOS (CE)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MEJORAS)": null,
+            "ORGANISMO TÉCNICO ESPECIALIZADO (OTE)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": 216542.53,
+            "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS (UMBRAL)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA (UTE)": null
+        },
+        "SOCIEDAD IBERICA DE CONSTRUCCIONES ELECTRICAS SA": {
+            "COMITÉ DE EXPERTOS (CE)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MEJORAS)": null,
+            "ORGANISMO TÉCNICO ESPECIALIZADO (OTE)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": 199790.0,
+            "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS (UMBRAL)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA (UTE)": null
+        },
+        "TECMO INSTALACIONES OBRAS Y SERVICIOS SA": {
+            "COMITÉ DE EXPERTOS (CE)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MEJORAS)": null,
+            "ORGANISMO TÉCNICO ESPECIALIZADO (OTE)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": 207146.95,
+            "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS (UMBRAL)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA (UTE)": null
+        },
+        "VIVENDIO SOSTENIBILIDAD ENERGÉTICA SL": {
+            "COMITÉ DE EXPERTOS (CE)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MEJORAS)": null,
+            "ORGANISMO TÉCNICO ESPECIALIZADO (OTE)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": 251346.51,
+            "UMBRAL NO INFERIOR AL 50 POR CIENTO DE LA PUNTUACIÓN EN EL CONJUNTO DE LOS CRITERIOS CUALITATIVOS (UMBRAL)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA (UTE)": null
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

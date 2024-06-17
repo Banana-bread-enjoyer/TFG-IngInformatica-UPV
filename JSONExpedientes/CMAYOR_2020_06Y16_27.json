@@ -1,0 +1,124 @@
+{
+    "ABONOS A CUENTA": "x No",
+    "CLASIFICACIÓN": "Categoría del contrato 3. Grupo J. Subgrupo 2.",
+    "CLASIFICACIÓN CPV": "45220000 -  Obras de ingeniería y trabajos de construcción.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "Estabilidad en el empleo: Durante la ejecución del contrato, la empresa adjudicataria deberá cumplir y acreditar que un 70% de la plantilla adscrita al contrato es indefinida, o al menos, con contrato laboral por obra o servicio por duración igual a la del contrato.",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Consideraciones de tipo social - Garantizar la seguridad y la protección de la salud en el lugar de trabajo, en especial, en cumplimiento del RD 396/2006 sobre “Disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto”. Asimismo, también garantizar el cumplimiento de los convenios colectivos sectoriales y territoriales aplicables.",
+    "CONSIDERACION COMO INFRACCION GRAVE": "x No. ",
+    "CONTRATACION DEL CONTROL": null,
+    "CRITERIOS DE ADJUDICACION": "x Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación Criterios económicos",
+            "Porcentaje": 100,
+            "Puntuación máxima": 55,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "CRITERIOS DE CALIDAD EVALUABLES DE FORMA AUTOMÁTICA",
+            "Porcentaje": 45,
+            "Puntuación máxima": 45,
+            "Siglas": "CPG"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "El criterio para la acreditación de la solvencia económica y financiera será el volumen anual de negocios del licitador o candidato, que referido al año de mayor volumen de negocio de los tres últimos concluidos y referido al mejor dentro de éstos, en función de las fechas de constitución o de inicio de actividades del empresario, deberá ser al menos una vez y media el valor estimado del contrato cuando su duración no sea superior a un año, por lo tanto deberá ser al menos de 1.793.945,64 euros.",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Según el artículo 88.2 de la LCSP se entiende por empresa de nueva creación aquella que tenga una\nantigüedad inferior a 5 años. No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL:\nSiendo BO: Baja de la oferta económica (%)\nBR: Baja de referencia, calculada como se indica a continuación (%)\nBM: Baja Media (%), calculada como se indica a continuación.\nSe entenderán como ofertas incursas en presunción de anormalidad por su bajo importe aquéllas cuyas BO\ncorrespondientes superen los siguientes valores:\na) Para un número n de ofertas económicas “contemplables” mayor o igual que cinco (5)\nSi BO> BR + 7\n11\n \n DIRECCIÓ TERRITORIAL D'EDUCACIÓ,\nCULTURA I ESPORT\nC/ Gregorio Gea, 14\n46009 VALÈNCIA\nb) Para un número n de ofertas económicas “contemplables” menor que cinco (5):\nSi BO> BM + 7\nSe  consideran  ofertas  económicas  “contemplables”  aquellas  ofertas  admitidas  administrativa  y\ntécnicamente, una vez excluidas las propuestas situadas en el intervalo de calidad técnica inaceptable, así\ncomo aquellas que, a estos efectos, no deban ser consideradas, según lo previsto en el art. 86 del RGLCAP.\nLos cálculos de la Baja Media (BM) y de la Baja de Referencia (BR) se realizarán de la forma siguiente:\nOF1 = Importe de la oferta genérica “contemplable” j) incluida en el conjunto de las citadas ofertas\n“contemplables” \nPC = Presupuesto de Contrata \nSe obtendrá, para cualquiera número n de ofertas:\nBO j=100⋅(1−\nOF j\nPC )\nBM=(\n1\nn)∑\nj=1\nj=n\nBO j\nAdemás, para n > 5, se obtendrá:\nσ=(\n∑\nj=1\nj=n\n(BO j)\n2−n⋅\n(BM )\n2\nn\n)\n1\n2\nEntre las mencionadas n ofertas económicas “contemplables” se elegirán aquellas n ofertas, tales que a\ncualquiera de ellas, de importe expresado genéricamente como Ofn, le corresponda un valor\nBOh=100(1−\nOF h\nPC )\ny que cumpla la condición:\n12\n \n DIRECCIÓ TERRITORIAL D'EDUCACIÓ,\nCULTURA I ESPORT\nC/ Gregorio Gea, 14\n46009 VALÈNCIA\n∣BO h−BM ∣≤σ\nBR=\n∑\nh=1\nh=n'\nBOh\nn'\nDicho valor de BR servirá cuando n > 5, para determinar los límites de la presunción de anormalidad y las\ngarantías complementarias.\nEn todo caso, el órgano de contratación rechazará las ofertas si comprueba que son anormalmente bajas\nporque vulneran la normativa sobre subcontratación o no cumplen las obligaciones aplicables en materia\nmedioambiental, social o laboral, nacional o internacional, incluyendo el incumplimiento de los convenios\ncolectivos sectoriales vigentes, de acuerdo con lo previsto en el artículo 149 y  201 de la LCSP.\nSi una oferta económica resulta incursa en presunción de anormalidad por su bajo importe en relación con\nla  prestación, la  Mesa  de Contratación  recabará la información  necesaria  para que pueda estar  en\ndisposición  de  determinar  si  efectivamente  la  oferta  resulta  anormalmente  baja  en  relación  con  la\nprestación y por ello debe ser rechazada, o, si por el contrario, la citada oferta no resulta anormalmente\nbaja, y por ello debe ser tomada en consideración para adjudicar la obra. Para ello, la Mesa de Contratación\nsolicitará al licitador, por escrito, las precisiones que considere oportunas sobre la composición de la citada\noferta económica y sus justificaciones. El licitador dispondrá de un plazo máximo de cinco (5) días hábiles, a\ncontar desde la fecha en que reciba la solicitud, para presentar sus justificaciones también por escrito. \nSi transcurrido este plazo la Mesa de Contratación no hubiera recibido dichas justificaciones, se considerará\nque la proposición no podrá ser cumplida y, por tanto, la empresa que la haya realizado quedará excluida\ndel procedimiento de selección.\nSi, por el contrario, se recibieran en plazo las citadas justificaciones, la Mesa de Contratación remitirá a la\nUnidad Técnica correspondiente la documentación presentada para que ésta emita un informe, y a la vista\nde éste decidirá, o bien la aceptación de la oferta contando con ella a todos los efectos para resolver lo que\nproceda en relación con la adjudicación del contrato, o bien, el rechazo de la misma. El mencionado  posible\nrechazo, en ningún caso tendrá efectos sobre los cálculos ya realizados del valor de la baja de referencia.\nEl Servicio Territorial de Infraestructuras Educativas informará a la Mesa de Contratación del resultado del\nanálisis de las ofertas presuntamente incursas en anormalidad, determinando expresamente tanto las\nrechazadas, como aquellas cuya justificación se ha considerado suficiente y pueden ser por tanto admitida\n",
+    "EL ADJUDICATARIO ES UNA PYME": "Sí",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {},
+    "EXPEDIENTE": "CMAYOR/2020/06Y16/27",
+    "FECHA ADJUDICACIÓN": "22-04-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "28-01-2022",
+    "FECHA FORMALIZACIÓN": "22-04-2022",
+    "FORMA DE PAGO": "La prevista con carácter general en la cláusula 38 del PCPA. ",
+    "GARANTIA DEFINITIVA": "El 5 % del Precio final ofertado excluido el IVA\nde conformidad con el artículo 107 de la LCSP. Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo hasta un 5 \npor 100):\n Exención de prestación de garantía definitiva:\nx No\n Si  (Justificación, en su caso). ",
+    "GARANTIA PROVISIONAL": "No se exige. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "Si con anterioridad a la adjudicación, se renunciase por la Administración a la celebración del contrato o se\ndesistiese del procedimiento se compensará a los licitadores de los gastos en que hubiesen incurrido en la\npreparación de sus ofertas, en la cuantía máxima del 0,01 %, del presupuesto base de licitación (IVA\nexcluido) y por los costes o gastos de la garantía constituida, en su caso, previa solicitud del licitador y\njustificación documental de los gastos en que hubiesen incurrido. . ",
+    "IMPORTE": "1.205.930,13  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "996.636,47  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "1.110.902,84 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "918.101,52 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "",
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València IES JOAN LLOPIS MARÍ de CULLERA CULLERA",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/d1b7badc-b4cc-4a5e-8d0f-bd2477b22f26/DOC20220304130910ACTA+PROPUESTA+DE+ADJUDICACION.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/5805bfc1-9949-4966-846c-08358b6c552a/DOC20220304130323ACTA+SOBRE+UNICO_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/9857e9ab-e8e6-4ac2-88cb-3a935f5b44f6/DOC_CAN_ADJ2022-676176.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/607554e2-eede-47f0-9979-3c06897b364f/DOC20220128125411Anexo+I+fiscalizado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/fde26746-aac6-4067-9072-3733655f02a5/DOC_CN2022-403256.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/2320ff1d-b1ec-47f0-ae17-9117b08f344c/DOC_FORM2022-676270.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=0khPGysiH5RvYnTkQN0%2FZA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/7075b64a-3706-4e1b-b130-8724d6e2ec14/DOC_CD2022-403280.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No\n Si. ",
+    "NIF": "B96266507",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "DISEÑO Y OBJETIVOS DE CONSTRUCCION SL",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 1,
+    "NÚMERO DE LICITADORES": 1,
+    "OBJETO": "Reforma interior de planta baja del ciclo formativo de hostelería y turismo  en el IES Joan Llopis Marí de Cullera (Valencia)",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "x No\n Si. ",
+    "OFERTA ECONÓMICA": {
+        "DISEÑO Y OBJETIVOS DE CONSTRUCCIÓN, S.L.": 918101.52
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "6 Mes(es)",
+    "PLAZO DE GARANTIA": "Un año. . ",
+    "PLAZO DE PRESENTACIÓN": "7/02/2022",
+    "PLAZO DE RECEPCION": "Según la cláusula 42 del PCAP. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás\ndocumentación complementaria de la licitación a través de medios no electrónicos:\nx No\n         Si\n Ampliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta «in\nsitu» de la documentación \nx No\n         Si  (en su caso, indicar días en los que se amplía el plazo): \n DIRECCIÓ TERRITORIAL D'EDUCACIÓ,\nCULTURA I ESPORT\nC/ Gregorio Gea, 14\n46009 VALÈNCIA\nNIVEL DE SEGURIDAD EXIGIDO PARA LOS MEDIOS DE COMUNICACIÓN ELECTRÓNICOS UTILIZADOS EN LAS\nDIFERENTES FASES DE CADA PROCEDIMIENTO DE CONTRATACIÓN. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 8,
+    "REGIMEN DE PENALIDADES": "1.- Penalidades de la cláusula 35: \nSe aplicará la penalización prevista en el artículo 193.3 LCSP. 2. Penalidades por incumplimiento parcial de la ejecución:\n x No\n    Si  3. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del compromiso de\ndedicar o adscribir a la ejecución del contrato los medios personales o materiales suficientes de la cláusula\n35.3:\n  x No\n    Si  4. Penalidades distintas en caso de diferir de las previstas en la cláusula 35.4. x No\n    Si  5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la\naptitud del subcontratista o de las condiciones de emergencia o urgencia. ",
+    "REVISION DE PRECIOS": "x No. Motivación: No procede la revisión de precios según lo dispuesto en el art. 103 de la Ley \n9/2017, de 8 de noviembre de contratos del Sector Público. Si. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "Precio unitario",
+    "SUBASTA ELECTRONICA": "x No",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Compromiso de incremento de plazo de garantía",
+            "Porcentaje": "0 a 20",
+            "Puntuación máxima": 20
+        },
+        {
+            "Nombre": "Criterios ambientales. Implantación de sistemas de gestión medioambiental",
+            "Porcentaje": "0 a 12,5",
+            "Puntuación máxima": 12.5
+        },
+        {
+            "Nombre": "Criterios de mejora de las condiciones de seguridad y salud en la obra. Implantación de sistemas de gestión de seguridad y salud",
+            "Porcentaje": "0 a 12,5",
+            "Puntuación máxima": 12.5
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x No\n Si. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Unidad Técnica de Construcciones. Servicio Territorial de Infraestructuras Educativas. ",
+    "VALOR ESTIMADO DEL CONTRATO": "1.195.963,76  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "DISEÑO Y OBJETIVOS DE CONSTRUCCIÓN, S.L.": {
+            "CRITERIOS DE CALIDAD EVALUABLES DE FORMA AUTOMÁTICA": 45,
+            "Puntuación Criterios económicos (PCP)": 55
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

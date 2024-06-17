@@ -1,0 +1,122 @@
+{
+    "ABONOS A CUENTA": "x No\n  ם SI\nSE MODIFICA EL RÉGIMEN GENERAL DE LAS CERTIFICACIONES. x No\n  ם SI, nuevo régimen. ",
+    "CLASIFICACIÓN": "La clasificación es Categoría: 4, Grupo C: Edificaciones, Subgrupo 1. Demoliciones.",
+    "CLASIFICACIÓN CPV": "45200000 -  Trabajos generales de construcción de inmuebles y obras de ingeniería civil.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Consideraciones de tipo medioambiental - Según lo establecido en el apartado X del Anexo I del PCAP. Consideraciones de tipo social - Según lo establecido en el apartado X del Anexo I del PCAP",
+    "CONSIDERACION COMO INFRACCION GRAVE": "No\nx Si    penalidades,  en  su  caso,  de  la  cláusula  35.3: el  órgano  de  contratación  podrá  imponer\npenalizaciones económicas proporcionales a la gravedad del incumplimiento, por importes máximos del\n5 por 100 del precio del contrato, IVA excluido. El total de las penalidades no podrá superar el 50 por cien\ndel precio del contrato. . ",
+    "CONTRATACION DEL CONTROL": null,
+    "CRITERIOS DE ADJUDICACION": "Precio, o coste, cálculo del coste del ciclo de vida\nx Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación Oferta económica",
+            "Porcentaje": 90,
+            "Puntuación máxima": 90,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "Criterios de carácter ambiental",
+            "Porcentaje": 10,
+            "Puntuación máxima": 10,
+            "Siglas": "C"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL:\nSe considerarán como ofertas anormales aquellas que se encuentren en los siguientes supuestos:\n- Cuando concurra un solo licitador si la oferta es inferior en más de un 25 por ciento al presupuesto base de\nlicitación.\n- Cuando concurran dos licitadores si la oferta es inferior en más de un 20 por ciento en su conjunto a la media\naritméƟca de las dos ofertas presentadas.\n- Cuando concurran tres o más licitadores si la oferta es inferior en más de un 15 por ciento en su conjunto a la\nmedia aritméƟca de las ofertas presentadas.\nEn cumplimiento de lo dispuesto en el arơculo 149.4 LCSP se requerirá al licitador que jusƟﬁque el parámetro\no parámetros deﬁnidos en este apartado con base en los cuales haya incurrido la oferta presentada en anor-\nmalidad, sin que dicho requerimiento suponga una nueva oportunidad para que el licitador presente una nue-\nva oferta o modiﬁque la redacción de la presentada durante el plazo de presentación de ofertas, incurriendo\nen una posición de ventaja sobre los demás licitadores.\n",
+    "EL ADJUDICATARIO ES UNA PYME": null,
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "NERCO INFRAESTRUCTURAS SL": "NO"
+    },
+    "EXPEDIENTE": "CMAYOR/2022/12Y02/41",
+    "FECHA ADJUDICACIÓN": "26-01-2023",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "30-12-2022",
+    "FECHA FORMALIZACIÓN": null,
+    "FORMA DE PAGO": "De acuerdo con el arơculo 198.2 LCSP, el pago del precio se hará de manera parcial, esto es,\nmediante la expedición de cerƟﬁcaciones que comprendan la obra ejecutada, según lo establecido en el\narơculo 240.1 LCSP. Asimismo, la empresa deberá presentar mensualmente las facturas que se correspondan con cada una de las\ncerƟﬁcaciones. Se facturará exclusivamente de forma electrónica de acuerdo con lo establecido en la cláusula\n38.5 del Pliego-Tipo. ",
+    "GARANTIA DEFINITIVA": "ם  No es exigible al tratarse de un contrato de obras de valor esƟmado inferior a 80.000 euros:\nen  el  presente contrato  no resulta aplicable el arơculo 159.6 LCSP, siendo exigible la garanơa\ndeﬁniƟva. x Supuestos especiales de prestación de\n \n  garanơa complementaria y porcentaje\n \n  (máximo hasta un 5\npor 100): si la oferta del adjudicatario resultara inicialmente incursa en presunción de anormalidad se exi-\ngirá una garanơa complementaria del 3% del precio ﬁnal ofertado por éste de conformidad con lo dispues-\nto en el arơculo 145 de la LCSP, excluido el Impuesto sobre el Valor Añadido. Exención de prestación de garanơa deﬁniƟva:\n x No\n  ם SI  (jusƟﬁcación, en su caso. ",
+    "GARANTIA PROVISIONAL": "No se exige de acuerdo con lo dispuesto en el arơculo 159.4.b) LCSP. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "de acuerdo con lo previsto en el arơculo 152.2 LCSP,\nel importe máximo de compensación ascenderá a 100,00 Euros. . ",
+    "IMPORTE": "734.400,15  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "606.942,27  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": null,
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": null,
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": null,
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València En el Cementerio Municipal de Paterna (València) Paterna",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/c567c781-7d89-4a79-8e1f-354b84be5b7d/DOC20230125122108Acta_S2_Memorial+Paterna_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/269dccc6-2c3b-41de-8f7e-d7e9c2e9d203/DOC20230120123931Acta+Sesion+U+MemorialPaterna_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/5d642a20-ac47-4a58-9282-1307ecd8f8e9/DOC_CAN_ADJ2023-347844.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/06e3e41a-b2e5-4c66-ae76-b26892d7c548/DOC20221230131503ANEXO+I_Obras+memorial+Paterna_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/c210605b-431c-49a8-855d-64dac9827d3c/DOC_CN2022-223860.html?MOD=AJPERES",
+        "Formalización": null,
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=0egl7H35R5ouf4aBO%2BvQlQ%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/0096a414-75dd-4821-87e1-f5277ab2ba15/DOC_CD2022-223950.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000€:\nLa solvencia económica y ﬁnanciera y la solvencia técnica de los empresarios españoles, de acuerdo con el \narơculo 77.1, letra a), segundo párrafo LCSP, se acreditará mediante la clasiﬁcación como contraƟsta de obras \nen el grupo y en todos y cada uno de los subgrupos abajo indicados:\nAnterior a la entrada en vigor RD 773/2015\nPosterior a la entrada en vigor RD 773/2015\nGrupo C. Ediﬁcaciones\nSubgrupo 1. Demoliciones. Subgrupo 2. Estructuras de fábrica u hormigón. Subgrupo 3. Estructuras metálicas. Subgrupo 4. Albañilería, revocos y revesƟdos. Subgrupo 5. Cantería y marmolería. Subgrupo 6. Pavimentos, solados y alicatados. Subgrupo 7. Aislamientos e impermeabilizaciones. Subgrupo 8. Carpintería de madera. Subgrupo 9. Carpintería metálica. Categoría: D. Grupo C. Ediﬁcaciones\nSubgrupo 1. Demoliciones. Subgrupo 2. Estructuras de fábrica u hormigón. Subgrupo 3. Estructuras metálicas. Subgrupo 4. Albañilería, revocos y revesƟdos. Subgrupo 5. Cantería y marmolería. Subgrupo 6. Pavimentos, solados y alicatados. Subgrupo 7. Aislamientos e impermeabilizaciones. Subgrupo 8. Carpintería de madera. Subgrupo 9. Carpintería metálica. Categoría: 4\nACREDITACIÓN DE LA SOLVENCIA POR LOS EMPRESARIOS NO ESPAÑOLES DE ESTADOS MIEMBROS DE LA \nUNIÓN EUROPEA O DE ESTADOS SIGNATARIOS DEL ACUERDO SOBRE EL ESPACIO ECONÓMICO EUROPEO. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No\n    ם Si   REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS\nUNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE \nOFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA. No procede\n                   ם NO. ",
+    "NIF": null,
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": null,
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 1,
+    "NÚMERO DE LICITADORES": 2,
+    "OBJETO": "Obras del Memorial de las víctimas de la represión franquista del cementerio de Paterna, Fase 1",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No\nx Si   los licitadores deberán indicarlo en el Anexo A (criterios de adjudicación cuanƟﬁcables mediante\nla mera aplicación de fórmulas matemáƟcas o aritméƟcas, disƟntos del precio, y declaración sobre\nsubcontratación) facilitando la información requerida en el mismo. ",
+    "OFERTA ECONÓMICA": {
+        "B53926606": null,
+        "Nerco Infraestructuras SL": null
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "4 Mes(es)",
+    "PLAZO DE GARANTIA": "un año a parƟr de la fecha de recepción de la obra. . ",
+    "PLAZO DE PRESENTACIÓN": "9/01/2023",
+    "PLAZO DE RECEPCION": "dentro del mes siguiente a la entrega o realización del objeto del contrato, de\nconformidad con la cláusula 42.2 del Pliego-Ɵpo. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Los licitadores podrán presentar ofertas hasta la fecha y\nhora que aparezca en el apartado “Fecha ﬁn de presentación de la oferta” en la Plataforma de Contratación\ndel Sector Público. Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás\ndocumentación complementaria de la licitación a través de medios no electrónicos:\n x No\n  ם SI. Ampliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta\n«in situ» de la documentación\nx No\n  ם SI  (en su caso, indicar días en los que se amplía el plazo):\nNIVEL DE SEGURIDAD EXIGIDO PARA LOS MEDIOS DE COMUNICACIÓN ELECTRÓNICOS UTILIZADOS EN LAS\nDIFERENTES  FASES  DE  CADA  PROCEDIMIENTO  DE  CONTRATACIÓN. ser  autenƟcados  mediante  ﬁrma\nelectrónica avanzada de acuerdo con lo dispuesto en el arơculo 26 del Reglamento (UE) n.º 910/2014 del\nParlamento Europeo y del Consejo, de 23 de julio de 2014, relaƟvo a la idenƟﬁcación electrónica y los servicios\nde conﬁanza para las transacciones electrónicas en el mercado interior. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 9,
+    "REGIMEN DE PENALIDADES": "1. Penalidades por incumplimiento parcial de la ejecución de la cláusula 35.1: el órgano de contratación podrá\nimponer penalizaciones económicas proporcionales a la gravedad del incumplimiento, por importes máximos del\n5 por 100 del precio del contrato, IVA excluido. El total de las penalidades no podrá superar el 50 por cien del\nprecio del contrato. 2. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del compromiso de\ndedicar o adscribir a la ejecución del contrato los medios personales o materiales suﬁcientes de la cláusula\n35.3:  el órgano de contratación podrá imponer penalizaciones económicas proporcionales a la gravedad del\nincumplimiento, por importes máximos del 5 por 100 del precio del contrato, IVA excluido. El total de las\npenalidades no podrá superar el 50 por cien del precio del contrato. 3. Penalidades por demora respecto del cumplimiento del plazo total de las previstas en la cláusula 35.4: No\nprocede. 4. Penalidades disƟntas en caso de diferir de las previstas en la cláusula 35.4: No procede. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la\napƟtud del subcontraƟsta o de las condiciones de emergencia o urgencia:\n No\nx SI, en su caso:\nx I. mposición al contraƟsta de una penalidad de hasta un 50% del importe del subcontrato. Resolución del contrato, si se ha declarado obligación esencial \n 6. Penalidades en caso de incumplimiento de la obligación de remiƟr la\nrelación detallada de aquellos subcontraƟstas o suministradores que parƟcipen en el contrato cuando se\nperfeccione su parƟcipación, de las condiciones de subcontratación o suministro de cada uno de los que\nguarden una relación directa con el plazo de pago y del jusƟﬁcante de cumplimiento de los pagos a los\nsubcontraƟstas una vez terminada la prestación:\n No\nx SI, en su caso indicar cuales: se sancionarán con una penalidad del 2 % del importe de adjudicación del\ncontrato (IVA excluido). ",
+    "REVISION DE PRECIOS": "x No. MoƟvación: No procede de acuerdo con el arơculo 103.5 LCSP, al tratarse de un contrato de \nduración inferior a dos años. ם Si  Fórmula:. ",
+    "SISTEMA DE PRECIOS": "A tanto alzado",
+    "SUBASTA ELECTRONICA": "x No\n  ם Si  Con las siguientes condiciones de conformidad con el arơculo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Oferta económica",
+            "Porcentaje": 90,
+            "Puntuación máxima": 100
+        },
+        {
+            "Nombre": "Criterios de carácter ambiental",
+            "Porcentaje": 10,
+            "Puntuación máxima": 10
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": null,
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Urgente",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "La Dirección General de Calidad\nDemocráƟca, Responsabilidad Social y Fomento del Autogobierno con apoyo técnico del Ayuntamiento de\nPaterna. DIRECCIÓN FACULTATIVA DE LA OBRA Y ATRIBUCIONES (adicionales a las reguladas en el Pliego de Cláusulas\nAdministraƟvas Generales para la Contratación de Obras del Estado aprobado por Decreto 3854/1970, de 31\nde diciembre, en la LOE 38/1999, de 5 de noviembre y en la Ley 3/2004, de 30 de junio, de la Generalitat, de\nOrdenación y Fomento de la Calidad y de la Ediﬁcación): \nDirector/a facultaƟvo: Tecnologías y Servicios Agrarios, S. ",
+    "VALOR ESTIMADO DEL CONTRATO": "910.413,4  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "Nerco Infraestructuras SL": {
+            "Criterios de carácter ambiental (C)": null,
+            "Puntuación Oferta económica (PCP)": null
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

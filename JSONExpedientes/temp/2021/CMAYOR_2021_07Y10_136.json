@@ -1,0 +1,133 @@
+{
+    "ABONOS A CUENTA": "No\nx SÍ, según art 240.1 de la LCSP. ",
+    "CLASIFICACIÓN": "Categoría: 2\nGrupo: E\nSubgrupo: 1",
+    "CLASIFICACIÓN CPV": "45231300 -  Trabajos de construcción de tuberías para agua y aguas residuales.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": null,
+    "CONSIDERACION COMO INFRACCION GRAVE": ". No\nx SÍ. . ",
+    "CONTRATACION DEL CONTROL": "x No\n Si. ",
+    "CRITERIOS DE ADJUDICACION": "Precio, o coste, cálculo del coste del ciclo de vida\nx  Varios criterios, pluralidad de criterios de adjudicación basándose en la mejor relación\ncalidad precio. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "CRITERIO 1",
+            "Porcentaje": "25 ",
+            "Puntuación máxima": 25,
+            "Siglas": "VC1"
+        },
+        {
+            "Nombre": "CRITERIO 2",
+            "Porcentaje": "10 ",
+            "Puntuación máxima": 10,
+            "Siglas": "VC2"
+        },
+        {
+            "Nombre": "CRITERIO 3",
+            "Porcentaje": "65 ",
+            "Puntuación máxima": 65,
+            "Siglas": "VC3"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Se requiere el mismo criterio de solvencia técnica referido a la titulación y créditos ETC, exigidos a las\nempresas que no son de nueva creación de este apartado L. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nSe entenderán como ofertas incursas en presunción de anormalidad por su bajo importe, aquéllas cuyas BO\ncorrespondientes superen los siguientes valores:\na) Para un número n de ofertas económicas “contemplables” mayor o igual que cinco (5):\nBO > BR + 5\nb) Para un número n de ofertas económicas \"contemplables\" menor que cinco (5) y mayor que uno\n(1):\nBO > BM + 5\nc) Para el caso de una (1) única oferta económica \"contemplable\":\nBO > 25 (artículo 85.1 del  Reglamento General de la Ley de Contratos de las Administraciones\nPúblicas)\nSiendo\nBO:\nBaja de la oferta económica (%).\nBR:\nBaja de referencia (%) calculada como se indica a continuación.\nBM:\nBaja Media (%) calculada como se indica a continuación.\nSe denominan ofertas económicas “contemplables” a las ofertas admitidas administrativa y técnicamente,\nuna vez excluidas aquellas correspondientes a las Propuestas situadas en el intervalo de calidad técnica\ninaceptable, así como aquellas que, a estos efectos, no deban ser consideradas, según lo previsto en el art.\n86 del RGLCAP.\nLos cálculos de la Baja Media (BM) y de la Baja de Referencia (BR) se realizarán de la forma siguiente:\nOV = Importe de la oferta a valorar\nPBL = Presupuesto Base de Licitación del Contrato que figura en el Apartado E de este Anexo I.\nSe obtendrá, para cualquiera número n de ofertas:\nBO j=100⋅(1−OV\nPBL)\n18\nCSV:6L3X46EG:M2MCM92D:HA8HBP78\nURL de validación:https://www.tramita.gva.es/csv-front/index.faces?cadena=6L3X46EG:M2MCM92D:HA8HBP78\n \n BM=(1/n)⋅∑\nj=1\nj=n\nBO j\nAdemás, para n > 5, se obtendrá:\nσ={\n∑\nj=1\nj=n\n(BO j)\n2−n⋅(BM )\n2\nn\n}\n1/2\nEntre las mencionadas n ofertas económicas “contemplables” se elegirán aquellas n' ofertas tales que, a \ncualquiera de ellas de importe expresado genéricamente como OVh, le corresponda un valor:\nBOh=100⋅(1−OV h\nPBL)\ny que cumpla la condición:\n|BO j−BM|<σ\nY contando sólo con dichas n’ ofertas, se calculará el valor BR llamado “Baja de Referencia\", del modo \nsiguiente:\nBR=(1/n' )⋅∑\nh=1\nh=n'\nBOh\nDicho valor de BR servirá, cuando n > 5, para determinar los límites de la presunción de anormalidad y las\ngarantías complementarias.\n- Empresas de un mismo Grupo:\nSe estará a lo establecido en el punto 3 del artículo 149  de la LCSP.\n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {},
+    "EXPEDIENTE": "CMAYOR/2021/07Y10/136",
+    "FECHA ADJUDICACIÓN": "15-02-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "03-11-2021",
+    "FECHA FORMALIZACIÓN": "25-02-2022",
+    "FORMA DE PAGO": "El abono se efectuará mediante certificaciones mensuales, con cargo a los créditos, y previa presentación de\nla correspondiente factura debidamente conformada por la unidad encargada del seguimiento y ejecución\ndel  contrato,  a  través  de  la  plataforma  de  facturación  estatal  FACe,  con  el  siguiente  código:\nhttps.//www.face.gob.es. ",
+    "GARANTIA DEFINITIVA": "x No\n Si. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010 así como\nal artículo 106 de la ley 9/2017. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración empleados para el cálculo de la responsabilidad patrimonial de la\nAdministración, a través de los trámites del procedimiento administrativo común. . ",
+    "IMPORTE": "250.645,98  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "207.145,44  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "250.644,77 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "207.144,44 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No\nx SÍ\nLA CONSELLERA DE AGRICULTURA, DESARROLLO RURAL, \nEMERGENCIA CLIMÁTICA Y TRANSICIÓN ECOLÓGICA. 26\n\n\nFirmado por Mireia Mollá Herrera el\n29/10/2021 14:50:. ",
+    "LUGAR DE EJECUCIÓN": "Castellón/Castelló",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/0a6dd1ad-96ce-471a-a1be-6caf037f634c/DOC20211220093054S2+ACTA+sobre+2_firm.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/0a6dd1ad-96ce-471a-a1be-6caf037f634c/DOC20211220093054S2+ACTA+sobre+2_firm.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/9f163f2b-6dbc-4707-be90-c243f4566abc/DOC20211215121040Informe+sobre+1_firmado.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/08d973ce-dbb2-481d-ad68-1b4c02852942/DOC_CAN_ADJ2022-457516.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/77ff91b5-f9ca-40f1-80aa-0e730ea6ac74/DOC20211102134653Anexo+I_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/6ec077ca-a537-4ae7-9cdf-7e16d1c96466/DOC_CN2021-408653.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/c0d8429c-0df2-48a3-bd11-dec9c9adfebf/DOC_FORM2022-489354.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=PSg2SDMiC6LnSoTX3z%2F7wA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/338027a4-1bcd-4c2f-809b-bae5f00c2053/DOC_CD2021-408657.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Se exigen los mismos medios de acreditación referidos a la titulación y créditos ETC, exigidos a las empresas\nque no son de nueva creación de este apartado L. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "X No\n Si: REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS\nUNIDAD  TÉCNICA  ESPECIALIZADA  DE  APOYO  AL  ÓRGANO  DE  CONTRATACIÓN  PARA  VALORACIÓN  DE\nOFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA. x No\n        \n Si. ",
+    "NIF": "A12000022",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "SOCIEDAD DE FOMENTO AGRÍCOLA CASTELLONENSE, S.A.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 1,
+    "NÚMERO DE LICITADORES": 1,
+    "OBJETO": "Renovación del abastecimiento de agua potable entre el poblado marítimo y el poblado interior de Xilxes (Castellón).",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "x No\n Si. ",
+    "OFERTA ECONÓMICA": {
+        "SOCIEDAD DE FOMENTO AGRÍCOLA CASTELLONENSE, S.A.": 207144.44
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "98 Día(s)",
+    "PLAZO DE GARANTIA": "Veinticuatro (24) meses. . ",
+    "PLAZO DE PRESENTACIÓN": "3/11/2021",
+    "PLAZO DE RECEPCION": "Un (1) mes desde la entrega o realización del objeto del contrato. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás \n documentación complementaria de la licitación a través de medios no electrónicos:\nx No\n Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta\n«in situ» de la documentación. x No. SÍ (en su caso, indicar días en los que se amplía el plazo):\nNIVEL DE SEGURIDAD EXIGIDO PARA LOS MEDIOS DE COMUNICACIÓN ELECTRÓNICOS UTILIZADOS EN LAS\nDIFERENTES FASES DE CADA PROCEDIMIENTO DE CONTRATACIÓN. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 11,
+    "REGIMEN DE PENALIDADES": "1. Penalidades por incumplimiento parcial de la ejecución de las prestaciones. - Ejecución de una medición menor a la establecida en el contrato, sin justificación previa aceptada por el\ndirector de la obra. - No ejecución de alguna unidad de obra, sin justificación previa aceptada por el director de la obra. La penalización será del 10 % del presupuesto que corresponda a la medición total de las unidades de obra\nejecutadas con una medición menor, que supongan el incumplimiento, IVA excluido. El total de penalidades no podrá superar el 50 % del precio del contrato, IVA excluido. 2. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del compromiso de\ndedicar o adscribir a la ejecución del contrato los medios personales suficientes señalados en las condiciones\nde solvencia o compromiso de adscripción de medios, o de las condiciones especiales de ejecución de\ncontrato de carácter medioambiental, social o laboral, de la cláusula 35.3. 2.1. Penalidades por realización defectuosa del objeto del contrato. En general, se entenderá como realización defectuosa de la obra la realización de la misma, sin el\npermiso del director de obra, en concreto:\n- Ejecutar una medición distinta a la establecida en el proyecto, sin justificación previa aceptada por el\ndirector de la obra. - Ejecutar la unidad de obra, incumpliendo los estándares de calidad definidos en el proyecto. - Ejecutar cualquier unidad de obra sin respetar todas y cada una de las prescripciones técnicas de la\nmisma establecidas en el pliego de prescripciones técnicas correspondiente. - Sustituir una unidad por otra distinta no incluida en el proyecto. - Cualquier otra actuación que se aparte de lo establecido en el proyecto y de las instrucciones del\ndirector de la obra. La penalización será del 10 % del presupuesto que representen las unidades de obra afectadas por la\nejecución defectuosa, IVA excluido, con el tope acumulado del 50 % del precio del contrato, IVA\nexcluido. Las penalidades se exigirán, sin perjuicio de que, evidentemente, el contratista deberá llevar a cabo a\nla mayor brevedad posible las actuaciones necesarias para restituir la obra al estado previsto en el\nproyecto, de acuerdo con las instrucciones del director de obra (demolición, sustitución de unidades \n de obra, etc.)\n2.2. Penalidades por no adscribir a la ejecución del contrato los medios personales suficientes para ello\nseñalados en el Apartado L. Se entenderá como no adscribir los medios personales suficientes para la ejecución del contrato a:\n- incumplir el compromiso de dedicar o adscribir a la ejecución del contrato los medios personales en\ncualquier cuantía menor a lo establecido en el apartado L. - Sustituir al jefe de obra definido en el apartado L y no proporcionar al responsable del contrato la\ninformación necesaria para que este pueda comprobar si los nuevos medios adscritos cumplen con\nlos requisitos exigidos en el apartado L del pliego, con carácter previo al desempeño de sus servicios\no a su utilización. -\nIncumplimiento de los grados de dedicación del jefe de obra y del encargado de obra del apartado\nL, en su caso. En el momento en que el director de obra detectara alguna de estas circunstancias se producirá una\npenalización del 5 % del precio del contrato, IVA excluido, lo comunicará por escrito de manera que\nquede constancia y, en el caso de que la contrata no corrija dicho incumplimiento se le aplicará dicha\npenalidad cada mes, hasta alcanzar el máximo del 50 % del precio del contrato, IVA excluido. 2.3. Por  incumplir  cualquiera  de  las  condiciones  especiales  de  ejecución  del  contrato  de  carácter\nmedioambiental, social o laboral establecidas en el apartado X. Se penalizará a la contrata con el 5 % del precio del contrato, IVA excluido. En el momento en que el director de obra detectara el incumplimiento se producirá una penalización del\n5 % del precio del contrato, IVA excluido, lo comunicará por escrito de manera que quede constancia y,\nen el caso de que la contrata no corrija dicho incumplimiento se le aplicará dicha penalidad cada mes. IVA excluido. Las penalidades por distintos incumplimientos son, evidentemente, compatibles. El total de\npenalidades podrá alcanzar como máximo el 50 % del precio del contrato. 3. Penalidades por demora respecto del cumplimiento del plazo total de las previstas en la cláusula 35.4. Se considera que no existen especiales características del contrato que hagan necesario establecer penalidades\npor demora distintas a las enumeradas en la cláusula 35.4 del PCAP. 4.- Penalidades distintas en caso de diferir de las previstas en la cláusula 35.4\nSe considera que no existen especiales características del contrato que hagan necesario establecer otras\npenalidades distintas a las enumeradas en la cláusula 35.4 del PCAP. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la\naptitud del subcontratista o de las condiciones de emergencia o urgencia:\nx No \n Si, en su caso:\n Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. Resolución del contrato, si se ha declarado obligación esencial. 6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos\nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, de\nlas condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa con el\nplazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez terminada la\nprestación:\n No\nx  SÍ, Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. ",
+    "REVISION DE PRECIOS": "X No. Si. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "Contratación de obras a precios unitarios.",
+    "SUBASTA ELECTRONICA": "x No\n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "CRITERIO 1",
+            "Porcentaje": 25,
+            "Puntuación máxima": 25
+        },
+        {
+            "Nombre": "CRITERIO 2",
+            "Porcentaje": 10,
+            "Puntuación máxima": 10
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x  No\n Si. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Servicio de infraestructuras Hidráulicas Urbanas. ATRIBUCIONES  DE  LA  DIRECCIÓN  FACULTATIVA (diferentes  a  las  reguladas  en  el  Pliego de  Cláusulas\nAdministrativas Generales para la Contratación de Obras del Estado aprobado por Decreto 3854/1970, de\n31 de diciembre, en la LOE 38/1999, de 5 de noviembre y en la LOFCA 3/2004, de 30 de junio, de\nOrdenación y Fomento de la Calidad de la Edificación y demás previstas legalmente.): No procede. ",
+    "VALOR ESTIMADO DEL CONTRATO": "207.145,44  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "SOCIEDAD DE FOMENTO AGRÍCOLA CASTELLONENSE, S.A.": {
+            "CRITERIO 1 (VC1)": 65,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": null
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": {
+        "SOCIEDAD DE FOMENTO AGRÍCOLA CASTELLONENSE, S.A.": {
+            "CRITERIO 1": 85,
+            "CRITERIO 2": null
+        }
+    },
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

@@ -1,0 +1,155 @@
+{
+    "ABONOS A CUENTA": "x No. ",
+    "CLASIFICACIÓN": "Grupo: I Instalaciones Eléctricas\nSubgrupo: 6. Distribución en baja tensión\nCategoría: 2",
+    "CLASIFICACIÓN CPV": "45310000 -  Trabajos de instalación eléctrica.31500000 -  Material de iluminación y lámparas eléctricas.45311000 -  Trabajos de instalación de cableado y accesorios eléctricos.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "(AL MENOS UNA DE ENTRE LAS PREVISTAS \nEN EL 202.2 ES OBLIGATORIA): \n \nEs condición especial para la ejecución de este contrato, que el adjudicatario imparta a las personas \nadscritas a la ejecución del contrato, una acción de formación en el puesto de trabajo de un mínimo \nde duración de 15 horas en el tiempo que dura el contrato, sobre la mejora de la ocupación y la \nadaptabilidad, así como de sus capacidades y su calificación. El contenido formativo deberá guardar relación con el objeto del contrato. Para su acreditación, la \nempresa adjudicataria deberá presentar con carácter previo a la finalización del contrato, la relación \nde acciones formativas, con especificación del contenido formativo y de los asistentes, fecha y lugar \n Anexo I al PCAP. Página 21 de 21 \n \nde celebración. La persona responsable de formación de la empresa adjudicataria deberá rubricar \nla relación de acciones formativas realizadas, así como su contenido. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Favorecer la formación en el lugar de trabajo - El adjudicatario deberá impartir a las personas adscritas a la ejecución del contrato, una acción de formación en el puesto de trabajo de un mínimo de duración de 15 horas en el tiempo que dura el contrato, sobre la mejora de la ocupación y la adaptabilidad, así como de sus capacidades y su calificación. Ver apartado X del Anexo I al PCAP.",
+    "CONSIDERACION COMO INFRACCION GRAVE": "x No \n SÍ, penalidades en su caso de la cláusula 35.3. ",
+    "CONTRATACION DEL CONTROL": "x No. ",
+    "CRITERIOS DE ADJUDICACION": "x  Precio, o coste, cálculo del coste del ciclo de vida \n  Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación OFERTA ECONÓMICA",
+            "Porcentaje": 100,
+            "Puntuación máxima": 100,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "UMBRALES NO INFERIORES",
+            "Porcentaje": 50,
+            "Puntuación máxima": null,
+            "Siglas": "UNI"
+        },
+        {
+            "Nombre": "MEJORAS COMO CRITERIO DE ADJUDICACIÓN",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "MCA"
+        },
+        {
+            "Nombre": "UNIDAD TÉCNICA ESPECIALIZADA",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "UTEA"
+        },
+        {
+            "Nombre": "AMPLIACIÓN DEL PLAZO",
+            "Porcentaje": null,
+            "Puntuación máxima": null,
+            "Siglas": "ADJ"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Declaración indicando el personal técnico, estén o no integrados en la empresa, de los que esta \ndisponga para la ejecución de la obra. Comprenderá con dedicación total de un Jefe de Obra con \ntitulación de Ingeniero de Grado eléctrico, Ingeniero Técnico Industrial o Ingeniero Industrial (o \ntitulación habilitante equivalente) y un Encargado (sin exigencia de titulación). Ambos con \nexperiencia en estos puestos en al menos 3 obras de reforma de instalación de iluminación en \nedificios y cuantía igual o superior. Anexo I al PCAP. Página 12 de 21 \n \nMEDIOS PARA ACREDITAR LA SOLVENCIA TÉCNICA PARA CONTRATOS DE OBRAS CON VALOR \nESTIMADO INFERIOR A 500.000 €, CUANDO SE TRATE DE EMPRESAS DE NUEVA CREACIÓN. Declaración del equipo técnico requerido: un Jefe de Obra y currículum del mismo, detallando \ntitulación, cualificación personal y experiencia, y un Encargado y currículum del mismo detallando \nsu experiencia. A la declaración se adjuntará la documentación acreditativa pertinente cuando le \nsea requerido por los servicios dependientes del órgano de contratación. CLASIFICACIÓN SUSTITUTIVA PARA LOS CONTRATOS DE OBRAS DE VALOR ESTIMADO IGUAL O \nSUPERIOR A 500.000 €:   No procede \n \nGrupo. SUBGrupo. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \n \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \n \nSe considerará que una oferta se encuentra incursa en presunción de anormalidad, aquella oferta \neconómica que sea inferior en un 10% de la media aritmética de las ofertas presentadas. \nEn el caso que alguna de las ofertas presentadas sea superior a la media aritmética en más de un \n10%, se calculará una nueva media aritmética solo con las ofertas presentadas que no cumplan esta \núltima condición. \n \nLlegado el caso de identificación de una oferta en presunción de valor anormal o desproporcionado, \nse procederá conforme al artículo 149 de la LCSP respecto a la justificación y razonamiento de las \nofertas. \n \n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "ELECTROMUR, S.A.": "No",
+        "IMESAPI, S.A": "No"
+    },
+    "EXPEDIENTE": "CNMY22/DGJ/19",
+    "FECHA ADJUDICACIÓN": "29-06-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "02-03-2022",
+    "FECHA FORMALIZACIÓN": "22-07-2022",
+    "FORMA DE PAGO": "De acuerdo con el artº 198.2 LCSP, el pago del precio se hará de manera parcial, esto es, mediante \nla expedición de certificaciones que comprendan la obra ejecutada, según lo establecido en el artº \n240.1. ",
+    "GARANTIA DEFINITIVA": "Al establecerse el precio del contrato en precios unitarios, el importe de la \ngarantía a constituir se fijará atendiendo al presupuesto base de licitación, IVA excluido, debiendo \nconstituir el propuesto como adjudicatario una garantía definitiva correspondiente al 5% del \npresupuesto base de licitación, IVA excluido. No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 euros. x  Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo \nhasta un 5 por 100): \n \nDe conformidad con lo establecido en el art.107.2 de la LCSP 9/2017, en el caso de que el \nlicitador propuesto como adjudicatario resulte inicialmente incurso en presunción de \nanormalidad o desproporción, deberá presentar una garantía complementaria de un 5% \ndel precio final ofertado por el licitador, IVA excluido. Exención de prestación de garantía definitiva: \nx No. SÍ (justificación, en su caso. ",
+    "GARANTIA PROVISIONAL": "",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con el art. ",
+    "IMPORTE": "225.509,5  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "186.371,49  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "184.796,74 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "152.724,58 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No \nx  SÍ. En València. ",
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València Las obras se realizarán en la Sede Judicial de Paterna ubicada en la Avenida Vicente Mortes Alfonso, nº 114 de Paterna (Valencia) Paterna (Valencia)",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/9d255251-9ede-4178-bdcb-22467e668a86/DOC20220526123644ACTA+3-22DGJ19_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/4bd66bc8-6486-4ce6-ba0a-8564574411e7/DOC20220428142507ACTA+2-22DGJ19_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/8a1f82f1-f9ba-4b0c-aa75-b408752282a1/DOC20220408100045ACTA+1-22DGJ19_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/b9257cf0-880f-426c-b10c-8bd054ba8af5/DOC_CAN_ADJ2022-907401.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/718d48ea-547b-43b7-ad93-9c9389e214e2/DOC20220222113247Anexo+1-22DGJ19-def_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/f4280f9d-c773-4f58-ae22-bbf535d090cd/DOC_CN2022-501404.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/cfbbdaf1-d6d6-4201-80b6-14b395b52f87/DOC_FORM2022-986733.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=9AVOI8H%2F%2Fj%2FnSoTX3z%2F7wA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/270b5406-ada3-4221-9a33-5bd0f296843f/DOC_CD2022-501424.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No \n  SÍ: REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS. Anexo I al PCAP. Página 15 de 21 \n \nUNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA LA \nVALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN \nESPECIALMENTE SUMARIA. x No. ",
+    "NIF": "A28517308",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "EULEN, S.A",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 2,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 2,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 3,
+    "NÚMERO DE LICITADORES": 5,
+    "OBJETO": "Mejorar la eficiencia energética de la instalación de iluminación de la Sede Judicial de Paterna (Valencia).",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No \nx  SÍ. Anexo I al PCAP. Página 17 de 21 \n \nLAS CONDICIONES DE LA OFERTA PARA LA SUBCONTRATACIÓN, LA ACREDITACIÓN DE LA APTITUD \nDEL SUBCONTRATISTA Y LA ACREDITACIÓN DE LAS CONDICIONES DE EMERGENCIA O URGENCIA \nTIENE CARÁCTER DE OBLIGACIONES ESENCIALES. No \nx  SÍ \n \nTAREAS CRÍTICAS QUE NO PODRÁN SER OBJETO DE SUBCONTRATACIÓN. x No. ",
+    "OFERTA ECONÓMICA": {
+        "ANEUM LED SL": null,
+        "EIFFAGE ENERGIA": 154065.32,
+        "ELECTROMUR, S.A.": 165971.1,
+        "EULEN, S.A": 152724.58,
+        "IMESAPI, S.A": 147680.77,
+        "INGENALIUM, S.L.": 167802.38,
+        "IPALUX INSTALACIONES, S.L.": 169989.0,
+        "MONCOBRA SA": 156964.55,
+        "SEIRMA SERVICIOS INTEGRADOS, S.L.": 155054.06,
+        "SOCIEDAD IBÉRICA DE CONSTRUCCIONES ELÉCTRICAS, S.A.": 119750.0
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "3 Mes(es)",
+    "PLAZO DE GARANTIA": "1 año a contar desde la recepción formal del objeto del contrato por la Administración, sin perjuicio \nde que se establezca un plazo mayor en la oferta presentada. Anexo I al PCAP. Página 20 de 21. ",
+    "PLAZO DE PRESENTACIÓN": "4/03/2022",
+    "PLAZO DE RECEPCION": "1 mes desde la comunicación fehaciente de la finalización de las obras, con el informe favorable de \nla Dirección Facultativa, se realizará de acuerdo con lo establecido en el artículo 243 de la LCSP. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Veinte días hábiles desde el siguiente a la publicación en la plataforma de contratación del sector \npúblico del anuncio de licitación. Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y \ndemás documentación complementaria de la licitación a través de medios no electrónicos \n \nx No. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 13,
+    "REGIMEN DE PENALIDADES": "1. Penalidades por incumplimiento parcial de la ejecución de la cláusula 35.1 \n2. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del compromiso de \ndedicar o adscribir a la ejecución del contrato los medios personales o materiales suficientes de la \ncláusula 35.3. 3. Penalidades por demora respecto del cumplimiento del plazo total de las previstas en la cláusula \n35.4. 4. Penalidades distintas en caso de diferir de las previstas en la cláusula 35.4 \n5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de \nla aptitud del subcontratista o de las condiciones de emergencia o urgencia: \n \n No \nx  SÍ, en su caso: \n  Imposición al contratista de una penalidad de hasta un 50% del importe del \nsubcontrato \nx  Resolución del contrato, si se ha declarado obligación esencial. Anexo I al PCAP. Página 19 de 21 \n \n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos \nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su \nparticipación, de las condiciones de subcontratación o suministro de cada uno de los que guarden \nuna relación directa con el plazo de pago y del justificante de cumplimiento de los pagos a los \nsubcontratistas una vez terminada la prestación: \n \nx No \n  SÍ, en su caso indicar cuáles. ",
+    "REVISION DE PRECIOS": "x No. Motivación: (Duración de las obras inferior a dos años) \n  SÍ. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "A tanto alzado",
+    "SUBASTA ELECTRONICA": "x No \n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "CRITERIO OFERTA ECONÓMICA",
+            "Porcentaje": 100,
+            "Puntuación máxima": 100
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": null,
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección General de Infraestructuras Judiciales de la Dirección General de Modernización y \nRelaciones con la Administración de Justicia. ",
+    "VALOR ESTIMADO DEL CONTRATO": "186.371,49  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "ELECTROMUR, S.A.": {
+            "AMPLIACIÓN DEL PLAZO (ADJ)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MCA)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": null,
+            "UMBRALES NO INFERIORES (UNI)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA (UTEA)": null
+        },
+        "IMESAPI, S.A": {
+            "AMPLIACIÓN DEL PLAZO (ADJ)": null,
+            "MEJORAS COMO CRITERIO DE ADJUDICACIÓN (MCA)": null,
+            "Puntuación OFERTA ECONÓMICA (PCP)": null,
+            "UMBRALES NO INFERIORES (UNI)": null,
+            "UNIDAD TÉCNICA ESPECIALIZADA (UTEA)": null
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

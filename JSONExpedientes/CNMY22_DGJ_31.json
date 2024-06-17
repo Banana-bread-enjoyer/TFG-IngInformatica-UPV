@@ -1,0 +1,167 @@
+{
+    "ABONOS A CUENTA": "x No. ",
+    "CLASIFICACIÓN": "La clasificación es la siguiente:\nCategoría: 4\nGrupo: C\nSubgrupo: --",
+    "CLASIFICACIÓN CPV": "45000000 -  Trabajos de construcción.45300000 -  Trabajos de instalación en edificios.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "Condiciones especiales de ejecución referidas a consideraciones de tipo social: de fomento del empleo con \npersonas de colectivos desfavorecidos. A tales efectos la empresa adjudicataria estará obligada a la incorporación en la obra adjudicada de al \nmenos un 10 % de personas desempleadas mayores de 50 años. El porcentaje se computará en relación con \nel número de trabajadores necesarios para la realización de las obras en su totalidad. Dicha incorporación \ndeberá acreditarse al inicio de las obras, mediante la aportación de los documentos pertinentes, que sean \nrequeridos. En todo caso, las medidas de fomento del empleo con personas de colectivos desfavorecidos no podrán \nllevarse a cabo a costa de los trabajadores con los que ya cuente la empresa adjudicataria. En los casos en \nque durante la ejecución del contrato se produzcan bajas y/o sustituciones de personal que ocupe plaza \nreservada a dar cumplimiento a las condiciones, se deberán cubrir con personas que reúnan los mismos \nrequisitos. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Promover el empleo de personas con dificultades particulares de inserción en el mercado laboral - La empresa adjudicataria estará obligada a la incorporación en la obra adjudicada de al menos un 10 % de personas desempleadas mayores de 50 años.  Dicha incorporación deberá acreditarse al inicio de las obras, mediante la aportación de los documentos pertinentes, que sean requeridos.",
+    "CONSIDERACION COMO INFRACCION GRAVE": "x No. ",
+    "CONTRATACION DEL CONTROL": "x No. ",
+    "CRITERIOS DE ADJUDICACION": "Único criterio: precio \nx Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación PRECIO",
+            "Porcentaje": 3,
+            "Puntuación máxima": 46,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "EXPERIENCIA DEL JEFE DE OBRA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 6,
+            "Siglas": "LL.1.2"
+        },
+        {
+            "Nombre": "EXPERIENCIA DEL ENCARGADO DE OBRA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 6,
+            "Siglas": "LL.1.3"
+        },
+        {
+            "Nombre": "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA DE LA OBRA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 1,
+            "Siglas": "LL.1.4"
+        },
+        {
+            "Nombre": "TRASLADO DE MOBILIARIO Y LIMPIEZA FINAL DE OBRA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 8,
+            "Siglas": "LL.1.5"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \n \nAtendiendo a lo establecido en el art. 149.2 b) de la LCSP que establece “Cuando se utilicen una pluralidad \nde criterios de adjudicación, se estará a lo establecido en los pliegos que rigen el contrato, en los cuales se \nhan de establecer los parámetros objetivos que deberán permitir identificar los casos en que una oferta se \nconsidere anormal, referidos a la oferta considerada en su conjunto.” \n \nSe consideran, en principio, incursas en presunción de anormalidad las ofertas que se encuentren en los \nsiguientes supuestos: \n \n \nCSV:ATMFRZZB:28IVA2ZP:DMT984EN\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=ATMFRZZB:28IVA2ZP:DMT984EN\n \n   \n \n23 \n \n1.Cuando concurriendo un solo licitador, se dé la siguiente condición: \n \nSe establece como parámetros objetivos relevantes que permitan identificar los casos en que una oferta se \nconsidera anormal: la oferta económica del licitador, el Presupuesto Base de Licitación (excluido IVA) y las \npuntuaciones obtenidas en los criterios evaluables automáticamente del apartado LL del Anexo I, sin incluir \nla puntuación obtenida por el criterio precio. \n \nLa puntuación de la oferta considerada en su conjunto queda determinada por la puntuación resultante de \naplicar la proporcionalidad entre los puntos máximos del criterio precio del apartado LL del Anexo I, que en \neste caso corresponden al PBL, y los que le corresponderían proporcionalmente a la oferta del licitador; \ncorregida al alza con el 10% de la suma de las puntuaciones obtenidas por el licitador en los criterios \nevaluables automáticamente del apartado LL del Anexo I, sin incluir la puntuación obtenida por el criterio \nprecio. \n \nSe considera, en principio, desproporcionada la oferta considerada en su conjunto si su puntación es \ninferior en más de un 15% la puntuación máxima del criterio precio. Esta condición queda reflejada en la \nsiguiente expresión algebraica: \n0,85 x Pmax-econ ≥ (Pmax-econ x (Oi/PBL)) + 0,1 x Pi-rcea \nSiendo: \nPmax-econ: Puntuación máxima del criterio precio.  \nOi: Importe de la oferta que se valora en el criterio precio.  \nPBL: Presupuesto Base de Licitación, IVA excluido. \nPi-rcea: Suma de las puntuaciones obtenidas por el licitador en los criterios evaluables \nautomáticamente, sin incluir la puntuación obtenida por el Precio. \n \n2.Cuando concurriendo dos licitadores, se dé la siguiente condición: \n \nSe establece como parámetros objetivos relevantes que permitan identificar los casos en que una oferta se \nconsidera anormal: las ofertas económicas de los licitadores, el Presupuesto Base de Licitación (excluido \nIVA) y las puntuaciones obtenidas por cada licitador en los criterios evaluables automáticamente del \napartado LL del Anexo I, sin incluir la puntuación obtenida por el criterio precio. \n \nLa puntuación de las ofertas consideradas en su conjunto queda determinada por la puntuación resultante \nde aplicar la proporcionalidad entre los puntos máximos del criterio precio del apartado LL del Anexo I, que \nen este caso corresponden al PBL, y los que le corresponderían proporcionalmente a la oferta económica \ndel licitador; corregida al alza con el 10% de la suma de las puntuaciones obtenidas por el licitador en los \ncriterios evaluables automáticamente del apartado LL del Anexo I, sin incluir la puntuación obtenida por el \ncriterio precio. \nCSV:ATMFRZZB:28IVA2ZP:DMT984EN\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=ATMFRZZB:28IVA2ZP:DMT984EN\n \n  \n \nSe considera, en principio, desproporcionada la oferta del licitador considerada en su conjunto, con menor \noferta económica o precio, si su puntación de conjunto es inferior a la puntuación de conjunto del licitador \ncon mayor oferta económica o precio, en más de un 10%. Esta condición queda reflejada en la siguiente \nexpresión algebraica: \n0,9 x ((Pmax-econ x (Oimax/PBL)) + (0,1 x Pimax- rcea)) ≥ (Pmax-econ x (Oimen/PBL)) + (0,1 x Pimen-rcea) \nSiendo: \nPmax-econ: Puntuación máxima del criterio precio.  \nOimen: Importe de la oferta económica de menor precio. \nPimen-rcea: Suma de las puntuaciones obtenidas por el licitador con la oferta económica de menor precio \nen los criterios evaluables automáticamente, sin incluir la puntuación obtenida por el criterio precio. \nOimax: Importe de la oferta económica de mayor precio. \nPimax-rcea: Suma de las puntuaciones obtenidas por el licitador con la oferta económica de mayor precio \nen los criterios evaluables automáticamente, sin incluir la puntuación obtenida por el criterio precio. \nPBL: Presupuesto Base de Licitación, IVA excluido. \n \n3.Cuando concurriendo tres o más licitadores, se dé la siguiente condición: \n \nSe establece como parámetros objetivos relevantes que permitan identificar los caos en que una oferta se \nconsidera anormal: las puntuaciones obtenidas en los criterios evaluables automáticamente del apartado LL \ndel Anexo I. \n \nLa puntuación de la oferta valorada en su conjunto queda determinada por la puntuación obtenida por el \nlicitador según la fórmula establecida en el criterio precio del apartado LL del Anexo I, corregida a la baja \ncon el 10% de la suma de las puntuaciones obtenidas por el licitador en los criterios evaluables \nautomáticamente del apartado LL del Anexo I, sin incluir la puntuación obtenida por el criterio precio. \n \nSe consideran, en principio, desproporcionadas aquellas ofertas consideradas en su conjunto cuya \npuntuación sea igual o superior en más de un 10% la media aritmética de la puntuación obtenida por los \nlicitadores, válidamente presentados, en el criterio precio del apartado LL del Anexo I.  Esta condición queda \nreflejada en la siguiente expresión algebraica: \nPi-econ - (0,1 x Pimen-rcea) ≥ 1,1 x Pmed-lici \nCSV:ATMFRZZB:28IVA2ZP:DMT984EN\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=ATMFRZZB:28IVA2ZP:DMT984EN\n \n   \n \n25 \n \nSiendo: \nPmed-lici: Media aritmética de la puntuación obtenida por los licitadores en el criterio precio del \napartado LL del Anexo I. \nPi-econ: Puntuación del licitador obtenida según la fórmula establecida en el criterio precio del apartado \nLL del Anexo I. \nPimen-rcea: Suma de las puntuaciones obtenidas por el licitador en los criterios evaluables \nautomáticamente del apartado LL del Anexo I, sin incluir la puntuación obtenida por el criterio precio. \n \nLas puntuaciones, las medias aritméticas y cualquier otro valor número procedente de cálculo se \nredondeará al segundo decimal. \n \nLlegado el caso de identificación de una oferta en presunción de valor anormal o desproporcionado, se \nprocederá conforme al art. 149 LCSP respecto a la justificación y razonamiento de las ofertas.” \n \n \n",
+    "EL ADJUDICATARIO ES UNA PYME": "Sí",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {},
+    "EXPEDIENTE": "CNMY22/DGJ/31",
+    "FECHA ADJUDICACIÓN": "07-12-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "17-06-2022",
+    "FECHA FORMALIZACIÓN": "09-12-2022",
+    "FORMA DE PAGO": "Los pagos se efectuarán previa presentación de la correspondiente factura reglamentaria. El abono durante \nla ejecución de las obras será mensual, en función de las certificaciones expedidas por la Dirección \nFacultativa de las obras, redactadas mensualmente con relación valorada de la obra ejecutada conforme al \nproyecto según resulte de las mediciones realizadas y los precios del contrato y serán tramitadas en los \nprimeros diez días siguientes al mes que correspondan. ",
+    "GARANTIA DEFINITIVA": "Al establecerse el precio del contrato en precios unitarios, el importe de la garantía \na constituir se fijará atendiendo al Presupuesto Base de Licitación, IVA excluido, debiendo constituir el \npropuesto como adjudicatario una garantía definitiva correspondiente al 5% del Presupuesto Base de \nLicitación, IVA excluido. x Supuestos especiales de prestación de garantía complementaria y porcentaje: \nDe conformidad con lo establecido en el art.107.2 de la LCSP 9/2017, en el caso de que el licitador \npropuesto como adjudicatario resulte inicialmente incurso en presunción de anormalidad o desproporción, \ndeberá presentar una garantía complementaria de un 5% del precio final ofertado por el licitador, IVA \nexcluido. Exención de prestación de garantía definitiva: \nx No. ",
+    "GARANTIA PROVISIONAL": "No se exige de conformidad con el art. ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "En caso de desistimiento o renuncia se compensará de conformidad con la normativa de responsabilidad \npatrimonial de las Administraciones públicas, y con lo establecido en el artículo 152 LCSP. . ",
+    "IMPORTE": "1.826.762,56  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "1.509.721,12  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "1.648.655,25 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "1.362.525 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No \nx SÍ. En València. ",
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València Ciudad de la Justicia de Castellón\nBulevar Blasco Ibañez 10 Castellón de la Plana.",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/2bf5608a-66ef-4a96-ad39-337b3a377146/DOC20220801122453Acta+1+CNMY_22_31_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/a0339f1a-1e50-4a67-868c-d65e54de5f3e/DOC20220804120815Acta+Sesion+2+CNMY22_DJG_31_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/44b67755-a17f-4092-bc87-2f21c60853e1/DOC20220805101312Acta+Sesion+3+subsanac+22DJG31+firm.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/6f593e56-41b8-4b9c-9874-44e332fd83bd/DOC20220930080627Acta+Sesion+4+CNMY_22_31_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/ed098b3a-85f0-4950-9d00-cced8f93f06c/DOC20221104145948Acta+CNMY_22_31_Sesion+5_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/b49a8249-dfca-4470-8a64-5ab02efb886d/DOC20221104150439Valoracion+sobre+3+CNMY22_31+Castellon.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/92361e6e-b297-4f98-9fb7-96d18cd60abe/DOC20221107103216Acta+CNMY_22_31_Sesion+5_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/5ab5e83b-9d02-43d9-9570-29f1e387241f/DOC_CAN_ADJ2022-641705.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/c27b398e-7a57-490f-84d2-ac3912764a75/DOC20220617130250ANEXO+I+def+22_31_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/9f47fcb6-5215-4477-9586-ec8d688d39b0/DOC_CN2022-871663.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/c1c0af74-6131-4fd0-8d87-397cc291d4e7/DOC_FORM2022-655831.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=%2FgUVUXxutBmrz3GQd5r6SQ%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/e874cef6-1518-4f98-8a48-8a9d57d359ee/DOC_CD2022-871674.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000 € \n \nGrupo. C    EDIFICACIONES \nSUBGrupo. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No \n      SÍ: Indicar requisitos, límites, modalidades y características. ",
+    "NIF": "B97400626",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "CONTRATAS VILOR, S.L.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 3,
+    "NÚMERO DE LICITADORES": 3,
+    "OBJETO": "Obras de intervención para la reparación de las patologías de la Ciudad de la Justicia de Castellón, detectadas principalmente en las fachadas del inmueble.",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No \nx SÍ. Los licitadores deberán indicar la parte del contrato que tengan previsto subcontratar, señalando \nsu importe y el nombre o el perfil empresarial de conformidad con el art. 215.2 de la LCSP \n \nLAS CONDICIONES DE LA OFERTA PARA LA SUBCONTRATACIÓN, LA ACREDITACIÓN DE LA APTITUD DEL \nSUBCONTRATISTA Y LA ACREDITACIÓN DE LAS CONDICIONES DE EMERGENCIA O URGENCIA TIENEN \nCARÁCTER DE OBLIGACIONES ESENCIALES. x No. ",
+    "OFERTA ECONÓMICA": {
+    "CONTRATAS VILOR S.L.": {
+            "IMPORTE OFERTA ECONÓMICA": "1.362.525.00 €"
+        },
+        "GIMECONS CONSTRUCCIONES Y CONTRATAS S.L.": {
+            "IMPORTE OFERTA ECONÓMICA": "1.460.415.31 €"
+        },
+        "VAINSA INFRAESTRUCTURAS S.L.": {
+            "IMPORTE OFERTA ECONÓMICA": "1.358.749.01 €"
+        }
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "11 Mes(es)",
+    "PLAZO DE GARANTIA": "un año a contar desde la fecha del acta de recepción de las obras, de conformidad \ncon el art. 243.3 de la LCSP, salvo que resulte uno mayor de la oferta que resulte adjudicataria. Respecto del plazo de garantía se estará a lo establecido por la cláusula 43 del PLIEGO TIPO DE CLÁUSULAS \nADMINISTRATIVAS PARTICULARES para la adjudicación de contratos administrativos de obras por el \nprocedimiento abierto. 33. ",
+    "PLAZO DE PRESENTACIÓN": "9/07/2022",
+    "PLAZO DE RECEPCION": "un mes desde la comunicación fehaciente de la finalización de las obras, con el \ninforme favorable de la Dirección Facultativa de conformidad con lo establecido en el art. 243 de la LCSP. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "De conformidad con el art. 156 de la LCSP, el plazo \npara la presentación de proposiciones se determinará en el Anuncio de licitación del Perfil del contratante. Durante los 5 primeros días del plazo establecido para la presentación de las proposiciones, se publicará en \nla Plataforma de contratación del Sector Público la fecha para la realización de la visita programada por \nparte de los licitadores, detallándose día, hora, así como los datos del representante encargado de la \nCoordinación de la misma. Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás \ndocumentación complementaria de la licitación a través de medios no electrónicos: \nx No. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 12,
+    "REGIMEN DE PENALIDADES": "El procedimiento de imposición de penalidades deberá tramitarse de conformidad con el establecido en el \nArt. 97 RGLCAP con la especialidad contemplada en el artículo 194.2 LCSP. 1. Penalidades de la cláusula 36.3: Sí. - Por el incumplimiento del contratista del compromiso de adscribir a la ejecución del contrato los \nmedios personales o materiales señalados en el apartado L del Anexo I del pliego  y en anexo VI : Por \ncada medio personal o material que no se incorpore, no preste la dedicación establecida o no justifique \nlos requisitos exigidos se impondrá al contratista una penalidad económica proporcional a la gravedad \ndel incumplimiento, en una cuantía que no podrá superar el 1 por 100 del precio del contrato, IVA \nexcluido. - En el caso de que el contratista realizara defectuosamente las distintas partidas de la obra, y no lo \nsubsanase, se le podrá imponer una penalidad económica proporcional a la gravedad del incumplimiento. La cuantía no podrá superar el 10 por 100 del precio del contrato, IVA excluido. - Por el incumplimiento del contratista de las condiciones especiales de ejecución del contrato de \ncarácter medioambiental, social o laboral se le podrá imponer una penalidad económica proporcional a \nla gravedad de dicho incumplimiento. La cuantía de cada sanción no podrá superar el 2 por 100 del \nprecio del contrato, IVA excluido. - El incumplimiento de las labores durante el periodo de garantía, derivadas de la comunicación \nfehaciente al contratista por parte de la Dirección Facultativa y/o del órgano de contratación, de los \ntrabajos a efectuar en los plazos que en aquélla se señalen, a efectuar durante el plazo de garantía, \nconsiderando que se trata del incumplimiento de una obligación esencial en la ejecución del contrato, \nserán causa de resolución del mismo, de acuerdo con lo establecido en el artículo 211.h) de la LCSP, o \nbien, en el caso de ser más favorable a los intereses públicos, se impondrá la siguiente penalidad: \n0,15€/día natural por cada 1.000 € del precio del contrato. - El incumplimiento de la presentación de la documentación necesaria preceptiva antes de la firma del \nActa de Replanteo Previo e Inicio de las obras: \n0,20 € /día natural por cada 1.000 € del precio del contrato, en el plazo establecido. El incumplimiento de la entrega de la documentación necesaria para iniciar las obras en el plazo de un \nmes desde la firma del contrato dará lugar a un Acta de Replanteo Previo e Inicio de las obras con \nresultado negativo por causas imputables al contratista. 31 \n \n- El incumplimiento de la entrega de la Documentación Final de Obra (DFO), recogida en el Anexo DFO. 0,20 € /día natural por cada 1.000 € del precio del contrato, en el plazo establecido. El incumplimiento de la entrega completa de la DFO por plazo superior a un mes será causa de resolución \ndel contrato, de acuerdo con lo establecido en el artículo 211 h) de la LCSP, o bien, en el caso de ser más \nfavorable a los intereses públicos, se impondrá la siguiente penalidad: 0,40 €/ día natural por cada 1.000 \n€ del precio del contrato. - Por el incumplimiento del compromiso adquirido de traslado de mobiliario y/o limpieza final se podrá \nimponer una penalidad económica proporcional a la gravedad del incumplimiento, en una cuantía que \nno podrá superar el 5 por 100 del precio del contrato, IVA excluido. El total de estas penalizaciones de este apartado no podrá superar el 50 por 100 del precio del contrato; \nsin perjuicio de la posible resolución del contrato con incautación de la garantía constitutiva. 2. Penalidades por incumplimiento parcial de la ejecución en la cláusula 36.1: Si \n3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas en \nla cláusula 36.4: Sí \n- Por incumplimiento del plazo total: Si se ha incumplido anteriormente un plazo parcial, podrá optar la \nresolución del contrato. Si no se ha incumplido anteriormente otro plazo parcial la penalidad sería del 5 % \ndel precio del contrato. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las previstas \nen la cláusula 36.4 en relación con la cláusula 36.6: Sí. - Por incumplimiento de plazos parciales: Se considerará como tal la superación en más de 20 días \nnaturales del plazo establecido para alcanzar cada uno de los hitos parciales indicados en la oferta que ha \nresultado adjudicataria: 3 % del precio del contrato. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la \naptitud del subcontratista o de las condiciones de emergencia o urgencia. NO \nSÍ, en su caso: \nImposición al contratista de una penalidad de hasta un 50% del importe del subcontrato  \nResolución del contrato, si se ha declarado obligación esencial \n \n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos \nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, \nde las condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa \ncon el plazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez \nterminada la prestación. NO \nSÍ, en su caso indicar cuáles: Imposición al contratista de una penalidad de hasta un 50% del importe \ndel subcontrato. Respecto de las penalidades 3. y 4. de este apartado, la imposición de estas penalidades contractuales se \naplicará en la Certificación final de obra. De esta forma si el contratista incumple un plazo parcial, pero en el \ntranscurso de la ejecución de la obra, recupera el tiempo de demora y finalmente cumple con el plazo de \nejecución total, no se le aplicará penalidad alguna. En cambio, si el contratista incumple los plazos parciales e incumple también el plazo total de ejecución, en la \ncertificación final de obra, y de conformidad con el correspondiente expediente administrativo de imposición \nde penalidades, se hará constar, con signo negativo, tanto las penalidades impuestas como consecuencia del \nincumplimiento de los plazos parciales, como la correspondiente penalidad por incumplimiento del plazo total \nde ejecución. ",
+    "REVISION DE PRECIOS": "x No. Motivación: No cumple los requisitos conforme el artículo 103 de la LCSP. ",
+    "SISTEMA DE PRECIOS": "A tanto alzado",
+    "SUBASTA ELECTRONICA": "x No \n SÍ. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Programación y Organización de los trabajos",
+            "Porcentaje": 2,
+            "Puntuación máxima": 25
+        },
+        {
+            "Nombre": "Estudio y análisis del proyecto",
+            "Porcentaje": 2,
+            "Puntuación máxima": 8
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x No. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección General de Infraestructuras Judiciales de la Dirección General de Modernización y Relaciones \ncon la Administración de Justicia. ",
+    "VALOR ESTIMADO DEL CONTRATO": "1.811.665,34  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "CONTRATAS VILOR S.L.": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA DE LA OBRA (LL.1.4)": 0,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 66.99,
+            "TRASLADO DE MOBILIARIO Y LIMPIEZA FINAL DE OBRA (LL.1.5)": 0
+        },
+        "GIMECONS CONSTRUCCIONES Y CONTRATAS S.L.": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA DE LA OBRA (LL.1.4)": 0,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 41.08,
+            "TRASLADO DE MOBILIARIO Y LIMPIEZA FINAL DE OBRA (LL.1.5)": null
+        },
+        "VAINSA INFRAESTRUCTURAS S.L.": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA DE LA OBRA (LL.1.4)": 1.7,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 63.0,
+            "TRASLADO DE MOBILIARIO Y LIMPIEZA FINAL DE OBRA (LL.1.5)": null
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

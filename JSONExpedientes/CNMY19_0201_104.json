@@ -1,0 +1,117 @@
+{
+    "ABONOS A CUENTA": "No\nX Si, según art 240.1 de la LCSP\nSE MODIFICA EL RÉGIMEN GENERAL DE LAS CERTIFICACIONES. X No\n   Si. ",
+    "CLASIFICACIÓN": "CATEGORÍA 3, GRUPO I, SUBGRUPO 2",
+    "CLASIFICACIÓN CPV": "31320000 -  Cables de distribución eléctrica.31321000 -  Líneas de energía eléctrica.31681200 -  Bombas eléctricas.31712331 -  Células fotovoltaicas.45231000 -  Trabajos de construcción de tuberías, líneas de comunicación y líneas de conducción eléctrica.45231110 -  Trabajos de construcción de tendidos de tuberías.45232100 -  Obras auxiliares para tuberías de agua.45232120 -  Trabajos de regadío.45232121 -  Trabajos de construcción de canalizaciones de riego.45232152 -  Trabajos de construcción de estaciones de bombeo.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "La empresa adjudicataria, así como todas cualquier empresa subcontratista que participe en la\nejecución del contrato, deberá cumplir, durante la ejecución del contrato, al menos una de las\ncondiciones especiales del apartado 1 (de tipo social o relativas al empleo) y al menos una del\napartado 2 (de tipo medioambiental):\n1.- Referidas a consideraciones de tipo social o relativas al empleo:\n1.1.- Disponer de un Plan de conciliación del trabajo y la vida familiar visado y/o registrado,\nen el sentido de lo indicado en la legislación para la conciliación del trabajo y la vida familiar\nque le sea aplicable. Si esta condición ya fuera obligatoria según la legislación vigente, no computará a estos\nefectos de cumplir al menos una condición especial de ejecución. 1.2.- Disponer de un Plan de igualdad visado y/o registrado, en el sentido de lo indicado en la\nlegislación para la igualdad entre hombres y mujeres que le sea aplicable. Si esta condición ya fuera obligatoria según la legislación vigente, no computará a estos\nefectos de cumplir al menos una condición especial de ejecución. 1.3.-  Favorecer  el  empleo de  personas  con  dificultades  de  acceso al  mercado  laboral,\nmediante el cumplimiento en la plantilla que ejecute el contrato de lo indicado en el\napartado octavo.2.c.1º del Acuerdo de 27 de marzo de 2015 del Consell, por el que se\nestablecen cláusulas de carácter social en la contratación de la Generalitat y su sector\npúblico, así como en materia de subvenciones de la Administración de la Generalitat (DOCV. 7498, de 02.04.2015)\n1.4.- Contar con certificados, expedidos por organismo independientes, que acrediten el\ncumplimiento  de  normas  en  materia  de  accesibilidad  universal  para  personas  con\ndiscapacidad, en las condiciones indicadas en el artículo 93 de la Ley 9/2017, de 8 de\nnoviembre, de Contratos del Sector Público. Si esta condición ya fuera obligatoria según la legislación vigente, no computará a estos\nefectos de cumplir al menos una condición especial de ejecución. 2.- Referidas a consideraciones de tipo medioambiental:\n2.1.- Realizar, durante la ejecución del contrato y para la plantilla adscrita a dicha ejecución,\nal menos una acción de formación y sensibilización en materia medioambiental en el ámbito\nde la construcción, de duración mínima de tres horas. 2.2.- Redactar, para la obra en cuestión y con carácter previo a su inicio, un plan de calidad\nmedioambiental que recoja medidas para minimizar el impacto ambiental de la obra, con\nrequisitos y criterios ambientales a seguir con relación a entorno, equipamiento y materiales,\nrecursos utilizados (agua, energía), o cualquier otro significativo en función de la naturaleza\nde la obra. 2.3.- Disponer de sistemas de gestión medioambiental (EMAS, ISO 14001 o equivalente)\ncertificados para los servicios de construcción y obras, en las condiciones indicadas en el\nartículo 94 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público. Si esta condición ya fuera obligatoria según la legislación vigente, no computará a estos\nefectos de cumplir al menos una condición especial de ejecución. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": null,
+    "CONSIDERACION COMO INFRACCION GRAVE": "No\nX Si. ",
+    "CONTRATACION DEL CONTROL": null,
+    "CRITERIOS DE ADJUDICACION": "Precio, o coste, cálculo del coste del ciclo de vida. X Varios criterios. Pluralidad de criterios de adjudicación basándose en la mejor  \n          relación calidad precio. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Experiencia del jefe de obra",
+            "Porcentaje": 15,
+            "Puntuación máxima": 15,
+            "Siglas": "CRITERIO 1"
+        },
+        {
+            "Nombre": "Plan de aseguramiento de la calidad",
+            "Porcentaje": 15,
+            "Puntuación máxima": 15,
+            "Siglas": "CRITERIO 2"
+        },
+        {
+            "Nombre": "Puntuación Precio",
+            "Porcentaje": 70,
+            "Puntuación máxima": 70,
+            "Siglas": "PCP"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL:\nSe establecen los criterios para apreciar las ofertas desproporcionadas o temerarias del artículo 85\nReal Decreto 1098/2001, de 12 de octubre, por el que se aprueba el Reglamento General de la Ley\nde Contratos de las Administraciones Públicas.\n",
+    "EL ADJUDICATARIO ES UNA PYME": null,
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": null,
+    "EXPEDIENTE": "CNMY19/0201/104",
+    "FECHA ADJUDICACIÓN": "04-05-2020",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "12-11-2019",
+    "FECHA FORMALIZACIÓN": "25-05-2020",
+    "FORMA DE PAGO": "Certificaciones mensuales, que comprenderán o bien\na) la obra ejecutada conforme a proyecto durante dicho periodo de tiempo, \nb) la obra ejecutada durante un periodo distinto, correspondiente a la obra que el director\nfacultativo considere conforme a proyecto y que no haya sido certificada en una certificación\nanterior, de acuerdo con la salvedad prevista en el artículo 240.1 de la Ley 9/2017. Independientemente del periodo considerado, la certificación se expedirá durante los diez días\nsiguientes a cada mes del periodo de ejecución de la obra. La potestad del director de obra se limita a modificar excepcionalmente la cantidad de obra\nejecutada que ha comprobado que es conforme a proyecto durante el periodo mensual al que\nhace referencia la certificación, para incluir en la certificación mensual solo aquella parte de la\nobra respecto a la que el director de obra haya podido realizar durante ese mes todas las\ncomprobaciones y mediciones que sean  necesarias. La parte de la obra que haya quedado\npendiente de certificar se incluirá a la mayor brevedad posible en las certificaciones posteriores,\nuna vez que el director de obra haya podido realizar todas las comprobaciones y mediciones que\nsean necesarias. ",
+    "GARANTIA DEFINITIVA": "5 % del precio de adjudicación final ofertado excluido el IVA:\n \n No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 \neuros. Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo\nhasta un 5 por 100):\nX Exención de prestación de garantía definitiva:\nX No \n                Si. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010,\nasí como en el art 106 de la Ley 9/2017. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración empleados para el cálculo de la responsabilidad\npatrimonial de la Administración, a través de los trámites del procedimiento administrativo común. . ",
+    "IMPORTE": "857.285,69  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "708.500,57  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "596.613,97 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "493.069,4 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": null,
+    "LUGAR DE EJECUCIÓN": "Valencia/València",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/42046128-5cea-4376-82d6-5ddad4d60622/DOC20191223123948S2-acta+sobre+2.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/2b517f21-969c-4e3c-a84c-0e140aac3071/DOC_CAN_ADJ2020-928319.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/9d5380cb-a356-45fa-9a7e-31974f5d69e7/DOC20191108085118ANEXO+I.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/b7fd6ab2-a705-4dc4-8067-f1e7db53fd92/DOC_CN2019-506737.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/6d83c560-90d9-4e61-99ae-c68d5425fd08/DOC_FORM2020-976796.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=KXr9hQ517GkBPRBxZ4nJ%2Fg%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/46b251f9-d89b-4439-97c4-93222713dae4/DOC_CD2019-506780.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No\nprocede. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "X No \n Si. ",
+    "NIF": "B02272490",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "EIFFAGE ENERGÍA, S.L.U.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": null,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": null,
+    "NÚMERO DE EMPRESAS INVITADAS": null,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": null,
+    "NÚMERO DE LICITADORES": null,
+    "OBJETO": "Proyecto de instalación de bombeo solar fotovoltaico de elevación para el pozo-1 de la Comunidad de Regantes La Nevera de Catadau (Valencia)",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No\nX Si. ",
+    "OFERTA ECONÓMICA": null,
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "13 Mes(es)",
+    "PLAZO DE GARANTIA": "24 meses. . ",
+    "PLAZO DE PRESENTACIÓN": "2/12/2019",
+    "PLAZO DE RECEPCION": "Dentro del mes siguiente a la entrega o realización del objeto del contrato. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos\ny demás documentación complementaria de la licitación a través de medios no electrónicos:\nX No\n   Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o\nconsulta «in situ» de la documentación \n           X No\n  Si. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 18,
+    "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 35.1:\n- Por realizar defectuosamente el objeto del contrato:\nSe entenderá como realización defectuosa de la obra la realización de la misma, sin el permiso\ndel director de obra: \n -con una medición distinta a la establecida en el proyecto, sin justificación previa aceptada por\nel director de la obra. - incumpliendo los estándares de calidad requeridos en el proyecto. - ejecutar cualquier unidad de obra  sin respetar todas y cada una de las prescripciones técnicas\nde la misma establecidas en el pliego de precripciones técnicas correspondiente. - sustituir una unidad por otra distinta no incluida en el proyecto. -incumplir  el  compromiso  de  dedicar  o  adscribir  a  la  ejecución  del  contrato  medios\npersonales o materiales en cualquier cuantía respecto a lo establecido en el proyecto. -  cualquier  otra  actuación  que  se  aparte  de  lo  establecido  en  el  proyecto  y  de  las\ninstrucciones del director de la obra y sin perjuicio de las actuaciones que deberá llevar a\ncabo el contratista para restituir la obra al estado previsto en el proyecto, de acuerdo con las\ninstrucciones del director de obra (demolición, sustitución de unidades de obra, etc.). La  penalización  será  proporcional  al  porcentaje  del  presupuesto  que  representen  las\nunidades de obra afectadas por la ejecución defectuosa, con un límite del 10 % del precio\ndel contrato, IVA excluido. - Por incumplir cualquiera de las condiciones especiales de ejecución del contrato de carácter\nmedioambiental, social o laboral establecidas en el apartado X. 10 % del precio del contrato, IVA excluido. Estas penalidades son acumulativas cada vez que el contratista haya sido requerido para\ncorregir el incumplimiento y no lo hubiera corregido en el plazo de 1 mes. El total de\npenalidades no podrá superar el 50 % del precio del contrato, IVA excluido. 2. Penalidades por incumplimiento parcial de la ejecución de la cláusula 35.2:\nPor incumplimiento parcial de la ejecución se penalizará a la contrata con el 10 % del precio del\ncontrato, IVA excluido. Estas penalidades son acumulativas cada vez que el contratista haya sido requerido para\ncorregir el incumplimiento y no lo hubiera corregido en el plazo de 1 mes. El total de \n penalidades no podrá superar el 50 % del precio del contrato, IVA excluido. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las\nprevistas en la cláusula 35.4: No difiere. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las\nprevistas en la cláusula 35.4 en relación con la cláusula 35.6: No difiere. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación\nde la aptitud del subcontratista o de las condiciones de emergencia o urgencia:\n   No\nX Si, en su caso:\nX Imposición al contratista de una penalidad de hasta un 50% del importe del\nsubcontrato. -Imposición al contratista de una penalidad de un 10% del importe del contrato. X Resolución del contrato, si se ha declarado obligación esencial\nLas penalidades del apartado 5 son acumulativas cada vez que el contratista haya sido requerido\npara corregir el incumplimiento y no lo hubiera corregido en el plazo de 1 mes. El total de\npenalidades no podrá superar el 50 % del precio del contrato, IVA excluido. 6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de\naquellos subcontratistas o suministradores que participen en el contrato cuando se perfeccione su\nparticipación, de las condiciones de subcontratación o suministro de cada uno de los que guarden\nuna relación directa con el plazo de pago y del justificante de cumplimiento de los pagos a los\nsubcontratistas una vez terminada la prestación:\n    No\nX Si, en su caso indicar cuales::\nImposición al contratista de una penalidad de hasta un 10% del importe del contrato. Las penalidades del apartado 6 son acumulativas cada vez que el contratista haya sido requerido\npara corregir el incumplimiento y no lo hubiera corregido en el plazo de 1 mes. El total de\npenalidades no podrá superar el 50 % del precio del contrato, IVA excluido. ",
+    "REVISION DE PRECIOS": "",
+    "SISTEMA DE PRECIOS": "Contratación de obras a tanto alzado con precio cerrado.",
+    "SUBASTA ELECTRONICA": "X No\n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No.",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Experiencia del jefe de obra",
+            "Porcentaje": 15,
+            "Puntuación máxima": 15
+        },
+        {
+            "Nombre": "Plan de aseguramiento de la calidad",
+            "Porcentaje": 15,
+            "Puntuación máxima": 15
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "No\nX Si, las siguientes: Instalación de Placas fotovoltaicas y generadores. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Dirección Territorial de\nValencia de la Conselleria de Agricultura, Medio Ambiente, Cambio Climático y Desarrollo Rural. ATRIBUCIONES DE LA DIRECCIÓN FACULTATIVA (diferentes a las reguladas en el Pliego de Cláusulas\nAdministrativas  Generales  para  la  Contratación  de  Obras  del  Estado  aprobado  por  Decreto\n3854/1970, de 31 de diciembre, en la LOE 38/1999, de 5 de noviembre y en la LOFCA 3/2004, de\n30 de junio, de la Generalitat): NINGUNA ADICIONAL. ",
+    "VALOR ESTIMADO DEL CONTRATO": "708.500,57  EUR.",
+    "VALORACIONES DE EMPRESAS": null,
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": null
+}

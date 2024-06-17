@@ -1,0 +1,151 @@
+{
+    "ABONOS A CUENTA": "SI",
+    "CLASIFICACIÓN": "Para contratos de obras con un valor estimado inferior a 500.000€, la clasificación es la siguiente:\n- Categoría: 2\n- Grupo: K\n- Subgrupo: 7",
+    "CLASIFICACIÓN CPV": "45000000 -  Trabajos de construcción.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "Si\nLa empresa adjudicataria está obligada, en la ejecución del contrato, a mantener la plantilla de\ntrabajadores y trabajadoras adscritos a la ejecución del contrato sin que proceda suspensión o extinción\nde los contratos de trabajo de la plantilla salvo las suspensiones o extinciones consecuencia de la\nvoluntad de la persona trabajadora, de despidos disciplinarios, disconformidad de la administración o\nmodificación del contrato por razones de estabilidad presupuestaria y salvo que por modificación del\ncontrato por razones de estabilidad presupuestaria y salvo que por circunstancias sobrevenidas la\nempresa se encuentre en algunos de los supuestos previstos en el articulo 51 del Estatuto de los\nTrabajadores. Para la acreditación del cumplimiento de esta medida, la empresa adjudicataria deberá presentar, al\ninicio y al final de la ejecución del contrato, ante la Dirección General de Cultura y Patrimonio, copia\ncompulsada de los contratos de trabajo de las personas trabajadoras adscritas a la ejecución del\ncontrato. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Cumplimiento de las Convenciones fundamentales de la Organización Mundial del Trabajo - Según apartado X del Anexo I del PCAP",
+    "CONSIDERACION COMO INFRACCION GRAVE": "No\nx SI, penalidades en su caso de la cláusula 35.3 \nSe aplicará una penalización económica, en una cuantía del 10 por 100 del precio del contrato. IVA excluido; sin perjuicio de la posible resolución del contrato con incautación de la garantía\nconstituida. . ",
+    "CONTRATACION DEL CONTROL": "x No\n Si. ",
+    "CRITERIOS DE ADJUDICACION DEL PROCEDIMIENTO ABIERTO": "Precio,o coste, cálculo del coste del ciclo de vida\n           x  Varios criterios, conforme a los previstos en el apartado LL del Anexo I. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación PRECIO",
+            "Porcentaje": 100,
+            "Puntuación máxima": 75,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "PUNTUACIÓN JUICIOS VALOR",
+            "Porcentaje": 24,
+            "Puntuación máxima": 25,
+            "Siglas": "PCJ"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "Volumen anual de negocios, referido al mejor ejercicio dentro de los tres últimos disponibles\nen función de las fechas de constitución o de inicio de actividades del empresario y de presentación\nde las ofertas por importe igual o superior al exigido en el anuncio de licitación o en la invitación a\nparticipar  en  el  procedimiento  y  en  los  pliegos  del  contrato  o,  en  su  defecto,  al  establecido\nreglamentariamente. El volumen de negocios mínimo anual exigido será una vez y media el valor\nestimado del contrato = 1,5 x  223.227,60 €= 334.841,40 €. ",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "La acreditación de la solvencia técnica se efectuará mediante la relación de obras ejecutadas\nen  los  últimos  cinco  años,  que  sean  del  mismo  grupo  o  subgrupo  de  clasificación  que  el\ncorrespondiente al contrato, o del grupo o subgrupo más relevante para el contrato si este incluye\ntrabajos correspondientes a distintos subgrupos, cuyo importe anual acumulado en el año de mayor\nejecución sea igual o superior al  70% del Valor Estimado del contrato que se licita = 70% de\n223.227,60 €  = 156.259,32 €. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \nSe entenderán, como ofertas incursas en presunción de anormalidad por su bajo importe, aquéllas\ncuyo porcentaje de baja exceda en 10 unidades, por lo menos, a la media aritmética de los\nporcentajes de baja de todas las proposiciones admitidas.\n",
+    "EL ADJUDICATARIO ES UNA PYME": "Sí",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {},
+    "EXPEDIENTE": "CMAYOR/2021/06Y03/150",
+    "FECHA ADJUDICACIÓN": "03-06-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "11-01-2022",
+    "FECHA FORMALIZACIÓN": "27-06-2022",
+    "FORMA DE PAGO": "Conforme lo previsto en el artículo 240.1  LCSP. El pago del precio se efectuará mensualmente, previa presentación de la factura correspondiente en el\nlugar  de  entrega  de  la  factura  electrónica:  Punto  de  Entrada  de  Facturas  Electrónicas  de  la\nAdministración General del Estado (https://face.gob.es/es). De conformidad con el artículo 240 de la LCSP, el importe de las obras ejecutadas conforme a\nproyecto se acreditará por medio de certificaciones expedidas por el director de las obras, redactadas\nmensualmente con relación valorada de la obra ejecutada durante dicho mes, según resulte de las\nmediciones practicadas, y serán tramitadas por la Administración en los primeros diez días siguientes\nal mes que corresponda. Los abonos de las certificaciones tienen naturaleza de pagos a cuenta sujetos a las rectificaciones y\nvariaciones que se produzcan en la medición final y sin suponer en forma alguna, aprobación y\nrecepción de las obras que comprenden. ",
+    "GARANTIA DEFINITIVA": "5% del Presupuesto base de licitación \n             No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 euros. Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo hasta \n                un 5 por 100):\n            x Exención de prestación de garantía definitiva:\nx No\n Si  (justificación, en su caso. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al artículo 159.4 b) de la LCSP. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración\nempleados para el cálculo de la responsabilidad patrimonial de la Administración, a través de los\ntrámites  del  procedimiento  administrativo  común,  con  las  especialidades  del  procedimiento\nadministrativo común previstas en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo\nComún de las Administraciones Públicas. . ",
+    "IMPORTE": "270.105,39  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "223.227,6  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "214.733,79 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "177.465,94 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No\nx SI \nLA EMPRESA O PERSONA ADJUDICATARIA\nEL CONSELLER DE EDUCACIÓN, CULTURA Y\nDEPORTE\n(P.D.R.C. 26/10/2016 – DOGV 790\nLa subsecretaria\n17\n\n\nFirmat per Eva Coscolla Grau l'11/01/2022\n12:24:52\nCàrrec: Subsecretaria de la Conselleria de\nEducación, Cultura y Deporte. ",
+    "LUGAR DE EJECUCIÓN": "ES España Palau Ducal de Gandía Gandía",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/20d0595e-9a2d-42d3-82cd-4f5a10e654b9/DOC20220207115119Acta+fda.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/86ef2656-afcc-4e99-b0b2-b1b966c4b582/DOC20220428141835Acta+de+adjudicacion+fda.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/85b4ce9b-35db-416d-86fa-03b8822cea06/DOC20220309125342Informe+UP+Juicios+de+valor.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/2c97882b-b5db-4496-8d54-106b2dc81864/DOC_CAN_ADJ2022-824618.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/f0a208db-7f67-46eb-909c-76b2012753eb/DOC20220111135008ANEXO+I+tras+abogacia+fdo.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/18f565ba-1559-48c3-9ea2-8cff89353470/DOC_CN2022-318835.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/b207d0d2-4522-4e5b-96cd-9f4dbab2f07a/DOC_FORM2022-900169.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=IyglQfmEsI0BPRBxZ4nJ%2Fg%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/ac035774-0207-4be0-810b-9a12fca30fcb/DOC_CD2022-321161.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "Se acreditará por medio de sus cuentas anuales aprobadas y depositadas en el Registro\nMercantil, si el empresario estuviera inscrito en dicho registro, y en caso contrario por las depositadas\nen el registro oficial en que deba estar inscrito. Los empresarios individuales no inscritos en el\nRegistro Mercantil acreditarán su volumen anual de negocios mediante sus libros de inventarios y\ncuentas anuales legalizados por el Registro Mercantil o certificado de la Agencia Tributaria. ",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Relación  de  las  obras  ejecutadas  en  el  curso  de  los  cinco  últimos  años,  avalada  por\ncertificados de buena ejecución; estos certificados indicarán el importe, las fechas y el lugar de\nejecución de las obras y se precisará si se realizaron según las reglas por las que se rige la profesión y\nse llevaron normalmente a buen término. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No\n   Si: REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS\nUNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN\nDE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA. x No\n                    \n  Si. ",
+    "NIF": "B98257116",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "Victor Tormo S.L.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 4,
+    "NÚMERO DE LICITADORES": 4,
+    "OBJETO": "Obras de intervención en el Palau Ducal de Gandía: fachada armería-iluminación alfaje del zaguancentro de atención a visitantes.",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "x No\n si. ",
+    "OFERTA ECONÓMICA": null,
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "6 Mes(es)",
+    "PLAZO DE GARANTIA": "mínimo 1 año. ",
+    "PLAZO DE PRESENTACIÓN": "1/01/2022",
+    "PLAZO DE RECEPCION": "No procede. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": "1. Penalidades por incumplimiento parcial de la ejecución de la cláusula 35.1:\n• De acuerdo a la programación, se solicitará un reajuste para cumplir plazo previsto en caso de demora parcial. Si tras dicho reajuste se detectara demora parcial superior a 3 días, se aplicará un descuento diario de 1,00 € por cada 1.000 € del precio de contrato hasta el ajuste de los plazos o si prosiguiera hasta la finalización del plazo oficial previsto. Se incluye en este periodo la posible prórroga. (Complementariamente se podrán aplicar las penalidades correspondientes por demora en el cumplimiento del plazo total)\n2. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del compromiso de dedicar o adscribir a la ejecución del contrato los medios personales o materiales suficientes de la cláusula 35.3:\n• 0,25% diario del precio del contrato por la no dedicación del técnico en 10% de su jornada, al proyecto.\n• 0,45% diario del precio del contrato por la no dedicación del estudiante en prácticas del 40% de su jornada laboral, en caso de que se hubiera ofertado de acuerdo al criterio de adjudicación.\n3. Penalidades por demora respecto del cumplimiento del plazo total de las previstas en la cláusula 35.4.: No procede\n4. Penalidades distintas en caso de diferir de las previstas en la cláusula 35.4:\n• 0,30% diario por demora del plazo total sobre el precio del contrato.\n• Máxima penalidad por demora 25% del precio del contrato.\n5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la aptitud del subcontratista o de las condiciones de emergencia o urgencia:\n[ ] NO\n[X] SI, en su caso:\n[X] Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato.\n[ ] Resolución del contrato, si se ha declarado obligación esencial\n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos subcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, de las condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa con el plazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez terminada la prestación:\n[ ] NO\n[X] SI, en su caso indicar cuales: una penalidad diaria de 1,50 euros por cada mil euros del precio del contrato, IVA excluido.",
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y\ndemás documentación complementaria de la licitación a través de medios no electrónicos:\n x No\n Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o\nconsulta «in situ» de la documentación \n x No\n Si  (en su caso, indicar días en los que se amplía el plazo):\nNIVEL DE SEGURIDAD EXIGIDO PARA LOS MEDIOS DE COMUNICACIÓN ELECTRÓNICOS UTILIZADOS\nEN LAS DIFERENTES FASES DE CADA PROCEDIMIENTO DE CONTRATACIÓN. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 10,
+    "REGIMEN DE PENALIDADES": null,
+    "REVISION DE PRECIOS": "x No. Motivación: No procede por el plazo de ejecución de la obra. Art. 103.2 de la LCSP. Si. Fórmula:. . ",
+    "SISTEMA DE PRECIOS": "A tanto alzado",
+    "SUBASTA ELECTRONICA": "x No\n               Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Servicios de suministro e instalaciones existentes afectados",
+            "Porcentaje": null,
+            "Puntuación máxima": 6
+        },
+        {
+            "Nombre": "Accesos durante la ejecución de la obra",
+            "Porcentaje": null,
+            "Puntuación máxima": 13
+        },
+        {
+            "Nombre": "Propuesta de Implantación y Organización en la ejecución de las obras",
+            "Porcentaje": null,
+            "Puntuación máxima": 6
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x No\n Si. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Servicio de Promoción \nCultural y Apoyo Técnico. ",
+    "VALOR ESTIMADO DEL CONTRATO": "223.227,6  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "PCP": {
+            "Construcciones Bañuls, SL.": 25.85,
+            "Estudio Métodos de la Restauración S.L.": 4.29,
+            "Llop Proyectos Integrales S.L.": 36.81,
+            "Víctor Tormo S.L.": 75
+        },
+        "PCJ": {
+            "Construcciones Bañuls, SL.": 22,
+            "Estudio Métodos de la Restauración S.L.": 22.4,
+            "Llop Proyectos Integrales S.L.": 23.5,
+            "Víctor Tormo S.L.": 25
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": {
+        "Accesos durante la ejecución de la obra": {
+            "Construcciones Bañuls, SL.": 13,
+            "Estudio Métodos de la Restauración S.L.": 10.4,
+            "Llop Proyectos Integrales S.L.": 13,
+            "Víctor Tormo S.L.": 13
+        },
+        "Propuesta de Implantación y Organización en la ejecución de las obras": {
+            "Construcciones Bañuls, SL.": 6,
+            "Estudio Métodos de la Restauración S.L.": 6,
+            "Llop Proyectos Integrales S.L.": 6,
+            "Víctor Tormo S.L.": 6
+        },
+        "Servicios de suministro e instalaciones existentes afectados": {
+            "Construcciones Bañuls, SL.": 3,
+            "Estudio Métodos de la Restauración S.L.": 6,
+            "Llop Proyectos Integrales S.L.": 4.5,
+            "Víctor Tormo S.L.": 6
+        }
+    },
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

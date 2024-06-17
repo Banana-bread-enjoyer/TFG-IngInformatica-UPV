@@ -1,0 +1,216 @@
+{
+    "ABONOS A CUENTA": "No. ",
+    "CLASIFICACIÓN": "Para los contratos de obras con un valor estimado igual o superior a 500.000 €, la clasificación es la siguiente:\n- Grupo: C Edificaciones\n- Subgrupo: --\n- Categoría: 5\n\nPara los contratos de obras de restauración de bienes inmuebles histórico-artísticos con un valor estimado inferior a 500.000 €, la clasificación es la siguiente:\n- Grupo: K Edificaciones\n- Subgrupo: 7. Restauración de bienes inmuebles histórico-artísticos\n- Categoría: 4",
+    "CLASIFICACIÓN CPV": "45000000 -  Trabajos de construcción.45212350 -  Edificios de interés histórico o arquitectónico.45216112 -  Trabajos de construcción de tribunales.45300000 -  Trabajos de instalación en edificios.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Consideraciones de tipo medioambiental - La empresa adjudicataria deberá acreditar al inicio de la obra que ha calculado las emisiones de CO2 de las\nactividades relacionadas con el contrato objeto de licitación, mediante certificación anual emitido por\nentidad acreditada. Eliminar desigualdades entre el hombre y la mujer - El adjudicatario vendrá obligado a incorporar la perspectiva de género en el Plan de Prevención de Riesgos\nLaborales. Promover el empleo de personas con dificultades particulares de inserción en el mercado laboral - La empresa adjudicataria estará obligada a la incorporación en la obra adjudicada de al\nmenos un 10 % de personas desempleadas mayores de 50 años. El porcentaje se computará en relación con\nel número de trabajadores necesarios para la realización de las obras en su totalidad",
+    "CONSIDERACION COMO INFRACCION GRAVE": "SÍ. Su incumplimiento será causa de resolución de conformidad con lo establecido en el artículo\n211.1.f) LCSP. . ",
+    "CONTRATACION DEL CONTROL": "x No. ",
+    "CRITERIOS DE ADJUDICACION": "Varios criterios",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación PRECIO",
+            "Porcentaje": "hasta 43 puntos",
+            "Puntuación máxima": 43,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "EXPERIENCIA DEL JEFE DE OBRA",
+            "Porcentaje": "hasta 3,00 puntos",
+            "Puntuación máxima": 3,
+            "Siglas": "LL.1.2"
+        },
+        {
+            "Nombre": "EXPERIENCIA DEL ENCARGADO DE OBRA",
+            "Porcentaje": "hasta 3,00 puntos",
+            "Puntuación máxima": 3,
+            "Siglas": "LL.1.3"
+        },
+        {
+            "Nombre": "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO",
+            "Porcentaje": "Máximo 4puntos",
+            "Puntuación máxima": 4,
+            "Siglas": "LL.1.4"
+        },
+        {
+            "Nombre": "REDUCCIÓN DEL PLAZO DE EJECUCIÓN DE LA OBRA",
+            "Porcentaje": "Máximo 8 puntos",
+            "Puntuación máxima": 8,
+            "Siglas": "LL.1.5"
+        },
+        {
+            "Nombre": "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN",
+            "Porcentaje": "Máximo 3 puntos",
+            "Puntuación máxima": 3,
+            "Siglas": "LL.1.6"
+        },
+        {
+            "Nombre": "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA",
+            "Porcentaje": "Máximo 1 punto",
+            "Puntuación máxima": 1,
+            "Siglas": "LL.1.7"
+        },
+        {
+            "Nombre": "CRITERIOS SUJETOS A JUICIO DE VALOR",
+            "Porcentaje": "Máximo 35 punto",
+            "Puntuación máxima": 35,
+            "Siglas": "LL.2"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL:\nSe  considerará  que  una  oferta  se  encuentra  incursa  en  presunción  de  anormalidad,  aquella  oferta\neconómica que sea inferior en un 5% de la media aritmética de las ofertas presentadas. \nEn el caso que alguna de las ofertas presentadas sea superior a la media aritmética en más de un 10%, se\ncalculará una nueva media aritmética solo con las ofertas presentadas que no cumplan esta ultima\ncondición.\nLlegado el caso de identificación de una oferta en presunción de valor anormal o desproporcionado, se\nprocederá conforme al artículo 149 de la LCSP respecto a la justificación y razonamiento de las ofertas.\n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "BECSA, S.A.": "NO",
+        "GRUPO BERTOLÍN, S.A.U.": "NO"
+    },
+    "EXPEDIENTE": "CNMY22/DGJ/15",
+    "FECHA ADJUDICACIÓN": "01-08-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "14-01-2022",
+    "FECHA FORMALIZACIÓN": "18-09-2022",
+    "FORMA DE PAGO": "Los pagos se efectuarán previa presentación de la correspondiente factura reglamentaria. El abono durante\nla ejecución de las obras será mensual, en función de las certificaciones expedidas por la Dirección\nFacultativa de las obras, redactadas mensualmente con relación valorada de la obra ejecutada conforme al\nproyecto según resulte de las mediciones realizadas y los precios del contrato y serán tramitadas en los\nprimeros diez días siguientes al mes que correspondan. ",
+    "GARANTIA DEFINITIVA": "x No. ",
+    "GARANTIA PROVISIONAL": "No se exige de conformidad con el art. ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "En caso de desistimiento o renuncia se compensará de conformidad con la normativa de responsabilidad\npatrimonial de las Administraciones públicas, y con lo establecido en el artículo 152 LCSP. . . En la sede electrónica de la Plataforma de Contratación del Estado, donde se publicará esta licitación, se \nindicará el día, y la hora, en el que se llevará a cabo la visita. ",
+    "IMPORTE": "28.303.522,93  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "23.391.341,26  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "25.472.920 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "21.052.000 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No\nx SÍ\nLA CONSELLERA DE JUSTICIA, INTERIOR Y ADMINISTRACIÓN PÚBLICA,\n(P.D. Resolución de 02.08.2019 DOGV núm. 8606 de 05.08.2019)\nLA SUBSECRETARIA. Página 34 de 34\n\n\nFirmado por María Belén Cardona Rubert el\n11/01/2022 17:01:. ",
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València  València",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/1a60ff77-990e-4e21-a382-00ba0cf90085/DOC20220223093851Acta+CNMY_22_15_Sobre1_Sesion1_firmado.pdf?MOD=AJPERES", "https://contrataciondelestado.es/wps/wcm/connect/0e951fbe-9bd6-4b90-a03f-ca613fba6a45/DOC20220307135642Acta_2_CNMY_22_15_y_sobre2.pdf?MOD=AJPERES", "https://contrataciondelestado.es/wps/wcm/connect/186c0dc2-978c-499b-9c8d-c1887b25b5f9/DOC20220428144238Acta+CNMY_22_15_Sension3+y+apertura+sobre3_firmado.pdf?MOD=AJPERES", "https://contrataciondelestado.es/wps/wcm/connect/11af99ae-e932-4894-811a-c939ab0ec7b2/DOC20220531104048Acta+CNMY_22_15+Sesion+4_Plat.pdf?MOD=AJPERES", "https://contrataciondelestado.es/wps/wcm/connect/c16ed9ff-4f2a-4ff8-b574-16ae9e7c2c21/DOC20220630142551Acta+CNMY_22_15+Sesion+5.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/9c452918-262c-443c-9834-7b54c3213a01/DOC20220419135658INFORME+JUICIO+VALOR.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/770a4a96-7d83-4621-bccb-3366430a69a1/DOC_CAN_ADJ2022-031049.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/7ee3b641-b918-42b7-85f1-bce172328cd1/DOC20220112110809ANEXO+I+Obras++TSJ+firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/5609c0e3-cab4-41ed-839a-d712a45435a5/DOC_CN2022-324546.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/a4f8bc4f-40f6-49ae-9b0d-d1a58f839505/DOC_FORM2022-160782.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=lYC4n4UifLnnSoTX3z%2F7wA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/a9e05609-d84d-4159-bf88-00c4e8e2ac4c/DOC_CD2022-339240.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000 €\nGrupo. C  EDIFICACIONES\nSUBGrupo. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "No\n x SÍ: \n1. Mejoras relativas a la seguridad y salud en la ejecución de la  obra. 2. Mejoras relacionadas con el respeto al medio ambiente durante la ejecución de la obra. 3. Mejoras relativas a la gestión de residuos durante la ejecución de la obra. Excepto la utilización\nde los procedimientos establecidos por los certificados ISO 14001, EMAS o certificado equivalente,\nrelativo  a  la  implantación  de  un  sistema  de  gestión  ambiental,  que  forman  parte  de  las\ncondiciones especiales de ejecución del “apartado X”. Máximo 3 puntos. Se deberá detallar la denominación y justificación de cada mejora. El número máximo de mejoras\nque se podrán ofertar en este apartado será de 6, con un máximo de 2 mejoras por epígrafe,\nasignándose a cada mejora 0,5 puntos. De cada mejora se detallará el objeto, características y necesaria vinculación con el objeto del\ncontrato. Las mejoras se valorarán de acuerdo con el siguiente criterio: 25% al objeto, 25%  a las características\ny 50% a la necesaria vinculación con el objeto del contrato. La explicación máxima de cada mejora tendrá una extensión máxima de una página en formato A4,\nmínimo de letra de 12 pt y doble espacio de interlineado, con los siguientes márgenes mínimos:\nsuperior, 3 cm, inferior, 2 cm, y 2,5 y 2 cm, márgenes izquierdo y derecho, respectivamente. ",
+    "NIF": "A28854727",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "FCC CONSTRUCCIÓN - EDIFESA OBRAS Y PROYECTOS",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 2,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 0,
+    "NÚMERO DE LICITADORES": 2,
+    "OBJETO": "Obras de adecuación funcional del Palacio de Justicia para Tribunal Superior de Justicia de la Comunitat Valenciana",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No\nx SÍ. Los licitadores deberán indicar en la oferta presentada, la parte del contrato que tenga\nprevisto subcontratar, señalando su importe y el nombre o el perfil empresarial de conformidad\ncon el art. 215.2 de la LCSP\nLAS CONDICIONES DE LA OFERTA PARA LA SUBCONTRATACIÓN, LA ACREDITACION DE LA APTITUD DEL\nSUBCONTRATISTA Y LA ACREDITACIÓN DE LAS CONDICIONES DE EMERGENCIA O URGENCIA TIENEN\nCARÁCTER DE OBLIGACIONES ESENCIALES. No\nx SÍ\nTAREAS CRÍTICAS QUE NO PODRÁN SER OBJETO DE SUBCONTRATACIÓN. x No. ",
+    "OFERTA ECONÓMICA": {
+        "CHM OBRAS E INFRAESTRUCTURAS SA": "25.470.340,29 €",
+        "DRAGADOS-ROVER INFRAESTRUCTURAS": "25.473.170,62 €",
+        "OBRASCON HUARTE LAIN SA": "25.420.700,86 €",
+        "SACYR-TORRESCAMARA": "25.473.170,63 €"
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "36 Mes(es)",
+    "PLAZO DE GARANTIA": "un año a contar desde la fecha del acta de recepción de las obras, de conformidad \ncon el art. 243.3 de la LCSP, salvo que resulte uno mayor de la oferta que resulte adjudicataria. Respecto del plazo de garantía se estará a lo establecido por la cláusula 43 del PLIEGO TIPO DE CLÁUSULAS\nADMINISTRATIVAS  PARTICULARES  para  la  adjudicación  de  contratos  administrativos  de  obras  por  el\nprocedimiento abierto. . ",
+    "PLAZO DE PRESENTACIÓN": "4/02/2022",
+    "PLAZO DE RECEPCION": "un mes desde la comunicación fehaciente de la finalización de las obras, con el\ninforme favorable de la Dirección Facultativa de conformidad con lo establecido en el art. 243 de la LCSP. Página 31 de \n\u0018\n\u0018\n\u0018 \n RECEPCIÓN PARCIAL. x No. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "El plazo total de presentación de proposiciones será de 30 días naturales, contados desde la fecha del envío\na la oficina de Publicaciones de la Unión Europea. Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás\ndocumentación complementaria de la licitación a través de medios no electrónicos:\nx No. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 13,
+    "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 36.3: Sí. -  Por el incumplimiento del contratista del compromiso de adscribir a la ejecución del contrato los\nmedios personales o materiales  señalados en el apartado L dela Anexo I del pliego  y en anexo VI : Por\ncada medio personal o material que no se incorpore, no preste la dedicación establecida o no justifique\nlos requisitos exigidos se impondrá al contratista una penalidad económica proporcional a la gravedad\ndel incumplimiento, en una cuantía que del 1 por 100 del precio del contrato, IVA excluido. - En el caso de que el contratista  realizara defectuosamente las distintas partidas de la obra, y no lo\nsubsanase,  se  le  podrá  imponer  una  penalidad  económica  proporcional  a  la  gravedad  del\nincumplimiento. La  cuantía no podrá superar el 10 por 100 del precio del contrato, IVA excluido. - Por el incumplimiento del contratista de las condiciones especiales de ejecución del contrato de\ncarácter medioambiental, social o laboral se le podrá imponer  una penalidad económica proporcional a\nla gravedad de dicho incumplimiento. La cuantía de cada sanción no podrá superar el 2 por 100 del\nprecio del contrato, IVA excluido. El total de estas penalizaciones de este apartado no podrá  superar el 50 por 100 del precio del contrato;\nsin perjuicio de la posible resolución del contrato con incautación de la garantía constitutiva. 2. Penalidades por incumplimiento parcial de la ejecución en la cláusula 36.1: Sí. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas en\nla cláusula 36.4: Sí\n- Por incumplimiento del plazo total: Si se ha incumplido anteriormente un plazo parcial, podrá optar la\nresolución del contrato. Si no se ha incumplido anteriormente otro plazo parcial la penalidad sería del 5\n% del precio del contrato. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las previstas\nen la cláusula 36.4 en relación con la cláusula 36.6: Sí. Página 30 de \n - Por incumplimiento de plazos parciales: Se considerará como tal la superación en más de 20 días\nnaturales del plazo establecido para alcanzar cada uno de los tres hitos parciales indicados en la oferta\nque ha resultado adjudicataria: 3 % del precio del contrato. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la\naptitud del subcontratista o de las condiciones de emergencia o urgencia. NO\nSÍ, en su caso:\nImposición al contratista de una penalidad de hasta un 50% del importe del subcontrato \nResolución del contrato, si se ha declarado obligación esencial\n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos\nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación,\nde las condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa\ncon el plazo de pago y del justificante de cumplimiento de los pagos a los subcontrataristas una vez\nterminada la prestación. NO\nSÍ, en su caso indicar cuáles: Imposición al contratista de una penalidad de hasta un 50% del importe\ndel subcontrato. Respecto de las penalidades 3. y 4. de este apartado, la imposición de estas penalidades contractuales se\naplicará en la Certificación final de obra. De esta forma si el contratista incumple un plazo parcial, pero en el\ntranscurso de la ejecución de la obra, recupera el tiempo de demora y finalmente cumple con el plazo de\nejecución total, no se le aplicará penalidad alguna. En cambio, si el contratista incumple los plazos parciales e incumple también el plazo total de ejecución, en\nla certificación final de obra, y de conformidad con el correspondiente expediente administrativo de\nimposición de penalidades, se hará constar, con signo negativo, tanto las penalidades impuestas como\nconsecuencia  del  incumplimiento  de  los  plazos  parciales,  como  la  correspondiente  penalidad  por\nincumplimiento del plazo total de ejecución. El procedimiento de imposición de penalidades deberá tramitarse de conformidad con el establecido en el\nArt. 97 RGLCAP con la especialidad contemplada en el artículo 194.2 LCSP. ",
+    "REVISION DE PRECIOS": "No. x SÍ. ",
+    "SISTEMA DE PRECIOS": "Contratación de obras a tanto alzado.",
+    "SUBASTA ELECTRONICA": "x No\n SÍ. En este caso, deberá indicarse la información necesaria para su celebración, que será como \nmínimo la indicada en el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Programación y Organización de los trabajos",
+            "Porcentaje": 57.14,
+            "Puntuación máxima": 20
+        },
+        {
+            "Nombre": "Estudio y análisis del proyecto",
+            "Porcentaje": 34.29,
+            "Puntuación máxima": 12
+        },
+        {
+            "Nombre": "Mejoras",
+            "Porcentaje": 8.57,
+            "Puntuación máxima": 3
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": null,
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Urgente",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección  General  de\nInfraestructuras Judiciales de la Dirección General de Modernización y Relaciones con la Administración de\nJusticia. ",
+    "VALOR ESTIMADO DEL CONTRATO": "28.069.069,52  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "CHM OBRAS E INFRAESTRUCTURAS SA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": 4,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": 4,
+            "Puntuación PRECIO (PCP)": 43,
+            "REDUCCIÓN DEL PLAZO DE EJECUCIÓN DE LA OBRA (LL.1.5)": 24
+        },
+        "DRAGADOS-ROVER INFRAESTRUCTURAS SA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": 4,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": 4,
+            "Puntuación PRECIO (PCP)": 43,
+            "REDUCCIÓN DEL PLAZO DE EJECUCIÓN DE LA OBRA (LL.1.5)": 24
+        },
+        "OBRASCON HUARTE LAIN SA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 43,
+            "REDUCCIÓN DEL PLAZO DE EJECUCIÓN DE LA OBRA (LL.1.5)": 24
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": {
+        "OBRASCON-HUARTE": {
+            "Estudio y análisis del proyecto": 26.6,
+            "Mejoras": null,
+            "Programación y Organización de los trabajos": 26.6
+        },
+        "UTE ACCIONA CONSTRUCCIÓN SA-CRIMSA": {
+            "Estudio y análisis del proyecto": 26.5,
+            "Mejoras": null,
+            "Programación y Organización de los trabajos": 26.5
+        },
+        "UTE BECSA-BERTOLÍN": {
+            "Estudio y análisis del proyecto": 30.0,
+            "Mejoras": null,
+            "Programación y Organización de los trabajos": 30.0
+        },
+        "UTE FCC CONSTRUCCIÓN- EDIFESA OBRAS Y PROYECTOS": {
+            "Estudio y análisis del proyecto": 27.3,
+            "Mejoras": null,
+            "Programación y Organización de los trabajos": 27.3
+        },
+        "UTE SACYR-TORRESCÁMARA-TECM": {
+            "Estudio y análisis del proyecto": 25.5,
+            "Mejoras": null,
+            "Programación y Organización de los trabajos": 25.5
+        }
+    },
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

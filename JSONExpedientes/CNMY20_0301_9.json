@@ -1,0 +1,127 @@
+{
+    "ABONOS A CUENTA": "No \n x SI\nSE MODIFICA EL RÉGIMEN GENERAL DE LAS CERTIFICACIONES. x No\n Si, nuevo régimen. ",
+    "CLASIFICACIÓN": "Categoría: 1\nGrupo: C\nSubgrupo: 1",
+    "CLASIFICACIÓN CPV": "45111100 -  Trabajos de demolición.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": null,
+    "CONSIDERACION COMO INFRACCION GRAVE": "No\nx SI. ",
+    "CONTRATACION DEL CONTROL": null,
+    "CRITERIOS DE ADJUDICACION": "Precio,o coste, cálculo del coste del ciclo de vida\nx Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación",
+            "Puntuación máxima": 100,
+            "Siglas": "PCP"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Entendiendo como de nueva creación aquella que tenga una antigüedad inferior a cinco años, su solvencia\ntécnica se acreditará por uno o varios de los del siguiente apartado. - Disposicón de personal y directivos. Mínimo  1 Oficial 1º construcción, 1 oficial 2º construcción, 1 peón especializado, 1 peón ordinario, 1 personal\nautorizado fibrocemento\n- Disposición de maquinaria y material para la ejecución de la obra. La indicada en el proyecto. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\n11\nCSV:EDXXZ3MM-VGHFU1MZ-5S9KUPKJ\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=EDXXZ3MM-VGHFU1MZ-5S9KUPKJ\n \n  \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: De acuerdo con el Artículo\n85 Real Decreto 1098/2001, de 12 de octubre, por el que se aprueba el Reglamento General de la Ley de\nContratos de las Administraciones Públicas.\n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "DCO GROUP PROMOCIONES Y CLASIFICADOS LEVANTINOS": "NO"
+    },
+    "EXPEDIENTE": "CNMY20/0301/9",
+    "FECHA ADJUDICACIÓN": "08-09-2020",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "21-05-2020",
+    "FECHA FORMALIZACIÓN": "22-09-2020",
+    "FORMA DE PAGO": "El abono se efectuará mediante certificaciones mensuales con cargo a los créditos\ndispuestos a tal efecto, y previa presentación de la corespondiente factura debidamente conformada por el\nórgano competente a través de las plataformas de facturación FACe. ",
+    "GARANTIA DEFINITIVA": "5% del importe de adjudicación (IVA excluido), según Artículo 107 LCSP. No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 euros. Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo hasta un \n5 por 100):\n Exención de prestación de garantía definitiva:\n No\n Si  (justificación, en su caso. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración\nempleados para el cálculo de la responsabilidad patrimonial de la Administración, a través de los trámites\ndel procedimiento administrativo común. . ",
+    "IMPORTE": "137.225,34  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "113.409,37  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "98.994,36 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "81.813,52 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No\nx SI. Según lo establecido en el art. 159.4.de la LCSP los licitadores deben estar inscritos en el ROLECE, o en su\ncaso, en el Registro oficial de la correspondiente comunidad autónoma. Sin embargo, la Junta Consultiva de\nContratación Pública del estado, a través de su recomendación de fecha 24 de septiembre de 2018, ha\nvenido a relativizar la obligatoriedad de dicho requisito dada cuenta de la coyuntura presente. Por esta\nrazón, en este caso no es exigible el requisito de inscripción en dichos registros pero sí que se acredite\nhaber solicitado debidamente la inscripción correspondiente en alguno de los citados registros. ",
+    "LUGAR DE EJECUCIÓN": "Valencia/València",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/62001a4f-878a-44ac-a804-a501891ca435/DOC20200629140837S2+Acta+sobre+2.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/eefcdfe1-a0a1-4c29-b2e0-2443b5a542aa/DOC_CAN_ADJ2020-202196.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/6716219c-585f-48cc-92c3-940dfd800bb0/DOC20200518103743ANEXO+I_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/71b89925-3102-48c5-85dd-9c9dfa0a8172/DOC_CN2020-969088.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/bbea2853-3f4b-41cd-bfb4-d9a4af45808f/DOC_FORM2020-229741.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=3OwWw%2BFpG897h85%2Fpmmsfw%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/8a22efe4-7129-4b6a-9898-76da91dd428a/DOC_CD2020-969089.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Se acreditará por uno o varios de los siguientes:\n•\nDeclaración sobre la plantilla media anual de la empresa y del número de directivos durante los tres\núltimos años, acompañada de la documentación justificativa correspondiente cuando le sea requerido\npor los servicios dependientes del órgano de contratación. •\nDeclaración indicando la maquinaria, material y equipo técnico del que se dispondrá para la ejecución\nde las obras, a la que se adjuntará la documentación acreditativa pertinente cuando le sea requerido por \n los servicios dependientes del órgano de contratación. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": null,
+    "NIF": "A31244684",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "Construcciones y Desmontes Ribera Navarra, S.A.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 5,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 5,
+    "NÚMERO DE LICITADORES": 6,
+    "OBJETO": "Demolición de construcciones en los terrenos ocupados indebidamente en el monte de utilidad pública nº 152 riberas del río Palancia, en el término municipal de Sagunto - Fase 1.",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No\nx Si    Los licitadores deberán indicar en la oferta la parte del contrato que tengan previstos\nsubcontratar, señalando su importe, y el nombre o el perfil empresarial, definido por referencia a\nlas condiciones de solvencia profesional o técnica, de los subcontratistas a los que se vaya a\nencomendar su realización. ",
+    "OFERTA ECONÓMICA": null,
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "2 Mes(es)",
+    "PLAZO DE GARANTIA": null,
+    "PLAZO DE PRESENTACIÓN": "0/06/2020",
+    "PLAZO DE RECEPCION": "dentro del mes siguiente a la entrega o realización del objeto del contrato. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y\ndemás documentación complementaria de la licitación a través de medios no electrónicos:\nx No\n Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o\nconsulta «in situ» de la documentación \nx No\n Si  (en su caso, indicar días en los que se amplía el plazo):\nMEDIO DE NOTIFICACIÓN ELECTRÓNICA. Dirección electrónica habilitada \nX Comparecencia en la sede electrónica. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 9,
+    "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 35.1:\nCuando el contratista, por causas imputables al mismo, hubiere incumplido parcialmente la ejecución\nde las prestaciones definidas en el contrato, la cuantia de cada penalidad será del 5% del precio del\ncontrato IVA excluido del importe que reste por ejecutar, sin perjuicio de la indemnización por daños\ny perjuicios. 2. Penalidades de la cláusula 35.3:\nLa cuantia de cada penalidad será del 2% del precio del contrato IVA excluido. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas   en la\ncláusula 35.4:\nCuando  el  contratista,  por  causas  imputables  al  mismo,  hubiere  incurrido  en  demora  respecto  al\ncumplimiento del plazo total, la Administración podrá optar, atendidas las circunstancias del caso, por la\nresolución del contrato con audiencia del contratista, o por la imposición de las penalidades diarias en la\nproporción de 0,60 euros por cada 1.000 euros del precio del contrato, IVA excluido. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las previstas en\nla cláusula 35.4 en relación con la cláusula 35.6: no procede. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la\naptitud del subcontratista o de las condiciones de emergencia o urgencia:\n No\nx SI, en su caso:\n Imposición  al  contratista  de  una  penalidad  de  hasta  un  50%  del  importe  del\nsubcontrato. x Resolución del contrato, si se ha declarado obligación esencial\n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos\nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, de\nlas condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa con el\nplazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez terminada la\nprestación:\nx No\n Si, en su caso indicar cuales:\n Si, en su caso indicar cuales. ",
+    "REVISION DE PRECIOS": "x No. No procede según el Artículo 103. 2 de la Ley de Contratos del Sector Público, en lo que\nrefiere a la Ley 2/2015, de 30 de marzo, de desindexación de la economía española. Si. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "Precio unitario",
+    "SUBASTA ELECTRONICA": "X No\n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Programación y organización trabajos",
+            "Porcentaje": 25,
+            "Puntuación máxima": 11
+        },
+        {
+            "Nombre": "Sistema de eliminación de residuos",
+            "Porcentaje": 25,
+            "Puntuación máxima": 7
+        },
+        {
+            "Nombre": "Plan de Trabajos",
+            "Porcentaje": 25,
+            "Puntuación máxima": 7
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": null,
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Sección Forestal de la Dirección\nTerritorial de Agricultura, Medio Ambiente, Cambio Climático y Desarrollo Rural de Alicante. ATRIBUCIONES DE LA DIRECCIÓN FACULTATIVA (diferentes a las reguladas en el  Pliego de Cláusulas\nAdministrativas Generales para la Contratación de Obras del Estado aprobado por Decreto 3854/1970, de\n31 de diciembre, en la LOE 38/1999, de 5 de noviembre y en la LOFCA 3/2004, de 30 de junio, de la\nGeneralitat):\nFunciones atribuidas en los artículos 237 a 246 de la Ley 9/2017 de Contratos del Sector Público. ",
+    "VALOR ESTIMADO DEL CONTRATO": "113.409,37  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "CANALIZACIONES Y DERRIBOS SAFOR S.L.": {
+            "Puntuación (PCP)": 86.88
+        },
+        "CONSTRUCCIONES Y DESMONTES RIBERA NAVARRA, S.A.": {
+            "Puntuación (PCP)": 90.25
+        },
+        "CONSTRUCCIONES Y EXCAVACIONES ERRI-BERRI SL": {
+            "Puntuación (PCP)": 67.6
+        },
+        "ENEAS SERVICIOS INTEGRALES, S.A.": {
+            "Puntuación (PCP)": 85.36
+        },
+        "RAVI OBRAS TRASNPORTES Y EXCAVACIONES, S.L.": {
+            "Puntuación (PCP)": 89.0
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

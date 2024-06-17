@@ -1,0 +1,246 @@
+{
+    "ABONOS A CUENTA": "No\nx SI, previa autorización del órgano de contratación. ",
+    "CLASIFICACIÓN": "Para contratos de obras con valor estimado igual o superior a 500.000 €, la clasificación es la siguiente:\n- Grupo: C\n- Subgrupo: \n- Categoría: 5",
+    "CLASIFICACIÓN CPV": "45215200 -  Trabajos de construcción de edificios para servicios sociales.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "(AL  MENOS  UNA  DE ENTRE  LAS\nPREVISTAS EN EL 202.2 ES OBLIGATORIA) \nLa empresa adjudicataria está obligada, en la ejecución del contrato, al cumplimiento del\nprincipio de igualdad de oportunidades de las personas con difcultades de acceso al mercado laboral. Para ello, la empresa adjudicataria estará obligada a destnar a la ejecución del contrato al menos un\n10% de  personas en situación o grave riesgo de exclusión social, que estén desocupadas y tengan\ndifcultades importantes para integrarse en el mercado de trabajo ordinario y que estén incluidas en\nalguno de los colectvos refejados en el Acuerdo de 27 de marzo de 2015, del Consell, por el que se\nestablecen directrices para la aplicación de cláusulas de carácter social en la contratación de la \n Administración de la Generalitat y su sector púlblico, así como en materia de subvenciones de la\nAdministración de la Generalitat. Para la acreditación del  cumplimiento de esta medida,  la empresa adjudicataria deberá\npresentar, al inicio de la ejecución del contrato, ante la persona responsable de su ejecución, una\ndeclaración responsable sobre el personal destnado a la mencionada ejecución, indicando aquéllas\npersonas que pertenezcan a algunos de los colectvos enumerados anteriormente. Además, durante la\nejecución del contrato la empresa adjudicataria deberá presentar, ante la persona responsable de su\nejecución, copia compulsada de los contratos de trabajo y de certfcaciones de la situación de\nexclusión en la cual se encuentran las personas trabajadoras, las cuales deben ser emitdas por el\ncorrespondiente servicio social especializado o de atención primaria. Esta condición especial de ejecución tene el carácter de  obligación contractual esencial a\nefectos de resolución del contrato, en virtud de los artculos 118.2 y 223.f del TRLCSP, así como del\nAcuerdo de 27 de marzo de 2015, del Consell, por el que se establecen directrices para la aplicación de\ncláusulas de carácter social en la contratación de la Administración de la Generalitat y su sector\npúlblico, así como en materia de subvenciones de la Administración de la Generalitat. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Promover el empleo de personas con dificultades particulares de inserción en el mercado laboral - La empresa adjudicataria estará obligada a destinar a la ejecución del contrato al menos un 10% de personas en situación o grave riesgo de exclusión social, que estén desocupadas y tengan dificultades importantes para integrarse en el mercado de trabajo ordinario y que estén incluidas en alguno de los colectivos reflejados en el Acuerdo de 27 de marzo de  2015, del Consell.",
+    "CONSIDERACION COMO INFRACCION GRAVE": "x No, dado que es causa de resolución contractual. Si. . ",
+    "CONTRATACION DEL CONTROL": "x No\n Si. ",
+    "CRITERIOS DE ADJUDICACION": "Único criterio:f precio \n x Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación Proposición económica",
+            "Porcentaje": "50",
+            "Puntuación máxima": "50",
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "Ampliación del período de garantía",
+            "Porcentaje": "100",
+            "Puntuación máxima": "5",
+            "Siglas": "CSV"
+        },
+        {
+            "Nombre": "Proyecto",
+            "Porcentaje": "100",
+            "Puntuación máxima": "25",
+            "Siglas": "CSV"
+        },
+        {
+            "Nombre": "Mejoras relacionadas con la eficacia y ahorro energético del centro",
+            "Porcentaje": "60",
+            "Puntuación máxima": "10",
+            "Siglas": "CSV"
+        },
+        {
+            "Nombre": "Mejoras relacionadas con el Proyecto",
+            "Porcentaje": "100",
+            "Puntuación máxima": "5",
+            "Siglas": "CSV"
+        },
+        {
+            "Nombre": "Programa de mantenimiento",
+            "Porcentaje": "100",
+            "Puntuación máxima": "5",
+            "Siglas": "CSV"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS  OBJETIVOS  PARA  IDENTIFICAR  UNA  OFERTA  COMO  ANORMAL:  Se  estará  a  lo\ndispuesto en la cláusula 24 del PCAP, el artculo 149 de la LCSP y el artculo 85 de del RGLCAP (RD\n1098/2001 de 12 de octubre).\n",
+    "EL ADJUDICATARIO ES UNA PYME": null,
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "LANTALIA, S.L.U.": "NO"
+    },
+    "EXPEDIENTE": "CNMY19/18-18/25",
+    "FECHA ADJUDICACIÓN": "10-03-2020",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "05-07-2019",
+    "FECHA FORMALIZACIÓN": "16-03-2020",
+    "FORMA DE PAGO": "Certfcaciones mensuales. La documentación que debe aportar el contratsta al objeto de que la Vicepresidencia y Conselleria de\nIgualdad y Polítcas Inclusivas le abone la contraprestación económica que asume a través de este\ncontrato, deberá remitrse directamente a la Ofcina Técnica y será la siguiente:f\n- Factura, que no podrá sobrepasar el importe de adjudicación del contrato. - Certfcaciones mensuales de obra. Tras la presentación de la anterior documentación, la Ofcina Técnica emitrá “certfcadoí en el\nque se hará constar el importe que deberá abonar la Vicepresidencia y Conselleria de Igualdad y\nPolítcas Inclusivas como contraprestación económica de la facturación. Obligatoriamente, el contratsta deberá presentar las facturas a través de la plataforma de\nfacturación electrónica de la Administración del Estado FACe (código de ofcina contable:f GE0006297;\ncódigo de órgano gestor:f A10017558; código de Ge-factura:f Código  GE 0005988. Los datos que deberán constar en la factura son (Disposición adicional trigésima segunda de la\nLey 9/2017):f\n- Órgano administratvo con competencias en materia de contabilidad púlblica:f Intervención General. - Órgano de contratación:f Subsecretario de la Vicepresidencia y Conselleria de Igualdad y Polítcas\nInclusivas. - Destnatario:f Ofcina Técnica, sita en calle de la  Democracia, 77, CP 46018 - Valencia. ",
+    "GARANTIA DEFINITIVA": "Supuestos especiales de prestación de garanta complementaria y porcentaje \nx 5% del precio fnal ofertado, excluido el IVA\nCANCELACIÓN O DEVOLUCIÓN PROPORCIONAL DE LA GARANTÍA DEFINITIVA EN CASOS DE \nRECEPCIÓN PARCIAL. x No\n Si. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "Ascenderán al importe acreditado por  los\nlicitadores, con un máximo de 300 euros. . . ",
+    "IMPORTE": "6.207.623,42  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "5.130.267,29  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "5.307.518,02 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "4.386.378,53 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No\nx SI. . ",
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València Residencia y Centro de Día para Personas Mayores Dependientes \"El Catí\" de Elda, Alicante.  Elda",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/47d7b3d4-a2ef-4b81-a602-a58b721181ac/DOC20191008092844Acta+sesion+23+julio_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/93c02ee7-77a0-4247-9f67-b5dfe6212428/DOC20191028130502Acta+subsanacion+y+sobre+2_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/17c4e8a7-2178-4490-8261-4cd0fc861228/DOC20191028091356Informe+tecnico+de+valoracion+de+ofertas.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/ed297761-624e-4d45-b31c-252ed06aa15c/DOC_CAN_ADJ2020-857922.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/7ad18c5d-b2cd-4c3b-81ed-4f12eebacbcc/DOC20190619095033Anexo+I+CNMY19-18-18-25_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/e0215dc8-cf31-40a2-8e4e-a03df95192db/DOC_CN2019-714255.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/b7a70743-526a-4f19-ba56-bcb2c4442353/DOC_FORM2020-868615.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=JaG3%2Fo5YsSumq21uxhbaVQ%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/bbe950bc-2a1a-4da2-930c-0e353a641e35/DOC_CD2019-714266.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000 €\nGrupo. C\nSUBGrupo. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "No\nx Si  Indicar requisitos, límites, modalidades y característcas:f Remisión al apartado LL\nCOMITÉ DE EXPERTOS. Si\nx No\nPlazo en el que deberán efectuar la valoración:f \nProcedimiento para la designación:f. ",
+    "NIF": "A46035770",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "FULTON S.A.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 12,
+    "NÚMERO DE LICITADORES": 13,
+    "OBJETO": "Obras de reforma integral de la Residencia y Centro de Día para Personas Mayores Dependientes \"El Catí\", de Elda (Alicante)",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No\nx SI\nLAS CONDICIONES DE LA OFERTA PARA LA SUBCONTRATACIÓN, LA ACREDITACION DE LA APTITUD\nDEL SUBCONTRATISTA Y LA ACREDITACIÓN DE LAS CONDICIONES DE EMERGENCIA O URGENCIA\nTIENE CARÁCTER DE OBLIGACIONES ESENCIALES. x No\n Si. ",
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "24 Mes(es)",
+    "PLAZO DE GARANTIA": null,
+    "PLAZO DE PRESENTACIÓN": "2/07/2019",
+    "PLAZO DE RECEPCION": "De conformidad con la cláusula 43 del PCAP y. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás\ndocumentación complementaria de la licitación a través de medios no electrónicos:f\nx No\n Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta\n«in situ» de la documentación \nx No\n Si  (en su caso, indicar días en los que se amplía el plazo):f. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 11,
+    "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 36.3. A propuesta de la dirección facultatva y previa tramitación del\ncorrespondiente expediente contradictorio se impondrá al contratsta una penalidad del 10% del\nprecio del contrtato IVA excluido. En su caso, el total de las penalidades impuestas no podrá superar\nel 50% del precio del contrato, IVA excluido. 2. Penalidades por incumplimiento parcial de la ejecución:f A propuesta de la dirección facultatva y\nprevia tramitación del correspondiente expediente contradictorio se impondrá al contratsta una\npenalidad del 10% del precio del contrtato IVA excluido. En su caso, el total de las penalidades\nimpuestas no podrá superar el 50% del precio del contrato, IVA excluido. 3. Penalidades por incumplimiento del plazo total por el contratsta en caso de diferir de las\nprevistas en la cláusula 36.4. Las establecidas en el PCAP. 4. Penalidades por incumplimiento de plazos parciales por el contratsta en caso de diferir de las\nprevistas en la cláusula 36.4 en relación con la cláusula 36.6. Las establecidas en el PCAP. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación\nde la apttud del subcontratsta o de las condiciones de emergencia o urgencia:f\n No\nx SÍ, en su caso:f\nx Imposición  al  contratsta  de  una  penalidad  de  hasta  un  50%  del  importe  del\nsubcontrato \n Resolución del contrato, si se ha declarado obligación esencial\n6. Penalidades en caso de incumplimiento de la obligación de remitr la relación detallada de\naquellos subcontratstas o suministradores que partcipen en el contrato cuando se perfeccione su\npartcipación, de las condiciones de subcontratación o suministro de cada uno de los que guarden\nuna relación directa con el plazo de pago y del justfcante de cumplimiento de los pagos a los\nsubcontrataristas una vez terminada la prestación:f\nNo procede\n No\n SÍ, en su caso indicar cuáles:f. ",
+    "REVISION DE PRECIOS": "x No. Motvación:f De conformidad con el artculo 103 de la Ley 9/2017, de 8 de noviembre,\nde Contratos del Sector Púlblico, por la que se transponen al ordenamiento jurídico español las\nDirectvas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero\nde 2014 y el artculo 9.2 del Real Decreto 55/2017, de 3 de febrero, por el que se desarrolla la\nLey 2/2015, de 30 de marzo, de desindexación de la economía española, no procede la revisión\nde precios en el presente contrato. Si. Fórmula:f. ",
+    "SISTEMA DE PRECIOS": "Contratación de obras a precios unitarios.",
+    "SUBASTA ELECTRONICA": "x No\n Si. En este caso, deberá indicarse la información necesaria para su celebración, que será \ncomo mínimo la indicada en el artculo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "El Proyecto",
+            "Porcentaje": 55,
+            "Puntuación máxima": 25
+        },
+        {
+            "Nombre": "Mejoras relacionadas con la eficacia y ahorro energético del centro",
+            "Porcentaje": 45,
+            "Puntuación máxima": 10
+        },
+        {
+            "Nombre": "Mejoras relacionadas con el Proyecto",
+            "Porcentaje": 45,
+            "Puntuación máxima": 5
+        },
+        {
+            "Nombre": "Programa de mantenimiento",
+            "Porcentaje": 45,
+            "Puntuación máxima": 5
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x No\n Si. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Ofcina técnica de proyectos y\nobras. ",
+    "VALOR ESTIMADO DEL CONTRATO": "5.130.267,29  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "BECSA SA": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "BLUEDEC, S.L": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "CONSTRUCCIONES, REHABILITACIONES, INSTALACIONES Y MANTENIMIENTOS, S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "DOALCO, S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "ECISA, CIA GENERAL DE CONSTRUCCIONES, S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "EDHINOR, S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "FERROVIAL AGROMAN, S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "FULTON S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "PROYME INGENIERIA Y CONSTRUCCION S.L.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "UTE ABALA - ORTHEM": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "UTE CONTRATAS VILOR, S.L. - ELECTROTECNIA MONRABAL, S.L.U.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        },
+        "UTE LEVANTINA, INGENIERIA Y CONTRUCCIÓN S.L.-COBRA , INSTALACIONES Y SERVICIOS, S.A.": {
+            "Ampliación del período de garantía (CSV)": null,
+            "Mejoras relacionadas con el Proyecto (CSV)": null,
+            "Mejoras relacionadas con la eficacia y ahorro energético del centro (CSV)": null,
+            "Programa de mantenimiento (CSV)": null,
+            "Proyecto (CSV)": null,
+            "Puntuación Proposición económica (PCP)": null
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "No"
+}

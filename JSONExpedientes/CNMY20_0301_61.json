@@ -1,0 +1,193 @@
+{
+    "ABONOS A CUENTA": "De acuerdo con las condiciones establecidas en el artículo 240 de la Ley 9/2017 de Contratos del\nSector público y los artículos 155 a 157 del Real Decreto 1098/2001 que aprueba el Reglamento de la\nLey de Contratos de las Administraciones Públicas. . ",
+    "CLASIFICACIÓN": "Categoría: 4\nGrupo: K\nSubgrupo: 6",
+    "CLASIFICACIÓN CPV": "45000000 -  Trabajos de construcción.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "(AL MENOS UNA DE ENTRE LAS PREVISTAS EN\nEL 202.2 ES OBLIGATORIA)\nRealizar durante la ejecución del contrato y para la plantilla adscrita a dicha ejecución, al menos una\nacción de formación y sensibilización en materia medioambiental en el ámbito de la prevención de\nincendios forestales en la ejecución de obras en el medio natural, de duración mínima de tres horas. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": null,
+    "CONSIDERACION COMO INFRACCION GRAVE": "No\nx  Si. ",
+    "CONTRATACION DEL CONTROL": "x No\n Si. ",
+    "CRITERIOS DE ADJUDICACION": "Único criterio: precio\nx Varios criterios\n- Aspectos económicos : 76 puntos\n- Aspectos cualitativos:   24 puntos. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación Precio",
+            "Porcentaje": 76,
+            "Puntuación máxima": 76,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "Grado de conocimiento de la obra",
+            "Porcentaje": 24,
+            "Puntuación máxima": 15,
+            "Siglas": "CRITERIO 2 - 1"
+        },
+        {
+            "Nombre": "Consideraciones medioambientales",
+            "Porcentaje": 24,
+            "Puntuación máxima": 9,
+            "Siglas": "CRITERIO 2 - 2"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No \nprocede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "\nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: De acuerdo con el\nArticulo 85 Real Decreto 1098/2001, de 12 de octubre, por el que se aprueba el Reglamento General\nde la Ley de Contratos de las Administraciones Publicas.\n",
+    "EL ADJUDICATARIO ES UNA PYME": "Sí",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "ALVAC, S.A. - A40015851": "NO",
+        "ARICO FOREST, SLU - B17574799": "NO",
+        "EL EJIDILLO VIVEROS INTEGRALES S.L. - B40011934": "NO",
+        "ELECNOR, S.A. - A48027056": "NO",
+        "EXPLOTACION Y CONSERVACIÓN FORESTAL, S.L. - b41913955": "NO",
+        "FERROVIAL CONSTRUCCIÓN, S.A. y LESA NATURAL S.L.U en UTE - 255774": "NO",
+        "FLORESUR, S.L. - B29353026": "NO",
+        "FORESTACIÓN Y REPOBLACIÓN, S.A. - A32016511": "NO",
+        "JOGOSA OBRAS Y SERVICIOS, S.L.U. - B10301307": "NO",
+        "LICUAS S.A. - A78066487": "NO",
+        "MANTENIMIENTO DE INFRAESTRUCTURAS S.A.": "NO",
+        "NOCEDA SERVICIOS INTEGRALES MEDIOAMBIENTALES S.L. - B21363619": "NO",
+        "ORTHEM - ACTÚA - 255776": "NO",
+        "PINUS,SA - A23060874": "NO",
+        "REPOBLACION Y BOSQUETES FORESTALES, S.A. - A49026917": "NO",
+        "RETAMAR OBRAS, SERVICIOS Y MEDIO AMBIENTE, S.L. - B30540652": "NO",
+        "RIEGOSUR S.A.": "NO",
+        "SERVITEC MEDIOAMBIENTE S.L - B09326000": "NO",
+        "URJUSA SOCIEDAD COOPERATIVA ANDALUZA - F04304572": "NO",
+        "UTE ANDILLA - 255711": "NO",
+        "UTE INGENIERÍA NATURAL, AGUA Y MEDIO AMBIENTE S.L. - GESTIÓN AMBIENTAL URBANA S.L": "NO",
+        "UTE TRAFISA VILOR": "NO",
+        "VIVERS CENTRE VERD - A96072087": "NO"
+    },
+    "EXPEDIENTE": "CNMY20/0301/61",
+    "FECHA ADJUDICACIÓN": "26-04-2021",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "30-07-2020",
+    "FECHA FORMALIZACIÓN": "19-06-2021",
+    "FORMA DE PAGO": "El abono se efectuará mediante certificaciones mensuales con cargo a los créditos\ndispuestos a tal efecto, y previa presentación de la correspondiente factura debidamente conformada\npor el órgano competente a través de las plataformas de facturación FACE. ",
+    "GARANTIA DEFINITIVA": "5% del importe de adjudicacion (IVA excluido), segun Articulo 107 de la LCSP. Supuestos especiales de prestación de garantía complementaria y porcentaje. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010 y el \nart. 106 de la LCSP. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración\nempleados para el cálculo de la responsabilidad patrimonial de la Administración, a través de los\ntrámites del procedimiento común. . . ",
+    "IMPORTE": "16.768.719,28  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "15.086.166,41  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "2.033.409,86 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "1.830.337,44 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No\nx  SI\nDADO  QUE  EL  CONTRATO  ESTARÁ  FINANCIADO  EN  PARTE  CON  FONDOS  COMUNITARIOS  Y EL\nREGLAMENTO DE LA UNIÓN EUROPEA 1303/2013, EN SUS ARTÍCULOS 74 Y 125, ESTABLECE QUE LOS\nESTADOS MIEMBROS APLICARÁN MEDIDAS ANTIFRAUDE EFICACES Y PROPORCIONADAS, POR LO\nQUE. \"Cualquier persona que tenga conocimientos de hechos que pudieran ser constitutivos de\nfraude o irregularidad en relación con proyectos u operaciones financiadas con cargo a fondos de la\nUnión  Europea  en  el  marco  de  la  presente  convocatoria  podrá  poner  dichos  hechos  en\nconocimiento del Servicio Nacional de Coordinación Antifraude de la Intervención general de la\nAdministración del Estado, por medios electrónicos a través del canal habilitado por dicho Servicio\nen la dirección web http://www.igae.pap.minhafp.gob.es \"\nLa consellera de Agricultura, Desarrollo Rural,\n Emergencia Climática y Transición Ecológica\n22\n\n\nFirmado por Mireia Mollá Herrera el\n07/07/2020 09:21:. ",
+    "LUGAR DE EJECUCIÓN": "Valencia/València",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/288e7e02-21e2-4e34-ba99-68ad51cf81fb/DOC20210111100309S+Acta+prop+adjudicacion.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/c3f60a60-b03e-4f8e-8145-732cad85c118/DOC_CAN_ADJ2021-815400.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/ac4efe0b-6253-481c-9d37-87c5f98cee94/DOC20200708140207ANEXO+I+def_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/30618d2d-6b09-4591-abe4-19dbdb83d58e/DOC_CN2020-131981.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/46b5778f-b2e0-4ec8-a1bc-bf9cca214921/DOC_FORM2021-971314.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=p63DKx4%2FKIGiEJrVRqloyA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/fe37b73e-f685-454f-a1c5-d833fceae33c/DOC_CD2020-131963.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No\nprocede. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000\n€\nLOTE Nº\n1\nVALOR ESTIMADO. 3.063.481,26\nGrupo K, Subg 6, Categoria 4\nLOTE Nº\n2\nVALOR ESTIMADO. 3.599.610,88\nGrupo K, Subg 6, Categoria 4\nLOTE Nº\n3\nVALOR ESTIMADO. 2.456.048,54\nGrupo K, Subg 6, Categoria 4\nLOTE Nº\n4\nVALOR ESTIMADO. 2.813.446,40\nGrupo K, Subg 6, Categoria 4\nLOTE Nº\n5\nVALOR ESTIMADO. 3.153.579,33\nGrupo K, Subg 6, Categoria 4\nACREDITACIÓN DE LA SOLVENCIA POR LOS EMPRESARIOS NO ESPAÑOLES DE ESTADOS MIEMBROS\nDE  LA  UNIÓN  EUROPEA  O  DE  ESTADOS  SIGNATARIOS  DEL  ACUERDO  SOBRE  EL  ESPACIO\nECONÓMICO EUROPEO. En los casos en que a la licitación se presenten empresarios extranjeros de un Estado miembro de la\nUnión  Europea  o  signatario  del  Espacio  Económico  Europeo,  la  acreditación  de  su  capacidad,\nsolvencia y ausencia de prohibiciones se podrá realizar bien mediante consulta en la correspondiente\nlista  oficial  de  operadores  económicos  autorizados  de  un  Estado  miembro,  bien  mediante  la\naportación de la documentación acreditativa de los citados extremos, que deberá presentar, en este\núltimo caso, en el plazo concedido para la presentación de la garantía definitiva. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No\n Si. Indicar requisitos, límites, modalidades y características. ",
+    "NIF": "A46609541",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "RETAMAR OBRAS, SERVICIOS Y MEDIO AMBIENTE, S.L.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 23,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 23,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 32,
+    "NÚMERO DE LICITADORES": 55,
+    "OBJETO": "Restauración ambiental de los montes gestionados por la Generalitat afectados por el incendio forestal de Andilla en 2012.",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No \n x SI. Los licitadores deberan indicar en la oferta la parte del contrato que tengan previstos subcontratar,\nsenalando su importe, y el nombre o el perfil empresarial, definido por referencia a las condiciones\nde solvencia profesional o tecnica, de los subcontratistas a los que se vaya a encomendar su\nrealizacion. ",
+    "OFERTA ECONÓMICA": {
+        "GRUPO 01": {
+            "ORDEM ACTUACIONES": {
+                "RETAMAR OBRAS, SERVICIOS Y MEDIO AMBIENTE, S.L.": 2017041.39
+            }
+        },
+        "GRUPO 02": {
+            "ORDEM ACTUACIONES": {
+                "ORTHEM- ACTÍA": 2404789.23
+            }
+        },
+        "GRUPO 03": {
+            "ORDEM ACTUACIONES": {
+                "UTE TRAFISA-VILOR": 1536363.82
+            }
+        },
+        "GRUPO 04": {
+            "ORDEM ACTUACIONES": {
+                "ACCIONA MEDIO AMBIENTE SAU": 1873041.26
+            }
+        },
+        "GRUPO 05": {
+            "ORDEM ACTUACIONES": {
+                "JOGOSA, OBRAS Y SERVICIOS, S.LU": 2033409.86
+            }
+        }
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "24 Mes(es)",
+    "PLAZO DE GARANTIA": null,
+    "PLAZO DE PRESENTACIÓN": "4/09/2020",
+    "PLAZO DE RECEPCION": "dentro del mes siguiente a la entrega o realización del objeto del contrato. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y\ndemás documentación complementaria de la licitación a través de medios no electrónicos:\nx No\n Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta \n «in situ» de la documentación\nx No\n Si  (en su caso, indicar días en los que se amplía el plazo):\nMEDIO DE NOTIFICACIÓN ELECTRÓNICA. Dirección electrónica habilitada\nx  Comparecencia en la sede electrónica. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 12,
+    "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 36.3: \n Cuando el contratista, por causas imputables al mismo, hubiere cumplido defectuosamente o\nincumplido la ejecución de las prestaciones definidas en el contrato, la cuantia de cada penalidad\nserá del 5% del precio del contrato IVA excluido, sin perjuicio de la indemnización por daños y\nperjuicios. 2. Penalidades por incumplimiento parcial de la ejecución de la cláusula 36.1:\nSi, de acuerdo con los pliegos se establecerá una penalización del 2% del precio del contrato IVA\nexcluido, de la parte no ejecutada. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas\nen la cláusula 36.4:\nCuando el contratista, por causas imputables al mismo, hubiere incurrido en demora respecto al\ncumplimiento del plazo total, la Administración podrá optar, atendidas las circunstancias del caso, por\nla resolución del contrato con audiencia del contratista, o por la imposición de las penalidades diarias\nen la proporción de 0.60 euros por cada 1.000 euros del precio del contrato, IVA excluido. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las\nprevistas en la cláusula 36.4 en relación con la cláusula 36.6: No difiere. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de\nla aptitud del subcontratista o de las condiciones de emergencia o urgencia:\n No\nx SI, en su caso:\n Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. x Resolución del contrato, si se ha declarado obligación esencial\n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos\nsubcontratistas  o  suministradores  que  participen  en  el  contrato  cuando  se  perfeccione  su\nparticipación, de las condiciones de subcontratación o suministro de cada uno de los que guarden una\nrelación  directa  con  el  plazo  de  pago  y  del  justificante  de  cumplimiento  de  los  pagos  a  los\nsubcontrataristas una vez terminada la prestación:\nx No\n Si, en su caso indicar cuales. ",
+    "REVISION DE PRECIOS": "x No. Motivación: No procede según el Art. 103.2 d ela LCSP, en lo que refiere a la Ley \n2/2015, de 30 de marzo, de desindexación de la economia española. Si. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "El tipo de determinación del precio es a precios unitarios.",
+    "SUBASTA ELECTRONICA": "x No\n Si. En este caso, deberá indicarse la información necesaria para su celebración, que será \ncomo mínimo la indicada en el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Grado de conocimiento de la obra",
+            "Porcentaje": 24,
+            "Puntuación máxima": 15
+        },
+        {
+            "Nombre": "Consideraciones medioambientales",
+            "Porcentaje": 24,
+            "Puntuación máxima": 9
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": null,
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Sección Forestal de la\nDirección Terrotorial de Agricultura, Desarrollo Rural, Emergencia Climática y Transición Ecológica de\nValencia. ",
+    "VALOR ESTIMADO DEL CONTRATO": "15.086.166,41  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "ALVAC, S.A.": {
+            "Consideraciones medioambientales (CRITERIO 2 - 2)": 73.68,
+            "Grado de conocimiento de la obra (CRITERIO 2 - 1)": null,
+            "Puntuación Precio (PCP)": 1846972.85
+        },
+        "ORTHEM- ACTUA": {
+            "Consideraciones medioambientales (CRITERIO 2 - 2)": 73.83,
+            "Grado de conocimiento de la obra (CRITERIO 2 - 1)": null,
+            "Puntuación Precio (PCP)": 1843152.58
+        },
+        "RETAMAR OBRAS, SERVICIOS Y MEDIO AMBIENTE, S.L.": {
+            "Consideraciones medioambientales (CRITERIO 2 - 2)": 74.92,
+            "Grado de conocimiento de la obra (CRITERIO 2 - 1)": null,
+            "Puntuación Precio (PCP)": 1816338.04
+        },
+        "SERVITEC MEDIOAMBIENTE S.L": {
+            "Consideraciones medioambientales (CRITERIO 2 - 2)": 63.88,
+            "Grado de conocimiento de la obra (CRITERIO 2 - 1)": null,
+            "Puntuación Precio (PCP)": 1898513.63
+        },
+        "UTE TRAFISA-VILOR": {
+            "Consideraciones medioambientales (CRITERIO 2 - 2)": 76.0,
+            "Grado de conocimiento de la obra (CRITERIO 2 - 1)": null,
+            "Puntuación Precio (PCP)": 1390000
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

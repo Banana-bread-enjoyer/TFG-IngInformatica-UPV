@@ -1,0 +1,148 @@
+{
+    "ABONOS A CUENTA": "No \nx SI \n \nSE MODIFICA EL RÉGIMEN GENERAL DE LAS CERTIFICACIONES. x No \n Si, nuevo régimen. ",
+    "CLASIFICACIÓN": "Grupo K, Subgrupo 7, Categoría 2",
+    "CLASIFICACIÓN CPV": "45240000 -  Trabajos de construcción para proyectos hidráulicos.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "Si \n \nLa empresa contratista está obligada, en la ejecución del contrato, a mantener la plantilla de trabajadores \ny trabajadoras adscritos a la ejecución del contrato sin que proceda suspensión o extinción de los contratos \nde trabajo de la plantilla salvo las suspensiones o extinciones consecuencia de la voluntad de la persona \ntrabajadora, de despidos disciplinarios, disconformidad de la administración o modificación del contrato \npor razones de estabilidad presupuestaria y salvo que por modificación del contrato por razones de \nestabilidad presupuestaria y salvo que por circunstancias sobrevenidas la empresa se encuentre en algunos \nde los supuestos previstos en el artículo 51 del Estatuto de los Trabajadores. Para la acreditación del cumplimiento de esta medida, la empresa contratista deberá presentar, al inicio y \nal final de la ejecución del contrato, ante la Dirección General de Cultura y Patrimonio, copia compulsada \nde los contratos de trabajo de las personas trabajadoras adscritas a la ejecución del contrato. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Consideraciones de tipo social - Apartado X del Anexo I del PCAP",
+    "CONSIDERACION COMO INFRACCION GRAVE": "No \nx SI, penalidades en su caso de la cláusula 35.3 \nSe aplicará una penalización económica, en una cuantía del 10 por 100 del precio del contrato, IVA \nexcluido; sin perjuicio de la posible resolución del contrato con incautación de la garantía \nconstituida. . ",
+    "CONTRATACION DEL CONTROL": "x No \n Si. ",
+    "CRITERIOS DE ADJUDICACION": "Precio, o coste, cálculo del coste del ciclo de vida \n \n \nx Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Conocimiento de las condiciones específicas del inmueble y del espacio a intervenir y su posible afección en la ejecución de las obras",
+            "Porcentaje": "0-25",
+            "Puntuación máxima": 25,
+            "Siglas": "PTV"
+        },
+        {
+            "Nombre": "Propuesta de implantación y organización en la ejecución de las obras",
+            "Porcentaje": "0-25",
+            "Puntuación máxima": 5,
+            "Siglas": "PTV"
+        },
+        {
+            "Nombre": "Calendario y programa de trabajo",
+            "Porcentaje": "0-25",
+            "Puntuación máxima": 5,
+            "Siglas": "PTV"
+        },
+        {
+            "Nombre": "Oferta económica",
+            "Porcentaje": "0-75",
+            "Puntuación máxima": 75,
+            "Siglas": "POE"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \n \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \nSe entenderán, como ofertas incursas en presunción de anormalidad por su bajo importe, aquéllas cuyo \nporcentaje de baja exceda en 10 unidades, por lo menos, a la media aritmética de los porcentajes de \nbaja de todas las proposiciones presentadas. \n \n",
+    "EL ADJUDICATARIO ES UNA PYME": "Sí",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {},
+    "EXPEDIENTE": "CMAYOR/2021/06Y03/99",
+    "FECHA ADJUDICACIÓN": "27-01-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "24-09-2021",
+    "FECHA FORMALIZACIÓN": "27-01-2022",
+    "FORMA DE PAGO": "Conforme lo previsto en el artículo 240.1 LCSP. El pago del precio se efectuará mensualmente, previa presentación de la factura correspondiente en el \nlugar de entrega de la factura electrónica: Punto de Entrada de Facturas Electrónicas de la \nAdministración General del Estado (https://face.gob.es/es). De conformidad con el artículo 240 de la LCSP, el importe de las obras ejecutadas conforme a proyecto \nse acreditará por medio de certificaciones expedidas por el director de las obras, redactadas \nmensualmente con relación valorada de la obra ejecutada durante dicho mes, según resulte de las \nmediciones practicadas, y serán tramitadas por la Administración en los primeros diez siguientes al mes \nque corresponda. Los abonos de las certificaciones tienen naturaleza de pagos a cuenta sujetos a las rectificaciones y \nvariaciones que se produzcan en la medición final y sin suponer en forma alguna, aprobación y recepción \nde las obras que comprenden. ",
+    "GARANTIA DEFINITIVA": "5% del importe de adjudicación  \n             No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 euros. Supuestos especiales de prestación de garantía complementaria y porcentaje (máximo hasta \n                un 5 por 100): \n \n             Exención de prestación de garantía definitiva: \nx No \n Si (justificación, en su caso. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al artículo 159.4 b) de la LCSP. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración \nempleados para el cálculo de la responsabilidad patrimonial de la Administración, a través de los trámites \ndel procedimiento administrativo común. . ",
+    "IMPORTE": "305.838,2  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "252.758,84  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "305.197,27 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "252.229,15 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No \nx SI \n \n \n \n \nLA PERSONA/EMPRESA ADJUDICATARIA \nEL CONSELLER DE EDUCACIÓN, CULTURA Y DEPORTE \n(P.D.R.C. 26/10/2016 – DOGV 790 \nLa subsecretaria \n \n \n\n\nFirmat per Eva Coscolla Grau el 23/09/2021\n17:47:49\nCàrrec: Subsecretaria de la Conselleria de\nEducación, Cultura y Deporte. ",
+    "LUGAR DE EJECUCIÓN": "ES521 Alicante/Alacant Red hidráulica y manantial del Conjunto industrial del Molinar de Alcoi",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/675873c2-18bf-4173-9a53-99349b6e7559/DOC20211028125354Acta_Mesa_sobre_2__21-99_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/e63e231b-8682-48a6-a292-08632b8c6481/DOC20211021102617Acta_Sobre_1__21-99_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/1f7e5649-755b-4b22-b554-451b525c7b4d/DOC20211021145248Informe+juicio+valor_fdo+445e.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/7af09b32-0feb-4924-aa74-9a9911b583f1/DOC_CAN_ADJ2022-396976.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/ac61401d-d607-42d8-b7ff-6aec556ee69e/DOC20210924134904ANEXO+I_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/862e8f6d-63ff-42e3-999a-51fdf83ff4b7/DOC_CN2021-284280.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/8599378c-8ac6-48e8-a43d-1fbcf30227af/DOC_FORM2022-397181.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=Mr%2Fum9LNnn5vYnTkQN0%2FZA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/e99fa34c-ca11-4cc8-becb-15a7b195e758/DOC_CD2021-284288.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "1.b) Declaración indicando el personal técnico u organismos técnicos, estén o no integrados en la \nempresa, de los que esta disponga para la ejecución de las obras acompañada de los documentos \nacreditativos correspondientes cuando le sea requerido por los servicios dependientes del órgano de \ncontratación  \nEn caso de UTE los criterios de acumulación de la solvencia serán los siguientes: Cuando dos o más \nempresas acudan a la licitación constituyendo una UTE la solvencia se acreditará mediante la \nacumulación de la solvencia económica y financiera y la técnica y profesional de dichas empresas. Debiendo tener las empresas una participación mínima de 20%. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "x No \n   Si: REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS \n \nUNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA VALORACIÓN DE \nOFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN ESPECIALMENTE SUMARIA. x No \n                     \n    Si. ",
+    "NIF": "B53016705",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "CANTO OBRAS, S.L.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 0,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 1,
+    "NÚMERO DE LICITADORES": 1,
+    "OBJETO": "Obra de consolidación de las fábricas de primera agua, red hidráulica y manantial del Molinar de Alcoy",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "No \nx SI \n \nLAS CONDICIONES DE LA OFERTA PARA LA SUBCONTRATACIÓN, LA ACREDITACIÓN DE LA APTITUD DEL \nSUBCONTRATISTA Y LA ACREDITACIÓN DE LAS CONDICIONES DE EMERGENCIA O URGENCIA TIENE \nCARÁCTER DE OBLIGACIONES ESENCIALES. x No \n Si. ",
+    "OFERTA ECONÓMICA": {
+        "CANTÓ OBRAS, S.L.": {
+            "Oferta Económica": 252229.15
+        }
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "315 Día(s)",
+    "PLAZO DE GARANTIA": "mínimo 1 año. ",
+    "PLAZO DE PRESENTACIÓN": "4/10/2021",
+    "PLAZO DE RECEPCION": "Conforme a la cláusula 42 del PCAP. Según Real Decreto 1098/2001, de 12 de octubre, por el que se aprueba el Reglamento general de la Ley \nde Contratos de las Administraciones Públicas en su artículo 163, dispone que “El contratista, con una \nantelación de cuarenta y cinco días hábiles, comunicará por escrito a la dirección de la obra la fecha prevista \npara la terminación o ejecución del contrato, a efectos de que se pueda realizar su recepción.” Igualmente, \nel artículo 164, establece que “El representante del órgano de contratación fijará la fecha de la recepción \ny, a dicho objeto, citará por escrito a la dirección de la obra, al contratista y, en su caso, al representante \nde la Intervención correspondiente”. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y \ndemás documentación complementaria de la licitación a través de medios no electrónicos: \n \n x No \n 5 \n \n \n Si \n \nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o \nconsulta «in situ» de la documentación \n \n x No \n \n Si (en su caso, indicar días en los que se amplía el plazo): \n \n \nNIVEL DE SEGURIDAD EXIGIDO PARA LOS MEDIOS DE COMUNICACIÓN ELECTRÓNICOS UTILIZADOS EN \nLAS DIFERENTES FASES DE CADA PROCEDIMIENTO DE CONTRATACIÓN. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 9,
+    "REGIMEN DE PENALIDADES": null,
+    "REVISION DE PRECIOS": "x No. Motivación: No procede por el plazo de ejecución de la obra. Art. 103.2 de la LCSP. Si. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "Precio unitario",
+    "SUBASTA ELECTRONICA": "x No \n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Conocimiento de las condiciones específicas del inmueble y del espacio a intervenir y su posible afección en la ejecución de las obras",
+            "Porcentaje": 33.3,
+            "Puntuación máxima": 25
+        },
+        {
+            "Nombre": "Propuesta de implantación y organización en la ejecución de las obras",
+            "Porcentaje": 6.7,
+            "Puntuación máxima": 5
+        },
+        {
+            "Nombre": "Calendario y programa de trabajo",
+            "Porcentaje": 6.7,
+            "Puntuación máxima": 5
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x No \n Si. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Servicio de Promoción Cultural \ny Apoyo Técnico. ",
+    "VALOR ESTIMADO DEL CONTRATO": "252.758,84  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "CANTÓ OBRAS, S.L.": {
+            "Calendario y programa de trabajo": 5,
+            "Conocimiento de las condiciones específicas del inmueble y del espacio a intervenir y su posible afección": 10,
+            "Oferta económica": 75,
+            "Propuesta de implantación y organización en la ejecución de las obras": 3
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": {
+        "CANTO OBRAS, S.L.U": {
+            "Calendario y programa de trabajo": 5,
+            "Conocimiento de las condiciones específicas del inmueble y del espacio a intervenir y su posible afección en la ejecución de las obras": 10,
+            "Propuesta de implantación y organización en la ejecución de las obras": 3
+        }
+    },
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

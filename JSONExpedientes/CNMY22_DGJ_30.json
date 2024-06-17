@@ -1,0 +1,235 @@
+{
+    "ABONOS A CUENTA": "No procede. APARTADO x. ",
+    "CLASIFICACIÓN": "Categoría 6, Grupo C, Subgrupo --",
+    "CLASIFICACIÓN CPV": "45000000 -  Trabajos de construcción.45216112 -  Trabajos de construcción de tribunales.45300000 -  Trabajos de instalación en edificios.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "Condiciones especiales de ejecución referidas a consideraciones de tipo social: de fomento del empleo con \npersonas de colectivos desfavorecidos. A tales efectos la empresa adjudicataria estará obligada a la incorporación en la obra adjudicada de al menos \nun 10 % de personas desempleadas mayores de 50 años. El porcentaje se computará en relación con el \nnúmero de trabajadores necesarios para la realización de las obras en su totalidad. Dicha incorporación \ndeberá acreditarse al inicio de las obras, mediante la aportación de los documentos pertinentes, que sean \nrequeridos. En todo caso, las medidas de fomento del empleo con personas de colectivos desfavorecidos no podrán \nllevarse a cabo a costa de los trabajadores con los que ya cuente la empresa adjudicataria. En los casos en \nque durante la ejecución del contrato se produzcan bajas y/o sustituciones de personal que ocupe plaza \nreservada a dar cumplimiento a las condiciones, se deberán cubrir con personas que reúnan los mismos \nrequisitos. La empresa adjudicataria deberá desarrollar todos los trabajos objeto del presente contrato aplicando los \nprocedimientos que dispone el certificado ISO 14001, EMAS o certificado equivalente, relativo a la \nimplantación de un sistema de gestión ambiental. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Promover el empleo de personas con dificultades particulares de inserción en el mercado laboral - La empresa adjudicataria estará obligada a la incorporación en la obra adjudicada de al menos\nun 10 % de personas desempleadas mayores de 50 años. El porcentaje se computará en relación con el\nnúmero de trabajadores necesarios para la realización de las obras en su totalidad Eliminar desigualdades entre el hombre y la mujer - El adjudicatario vendrá obligado a incorporar la perspectiva de género en el Plan de Prevención de Riesgos\nLaborales. Consideraciones de tipo medioambiental - La empresa adjudicataria deberá acreditar al inicio de la obra que ha calculado las emisiones de CO2 de las\nactividades relacionadas con el contrato objeto de licitación, mediante certificación anual emitido por entidad\nacreditada.",
+    "CONSIDERACION COMO INFRACCION GRAVE": "",
+    "CONTRATACION DEL CONTROL": "",
+    "CRITERIOS DE ADJUDICACION": "☐ Único criterio: precio \n☒ Varios criterios. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Puntuación PRECIO",
+            "Porcentaje": 3,
+            "Puntuación máxima": 45,
+            "Siglas": "PCP"
+        },
+        {
+            "Nombre": "EXPERIENCIA DEL JEFE DE OBRA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 3,
+            "Siglas": "LL.1.2"
+        },
+        {
+            "Nombre": "EXPERIENCIA DEL ENCARGADO DE OBRA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 3,
+            "Siglas": "LL.1.3"
+        },
+        {
+            "Nombre": "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO",
+            "Porcentaje": 3,
+            "Puntuación máxima": 6,
+            "Siglas": "LL.1.4"
+        },
+        {
+            "Nombre": "COMPROMISO DE DESARROLLO DE PLANOS AS BUILT MEDIANTE TECNOLOGIA BIM",
+            "Porcentaje": 3,
+            "Puntuación máxima": 4,
+            "Siglas": "LL.1.5"
+        },
+        {
+            "Nombre": "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN",
+            "Porcentaje": 3,
+            "Puntuación máxima": 3,
+            "Siglas": "LL.1.6"
+        },
+        {
+            "Nombre": "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA",
+            "Porcentaje": 3,
+            "Puntuación máxima": 1,
+            "Siglas": "LL.1.7"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \n \nSe consideran, en principio, anormalmente bajas las ofertas que se encuentren en los siguientes supuestos: \n \n1.‐ Cuando concurriendo un solo licitador, se dé la siguiente condición: \n0,85 x Pmax‐econ ≥ (Pmax‐econ x (Oi/PBL)) + 0,1 x Pi‐rcea  \nSiendo: \n• \nPmax‐econ: puntuación máxima del criterio precio.  \n• \nOi: importe de la oferta que se valora en el criterio precio.  \n• \nPBL: Presupuesto Base de Licitación, IVA excluido. \n• \nPi-rcea: Suma de las puntuaciones obtenidas por el licitador en los criterios evaluables auto‐\nmáticamente, sin incluir la puntuación obtenida por el Precio. \n \n2.‐ Cuando concurriendo dos licitadores, se dé la condición siguiente: \n                                     0,9 x ((Pmax‐econ x (Oimax/PBL)) + (0,1 x Pimax‐ rcea)) ≥ (Pmax‐econ x (Oimen/PBL)) + (0,1 x Pimen‐rcea )  \nSiendo: \n• \nPmax-econ: puntuación máxima del criterio precio.  \n• \nOimen: importe de la oferta económica de menor precio. \nCSV:BQEIT16L:BSYS2B6G:22VSU11J\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=BQEIT16L:BSYS2B6G:22VSU11J\n \n • \nPimen-rcea: Suma de las puntuaciones obtenidas por el licitador con la oferta económica de me‐\nnor precio en los criterios evaluables automáticamente, sin incluir la puntuación obtenida por el cri‐\nterio precio. \n• \nOimax: importe de la oferta económica de mayor precio. \n• \nPimax-rcea: Suma de las puntuaciones obtenidas por el licitador con la oferta económica de ma‐\nyor precio en los criterios evaluables automáticamente, sin incluir la puntuación obtenida por el cri‐\nterio precio. \n• \nPBL: Presupuesto Base de Licitación, IVA excluido. \n \n3.‐ Cuando concurriendo tres o más licitadores, se dé la siguiente condición: \n         (Pi‐econ ‐ (0,1 x Pimen‐rcea ) ≥ 1,1 x Pmed‐lici \nSiendo: \n• \nPmed-lici: Media aritmética de la puntuación obtenida por los licitadores en el criterio precio del apar‐\ntado LL del Anexo I. \n• \nPi‐econ: Puntuación del licitador obtenida según la fórmula establecida en el criterio precio del apar‐\ntado LL del Anexo I. \n• \nPimen-rcea: Suma de las puntuaciones obtenidas por el licitador en los criterios evaluables automática‐\nmente del apartado LL del Anexo I, sin incluir la puntuación obtenida por el criterio precio. \n \nLas puntuaciones, las medias aritméticas y cualquier otro valor número procedente de cálculo se redondeará al \nsegundo decimal. \n \nLlegado el caso de identificación de una oferta en presunción de valor anormal o desproporcionado, se \nprocederá conforme al artículo 149 de la LCSP respecto a la justificación y razonamiento de las ofertas. \n \n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "ECSA OBRA PÚBLICA Y CIVIL S.L. - TECNOLOGÍA DE MONTAJES Y MANTENIMIENTOS S.A.": "NO",
+        "OBRAS HUARTE LAIN S.A.": "SI"
+    },
+    "EXPEDIENTE": "CNMY22/DGJ/30",
+    "FECHA ADJUDICACIÓN": "08-11-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "30-04-2022",
+    "FECHA FORMALIZACIÓN": "14-12-2022",
+    "FORMA DE PAGO": "Los pagos se efectuarán previa presentación de la correspondiente factura reglamentaria. El abono durante \nla ejecución de las obras será mensual, en función de las certificaciones expedidas por la Dirección Facultativa \nde las obras, redactadas mensualmente con relación valorada de la obra ejecutada conforme al proyecto \nsegún resulte de las mediciones realizadas y los precios del contrato y serán tramitadas en los primeros diez \ndías siguientes al mes que correspondan. ",
+    "GARANTIA DEFINITIVA": "",
+    "GARANTIA PROVISIONAL": "No se exige de conformidad con el art. ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "En caso de desistimiento o renuncia se compensará de conformidad con la normativa de responsabilidad \npatrimonial de las Administraciones públicas, y con lo establecido en el artículo 152 LCSP. . . ",
+    "IMPORTE": "19.855.848,44  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "16.409.792,1  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "19.206.562,2 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "15.873.191,9 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "",
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València  ALZIRA",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/20376107-1000-438c-ba1c-722df2197f03/DOC20221003084215Acta+CNMY_22_30_Sesion+4_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/69ed2664-da3b-4b57-95d7-14be838f9f59/DOC20220927085028Acta+CNMY_22_30_Sesion+4_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/eb2bbb87-f4b6-4308-b987-184d388cca24/DOC20220802123821Acta+Sesion+3+CNMY_22_30_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/4ccdb54b-ab67-4765-96af-967bf26d230f/DOC20220608141924Acta+CNMY_22_30_Sesion2+y+apertura+sobre2_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/67f3521f-3869-44bc-a9fd-c1bccd58d764/DOC20220607131347ACTA+1-22DGJ30_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/5a28187d-e409-4fd4-84c0-4fe787c4a00f/DOC20220802124917informe+valoracion+ALZIRA+firmado.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/cbe0f6d1-5cd3-44d3-9fe5-7547d2b61585/DOC_CAN_ADJ2022-987853.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/85c34224-270b-4b3b-a936-3ea7233b520e/DOC20220427122455ANEXO+I+OBRAS+ABIERTO_Alzira_Definitivo_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/144652d2-9e3d-4fa0-9479-0c92eaf1e1e0/DOC_CN2022-695575.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/a90a4ac3-a863-4178-b9e3-e29c04500789/DOC_FORM2022-711691.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=q%2Bl7cEA2RrMBPRBxZ4nJ%2Fg%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/95a3385d-10b7-4410-b079-c228d0ce3997/DOC_CD2022-705064.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. CLASIFICACIÓN PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000 € \n \nGrupo. C \n \nSUBGrupo. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "",
+    "NIF": null,
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "VIAS Y CONSTRUCCIONES, S.A. - CHM OBRAS E INFRAESTRUCTURAS, S.A.",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 2,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 2,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 7,
+    "NÚMERO DE LICITADORES": 8,
+    "OBJETO": "Construcción Nueva Sede Judicial en Alzira (Valencia)",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "",
+    "OFERTA ECONÓMICA": {
+        "ACCIONA CONSTRUCCION_CRIMSA": "16.232.566,34",
+        "FCC_EDIFESA": "15.888.000,00",
+        "GRUPO BERTOLIN_BECSA": "16.160.363,27",
+        "TORRESCAMARA_TECOPSA": "16.245.694,18",
+        "VIAS Y CONSTRUCCIONES_CHM": "15.873.191,90"
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "20 Mes(es)",
+    "PLAZO DE GARANTIA": "Los criterios evaluables automáticamente son los siguientes: \n \nLL.1.1.- PRECIO (hasta 45,00 puntos) \nSe otorgará la mejor puntuación al licitador que presente el menor precio y, proporcionalmente, al resto en \nforma decreciente por aplicación de la siguiente fórmula: \nPi = Pmax x [1-(Oi-Omin)2/(PBL-Omin)2]1/2 \n \nSiendo: \n• \nPi: puntuación de la oferta que se valora \n• \nPmax: puntuación máxima (45 puntos) \n• \nOmin: importe de la oferta más baja de las presentadas. • \nOi: importe de la oferta que se valora \n• \nPBL. Presupuesto Base de Licitación, IVA excluido; en este caso, 16.409.792,10 € \n \nLa puntuación económica se redondeará al segundo decimal. LL.1.2.- EXPERIENCIA DEL/DE LA JEFE/JEFA DE OBRA (hasta 3,00 puntos) \n \nDado que se exige como adscripción de medios que el/la Jefe/Jefa de Obra tenga una experiencia mínima de \n5 (cinco) años como jefe/jefa de obra de obras de nueva construcción, de similares características en edificios  \nde equipamiento público, se valorará la mayor experiencia como jefe/jefa de obra de este tipo de obras cuya \nduración mínima sea de 12 (doce) meses y su Presupuesto Base Licitación (P.B.L.), IVA excluido, igual o \nsuperior al 20% del P.B.L de este contrato, IVA excluido. Las obras que acrediten la experiencia mínima, con \nindependencia de su duración, en ningún caso podrán considerarse para valorar la experiencia puntuable. El licitador concretará nominativamente, para el/la Jefe/Jefa de Obra, la persona propuesta y una relación de \nlos trabajos ejecutados por estas personas, con una breve descripción de los mismos, indicando el plazo de \nduración y el P.B.L. (IVA excluido) de cada uno de ellos. Dicha relación de trabajos deberá contener, como \nmínimo, las obras que justifiquen la experiencia mínima exigida y las obras propuestas como puntuables. Para justificar los citados trabajos, tanto los que acreditan la experiencia mínima como los puntuables, se \naportaran certificados nominativos expedidos por la administración pública o, subsidiariamente, certificado \nexpedido por la administración pública acompañado de certificado nominativo de la empresa certificada por \nla administración pública, al tratarse de intervenciones promovidas por entidades del sector público. En cualquier caso, en los certificados expedidos o visados por el órgano competente deberá constar \nexpresamente: el edificio y la actuación de que se trate, el Presupuesto de Ejecución de Contrata o \nPresupuesto Base de Licitación (IVA excluido), el plazo de ejecución, y las funciones desempeñadas por la \npersona que aporta el certificado. La puntuación se otorgará de la siguiente manera: \n \n \nEl/La Jefe/Jefa de obra deberá tener una experiencia mínima de 5 (cinco) años de experiencia en ejecución \nde obras de nueva construcción, de características similares en edificios públicos de equipamiento público, \njustificadas en todo caso en este apartado. 15 \n \nPor cada actuación de jefe/jefa de obra en ejecución de obras de nueva construcción de edificios, de \ncaracterísticas similares en edificios de equipamiento público, no consideradas para la justificación de la \nexperiencia mínima, y que cumpla con las condiciones de plazo y presupuesto: 1 punto \n \n \nPuntos máximos para otorgar por este criterio: 3 puntos \n \nLL.1.3.- EXPERIENCIA DEL/DE LA ENCARGADO/ENCARGADA DE OBRA (hasta 3,00 puntos) \n \nDado que se exige como adscripción de medios que el/la Encargado/Encargada de Obra tenga una experiencia \nmínima de 5 (cinco) años  como encargado/a de obra de nueva construcción, de similares características en \nedificios de equipamiento público, se valorará la mayor experiencia como encargado/a de obra de este tipo \nde obras, cuya duración mínima sea de 12 (doce) meses y su Presupuesto Base de Licitación (P.B.L.), IVA \nexcluido, igual o superior al 20 % del P.B.L de este contrato, IVA excluido. Las obras que acrediten la \nexperiencia mínima, con independencia de su duración, en ningún caso podrán considerarse para valorar la \nexperiencia puntuable. El licitador concretará nominativamente, para el/la Encargado/Encargada, la persona propuesta y una \nrelación de los trabajos ejecutados por estas personas, con una breve descripción de los mismos, indicando \nel plazo de duración y el P.B.L. (IVA excluido) de cada uno de ellos. Dicha relación de trabajos deberá contener, \ncomo mínimo, las obras que justifiquen la experiencia mínima exigida y las obras propuestas como puntuables. Para justificar los citados trabajos, tanto los que acreditan la experiencia mínima como los puntuables, se \naportaran certificados nominativos expedidos por la administración pública o, subsidiariamente, certificado \nexpedido por la administración pública acompañado de certificado nominativo de la empresa certificada por \nla administración pública, cuando el promotor de la intervención haya sido una entidad del sector público. Cuando el promotor haya sido un sujeto privado se aporta certificado expedido por este en los mismo \ncondiciones que los certificados expedidos por la administración pública. Los certificados emitidos por la \ndirección facultativa, en actuaciones privadas, sólo serán válidos si también están certificados por el promotor \nprivado. En cualquier caso, en los certificados expedidos o visados por el órgano competente deberá constar \nexpresamente: el edificio y la actuación de que se trate, el Presupuesto de Ejecución de Contrata o \nPresupuesto Base de Licitación (IVA excluido), el plazo de ejecución, y las funciones desempeñadas por la \npersona que aporta el certificado. La puntuación se otorgará de la siguiente manera: \n \nEl/la Encargado/Encargada de obra deberá tener una experiencia mínima de 5 (cinco) años en ejecución de \nobras de nueva construcción, de similares características en edificios de equipamiento público, justificadas \nen todo caso en este apartado. Por cada actuación de encargado/encargada de obra en ejecución de obras de nueva construcción de edificios \nde equipamiento público, no consideradas para la justificación de la experiencia mínima, y que cumpla con \nlas condiciones de plazo y presupuesto: 1 punto \n \n \nPuntos máximos para otorgar por este criterio: 3 puntos \n LL.1.4. CRITERIO DE COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (hasta 6,00 puntos). El equipo mínimo establecido en el Pliego es el de un Jefe/a de Obras, un Encargado/a de Obras y un ingeniero/a \nde instalaciones. Se otorgará la siguiente puntuación por cada uno de estos profesionales que el licitador se \ncomprometa a adscribir a la ejecución de esta obra: \n \na. Un/una especialista en materia ambiental. Ingeniero/a Agrónomo/a, Forestal, o licenciado/a en ciencias \nambientales, biólogo/a, o bien titulado/a universitario/a oficial de grado y máster en su caso que, de \nacuerdo con los planes de estudio vigentes, habiliten para ejercer las actividades de dicha profesión, \ncon dedicación igual o superior al 25%, con experiencia de 3 (tres) años en obras de construcción o \nrehabilitación de edificios. Las actuaciones que sirvan para acreditar la experiencia tendrán en su \nconjunto un Presupuestos Base de Licitación (P.B.L), IVA excluido, igual o superior al 20 % del P.B.L de \neste contrato. IVA excluido. Su función será la de gestión y control de los residuos en las obras en el bien inmueble. Por la incorporación de este profesional, se asignará 2 puntos. b. Responsable de oficina técnica, Arquitecto/a, Arquitecto/a Técnico/a, Ingeniero/a o Ingeniero/a \nTécnico/a, o bien titulado/a universitario/a oficial de grado y máster en su caso que, de acuerdo con \nlos planes de estudio vigentes, habiliten para ejercer las actividades de dicha profesión, con dedica-\nción igual o superior al 75%, con experiencia de 3 (tres) años, en obras de construcción de edificios. Las actuaciones que sirvan para acreditar la experiencia tendrán en su conjunto un Presupuestos Base \nde Licitación (P.B.L), IVA excluido, igual o superior al 20 % del P.B.L de este contrato. IVA excluido. Por la incorporación de este profesional, se asignará 4 puntos. La justificación de las titulaciones de los especialistas señalados en los apartados a, b se realizará mediante \ncopias compulsadas; mientras que para la justificación de los trabajos se aportarán certificados nominativos ex \npedidos por la administración pública o, subsidiariamente, certificado expedido por la administración pública \nacompañado de certificado nominativo de la empresa certificada por la administración pública, cuando el \npromotor de la intervención haya sido una entidad del sector público. Cuando el promotor haya sido un sujeto \nprivado se aporta certificado expedido por este en las mismas condiciones que los certificados expedidos por la \nadministración pública. Los certificados emitidos por la dirección facultativa, en actuaciones privadas, sólo \nserán válidos si también están certificados por el promotor privado. En cualquier caso, en los certificados expedidos o visados por el órgano competente deberá constar \nexpresamente: el edificio y la actuación de que se trate, el Presupuesto de Ejecución de Contrata o Presupuesto \nBase de Licitación (IVA excluido), el plazo de ejecución, y las funciones desempeñadas por la persona que \naporta el certificado. ",
+    "PLAZO DE PRESENTACIÓN": "0/05/2022",
+    "PLAZO DE RECEPCION": "un mes desde la comunicación fehaciente de la finalización de las obras, con el informe \nfavorable de la Dirección Facultativa de conformidad con lo establecido en el art. 243 de la LCSP. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "El plazo total de presentación de proposiciones será de 30 días naturales, contados desde la fecha del envío \na la oficina de Publicaciones de la Unión Europea. 5 \nAmpliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás \ndocumentación complementaria de la licitación a través de medios no electrónicos: \n☒ NO \n☐ SÍ. Ampliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta «in \nsitu» de la documentación. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 12,
+    "REGIMEN DE PENALIDADES": "El procedimiento de imposición de penalidades deberá tramitarse de conformidad con el establecido en el \nArt. 97 RGLCAP con la especialidad contemplada en el artículo 194.2 LCSP. 1. Penalidades de la cláusula 36.3: Sí. ‐ Por el incumplimiento del contratista del compromiso de adscribir a la ejecución del contrato los medios \npersonales o materiales  señalados en el apartado L del Anexo I del PCAP  y en anexo VI, o el \nincumplimiento del compromiso adquirido de complementación del equipo técnico señalado en el \napartado LL del Anexo I del PCAP y en anexo V : Por cada medio personal o material que no preste la \ndedicación establecida o no justifique los requisitos exigidos se impondrá al contratista una penalidad \neconómica proporcional a la gravedad del incumplimiento, en una cuantía máxima del 1 por 100 del precio \ndel contrato, IVA excluido. 29 \n‐ En el caso de que el contratista realizara defectuosamente las distintas partidas de la obra, y no lo \nsubsanase, se le podrá imponer una penalidad económica proporcional a la gravedad del incumplimiento. La cuantía no podrá superar el 10 por 100 del precio del contrato, IVA excluido. ‐ Por el incumplimiento del contratista de las condiciones especiales de ejecución del contrato de carácter \nmedioambiental, social o laboral se le podrá imponer una penalidad económica proporcional a la gravedad \nde dicho incumplimiento. La cuantía de cada sanción no podrá superar el 2 por 100 del precio del contrato. IVA excluido. ‐ El incumplimiento de las labores durante el periodo de garantía, derivadas de la comunicación fehaciente \nal contratista por parte de la Dirección Facultativa y/o del órgano de contratación, de los trabajos a efectuar \nen los plazos que en aquélla se señalen, a efectuar durante el plazo de garantía, considerando que se trata \ndel incumplimiento de una obligación esencial en la ejecución del contrato, serán causa de resolución del \nmismo, de acuerdo con lo establecido en el artículo 211.h) de la LCSP, o bien, en el caso de ser más \nfavorable a los intereses públicos, se impondrá la siguiente penalidad: 0,15€/día natural por cada 1.000 € \ndel precio del contrato. ‐ El incumplimiento de la presentación de la documentación necesaria preceptiva antes de la firma del \nActa de Replanteo Previo e Inicio de las obras: \n0,20 € /día natural por cada 1.000 € del precio del contrato, en el plazo establecido. El incumplimiento de la entrega de la documentación necesaria para iniciar las obras en el plazo de un mes \ndesde la firma del contrato, dará lugar a un Acta de Replanteo Previo e Inicio de las obras con resultado \nnegativo por causas imputables al contratista. ‐  El incumplimiento de la entrega de la Documentación Final de Obra (DFO), recogida en el Anexo DFO. 0,20 € /día natural por cada 1.000 € del precio del contrato, en el plazo establecido. El incumplimiento de la entrega completa de la DFO por plazo superior a un mes será causa de resolución \ndel contrato, de acuerdo con lo establecido en el artículo 211 h) de la LCSP, o bien, en el caso de ser más \nfavorable a los intereses públicos, se impondrá la siguiente penalidad: 0,40 €/ día natural por cada 1.000 € \ndel precio del contrato. ‐ El incumplimiento del compromiso adquirido por el uso del sistema BIM en la elaboración de los planos \nas built, supondrá una penalidad de 0,025 €/día natural por cada 1.000 € del precio del contrato, contados \ndesde la fecha de recepción del requerimiento que a tal efecto realice la Dirección Facultativa por \nincumplimiento de la correcta y completa utilización del sistema BIM, hasta la fecha en que se obtenga el \ninforme favorable de la citada Dirección. ‐ El incumplimiento del compromiso adquirido en el apartado difusión de la actuación, con la producción \nde flyers, grabación de imágenes y compilación de audiovisuales, supondrá una penalidad de 0,025 €/día \nnatural por cada 1.000 € del precio del contrato, contados desde la fecha de recepción del requerimiento \nque a tal efecto realice la Dirección Facultativa por incumplimiento de la oferta relativa a DIFUSIÓN DE LA \nACTUACIÓN, hasta la fecha en que se obtenga la aprobación de la Conselleria. El total de estas penalizaciones de este apartado no podrá superar el 50 por 100 del precio del contrato; \nsin perjuicio de la posible resolución del contrato con incautación de la garantía constitutiva. 2. Penalidades por incumplimiento parcial de la ejecución en la cláusula 36.1: Sí. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas en la \ncláusula 36.4: Sí \n‐ Por incumplimiento del plazo total: Si se ha incumplido anteriormente un plazo parcial, podrá optar la \nresolución del contrato. Si no se ha incumplido anteriormente otro plazo parcial la penalidad sería del 5 % \ndel precio del contrato. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las previstas \nen la cláusula 36.4 en relación con la cláusula 36.6: Sí. ‐ Por incumplimiento de plazos parciales: Se considerará como tal la superación en más de 20 días naturales \ndel plazo establecido para alcanzar cada uno de los tres hitos parciales indicados en la oferta que ha \nresultado adjudicataria: 3 % del precio del contrato. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la \naptitud del subcontratista o de las condiciones de emergencia o urgencia: \n☐ NO \n☒ SÍ, en su caso: \n☒ Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato \n☐ Resolución del contrato, si se ha declarado obligación esencial \n \n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos \nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, \nde las condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa \ncon el plazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez \nterminada la prestación: \n☐ NO \n☒ SÍ, en su caso indicar cuáles: Imposición al contratista de una penalidad de hasta un 50% del importe \ndel subcontrato. Respecto de las penalidades 3. y 4. de este apartado, la imposición de estas penalidades contractuales se \naplicará en la Certificación final de obra. De esta forma si el contratista incumple un plazo parcial, pero en el \ntranscurso de la ejecución de la obra, recupera el tiempo de demora y finalmente cumple con el plazo de \nejecución total, no se le aplicará penalidad alguna. En cambio, si el contratista incumple los plazos parciales e incumple también el plazo total de ejecución, en \nla certificación final de obra, y de conformidad con el correspondiente expediente administrativo de \nimposición de penalidades, se hará constar, con signo negativo, tanto las penalidades impuestas como \nconsecuencia del incumplimiento de los plazos parciales, como la correspondiente penalidad por \nincumplimiento del plazo total de ejecución. ",
+    "REVISION DE PRECIOS": "",
+    "SISTEMA DE PRECIOS": "Precio unitario, contratación de obras a tanto alzado con precio cerrado.",
+    "SUBASTA ELECTRONICA": "",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "Programación y Organización de los trabajos",
+            "Porcentaje": 57.14,
+            "Puntuación máxima": 20
+        },
+        {
+            "Nombre": "Estudio y análisis del proyecto",
+            "Porcentaje": 34.29,
+            "Puntuación máxima": 12
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Urgente",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección General de \nInfraestructuras Judiciales de la Dirección General de Modernización y Relaciones con la Administración de \nJusticia. ",
+    "VALOR ESTIMADO DEL CONTRATO": "19.691.750,52  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "ACCIONA CONSTRUCCION_CRIMSA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DESARROLLO DE PLANOS AS BUILT MEDIANTE TECNOLOGIA BIM (LL.1.5)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 44.57
+        },
+        "FCC_EDIFESA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DESARROLLO DE PLANOS AS BUILT MEDIANTE TECNOLOGIA BIM (LL.1.5)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 61.57
+        },
+        "GRUPO BERTOLIN_BECSA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DESARROLLO DE PLANOS AS BUILT MEDIANTE TECNOLOGIA BIM (LL.1.5)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 51.92
+        },
+        "TORRESCAMARA_TECOPSA": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DESARROLLO DE PLANOS AS BUILT MEDIANTE TECNOLOGIA BIM (LL.1.5)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 41.64
+        },
+        "VIAS Y CONSTRUCCIONES_CHM": {
+            "AUMENTO DE LA DURACIÓN DEL PLAZO DE GARANTÍA (LL.1.7)": null,
+            "COMPLEMENTACIÓN DEL EQUIPO TÉCNICO (LL.1.4)": null,
+            "COMPROMISO DE DESARROLLO DE PLANOS AS BUILT MEDIANTE TECNOLOGIA BIM (LL.1.5)": null,
+            "COMPROMISO DE DIFUSIÓN DE LA ACTUACIÓN (LL.1.6)": null,
+            "EXPERIENCIA DEL ENCARGADO DE OBRA (LL.1.3)": null,
+            "EXPERIENCIA DEL JEFE DE OBRA (LL.1.2)": null,
+            "Puntuación PRECIO (PCP)": 61.89
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": {
+        "ACCIONA CONSTRUCCION_CRIMSA": {
+            "Estudio y análisis del proyecto": 28.1,
+            "Programación y Organización de los trabajos": 28.1
+        },
+        "DRAGADOS_ROVER": {
+            "Estudio y análisis del proyecto": 31.6,
+            "Programación y Organización de los trabajos": 31.6
+        },
+        "ECSA OP_TECNOLOGIA MONTAJES Y MANTEN": {
+            "Estudio y análisis del proyecto": null,
+            "Programación y Organización de los trabajos": 24
+        },
+        "FCC_EDIFESA": {
+            "Estudio y análisis del proyecto": 26.3,
+            "Programación y Organización de los trabajos": 26.3
+        },
+        "GRUPO BERTOLIN_BECSA": {
+            "Estudio y análisis del proyecto": 26.5,
+            "Programación y Organización de los trabajos": 26.5
+        },
+        "OBRASCON HUARTE LAIN": {
+            "Estudio y análisis del proyecto": 28.8,
+            "Programación y Organización de los trabajos": 28.8
+        },
+        "TORRESCAMARA_TECOPSA": {
+            "Estudio y análisis del proyecto": 27.4,
+            "Programación y Organización de los trabajos": 27.4
+        },
+        "VIAS Y CONSTRUCCIONES_CHM": {
+            "Estudio y análisis del proyecto": 28,
+            "Programación y Organización de los trabajos": 28
+        }
+    },
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

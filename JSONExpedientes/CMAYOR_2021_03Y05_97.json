@@ -1,0 +1,152 @@
+{
+    "ABONOS A CUENTA": "No procede. APARTADO x. ",
+    "CLASIFICACIÓN": "Categoría 4, Grupo B, Subgrupo 2 - De hormigón armado.",
+    "CLASIFICACIÓN CPV": "45233140 -  Obras viales.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "La empresa adjudicataria deberá desarrollar todos los trabajos objeto del presente contrato \naplicando los procedimientos que se establecen en la norma ISO 14001 o norma equivalente. Asimismo, en todas las etapas de ejecución de las obras se adoptará un sistema de Gestión de la \nAccesibilidad de acuerdo con la norma UNE/ISO 17001. Los incumplimientos de estas condiciones especiales de ejecución se regulan en el apartado T.8 \nde este Anexo. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": "Consideraciones de tipo medioambiental - La empresa adjudicataria deberá desarrollar todos los trabajos objeto del presente contrato aplicando los procedimientos que se establecen en la norma ISO 14001 o norma equivalente. Consideraciones de tipo social - Asimismo, en todas las etapas de ejecución de las obras se adoptará un sistema de Gestión de la Accesibilidad de acuerdo con la norma UNE/ISO 17001.",
+    "CONSIDERACION COMO INFRACCION GRAVE": "",
+    "CONTRATACION DEL CONTROL": null,
+    "CRITERIOS DE ADJUDICACION": "Varios criterios \n 4 de 28 \n \nN.º DE SOBRES ELECTRÓNICOS A PRESENTAR POR LOS LICITADORES. Sobre nº1: documentación acreditativa del cumplimiento de los requisitos previos \n(Documentación administrativa). No se incluirá ninguna información relativa a los aspectos a \nvalorar en el sobre n. º 3. Su inclusión será motivo de exclusión. Sobre nº2: documentación relativa a los criterios de adjudicación ponderables mediante un juicio \nde valor. No se incluirá ninguna información relativa a los aspectos a valorar en el sobre n. º 3. Su \ninclusión será motivo de exclusión. Sobre nº3: Proposición económica y documentación relativa a los criterios de adjudicación \ncuantificables mediante la mera aplicación de fórmulas matemáticas o aritméticas. La documentación se presentará en formato pdf y firmada electrónicamente. La inclusión de \ninformación relativa a un sobre en otro diferente del que le corresponde según los pliegos \nsupondrá la exclusión del proceso de licitación por acuerdo de la mesa de contratación. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor",
+            "Porcentaje": "hasta 40 puntos",
+            "Puntuación máxima": 40,
+            "Siglas": "PCJ"
+        },
+        {
+            "Nombre": "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas",
+            "Porcentaje": "hasta 5 puntos",
+            "Puntuación máxima": 5,
+            "Siglas": "PCF"
+        },
+        {
+            "Nombre": "Puntuación PRECIO",
+            "Porcentaje": "hasta 55 puntos",
+            "Puntuación máxima": 55,
+            "Siglas": "PCP"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "La empresa licitadora deberá estar en posesión de las siguientes clasificaciones: \n \nCategoría 4. Grupo B.- Puentes, viaductos y grandes estructuras. Subgrupo 2.- De \nhormigón armado.  \nCategoría 4. Grupo G.- Viales y Pistas. Subgrupo 4.- Con firmes de mezclas bituminosas. ",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \nPARÁMETROS OBJETIVOS PARA IDENTIFICAR UNA OFERTA COMO ANORMAL: \nSe entenderán, como ofertas incursas en presunción de anormalidad por su bajo importe, \naquéllas cuyas BO correspondientes superen los siguientes valores: \na) Para un número n de ofertas económicas \"contemplables\" mayor o igual que cinco (5): \n \n \nBO> BR + 5 \nb) Para un número n de ofertas económicas \"contemplables\" entre dos (2) y cuatro (4): \n \n \nBO> BM + 5 \nc) En caso de que solo exista una (1) oferta “contemplable” se considerará \ndesproporcionada la oferta que sea inferior al presupuesto base de licitación en más de \n25 unidades porcentuales. \nSiendo: \nBO: Baja de la oferta económica (%) \nBR: Baja de referencia (%), calculada como se indica a continuación \nBM: Baja Media (%), calculada como se indica a continuación \n \nA estos efectos, se consideran “contemplables” las ofertas admitidas administrativa y \ntécnicamente, una vez excluidas las situadas en el intervalo de calidad técnica inaceptable, así \ncomo las que no deban ser consideradas, según lo previsto en el art. 86 del Real Decreto \n1098/2001, de 12 de octubre, por el que se aprueba el Reglamento general de la Ley de Contratos \nde las Administraciones Públicas (R.G.L.C.A.P.), en relación con las ofertas presentadas por \nempresas de un mismo grupo. \nLos cálculos de la Baja Media (BM) y de la Baja de Referencia (BR) se obtendrán, para cualquier \nnúmero, n, de ofertas “contemplables” del modo: \n𝐵𝑂\n௝= 100 ∙൬1 −𝑂𝐹\n௝\n𝑃𝐵𝐿൰                              𝐵𝑀= (1\n𝑛) ∙෍\n௝ୀ௡\n௝ୀଵ\n𝐵𝑂\n௝ \nCSV:NV43UU4Z:7Z8ZT22K:VJZHSL2V\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=NV43UU4Z:7Z8ZT22K:VJZHSL2V\n \n  \n \n19 de 28 \n \nSiendo: \nOFj: Importe de la oferta genérica “contemplable” j (incluida en el conjunto de las citadas \nn ofertas “contemplables”) \nPBL:  Presupuesto base de licitación, IVA excluido \n \nEn el caso de que n≥5 se obtendrá la baja de referencia BR, a partir de las “n” ofertas OFh que \ncumplen: \n \n|𝐵𝑂௛−𝐵𝑀| ⩽𝜎 \nSiendo: \n𝜎= (\n∑௝ୀ௡\n௝ୀଵ\n(𝐵𝑂௝)ଶ−𝑛∙(𝐵𝑀)ଶ\n𝑛\n)(ଵଶ\n⁄ ) \n \n𝐵𝑅= ∑௛ୀ௡`\n௛ୀଵ\n𝐵𝑂௛\n𝑛′\n \n \nLa baja media (BM) y de referencia (BR) se utilizarán para determinar los límites de la presunción \nde anormalidad y las garantías complementarias. \nEn el caso de que haya ofertas económicas en presunción de anormalidad por su bajo importe en \nrelación con la prestación, se recabará la información necesaria para que el Órgano de \nContratación pueda valorar si efectivamente la oferta resulta anormalmente baja en relación con \nla prestación y debe ser rechazada, o, si por el contrario, la citada oferta no resulta anormalmente \nbaja, y por ello debe ser tomada en consideración para adjudicar el contrato. Para ello, se solicitará \na la empresa licitadora que en un plazo de cinco (5) días hábiles presente las precisiones que \nconsidere oportunas. Los documentos justificativos de la baja realizada deberán presentarse en \nformato pdf y firmados electrónicamente. \nSi transcurrido este plazo no se hubiera recibido dichas justificaciones, se pondrá en conocimiento \ndel órgano de contratación y se considerará que la proposición no podrá ser cumplida y, por tanto, \nla empresa que la haya realizado quedará excluida del procedimiento de selección. \nSe remitirá al órgano de contratación la documentación recibida en el plazo establecido, para su \nanálisis y valoración sobre la aceptación de la oferta. El rechazo de cualquier oferta no tendrá \nefectos sobre la determinación de la baja de media. \nAdmitidas las justificaciones por el Órgano de Contratación, se procederá a evaluar las ofertas \neconómicas admitidas (hayan estado o no incursas inicialmente en presunción de anormalidad \npor su bajo importe) en la forma que se acaba de describir.  \nEmpresas de un mismo Grupo \nA los efectos de establecer la baja media (BM) y la baja de referencia (BR), cuando empresas \nCSV:NV43UU4Z:7Z8ZT22K:VJZHSL2V\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=NV43UU4Z:7Z8ZT22K:VJZHSL2V\n \n  \n \n20 de 28 \n \npertenecientes a un mismo grupo presenten distintas proposiciones para concurrir (solas o en \nU.T.E.) a la adjudicación de un contrato, únicamente será considerada la oferta de menor importe \nde cada grupo. \nSe entiende por empresas pertenecientes a un mismo grupo, las que se encuentren en alguno de \nlos supuestos del artículo 42.1 del Código de Comercio (art. 86 R.G.L.C.A.P.). \n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "AGLOMERADOS LOS SERRANOS SAU": "NO"
+    },
+    "EXPEDIENTE": "CMAYOR/2021/03Y05/97",
+    "FECHA ADJUDICACIÓN": "01-12-2022",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "02-08-2022",
+    "FECHA FORMALIZACIÓN": "30-12-2022",
+    "FORMA DE PAGO": "Los pagos se efectuarán previa presentación de la correspondiente factura reglamentaria. El abono durante la ejecución de las obras será mensual, en función de las certificaciones \nexpedidas por la Dirección Facultativa de las obras, redactadas mensualmente con relación \nvalorada de la obra ejecutada conforme al proyecto según resulte de las mediciones realizadas y \nlos precios del contrato y serán tramitadas en los primeros diez días siguientes al mes que \ncorrespondan. El abono de las partidas alzadas a justificar se realizará por aplicación de los precios unitarios \nvigentes del proyecto siempre que sea posible. Las unidades para las que no haya precio unitario \nen el proyecto se valorarán a partir de las facturas (IVA excluido) presentadas por los proveedores, \na las que se aplicará el coeficiente de adjudicación; este resultado se incrementará con el \ncoeficiente de costes indirectos del proyecto aprobado. ",
+    "GARANTIA DEFINITIVA": "NO \n 23 de 28. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al artículo 106.1 de la LCSP. . OBLIGACIONES RELATIVAS A LA FISCALIDAD, A LA PROTECCIÓN DEL MEDIO AMBIENTE, Y A LAS \nDISPOSICIONES VIGENTES EN MATERIA DE PROTECCIÓN DEL EMPLEO, IGUALDAD DE GÉNERO, \nCONDICIONES DE TRABAJO Y PREVENCIÓN DE RIESGOS LABORALES E INSERCIÓN SOCIOLABORAL DE LAS \nPERSONAS CON DISCAPACIDAD, Y A LA OBLIGACIÓN DE CONTRATAR A UN NÚMERO O PORCENTAJE \n 9 de 28 \n \nESPECÍFICO DE PERSONAS CON DISCAPACIDAD QUE SEAN APLICABLES A LOS SERVICIOS PRESTADOS \nDURANTE LA EJECUCIÓN DEL CONTRATO. ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "Se aplicarán las normas relativas al régimen de responsabilidad patrimonial de las \nadministraciones públicas al amparo del artículo 152.2 de la LCSP. . Se cumplirá con lo establecido en la Ley 1/2022, de 13 de abril, de Transparencia y Buen Gobierno \nde la Comunitat Valenciana. 28 de 28 \n \nCONTRATACIÓN DEL CONTROL DE CALIDAD DE LA OBRA MEDIANTE UN CONTRATO INDEPENDIENTE  \nNO \nINCLUSION DEL CONTROL DE CALIDAD EN LA PROPIA OBRA. Si \n \n\n\nFirmat per Rafael Francisco Briet Seguí el\n05/07/2022 13:06:57\nCàrrec: Sotssecretari Cons. Política\nTtorial, Obres Públiques i Mobilitat. ",
+    "IMPORTE": "4.967.820,55  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "4.105.636,82  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "4.762.152,79 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "3.935.663,46 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": null,
+    "LUGAR DE EJECUCIÓN": "ES523 Valencia/València Itinerario ciclopeatonal de la Vía Verde Ribera-Costera, entre Carcaixent y Xàtiva  (Valencia)",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/ee3e1d8a-6f8c-4292-807b-6049e7a07fc9/DOC20221011143623Acta_S5_CMAYOR_2021_03Y05_97_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/a56a21b9-12bc-4464-951e-84de8104e330/DOC20220921143411Acta_S4_CMAYOR_2021_03Y05_97_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/6bec941c-d906-48f5-b513-09c6d5a3f90b/DOC20220912084005Acta_S3_CMAYOR_2021_03Y05_97_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/41a9e5aa-e46d-4747-a8dd-7fd0962240d0/DOC20220803131456Acta+S2+CMAYOR-2021-03Y05-97_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/79adb1da-5d6e-4dd2-9c72-8cd289dc4b2a/DOC20220728134942ACTA+S1+exp+97-2021_firmado.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/d41e2a16-ca1f-4a70-836e-2a158dc5645d/DOC20220912083904LI066+INFORME+TECNICO-97.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/510d3d42-6a94-4586-830d-53fff456f5f3/DOC_CAN_ADJ2022-519098.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/2d5d4d6b-d26c-40a6-a58c-5896029f3916/DOC2022070615195320220622_LI019+ANEXO+I_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/25e4820e-c419-4254-86a4-5ac5f14ef3b4/DOC_CN2022-035134.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/327cf37e-0b1b-4e64-8747-0373ce51764c/DOC_FORM2022-215842.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=TlodzEywsv8BPRBxZ4nJ%2Fg%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/f46bb626-914a-40e2-8955-b24da88b6370/DOC_CD2022-937608.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "Acreditar estar en posesión de la clasificación requerida. Para ello se aportará certificado del \nRegistro Oficial de Licitadores y Empresas Clasificadas, así como la declaración responsable de la \nvigencia de los extremos acreditados en el certificado. ",
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. CLASIFICACION PARA CONTRATOS DE OBRAS CON VALOR ESTIMADO IGUAL O SUPERIOR A 500.000€ \nLa empresa licitadora deberá estar en posesión de la siguiente clasificación: \n 10 de 28 \n \nGrupo. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "NO \n 18 de 28 \n \nORGANISMO TÉCNICO ESPECIALIZADO. ",
+    "NIF": "A28582013",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "CHM OBRAS E INFRAESTRUCTURAS SA",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 1,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 6,
+    "NÚMERO DE LICITADORES": 7,
+    "OBJETO": "\"Construcción Vía Verde Ribera-Costera. Tramo: Carcaixent-Xàtiva\"",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "",
+    "OFERTA ECONÓMICA": {
+        "CHM OBRAS E INFRAESTRUCTURAS SA": 3935663.46,
+        "GRUPO BERTOLIN SAU": 3925399.36,
+        "LEVANTINA, INGENIERIA Y CONSTRUCCION SL": 3927041.62,
+        "TECNOLOGIA DE LA CONSTRUCCION Y OBRAS PUBLICAS SA": 3956191.64,
+        "UTE CONTRATAS VILOR-GUEROLA TRANSER SLU": 3951265.0,
+        "UTE PROBISA VIAS Y OBRAS SLU-OCIDE CONSTRUCCION SA": 4097420.0
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "18 Mes(es)",
+    "PLAZO DE GARANTIA": "El plazo de garantía de las obras será de UN (1) año, a contar desde la fecha de su recepción. . ",
+    "PLAZO DE PRESENTACIÓN": "2/07/2022",
+    "PLAZO DE RECEPCION": "Un mes desde la fecha de finalización de las obras. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás \ndocumentación complementaria de la licitación a través de medios no electrónicos. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 10,
+    "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 36.3: \nCinco por ciento (5%) del precio del contrato, IVA excluido, en cada uno de los incumplimientos. A estos efectos se entiende como cumplimiento defectuoso del contrato, el incumplimiento de los \nhitos y objetivos a que se refiere el Apartado A del Anexo I, aplicado a aquellos objetivos a los que \ncontribuya el presente contrato, en concreto, en los que el incumplimiento sea atribuible al \nadjudicatario del contrato. 2. Penalidades por incumplimiento parcial de la ejecución de la cláusula 36.1: \nCinco por ciento (5%) del precio del contrato, IVA excluido, en cada uno de los incumplimientos \nA estos efectos se entiende como incumplimiento parcial el incumplimiento de los plazos temporales \npara la realización de los hitos y objetivos a que se refiere el Apartado A del Anexo I, aplicado a \naquellos objetivos a los que contribuya el presente contrato, en concreto, en los que el \nincumplimiento sea atribuible al adjudicatario del contrato. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas en la \ncláusula 36.4: \nDiariamente 0,60 € por cada 1.000 € del precio del contrato (IVA excluido) \n 25 de 28 \n \n4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las previstas \nen la cláusula 36.4 en relación con la cláusula 36.6: \nDiariamente 0,60 € por cada 1.000 € del precio del contrato (IVA excluido) \n5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la \naptitud del subcontratista o de las condiciones de emergencia o urgencia: Si: Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. 6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos \nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, \nde las condiciones de subcontratación o suministro de cada uno de los que guarden una relación directa \ncon el plazo de pago y del justificante de cumplimiento de los pagos a los subcontratistas una vez \nterminada la prestación: Si: Imposición al contratista de una penalidad de hasta un 50% del importe del subcontrato. 7. Penalidades por incumplir la obligación de aportar una vez formalizado el contrato la Declaración de \nAusencia de Conflicto de Intereses (DACI) y las de los subcontratistas:   \n5% del precio del contrato IVA excluido \n8. Por incumplimiento de las condiciones especiales de ejecución:  \n5 % del precio del contrato por cada incumplimiento. ",
+    "REVISION DE PRECIOS": "Debido a que el plazo de ejecución de la obra es inferior a dos años, en el proyecto constructivo \nde la obra objeto del contrato no se ha establecido el derecho a revisión periódica y \npredeterminada de precios, según lo establecido en el artículo 103 de la Ley 9/2017 de Contratos \ndel Sector Público. No obstante, si durante la vigencia del contrato se produjeran las condiciones establecidas en los. RDL 3/22 y 6/22 que dieran lugar a la práctica de la revisión extraordinaria de precios y según el \nAcuerdo de 1 de abril de 2022, del Consell, en materia de revisión excepcional de precios en los \ncontratos de obras del sector público en la Comunitat Valenciana, la fórmula utilizada será la 141, \nconstrucción de carreteras con firmes de mezclas bituminosas, del Real Decreto 1359/2011. Kt = 0,01At/A0 + 0,05Bt/B0 + 0,09Ct/C0 + 0,11Et/E0 + 0,01Mt/M0 + 0,01Ot/O0 + 0,02Pt/P0 + \n0,01Qt/Q0 + 0,12Rt/R0 + 0,17St/S0 + 0,01Ut/U0 + 0,39 \nEsta fórmula será aplicada siguiendo las instrucciones de los RDL 3/22 y 6/22. . ",
+    "SISTEMA DE PRECIOS": "Precio unitario",
+    "SUBASTA ELECTRONICA": "NO",
+    "SUBCONTRATACIÓN COMO CRITERIO": "Sí",
+    "SUBCRITERIOS": [],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección General de Movilidad. ",
+    "VALOR ESTIMADO DEL CONTRATO": "4.105.636,82  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "CHM OBRAS E INFRAESTRUCTURAS SA": {
+            "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas (PCF)": 5.0,
+            "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)": 39.89,
+            "Puntuación PRECIO (PCP)": 54.91
+        },
+        "GRUPO BERTOLIN SAU": {
+            "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas (PCF)": 5.0,
+            "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)": 36.96,
+            "Puntuación PRECIO (PCP)": 55.0
+        },
+        "LEVANTINA, INGENIERIA Y CONSTRUCCION SL": {
+            "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas (PCF)": 5.0,
+            "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)": 37.94,
+            "Puntuación PRECIO (PCP)": 55.0
+        },
+        "TECNOLOGIA DE LA CONSTRUCCION Y OBRAS PUBLICAS SA": {
+            "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas (PCF)": 5.0,
+            "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)": 36.86,
+            "Puntuación PRECIO (PCP)": 54.19
+        },
+        "UTE CONTRATAS VILOR-GUEROLA TRANSER SLU": {
+            "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas (PCF)": 5.0,
+            "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)": 40.0,
+            "Puntuación PRECIO (PCP)": 54.43
+        },
+        "UTE PROBISA VIAS Y OBRAS SLU-OCIDE CONSTRUCCION SA": {
+            "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas (PCF)": 5.0,
+            "Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)": 35.88,
+            "Puntuación PRECIO (PCP)": 16.42
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": null,
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}

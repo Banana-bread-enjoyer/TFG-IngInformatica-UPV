@@ -1,0 +1,210 @@
+{
+    "ABONOS A CUENTA": "No \n \nx SI, según art 240.1 de la LCSP \n \nSE MODIFICA EL RÉGIMEN GENERAL DE LAS CERTIFICACIONES \n 28 \nx No \n Si, nuevo régimen. ",
+    "CLASIFICACIÓN": "CATEGORÍA: 3\nGRUPO: E Hidráulicas\nSUBGRUPO: 1 Abastecimientos y saneamientos",
+    "CLASIFICACIÓN CPV": "45232130 -  Trabajos de construcción de canalizaciones de aguas pluviales.",
+    "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "(AL MENOS UNA DE ENTRE LAS \nPREVISTAS EN EL 202.2 ES OBLIGATORIA) \nDe tipo Social o medioambiental. Impartir a los operarios 3 acciones de formación en orden a la gestión y reciclado de los residuos \ngenerados en obra, de acuerdo con el estudio de gestión de residuos incluido en el proyecto y Las \nprescripciones del pliego de prescripciones técnicas particulares del proyecto, en relación con el \nalmacenamiento, manejo, separación y, en su caso, otras operaciones de gestión de los residuos \nde construcción y demolición dentro de la obra. La duración de cada acción de formación será de \nuna duración mínima de 3 horas cada una. En el caso de acciones formativas, la empresa adjudicataria presentará al director facultativo al \ninicio de la ejecución, la planificación de las acciones a realizar, así como la relación de los \ncontenidos de las sesiones formativas. Antes de la finalización del contrato, la empresa \nadjudicataria deberá aportar un informe detallado sobre las actuaciones realizadas con \ndeterminación de su alcance, contenido, fechas de realización y asistentes. ",
+    "CONDICIONES ESPECIALES DE EJECUCIÓN": null,
+    "CONSIDERACION COMO INFRACCION GRAVE": ". No \n \nx Si. ",
+    "CONTRATACION DEL CONTROL": "x No \n Si. ",
+    "CRITERIOS DE ADJUDICACION": "6 \n \n Precio, o coste, cálculo del coste del ciclo de vida \n \nx Varios criterios, pluralidad de criterios de adjudicación basándose en la mejor \nrelación calidad precio. ",
+    "CRITERIOS DE ADJUDICACIÓN": [
+        {
+            "Nombre": "CRITERIO 1",
+            "Porcentaje": 25,
+            "Puntuación máxima": 25,
+            "Siglas": "VC1"
+        },
+        {
+            "Nombre": "CRITERIO 2",
+            "Porcentaje": 10,
+            "Puntuación máxima": 10,
+            "Siglas": "VC2"
+        },
+        {
+            "Nombre": "CRITERIO 3",
+            "Porcentaje": 65,
+            "Puntuación máxima": 65,
+            "Siglas": "VC3"
+        }
+    ],
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "",
+    "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": " \n \nSe entenderán como ofertas incursas en presunción de anormalidad por su bajo importe, \naquéllas cuyas BO correspondientes superen los siguientes valores: \n \na) Para un número n de ofertas económicas “contemplables” mayor o igual que cinco (5): \nBO > BR + 5 \nb) Para un número n de ofertas económicas \"contemplables\" menor que cinco (5): \nBO > BM + 5 \nSiendo BO: Baja de la oferta económica (%). \n \nBR: Baja de referencia (%) calculada como se indica a continuación. \n \nBM: Baja Media (%) calculada como se indica a continuación. \n \nSe denominan ofertas económicas “contemplables” a las ofertas admitidas administrativa y \nCSV:ZKH81SD6:SR3EJ3TY:1L5HNCB9\nURL de validación:https://www.tramita.gva.es/csv-front/index.faces?cadena=ZKH81SD6:SR3EJ3TY:1L5HNCB9\n \n  \n21 \ntécnicamente, una vez excluidas aquellas correspondientes a las Propuestas situadas en el \nintervalo de calidad técnica inaceptable, así como aquellas que, a estos efectos, no deban ser \nconsideradas, según lo previsto en el art. 86 del RGLCAP. \nLos cálculos de la Baja Media (BM) y de la Baja de Referencia (BR) se realizarán de la forma \nsiguiente: \nOV = Importe de la oferta a valorar \nPBL = Presupuesto Base de Licitación del Contrato que figura en el Apartado E de este Anexo I. \nSe obtendrá, para cualquiera número n de ofertas: \n𝐵𝑂\n𝑗= 100 ⋅(1 −𝑂𝑉\n𝑃𝐵𝐿) \n𝐵𝑀= (1 𝑛\n⁄ ) ⋅∑𝐵𝑂\n𝑗\n𝑗=𝑛\n𝑗=1\n \nAdemás, para n > 5, se obtendrá: \n𝜎= {\n∑\n(𝐵𝑂\n𝑗)\n2\n𝑗=𝑛\n𝑗=1\n−𝑛⋅(𝐵𝑀)2\n𝑛\n}\n1 2\n⁄\n \n \nEntre las mencionadas n ofertas económicas “contemplables” se elegirán aquellas n' ofertas \ntales que, a cualquiera de ellas de importe expresado genéricamente como OVh, le corresponda \nun valor: \n𝐵𝑂ℎ= 100 ⋅(1 −𝑂𝑉\nℎ\n𝑃𝐵𝐿) \n \ny que cumpla la condición: \n|𝐵𝑂\n𝑗−𝐵𝑀| < 𝜎 \nY contando sólo con dichas n’ ofertas, se calculará el valor BR llamado “Baja de Referencia\", del \nmodo siguiente: \n𝐵𝑅= (1 𝑛\n⁄ ′) ⋅∑𝐵𝑂ℎ\nℎ=𝑛′\nℎ=1\n \n \nDicho valor de BR servirá, cuando n > 5, para determinar los límites de la presunción de \nanormalidad y las garantías complementarias. \n \n \n- Empresas de un mismo Grupo: \nSe estará a lo establecido en el punto 3 del artículo 149 de la LCSP. \n \nCSV:ZKH81SD6:SR3EJ3TY:1L5HNCB9\nURL de validación:https://www.tramita.gva.es/csv-front/index.faces?cadena=ZKH81SD6:SR3EJ3TY:1L5HNCB9\n \n  \n22 \n",
+    "EL ADJUDICATARIO ES UNA PYME": "No",
+    "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {
+        "LOS SERRANOS S.L": "SI",
+        "PAVASAL S.A": "SI",
+        "SENDA S.L": "SI"
+    },
+    "EXPEDIENTE": "CMAYOR/2021/07Y10/72",
+    "FECHA ADJUDICACIÓN": "30-12-2021",
+    "FECHA ANUNCIO PERFIL DE CONTRATANTE": "02-09-2021",
+    "FECHA FORMALIZACIÓN": "17-01-2022",
+    "FORMA DE PAGO": "El abono se efectuará mediante certificaciones mensuales, con cargo a los créditos, y previa \npresentación de la correspondiente factura debidamente conformada por la unidad encargada \ndel seguimiento y ejecución del contrato, a través de la plataforma de facturación estatal FACe, \ncon el siguiente código:  https.//www.face.gob.es. ",
+    "GARANTIA DEFINITIVA": "5% del precio de adjudicación del contrato, sin IVA. No es exigible al tratarse de un contrato de obras de valor estimado inferior a 80.000 euros. Supuestos especiales de prestación de garantía complementaria y porcentaje (un 5 por 100): \n \nX Exención de prestación de garantía definitiva: \n \nX No \n \n \n Si  (justificación, en su caso. ",
+    "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010 así como al artículo 106 \nde la ley 9/2017. . ",
+    "GASTOS POR DESISTIMIENTO O RENUNCIA": "De acuerdo con los criterios de valoración empleados para el cálculo de la responsabilidad \npatrimonial de la Administración, a través de los trámites del procedimiento administrativo \ncomún. . ",
+    "IMPORTE": "1.008.738,45  EUR.",
+    "IMPORTE (SIN IMPUESTOS)": "833.668,14  EUR.",
+    "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "885.167,99 EUR.",
+    "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "731.543,79 EUR.",
+    "IMPORTES PREVISTOS": {
+        "Modificaciones": "0,00",
+        "Otros Conceptos": "0,00",
+        "Prórrogas": "0,00",
+        "Revisión de precios": "0,00"
+    },
+    "INCLUSION DEL CONTROL DE CALIDAD": "No \nx SI \n \n \n \nLA CONSELLERA. Firmado por Mireia Mollá Herrera el\n28/07/2021 09:19:. ",
+    "LUGAR DE EJECUCIÓN": "Valencia/València",
+    "Links": {
+        "Actas de adjudicación": [
+            "https://contrataciondelestado.es/wps/wcm/connect/669b1fb4-20ca-4338-8976-4cda9b6cacff/DOC20211126114455Informe+propuesta+de+adjudicacion+RODRIGUILLO_firmado.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/3a043a66-eb8c-4f25-98cc-a9fdf6f5af3a/DOC20211126114156S4+Acta+prop+adjudicacion_firm.pdf?MOD=AJPERES",
+            "https://contrataciondelestado.es/wps/wcm/connect/3a043a66-eb8c-4f25-98cc-a9fdf6f5af3a/DOC20211126114156S4+Acta+prop+adjudicacion_firm.pdf?MOD=AJPERES"
+        ],
+        "Actas de valoración de criterios mediante juicio de valor": [
+            "https://contrataciondelestado.es/wps/wcm/connect/add2878e-6974-488b-a039-0a061bf3cb4c/DOC20211008120945INFORME+sobre+1+OBRA+PINOSO+CMAYOR_2021_07Y10_72_firmado.pdf?MOD=AJPERES"
+        ],
+        "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/fd6dae4a-be0e-4fa9-bd7f-6cea61f7f224/DOC_CAN_ADJ2021-288086.html?MOD=AJPERES",
+        "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/bdc2f264-ad57-46a4-b82f-94f88ab78894/DOC20210901083851ANEXO+I+def_firmado.pdf?MOD=AJPERES",
+        "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/abcc1c19-1724-4ae6-8088-550f10dd8b99/DOC_CN2021-226342.html?MOD=AJPERES",
+        "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/6c0e6784-6401-4177-8075-ff6551e2b791/DOC_FORM2022-344353.html?MOD=AJPERES",
+        "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=Ndt%2BPjfZ0v5vYnTkQN0%2FZA%3D%3D",
+        "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/f5e6ad93-ad5b-4406-9830-5577abaae119/DOC_CD2021-233338.html?MOD=AJPERES"
+    },
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": null,
+    "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "No procede. ",
+    "MEJORAS COMO CRITERIO DE ADJUDICACION": "X No \n Si  : REQUISITOS, LÍMITES, MODALIDADES Y CARACTERÍSTICAS \n \nUNIDAD TÉCNICA ESPECIALIZADA DE APOYO AL ÓRGANO DE CONTRATACIÓN PARA \nVALORACIÓN DE OFERTAS EN EL PROCEDIMIENTO SIMPLIFICADO DE TRAMITACIÓN \nESPECIALMENTE SUMARIA. X No \n         \n Si. ",
+    "NIF": "A96853577",
+    "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "OCIDE CONSTRUCCION S.A. ",
+    "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 3,
+    "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 3,
+    "NÚMERO DE EMPRESAS INVITADAS": 0,
+    "NÚMERO DE EMPRESAS SELECCIONADAS": 10,
+    "NÚMERO DE LICITADORES": 10,
+    "OBJETO": "Prolongación del colector de alivio y adecuación del canal de drenaje en el entorno de El Rodriguillo, Pinoso (Alicante).",
+    "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": "X No \n \n Si. ",
+    "OFERTA ECONÓMICA": {
+        "BECSA": 760573.89,
+        "CHM": 774060.87,
+        "ELECNOR": 827982.46,
+        "ELSAMEX": 760638.81,
+        "OCIDE": 731543.79,
+        "TECOPSA": 711452.39,
+        "VILOR": 709870.0
+    },
+    "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": null,
+    "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": null,
+    "PLAZO DE EJECUCIÓN": "6 Mes(es)",
+    "PLAZO DE GARANTIA": "doce (12) meses. ",
+    "PLAZO DE PRESENTACIÓN": "2/09/2021",
+    "PLAZO DE RECEPCION": "Un (1) mes desde la entrega o realización del objeto del contrato. ",
+    "PLAZO MAXIMO DE LAS PRORROGAS": null,
+    "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos \ny demás documentación complementaria de la licitación a través de medios no electrónicos: \nX No \n \n Si \n \nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o \nconsulta «in situ» de la documentación \nX No \n \n Si  (en su caso, indicar días en los que se amplía el plazo): \n 7 \n \nNIVEL DE SEGURIDAD EXIGIDO PARA LOS MEDIOS DE COMUNICACIÓN ELECTRÓNICOS \nUTILIZADOS EN LAS DIFERENTES FASES DE CADA PROCEDIMIENTO DE CONTRATACIÓN. ",
+    "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+    "POSIBILIDAD DE PRORROGAR EL CONTRATO": null,
+    "PROCEDIMIENTO": "Abierto simplificado",
+    "PÁGINA DE INFORMACIÓN DE CRITERIOS": 12,
+    "REGIMEN DE PENALIDADES": "1. Penalidades por incumplimiento parcial de la ejecución de las prestaciones. - Ejecución de una medición menor a la establecida en el contrato, sin justificación previa \naceptada por el director de la obra. - No ejecución de alguna unidad de obra, sin justificación previa aceptada por el director de la \nobra. La penalización será del 10 % del presupuesto que corresponda a la medición total de las unidades \nde obra ejecutadas con una medición menor, que supongan el incumplimiento, IVA excluido. 25 \nEl total de penalidades no podrá superar el 50 % del precio del contrato, IVA excluido. 2. Penalidades por realización defectuosa del objeto del contrato o incumplimiento del \ncompromiso de dedicar o adscribir a la ejecución del contrato los medios personales o \nmateriales suficientes señalados en las condiciones de solvencia o compromiso de adscripción \nde medios, o de las condiciones especiales de ejecución de contrato de carácter medioambiental, \nsocial o laboral, de la cláusula 35.3. 2.1. Penalidades por realización defectuosa del objeto del contrato. En general, se entenderá como realización defectuosa de la obra la realización de la misma, sin \nel permiso del director de obra, en concreto: \n- Ejecutar una medición distinta a la establecida en el proyecto, sin justificación previa aceptada \npor el director de la obra. - Ejecutar la unidad de obra, incumpliendo los estándares de calidad definidos en el proyecto. - Ejecutar cualquier unidad de obra sin respetar todas y cada una de las prescripciones técnicas \nde la misma establecidas en el pliego de prescripciones técnicas correspondiente. - Sustituir una unidad por otra distinta no incluida en el proyecto. - Cualquier otra actuación que se aparte de lo establecido en el proyecto y de las \ninstrucciones del director de la obra. La penalización será del 10 % del presupuesto que representen las unidades de obra \nafectadas por la ejecución defectuosa, IVA excluido, con el tope acumulado del 50 % del \nprecio del contrato, IVA excluido. Las penalidades se exigirán, sin perjuicio de que, evidentemente, el contratista deberá llevar \na cabo a la mayor brevedad posible las actuaciones necesarias para restituir la obra al estado \nprevisto en el proyecto, de acuerdo con las instrucciones del director de obra (demolición, \nsustitución de unidades de obra, etc.) \n \n2.2. Penalidades por no adscribir a la ejecución del contrato los medios personales o \nmateriales suficientes para ello señalados en el Apartado L. Se entenderá como no adscribir los medios personales o materiales suficientes para la \nejecución del contrato a: \n- Incumplir el compromiso de dedicar o adscribir a la ejecución del contrato los medios \npersonales o materiales en cualquier cuantía menor a lo establecido en el apartado L. - Sustituir al jefe de obra o al encargado, o cualquier otro medio material definido en el \napartado L y no proporcionar al responsable del contrato la información necesaria para \nque este pueda comprobar si los nuevos medios adscritos cumplen con los requisitos \nexigidos en el apartado L del pliego, con carácter previo al desempeño de sus servicios \no a su utilización. 26 \nEn el momento en que el director de obra detectara alguna de estas circunstancias se \nproducirá una penalización del 5 % del precio del contrato, IVA excluido, lo comunicará por \nescrito de manera que quede constancia y, en el caso de que la contrata no corrija dicho \nincumplimiento se le aplicará dicha penalidad cada mes, hasta alcanzar el máximo del 50 % \ndel precio del contrato, IVA excluido. 2.3. Por incumplir cualquiera de las condiciones especiales de ejecución del contrato de carácter \nmedioambiental, social o laboral establecidas en el apartado X. Se penalizará a la contrata con el 5 % del precio del contrato, IVA excluido. En el momento en que el director de obra detectara el incumplimiento se producirá una \npenalización del 5 % del precio del contrato, IVA excluido, lo comunicará por escrito de \nmanera que quede constancia y, en el caso de que la contrata no corrija dicho \nincumplimiento se le aplicará dicha penalidad cada mes, IVA excluido. Las penalidades por \ndistintos incumplimientos son, evidentemente, compatibles. El total de penalidades podrá \nalcanzar como máximo el 50 % del precio del contrato. 3. Penalidades por demora respecto del cumplimiento del plazo total de las previstas en la \ncláusula 35.4. Se considera que no existen especiales características del contrato que haga necesario \nestablecer penalidades por demora distintas a las enumeradas en la cláusula 35.4 del \nPCAP. 4.- Penalidades distintas en caso de diferir de las previstas en la cláusula 35.4 \n \nSe considera que no existen especiales características del contrato que haga necesario \nestablecer otra penalidades distintas a las enumeradas en la cláusula 35.4 del PCAP. 5. Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de \nacreditación de la aptitud del subcontratista o de las condiciones de emergencia o urgencia: \n \nx No \n Si, en su caso: \n Imposición al contratista de una penalidad de hasta un 50% del importe del \nsubcontrato. Resolución del contrato, si se ha declarado obligación esencial. 6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de \naquellos subcontratistas o suministradores que participen en el contrato cuando se perfeccione \nsu participación, de las condiciones de subcontratación o suministro de cada uno de los que \nguarden una relación directa con el plazo de pago y del justificante de cumplimiento de los pagos \n 27 \na los subcontratistas una vez terminada la prestación: \n No \n \nx  SI, en su caso indicar cuales : Imposición al contratista de una penalidad de hasta un 50% \ndel importe del subcontrato. ",
+    "REVISION DE PRECIOS": "X No. Si. Fórmula:. ",
+    "SISTEMA DE PRECIOS": "Contratación de obras a tanto alzado",
+    "SUBASTA ELECTRONICA": "X No \n \n Si. Con las siguientes condiciones de conformidad con el artículo 143.4 de la LCSP. ",
+    "SUBCONTRATACIÓN COMO CRITERIO": "No",
+    "SUBCRITERIOS": [
+        {
+            "Nombre": "CRITERIO 1",
+            "Porcentaje": 25,
+            "Puntuación máxima": 25
+        },
+        {
+            "Nombre": "CRITERIO 2",
+            "Porcentaje": 10,
+            "Puntuación máxima": 10
+        }
+    ],
+    "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "x No \n \n Si. ",
+    "TIPO DE CONTRATO": "Obras",
+    "TRAMITACIÓN": "Ordinaria",
+    "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "SERVICIO DE INFRAESTRUCTURAS HIDRÁULICAS URBANAS \n \nATRIBUCIONES DE LA DIRECCIÓN FACULTATIVA (diferentes a las reguladas en el Pliego de \nCláusulas Administrativas Generales para la Contratación de Obras del Estado aprobado por \nDecreto 3854/1970, de 31 de diciembre, en la LOE 38/1999, de 5 de noviembre y en la LOFCA \n3/2004, de 30 de junio, de Ordenación y Fomento de la Calidad de la Edificación y demás \nprevistas legalmente.) \n \nNINGUNA ADICIONAL. ",
+    "VALOR ESTIMADO DEL CONTRATO": "833.668,14  EUR.",
+    "VALORACIONES DE EMPRESAS": {
+        "BECSA": {
+            "CRITERIO 1 (VC1)": 20.0,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": 54.1
+        },
+        "CHM": {
+            "CRITERIO 1 (VC1)": 20.5,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": 47.52
+        },
+        "ELECNOR": {
+            "CRITERIO 1 (VC1)": null,
+            "CRITERIO 2 (VC2)": null,
+            "CRITERIO 3 (VC3)": 5.83
+        },
+        "ELSAMEX": {
+            "CRITERIO 1 (VC1)": 19.5,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": 54.07
+        },
+        "OCIDE": {
+            "CRITERIO 1 (VC1)": 20.0,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": 63.01
+        },
+        "TECOPSA": {
+            "CRITERIO 1 (VC1)": 16.0,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": 64.99
+        },
+        "VILOR": {
+            "CRITERIO 1 (VC1)": 17.0,
+            "CRITERIO 2 (VC2)": 10,
+            "CRITERIO 3 (VC3)": 65.0
+        }
+    },
+    "VALORACIONES SUBCRITERIOS": {
+        "BECSA": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 60.0
+        },
+        "CHM": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 65.0
+        },
+        "ELECNOR": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 60.0
+        },
+        "ELSAMEX": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 55.0
+        },
+        "LOS SERRANOS": {
+            "CRITERIO 1": 90.0,
+            "CRITERIO 2": 75.0
+        },
+        "OCIDE": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 60.0
+        },
+        "PAVASAL": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 55.0
+        },
+        "SENDA": {
+            "CRITERIO 1": 90.0,
+            "CRITERIO 2": 60.0
+        },
+        "TECOPSA": {
+            "CRITERIO 1": 50.0,
+            "CRITERIO 2": 45.0
+        },
+        "VILOR": {
+            "CRITERIO 1": 80.0,
+            "CRITERIO 2": 70.0
+        }
+    },
+    "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": "NO"
+}
