@@ -56,7 +56,7 @@ def separar_por_secciones(doc):
         "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR",
         "REVISION DE PRECIOS",
         "IMPORTE",
-        "CRITERIOS DE ADJUDICACION",
+        "CRITERIOS DE ADJUDICACION DEL PROCEDIMIENTO ABIERTO",
         "PORCENTAJE MAXIMO DE SUBCONTRATACION",
         "MEJORAS COMO CRITERIO DE ADJUDICACION",
         "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA",
@@ -122,13 +122,23 @@ def separar_por_secciones(doc):
             # .replace(":", ". ")
             .replace("NO PROCEDE", "No procede")
             .replace(" SI.", " Si ")
+            .replace("[X]", "x ")
+            .replace("[x]", "x ")
             .replace("X ", "x ")
+            .replace("X  ", "x ")
+            .replace("☑", "x")
+            .replace("\nX", "\nx")
             .replace("□", "")
+            .replace("ART.", "ART")
             .replace("TANTO ALZADO", "tanto alzado")
             .replace("PRECIOS UNITARIOS", "precios unitarios")
             .replace("GRUPO", "Grupo")
             .replace("SUBGRUPO", "Subgrupo")
             .replace("CATEGORIA", "Categoria")
+            .replace("\n NO", "\n no")
+            .replace("\n SÍ", "\n si")
+            .replace("\n SI", "\n si")
+            .replace("1.", "a 1.")
             .strip()
         )
         texto_completo += " \n " + re.sub(
@@ -144,6 +154,7 @@ def separar_por_secciones(doc):
     # modified_text = re.sub(pattern3, r"\1. \2", modified_text)
     tokens = modified_text.split(". ")
     # print(re.sub(pattern, r"\1. \2", "vilidad\nATRIB"))
+    # print(tokens)
     secciones = {}
     current_key = None
     # print(tokens[806])
@@ -174,7 +185,7 @@ def guardar_secciones_de_datos(secciones, datos, pageLL):
                     info = sacar_valores_previstos(info)
                 dictDatos[dato] = info
     dictDatos["PÁGINA DE INFORMACIÓN DE CRITERIOS"] = pageLL
-
+    # print(secciones)
     return dictDatos
 
 

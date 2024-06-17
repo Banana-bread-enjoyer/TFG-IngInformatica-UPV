@@ -33,7 +33,9 @@ async def access_page(expediente):
 
         await page.wait_for_load_state("load")
         try:
+
             await page.get_by_text(expediente).click()
+
             await page.wait_for_load_state("load")
             # Extract the HTML from the resulting page
 

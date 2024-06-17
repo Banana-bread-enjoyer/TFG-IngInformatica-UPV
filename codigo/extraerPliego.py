@@ -40,19 +40,31 @@ def extraer_info_pliego(data):
     response = connection.get(url) """
     soup = BeautifulSoup(data, "html.parser")
     linkAnexo = ""
+    dict_anexo = None
     # encontrar primer strong que contiene el expediente´
-    for link in soup.findAll("a", href=True):
+    linksList = soup.findAll("a", href=True)
+    # linksList.reverse()
+    for link in linksList:
         if (
-            "ANEXO" in link.text.upper()
-            and (
-                "_I" in link.text.upper()
-                or " I " in link.text.upper()
-                or " I_" in link.text.upper()
-                or "_I_" in link.text.upper()
-                or " I.PDF" in link.text.upper()
+            (
+                "ANEXO" in link.text.upper()
+                and (
+                    "_I" in link.text.upper()
+                    or " I " in link.text.upper()
+                    or "I_" in link.text.upper()
+                    or "_I_" in link.text.upper()
+                    or " I.PDF" in link.text.upper()
+                )
+                and not (
+                    "II" in link.text
+                    # or "IV" in link.text
+                    or "VI" in link.text
+                    or "XI" in link.text
+                    or "IX" in link.text
+                )
             )
-            and not "BIS" in link.text.upper()
-        ):
+            or "ANEXO 1" in link.text.upper()
+        ) and not "BIS" in link.text.upper():
             response = requests.get(link.get("href"))
             html_pdf = response.content
             soup_pdf = BeautifulSoup(html_pdf, "html.parser")
@@ -101,6 +113,8 @@ def extraer_info_pliego(data):
     dict_pliego["PLAZO DE PRESENTACIÓN"] = re.sub(
         r".*(\d+\/\d+\/\d+).*", r"\1", dict_pliego["PLAZO DE PRESENTACIÓN"]
     )
+    if dict_anexo == None:
+        return dict_pliego, None
     myDict = {**dict_anexo, **dict_pliego}
     # return myDict
     return myDict, linkAnexo

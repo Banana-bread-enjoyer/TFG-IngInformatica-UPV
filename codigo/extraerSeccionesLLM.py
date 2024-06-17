@@ -33,11 +33,11 @@ prompt = PromptTemplate.from_template(
 
 def read_pdf(doc):
     texto_completo = ""
-    countPage = 0
+    countPage = 1
     pageLL = None
     for page in doc:
         texto_pagina = page.get_text()
-        if "APARTADO LL" in texto_pagina:
+        if not pageLL and "APARTADO LL" in texto_pagina:
             pageLL = countPage
         countPage += 1
         texto_completo += " \n " + texto_pagina
@@ -60,10 +60,10 @@ def info_sections(data):
     dictInfo = {}
     text, page = read_pdf(data)
     sections = extract_sections(text)
-    # print(sections["APARTADO LL"])
+    # print(sections)
     promptCriterios = prompt.format(
         section=sections["APARTADO LL"],
-        query="Imprime una lista Python en formato [{'Nombre': None, 'Siglas': None, 'Puntuación máxima': None, 'Porcentaje': None}] con todos los criterios (algunos ejemplos son: Juicio de Valor, Criterio Precio, Criterio mediante la aplicación de Fórmulas, Puntuacion Inicial) separados por comas.",
+        query="Imprime una lista Python en formato [{'Nombre': None, 'Siglas': None, 'Puntuación máxima': None, 'Porcentaje': None}] con todos los criterios principales que se mencionan separados por comas.",
     )
     promptSubcriterios = prompt.format(
         section=sections["APARTADO LL"],
@@ -84,18 +84,25 @@ def info_sections(data):
 
     subcriterios = llm.invoke(promptSubcriterios).content
     # print(criterios.content)
-    if "único criterio de adjudicación el precio" in sections["APARTADO LL"]:
+    if (
+        "único criterio" in sections["APARTADO LL"].lower()
+        or "único criterio" in sections["APARTADO LL"].lower()
+    ):
         dictInfo["CRITERIOS DE ADJUDICACIÓN"] = [
-            {"Nombre": "PCP", "Siglas": "PCP", "Puntuación máxima": 100}
+            {"Nombre": "Criterio Precio", "Siglas": "PCP", "Puntuación máxima": 100}
         ]
     else:
         criterios = llm.invoke(promptCriterios)
         criteriosDict = re.sub(r".*(\[.*\]).*", r"\1", criterios.content)
-        criteriosDict = ast.literal_eval(criteriosDict.strip())
+        criteriosDict = criteriosDict.replace("%", "").strip()
+        criteriosDict = ast.literal_eval(criteriosDict)
         for criterio in criteriosDict:
-            if "Precio" in criterio["Nombre"] and criterio["Siglas"] == None:
+            if (
+                "precio" in criterio["Nombre"].lower()
+                or "econ" in criterio["Nombre"].lower()
+            ):
                 criterio["Siglas"] = "PCP"
-                criterio["Nombre"] = "Puntuación precio"
+                criterio["Nombre"] = "Puntuación " + criterio["Nombre"]
                 break
         dictInfo["CRITERIOS DE ADJUDICACIÓN"] = criteriosDict
     try:

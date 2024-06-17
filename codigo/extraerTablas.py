@@ -40,14 +40,14 @@ def texto_juicio_valor(docs, subcriterios):
     dictValoraciones = None
     for doc in docs:
         text, numPages = read_pdf(doc)
-        if all(word in text for word in subcriterios[0].split()):
-            # print("ok", numPages)
-            if numPages > 3:
-                dictValoraciones = extract_table_info(doc, subcriterios)
-            else:
-                valores = promptValores.format(texto=text, criterios=subcriterios)
-                dictValoraciones = llm.invoke(valores)
-                dictValoraciones = ast.literal_eval(dictValoraciones)
+        # if all(word in text for word in subcriterios[0].split()):
+        # print("ok", numPages)
+        if numPages > 3:
+            dictValoraciones = extract_table_info(doc, subcriterios)
+        else:
+            valores = promptValores.format(texto=text, criterios=subcriterios)
+            dictValoraciones = llm.invoke(valores)
+            dictValoraciones = ast.literal_eval(dictValoraciones.content)
     # print(dictValoraciones)
     return dictValoraciones
 
@@ -72,22 +72,72 @@ def extract_table_info(doc, criterios):
 
         Answer: """
     )
+    text, a = read_pdf(doc)
+
     with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as temp_pdf:
         temp_pdf.write(doc)
         temp_pdf_path = temp_pdf.name
-    tablesFile = camelot.read_pdf(temp_pdf_path, pages="all", flavor="stream")
+    pdf_document = fitz.open(temp_pdf_path)
+    number_of_pages = pdf_document.page_count
+    tablesFile = camelot.read_pdf(
+        temp_pdf_path, pages="all", strip_text="\n", flavor="stream"
+    )
     tables = ""
     if len(tablesFile) == 0:
         return None
     for table in tablesFile:
         df = table.df
-        tables += (
-            table.df.to_string() + "\n------------------------------------------\n"
-        )
+        textTable = table.df.to_string()
+        if number_of_pages > 10:
+            if (
+                (
+                    all(
+                        word.lower() in textTable.lower()
+                        for word in criterios[0].split()
+                    )
+                    or "puntuación" in textTable.lower()
+                )
+                and not "BUENO" in textTable
+                and df.shape[0] < 40
+                and df.shape[1] < 40
+            ):
+                print(textTable)
+                tables += textTable + "\n------------------------------------------\n"
+        elif (
+            df.shape[0] >= 2
+            and df.shape[1] >= 2
+            and df.shape[0] < 50
+            and df.shape[1] < 50
+        ):
+            if "Orden: " not in textTable:
+                tables += textTable + "\n------------------------------------------\n"
     # print(tables)
-    promptValores = promptValores.format(valoraciones=tables, criterios=criterios)
+    if len(tables) <= 30:
+        """ if number_of_pages < 4:
+            promptValores = promptValores.format(valoraciones=text, criterios=criterios)
+        else: """
+        return None
+    else:
+        promptValores = promptValores.format(valoraciones=tables, criterios=criterios)
     respuestaValores = llm.invoke(promptValores)
-    return ast.literal_eval(respuestaValores.content)
+    valores = respuestaValores.content
+    print(valores)
+    # QUITAR
+    if valores.count("None") > 5:
+        return None
+    if (
+        not any(
+            num in valores for num in ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+        )
+        or "empresa a" in valores.lower()
+    ):
+        return None
+    # valores = re.sub(r"(IMPORTE[\sA-Za-z\(\)]*\:)\s([\d\.\,]+)\,\n", r"\1 '\2 €'", valores)
+    """ valores = re.sub(r"(\d)\.(\d{3})", r"\1\2", valores)
+    valores = re.sub(r"(\d)\.(\d{3})\,", r"\1\2.", valores) """
+    # valores = re.sub(r"(\d+\.\d+\,\d+)", r"'\1'", valores)
+    #valores = re.sub(r"(\d*\.?\d+\.\d+\,\d+)", r"'\1'", valores)
+    return ast.literal_eval(valores)
 
 
 def extract_text(doc):
@@ -124,10 +174,13 @@ def extract_text(doc):
     promptInfoEmpresas = promptInfoEmpresas.format(texto=text, dict=dictEmpresas)
     respuestaEmpresas = llm.invoke(promptInfoEmpresas)
     respuestaEmpresas = respuestaEmpresas.content
-    respuestaEmpresas = respuestaEmpresas.replace(": No", ': "No"').replace(
-        ": Sí", ': "Sí"'
+    respuestaEmpresas = (
+        respuestaEmpresas.replace(": No,", ': "No",')
+        .replace(": Sí", ': "Sí"')
+        .replace(": SI", ': "Sí"')
+        .replace(": NO", ': "No"')
     )
-    # print(respuestaEmpresas)
+    print(respuestaEmpresas)
     dictValEmpresas = ast.literal_eval(respuestaEmpresas)
     dictValEmpresas["NÚMERO DE LICITADORES"] = (
         dictValEmpresas["NÚMERO DE LICITADORES"]
@@ -147,9 +200,28 @@ def extract_text(doc):
 def extraer_info_acta(docs, nombres):
     dictInfoEmpresas = None
     dictValoraciones = None
+    dictImporte = None
+    # print(docs)
     for doc in docs:
         if dictValoraciones == None:
             dictValoraciones = extract_table_info(doc, nombres)
         if dictInfoEmpresas == None:
             dictInfoEmpresas = extract_text(doc)
-    return {"VALORACIONES DE EMPRESAS": dictValoraciones, **dictInfoEmpresas}
+        if dictImporte == None:
+            dictImporte = extract_table_info(doc, "IMPORTE OFERTA ECONÓMICA")
+    if dictInfoEmpresas == None:
+        dictInfoEmpresas = {
+            "NÚMERO DE EMPRESAS INVITADAS": None,
+            "NÚMERO DE LICITADORES": None,
+            "NÚMERO DE EMPRESAS SELECCIONADAS": None,
+            "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": None,
+            "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": None,
+            "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": None,
+            "EMPRESAS EXCLUIDAS POR ANORMALIDAD": None,
+        }
+
+    return {
+        "VALORACIONES DE EMPRESAS": dictValoraciones,
+        **dictInfoEmpresas,
+        "OFERTA ECONÓMICA": dictImporte,
+    }
