@@ -63,11 +63,11 @@ def info_sections(data):
     # print(sections)
     promptCriterios = prompt.format(
         section=sections["APARTADO LL"],
-        query="Imprime una lista Python en formato [{'Nombre': None, 'Siglas': None, 'Puntuación máxima': None, 'Porcentaje': None}] con todos los criterios principales que se mencionan separados por comas.",
+        query="Imprime una lista Python en formato [{'Nombre': None, 'Siglas': None, 'Puntuación máxima': None, 'Porcentaje': None}] con todos los criterios principales separados por comas.",
     )
     promptSubcriterios = prompt.format(
         section=sections["APARTADO LL"],
-        query="Imprime una lista Python en formato [{'Nombre': None, 'Puntuación máxima': None, 'Porcentaje': None}] con todos los criterios dentro de 'Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor (PCJ)'.",
+        query="Imprime una lista Python en formato [{'Nombre': None, 'Puntuación máxima': None, 'Porcentaje': None}] con todos los criterios dentro de 'Criterios relacionados con la calidad cuya cuantificación depende de un juicio de valor' o los apartados de la memoria.",
     )
     promptSubcontratacion = prompt.format(
         section=sections["APARTADO LL"],

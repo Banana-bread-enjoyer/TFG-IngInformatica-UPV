@@ -288,10 +288,9 @@ async def missing_data(data):
 # Running the async main function
 if __name__ == "__main__":
     expedientes = [
-        "CMAYOR/2021/07Y10/72"
         # "CMAYOR/2018/30/34"
         # "CMAYOR/2018/30/36"
-        # "CMAYOR/2020/03Y05/32",
+        "CMAYOR/2020/03Y05/32",
         # "CMAYOR/2020/06Y07/152",
         # "CMAYOR/2020/06Y15/141",
         # "CMAYOR/2020/06Y15/156",

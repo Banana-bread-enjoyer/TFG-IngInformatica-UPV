@@ -63,7 +63,7 @@ def extraer_info_pliego(data):
                     or "IX" in link.text
                 )
             )
-            or "ANEXO 1" in link.text.upper()
+            or "ANEXO1" in link.text.upper()
         ) and not "BIS" in link.text.upper():
             response = requests.get(link.get("href"))
             html_pdf = response.content
