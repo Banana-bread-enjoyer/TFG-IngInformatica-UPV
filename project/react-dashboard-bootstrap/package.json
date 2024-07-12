@@ -1,0 +1,52 @@
+{
+  "name": "react-dashboard-bootstrap",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@mui/icons-material": "^5.15.21",
+    "@mui/material": "^5.15.21",
+    "@mui/x-date-pickers": "^7.8.0",
+    "@react-icons/all-files": "^4.1.0",
+    "@table-library/react-table-library": "^4.1.7",
+    "@tanstack/react-table": "^8.19.2",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-switch-button": "^1.1.0",
+    "cdbreact": "^1.5.19",
+    "chart.js": "^4.4.3",
+    "date-fns": "^3.6.0",
+    "material-react-table": "^2.13.0",
+    "mdb-react-ui-kit": "^8.0.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-bootstrap-range-slider": "^3.0.8",
+    "react-bootstrap-typeahead": "^6.3.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-dark-mode-toggle": "^0.2.0",
+    "react-datepicker": "^7.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.0",
+    "react-toggle-dark-mode": "^1.1.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  }
+}

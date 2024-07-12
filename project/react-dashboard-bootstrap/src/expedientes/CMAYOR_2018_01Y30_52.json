@@ -1,0 +1,273 @@
+{
+  "ABONOS A CUENTA": "NO",
+  "CLASIFICACIÓN": "Categoría 4. Grupo B.- Puentes, viaductos y grandes estructuras. Subgrupo 2.- De hormigón armado",
+  "CLASIFICACIÓN CPV": "45220000 -  Obras de ingeniería y trabajos de construcción.",
+  "CONDICIONES ESPECIALES DE EJECUCION A CUMPLIR": "(AL MENOS UNA DE ENTRE LAS PREVISTAS EN EL 202.2 ES \nOBLIGATORIA)\nLa  empresa  adjudicataria  deberá  desarrollar  todos  los  trabajos  objeto  del  presente  contrato  aplicando  los\nprocedimientos que se establecen en la norma ISO 14001 o norma equivalente. Asimismo, en todas las etapas de ejecución de las obras se adoptará un sistema de Gestión de la Accesibilidad de\nacuerdo con la norma UNE/ISO 17001. EJECUCIÓN DE LAS OBRAS DE “PERMEABILIZACIÓN DE LOS CAMINOS DE SERVICIO DEL BARRANCO DEL \nCARRAIXET BAJO LA LÍNEA 3 DE METROVALENCIA Y ADECUACIÓN HASTA LA CONEXIÓN CON LA CV-3002 \n(VALENCIA)”\n26/ \n Direcció General d'Obres Públiques,\nTransports i Mobilitat Sostenible\n\nSerá de obligado cumplimiento el informe que emita la Agencia de Seguridad Ferroviaria respecto del proyecto\naprobado, de acuerdo con la Ley 7/2018 de Seguridad Ferroviaria(LSF). Dicho informe se encuentra disponible en el\nperfil del contratante. También serán de obligado cumplimiento los informes previos que emita la Agencia para cada\nuna de las situaciones provisionales en las distintas fases constructivas en las que se afecte a las instalaciones e\ninfraestructura ferroviaria. De la misma manera será de obligado cumplimiento el informe de la Agencia previo a la\npuesta en servicio de las obras. Todos estos informes serán solicitados previamente a la ejecución de cualquier\nactuación que se acometa en el ámbito ferroviario y el coste de su ejecución así como los informes y documentación\nnecesaria están incluidos en los precios de las unidades de obra definidas en el proyecto. ",
+  "CONDICIONES ESPECIALES DE EJECUCIÓN": "Consideraciones de tipo medioambiental - La empresa adjudicataria deberá desarrollar todos los trabajos objeto del presente contrato aplicando los\r\nprocedimientos que se establecen en la norma ISO 14001 o norma equivalente. Consideraciones de tipo social - En todas las etapas de ejecución de las obras se adoptará un sistema de Gestión de la Accesibilidad de\r\nacuerdo con la norma UNE/ISO 17001",
+  "CONSIDERACION COMO INFRACCION GRAVE": "NO",
+  "CONTRATACION DEL CONTROL": null,
+  "CRITERIOS DE ADJUDICACION": "Varios criterios.",
+  "CRITERIOS DE ADJUDICACIÓN": [
+    {
+      "Nombre": "Criterios relacionados con la calidad cuantificación depende de un juicio de valor",
+      "Porcentaje": null,
+      "Puntuación máxima": 40,
+      "Siglas": "PCJ"
+    },
+    {
+      "Nombre": "Criterios relacionados con la calidad evaluables de forma automática mediante aplicación de fórmulas",
+      "Porcentaje": null,
+      "Puntuación máxima": 5,
+      "Siglas": "PCF"
+    },
+    {
+      "Nombre": "Criterio precio",
+      "Porcentaje": null,
+      "Puntuación máxima": 55,
+      "Siglas": "PCP"
+    }
+  ],
+  "CRITERIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "La empresa licitadora deberá estar en posesión de la siguiente clasificación: \nCategoría 4. Grupo B.- Puentes, viaductos y grandes estructuras. Subgrupo 2.- De hormigón armado. ",
+  "CRITERIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "La empresa licitadora deberá estar en posesión de la siguiente clasificación: \nCategoría 4. Grupo B.- Puentes, viaductos y grandes estructuras. Subgrupo 2.- De hormigón armado. ",
+  "CRITERIOS PARA IDENTIFICAR OFERTAS CON VALORES ANORMALES": "Se  entenderán,  como ofertas  incursas  en presunción de anormalidad por  su bajo  importe, aquéllas cuyas  BO\ncorrespondientes superen los siguientes valores:\na) Para un número n de ofertas económicas \"contemplables\" mayor o igual que cinco (5):\nBO> BR + 5\nb) Para un número n de ofertas económicas \"contemplables\" entre dos (2) y cuatro (4):\nBO> BM + 5\nc) En caso de que  solo exista una (1) oferta “contemplable” se considerará desproporcionada la oferta que\nsea inferior al presupuesto base de licitación en más de 25 unidades porcentuales.\nSiendo:\nBO: Baja de la oferta económica (%)\nBR: Baja de referencia (%), calculada como se indica a continuación\nBM: Baja Media (%), calculada como se indica a continuación\nA estos efectos, se consideran “contemplables” las ofertas admitidas administrativa y técnicamente, una vez excluidas\nlas situadas en el intervalo de calidad técnica inaceptable, así como las que no deban ser consideradas, según lo\nprevisto en el art. 86 del Real Decreto 1098/2001, de 12 de octubre, por el que se aprueba el Reglamento general de la\nLey de Contratos de las Administraciones Públicas ( R.G.L.C.A.P.), en relación con las ofertas presentadas por empresas\nde un mismo grupo.\nLos cálculos de la Baja Media (BM) y de la Baja de Referencia (BR) se realizarán de la forma siguiente:\nSe obtendrá, para cualquier número, n, de ofertas:\nBO j=100∙(1−O F j\nPBL)\nB M=(\n1\nn)∙∑\nj=1\nj=n\nBO j\nSiendo:\nOFj= Importe de la oferta genérica “contemplable” j (incluida en el conjunto de las citadas n ofertas\n“contemplables”).\nPBL = Presupuesto base de licitación, IVA excluido\nAdemás, para n≥5, se obtendrá:\nσ=(\n∑\nj=1\nj=n\n(BOj )\n2−n∙(BM )\n2\nn\n)\n(1/2)\nEntre las mencionadas n ofertas económicas “contemplables” se elegirán aquellas n ofertas tales que, a cualquiera de\nellas, de importe expresado genéricamente como OFh, le corresponda un valor:\nBOh=100∙(1−O Fh\nPBL)\nY que cumpla la condición:\n|BOh−BM|⩽σ\nEJECUCIÓN DE LAS OBRAS DE “PERMEABILIZACIÓN DE LOS CAMINOS DE SERVICIO DEL BARRANCO DEL \nCARRAIXET BAJO LA LÍNEA 3 DE METROVALENCIA Y ADECUACIÓN HASTA LA CONEXIÓN CON LA CV-3002 \n(VALENCIA)”\n19/27\nCSV:6LYJHEPV:2E8XF869:SUTB6HCE\nURL de validació:https://www.tramita.gva.es/csv-front/index.faces?cadena=6LYJHEPV:2E8XF869:SUTB6HCE\n \n Direcció General d'Obres Públiques,\nTransports i Mobilitat Sostenible\nCIUTAT ADMINISTRATIVA 9 D'OCTUBRE – TORRE 1\nC/ Democràcia, 77 - 46018 VALÈNCIA - Tel. 012\nY contando sólo con dichas n ofertas, se calculará el valor BR, llamado “Baja de Referencia”, del modo siguiente:\nB R=\n∑\nh=1\nh=n'\nBOh\nn'\nLas bajas media (BM) y de referencia (BR) se utilizarán para determinar los límites de la presunción de anormalidad y\nlas garantías complementarias.\nEn el caso de que haya ofertas económicas en presunción de anormalidad por su bajo importe en relación con la\nprestación, se recabará la información necesaria para que el Órgano de Contratación pueda valorar si efectivamente la\noferta resulta anormalmente baja en relación con la prestación y debe ser rechazada, o, si por el contrario, la citada\noferta no resulta anormalmente baja, y por ello debe ser tomada en consideración para adjudicar el contrato. Para\nello, se solicitará a la empresa licitadora que en un plazo de cinco (5) días hábiles presente las precisiones que\nconsidere oportunas. Los documentos justificativos de la baja realizada deberán presentarse en formato pdf y firmados\nelectrónicamente. \nSi transcurrido este plazo no se hubiera recibido dichas justificaciones, se pondrá en conocimiento del órgano de\ncontratación y se considerará que la proposición no podrá ser cumplida y, por tanto, la empresa que la haya realizado\nquedará excluida del procedimiento de selección.\nSe remitirá al órgano de contratación la documentación recibida en el plazo establecido, para su análisis y valoración\nsobre la aceptación de la oferta. El rechazo de cualquier oferta no tendrá efectos sobre la determinación de la baja de\nmedia.\n- Empresas de un mismo Grupo.\nA los efectos de establecer la baja media (BM) y la baja de referencia (BR), cuando empresas pertenecientes a un\nmismo grupo presenten distintas proposiciones para concurrir (solas o en U.T.E.) a la adjudicación de un contrato,\núnicamente será considerada la oferta de menor importe de cada grupo. \nSe entiende por empresas pertenecientes a un mismo grupo, las que se encuentren en alguno de los supuestos del\nartículo 42.1 del Código de Comercio (art. 86 R.G.L.C.A.P.).\n",
+  "EL ADJUDICATARIO ES UNA PYME": "No",
+  "EMPRESAS EXCLUIDAS POR ANORMALIDAD": {},
+  "EXPEDIENTE": "CMAYOR/2018/01Y30/52",
+  "FECHA ADJUDICACIÓN": "06-09-2021",
+  "FECHA ANUNCIO PERFIL DE CONTRATANTE": "07-07-2021",
+  "FECHA FORMALIZACIÓN": "15-09-2021",
+  "FORMA DE PAGO": "Los pagos se efectuarán previa presentación de la correspondiente factura reglamentaria. El abono durante la ejecución de las obras será mensual, en función de las certificaciones expedidas por la Dirección\nFacultativa de las obras, redactadas mensualmente con relación valorada de la obra ejecutada conforme al proyecto\nsegún resulte de las mediciones realizadas y los precios del contrato y serán tramitadas en los primeros diez días\nsiguientes al mes que correspondan. El abono de las partidas alzadas a justificar se realizará por aplicación de los precios unitarios vigentes del proyecto. ",
+  "GARANTIA DEFINITIVA": "5% del presupuesto de adjudicación sin IVA.",
+  "GARANTIA PROVISIONAL": "No se exige conforme al Acuerdo del Consell de 26 de marzo de 2010. ",
+  "GASTOS POR DESISTIMIENTO O RENUNCIA": null,
+  "IMPORTE": "3.034.872,05  EUR.",
+  "IMPORTE (SIN IMPUESTOS)": "2.508.158,72  EUR.",
+  "IMPORTE TOTAL OFERTADO (CON IMPUESTOS)": "2.601.549,42 EUR.",
+  "IMPORTE TOTAL OFERTADO (SIN IMPUESTOS)": "2.150.040,84 EUR.",
+  "IMPORTES PREVISTOS": {
+    "Modificaciones": "0,00",
+    "Otros Conceptos": "0,00",
+    "Prórrogas": "0,00",
+    "Revisión de precios": "0,00"
+  },
+  "INCLUSION DEL CONTROL DE CALIDAD": null,
+  "LUGAR DE EJECUCIÓN": "ES523 Valencia/València Término municipal de Almàssera, Alboraia i Tavernes Blanques. Ver proyecto.",
+  "Links": {
+    "Actas de adjudicación": [
+      "https://contrataciondelestado.es/wps/wcm/connect/926038aa-765c-42f6-b44a-217d69b28c8d/DOC20210712095513mesa+apertura+plicas_firmado.pdf?MOD=AJPERES",
+      "https://contrataciondelestado.es/wps/wcm/connect/09b6d725-a566-49b4-8187-5fa8678b9894/DOC20210706133302acta+S3_firmado.pdf?MOD=AJPERES",
+      "https://contrataciondelestado.es/wps/wcm/connect/6dead9eb-e69a-4fef-aeaa-0b9a3e86b206/DOC20210604075500Acta_S2_2018_01Y30_52_firmado.pdf?MOD=AJPERES"
+    ],
+    "Actas de valoración de criterios mediante juicio de valor": [
+      "https://contrataciondelestado.es/wps/wcm/connect/0cd03a57-ac29-4670-9549-721445e9ef87/DOC20210216133229LI066+INFORME+TECNICO.pdf?MOD=AJPERES",
+      "https://contrataciondelestado.es/wps/wcm/connect/1b3bb6fe-9c6d-4124-aef4-3ded7cbf2b0b/DOC20210706133416210629_INFORME_VALORAC_PLICAS_OBRA_CARRAIXET_201801Y3052_firmado.pdf?MOD=AJPERES"
+    ],
+    "Adjudicación": "https://contrataciondelestado.es/wps/wcm/connect/8725be46-2d99-44c9-bc7c-61a2cd0b8b7f/DOC_CAN_ADJ2021-234319.html?MOD=AJPERES",
+    "Anexo I": "https://contrataciondelestado.es/wps/wcm/connect/e354ecb7-eb0d-4082-8654-ec8c66d86c5e/DOC2021042311051720210312_LI019+ANEXO+I_firmado.pdf?MOD=AJPERES",
+    "Anuncio de Licitación": "https://contrataciondelestado.es/wps/wcm/connect/5d373730-eb40-478e-9bbe-5871e85886a5/DOC_CN2021-023551.html?MOD=AJPERES",
+    "Formalización": "https://contrataciondelestado.es/wps/wcm/connect/3039b13c-9601-4f92-92a1-523ef2222ed6/DOC_FORM2021-256567.html?MOD=AJPERES",
+    "Licitación": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=%2Fk4W%2BYeJ92SXQV0WE7lYPw%3D%3D",
+    "Pliego": "https://contrataciondelestado.es/wps/wcm/connect/bbe7a6eb-76cc-4c83-b36a-5446415860b6/DOC_CD2021-820592.html?MOD=AJPERES"
+  },
+  "MEDIOS PARA ACREDITAR LA SOLVENCIA ECONOMICA": "Acreditar estar en posesión de la clasificación requerida. Para ello se aportará certificado del Registro Oficial de\nLicitadores y Empresas Clasificadas, así como la declaración responsable de la vigencia de los extremos acreditados en\nel certificado. ",
+  "MEDIOS PARA ACREDITAR LA SOLVENCIA TECNICA": "Acreditar estar en posesión de la clasificación requerida. Para ello se aportará certificado del Registro Oficial de\nLicitadores y Empresas Clasificadas, así como la declaración responsable de la vigencia de los extremos acreditados en\nel certificado. ",
+  "MEJORAS COMO CRITERIO DE ADJUDICACION": "NO",
+  "NIF": "A46041711",
+  "NOMBRE/RAZÓN SOCIAL ADJUDICATARIO": "BECSA, S.A.",
+  "NÚMERO DE EMPRESAS EXCLUIDAS POR ANORMALIDAD": 0,
+  "NÚMERO DE EMPRESAS INCURSAS EN ANORMALIDAD": 0,
+  "NÚMERO DE EMPRESAS INVITADAS": 0,
+  "NÚMERO DE EMPRESAS SELECCIONADAS": 13,
+  "NÚMERO DE LICITADORES": 13,
+  "OBJETO": "Permeabilización de los caminos de servicio del Barranco del Carraixet bajo la Línea 3 de Metrovalencia, y adecuación hasta la conexión con la CV-3002 (Valencia)",
+  "OBLIGACION DE INDICAR EN LA OFERTA SI VA A HABER SUBCONTRATACION": " Si. ",
+  "OFERTA ECONÓMICA": {
+    "AGLOMERADOS LOS SERRANOS SA": "2.329.327,00 €",
+    "BECSA SA": "2.150.040,84 €",
+    "CHM OBRAS E INFRAESTRUCTURAS SA": "2.234.769,42 €",
+    "ECISA COMPAÑIA GENERAL DE CONSTRUCCIONES SA": "2.264.616,52 €",
+    "FERROVIAL CONSTRUCCION SA": "2.352.062,15 €",
+    "GRUPO BERTOLIN SAU": "2.179.589,93 €",
+    "OBRASCON HUARTE LAIN SA": "2.236.525,13 €",
+    "PAVASAL EMPRESA CONSTRUCTORA SA": "2.367.201,00 €",
+    "ROVER INFRAESTRUCTURAS SA": "2.100.582,93 €",
+    "TECNOLOG CONSTR Y OBRAS PUBLICAS SA": "2.117.638,41 €",
+    "UTE CONTRATAS VILOR-GUEROLA TRANSER": "2.194.640,00 €",
+    "VIALOBRA SL": "2.153.627,41 €",
+    "VIAS Y CONSTRUCCIONES SA": "2.415.607,67 €"
+  },
+  "OTROS COMPONENTES DEL VALOR ESTIMADO DEL CONTRATO": "No se establecen",
+  "PENALIDADES EN CASO DE INCUMPLIMIENTO DE LAS CONDICIONES": "Imposicion al contratista de una penalidad de hasta un 50% del importe del subcontrato.",
+  "PLAZO DE EJECUCIÓN": "24 Mes(es)",
+  "PLAZO DE GARANTIA": "El plazo de garantía de las obras será de UN (1) año, a contar desde la fecha de su recepción. . ",
+  "PLAZO DE PRESENTACIÓN": "10/05/2021",
+  "PLAZO DE RECEPCION": "Un mes desde la fecha de finalización del contrato. . ",
+  "PLAZO MAXIMO DE LAS PRORROGAS": null,
+  "PLAZO PARA LA PRESENTACION": "Ampliación en cinco días del plazo de presentación de proposiciones, por acceso a los pliegos y demás\ndocumentación complementaria de la licitación a través de medios no electrónicos:\n[X] NO. [  ] Si\nAmpliación del plazo de presentación de proposiciones, por necesidad de visitas al terreno o consulta «in situ»\nde la documentación\n[X] NO. [  ] Si  (en su caso, indicar días en los que se amplía el plazo):\nMEDIO DE NOTIFICACIÓN ELECTRÓNICA. [  ] Dirección electrónica habilitada\n[X] Comparecencia en la sede electrónica. EJECUCIÓN DE LAS OBRAS DE “PERMEABILIZACIÓN DE LOS CAMINOS DE SERVICIO DEL BARRANCO DEL \nCARRAIXET BAJO LA LÍNEA 3 DE METROVALENCIA Y ADECUACIÓN HASTA LA CONEXIÓN CON LA CV-3002 \n(VALENCIA)”\n5/ \n Direcció General d'Obres Públiques,\nTransports i Mobilitat Sostenible. ",
+  "PORCENTAJE MAXIMO DE SUBCONTRATACION": null,
+  "POSIBILIDAD DE PRORROGAR EL CONTRATO": "NO",
+  "PROCEDIMIENTO": "Abierto",
+  "PÁGINA DE INFORMACIÓN DE CRITERIOS": 10,
+  "REGIMEN DE PENALIDADES": "1. Penalidades de la cláusula 36.3 del PCAP. cinco por ciento del precio del contrato, IVA excluido, en cada uno \nde los incumplimientos. 2. Penalidades por incumplimiento parcial de la ejecución de la cláusula 36.1 del PCAP. cinco por ciento del \nprecio del contrato, IVA excluido, en cada uno de los incumplimientos. 3. Penalidades por incumplimiento del plazo total por el contratista en caso de diferir de las previstas en la \ncláusula 36.4 del PCAP. 0,60 euros diarios por cada 1000 euros del precio del contrato, IVA excluido. 4. Penalidades por incumplimiento de plazos parciales por el contratista en caso de diferir de las previstas en la\ncláusula 36.4 en relación con la cláusula 36.6 del PCAP. 0,60 euros diarios por cada 1000 euros del precio del\ncontrato, IVA excluido. 5.Penalidades en caso de incumplimiento de las condiciones de la oferta, de la falta de acreditación de la\naptitud del subcontratista o de las condiciones de emergencia o urgencia:\n[  ] NO\n[X] Si, en su caso:\n[X] Imposicion al contratista de una penalidad de hasta un 50% del importe del subcontrato. [  ] Resolucion del contrato, si se ha declarado obligación esencial\n6. Penalidades en caso de incumplimiento de la obligación de remitir la relación detallada de aquellos\nsubcontratistas o suministradores que participen en el contrato cuando se perfeccione su participación, de\nlas condiciones de subcontratacion o suministro de cada uno de los que guarden una relación directa con el\nplazo de pago y del justificante de cumplimiento de los pagos a los subcontrataristas una vez terminada la\nprestacion:\n[X] NO. [  ] Si, en su caso indicar cuales. ",
+  "REVISION DE PRECIOS": "No procede, según lo establecido en el artículo 103 de la LCSP, dado que la duración prevista para la ejecución\nde la obra es de 24 meses.",
+  "SISTEMA DE PRECIOS": "Precios unitarios",
+  "SUBASTA ELECTRONICA": "NO",
+  "SUBCONTRATACIÓN COMO CRITERIO": "Sí.",
+  "SUBCRITERIOS": [
+    {
+      "Nombre": "MEMORIA CONSTRUCTIVA, PROPUESTA ORGANIZATIVA Y PROGRAMA DE TRABAJO",
+      "Porcentaje": null,
+      "Puntuación máxima": 28
+    },
+    {
+      "Nombre": "SEGURIDAD Y SALUD",
+      "Porcentaje": null,
+      "Puntuación máxima": 4
+    },
+    {
+      "Nombre": "CONTROL DE CALIDAD",
+      "Porcentaje": null,
+      "Puntuación máxima": 4
+    },
+    {
+      "Nombre": "GESTIÓN MEDIOAMBIENTAL Y DE RESIDUOS",
+      "Porcentaje": null,
+      "Puntuación máxima": 4
+    }
+  ],
+  "TAREAS CRITICAS QUE NO PODRAN SER OBJETO DE SUBCONTRATACION": "NO",
+  "TIPO DE CONTRATO": "Obras",
+  "TRAMITACIÓN": "Ordinaria",
+  "UNIDAD ENCARGADA DEL SEGUIMIENTO Y EJECUCION": "Subdirección General de Movilidad. ",
+  "VALOR ESTIMADO DEL CONTRATO": "2.508.158,72  EUR.",
+  "VALORACIONES DE EMPRESAS": {
+    "AGLOMERADOS LOS SERRANOS SAU": {
+      "PCF": 2.0,
+      "PCJ": 34.01,
+      "PCP": 45.52
+    },
+    "BECSA SA": {
+      "PCF": 5.0,
+      "PCJ": 40.0,
+      "PCP": 54.59
+    },
+    "CHM OBRAS E INFRAESTRUCTURAS SA": {
+      "PCF": 5.0,
+      "PCJ": 38.14,
+      "PCP": 51.93
+    },
+    "ECISA COMPAÑIA GENERAL DE CONSTRUCCIONES SA": {
+      "PCF": 5.0,
+      "PCJ": 36.49,
+      "PCP": 50.35
+    },
+    "FERROVIAL CONSTRUCCION SA": {
+      "PCF": 5.0,
+      "PCJ": 36.69,
+      "PCP": 43.28
+    },
+    "GRUPO BERTOLIN SAU": {
+      "PCF": 5.0,
+      "PCJ": 34.63,
+      "PCP": 53.96
+    },
+    "OBRASCON HUARTE LAIN SA": {
+      "PCF": 5.0,
+      "PCJ": 37.21,
+      "PCP": 51.85
+    },
+    "PAVASAL EMPRESA CONSTRUCTORA SA": {
+      "PCF": 5.0,
+      "PCJ": 36.9,
+      "PCP": 41.6
+    },
+    "ROVER INFRAESTRUCTURAS SA": {
+      "PCF": 5.0,
+      "PCJ": 36.07,
+      "PCP": 55.0
+    },
+    "TECNOLOG CONSTR Y OBRAS PUBLICAS SA": {
+      "PCF": 5.0,
+      "PCJ": 35.87,
+      "PCP": 54.95
+    },
+    "UTE: CONTRATAS VILOR-GUEROLA TRANSER": {
+      "PCF": 5.0,
+      "PCJ": 39.38,
+      "PCP": 53.52
+    },
+    "VIALOBRA SL": {
+      "PCF": 5.0,
+      "PCJ": 35.76,
+      "PCP": 54.53
+    },
+    "VIAS Y CONSTRUCCIONES SA": {
+      "PCF": 5.0,
+      "PCJ": 36.28,
+      "PCP": 34.9
+    }
+  },
+  "VALORACIONES SUBCRITERIOS": {
+    "CONTROL DE CALIDAD": {
+      "AGLOMERADOS LOS SERRANOS, S.A.": 3.2,
+      "BECSA, S.A.": 4.0,
+      "CHM OBRAS E INFRAESTRUCTURAS, S.A.": 4.0,
+      "ECISA, CIA GENERAL DE CONSTRUCCIONES, S.A.": 3.6,
+      "FERROVIAL CONSTRUCCIÓN, S.A.": 3.2,
+      "GRUPO BERTOLÍN, S.A.U.": 3.2,
+      "OBRASCON HUARTE LAIN, S.A. (OHL)": 3.2,
+      "PAVASAL EMPRESA CONSTRUCTORA, S.A.": 3.6,
+      "ROVER INFRAESTRUCTURAS, S.A.": 3.2,
+      "TECNOLOGÍA DE LA CONSTRUCCIÓN Y OBRAS PÚBLICAS, S.A. (TECOPSA)": 3.2,
+      "UTE CONTRATAS VILOR, S.L. - GUEROLA TRANSER, S.L.U.": 3.6,
+      "VIALOBRA, S.L": 3.6,
+      "VÍAS Y CONSTRUCCIONES, S.A.": 3.2
+    },
+    "GESTIÓN MEDIOAMBIENTAL Y DE RESIDUOS": {
+      "AGLOMERADOS LOS SERRANOS, S.A.": 2.8,
+      "BECSA, S.A.": 3.6,
+      "CHM OBRAS E INFRAESTRUCTURAS, S.A.": 3.6,
+      "ECISA, CIA GENERAL DE CONSTRUCCIONES, S.A.": 3.2,
+      "FERROVIAL CONSTRUCCIÓN, S.A.": 3.6,
+      "GRUPO BERTOLÍN, S.A.U.": 3.2,
+      "OBRASCON HUARTE LAIN, S.A. (OHL)": 3.2,
+      "PAVASAL EMPRESA CONSTRUCTORA, S.A.": 3.6,
+      "ROVER INFRAESTRUCTURAS, S.A.": 3.2,
+      "TECNOLOGÍA DE LA CONSTRUCCIÓN Y OBRAS PÚBLICAS, S.A. (TECOPSA)": 3.2,
+      "UTE CONTRATAS VILOR, S.L. - GUEROLA TRANSER, S.L.U.": 4.0,
+      "VIALOBRA, S.L": 3.2,
+      "VÍAS Y CONSTRUCCIONES, S.A.": 3.2
+    },
+    "MEMORIA CONSTRUCTIVA, PROPUESTA ORGANIZATIVA Y PROGRAMA DE TRABAJO": {
+      "AGLOMERADOS LOS SERRANOS, S.A.": 23.3,
+      "BECSA, S.A.": 27.5,
+      "CHM OBRAS E INFRAESTRUCTURAS, S.A.": 25.3,
+      "ECISA, CIA GENERAL DE CONSTRUCCIONES, S.A.": 24.9,
+      "FERROVIAL CONSTRUCCIÓN, S.A.": 25.5,
+      "GRUPO BERTOLÍN, S.A.U.": 23.5,
+      "OBRASCON HUARTE LAIN, S.A. (OHL)": 26,
+      "PAVASAL EMPRESA CONSTRUCTORA, S.A.": 25.3,
+      "ROVER INFRAESTRUCTURAS, S.A.": 24.9,
+      "TECNOLOGÍA DE LA CONSTRUCCIÓN Y OBRAS PÚBLICAS, S.A. (TECOPSA)": 24.7,
+      "UTE CONTRATAS VILOR, S.L. - GUEROLA TRANSER, S.L.U.": 26.5,
+      "VIALOBRA, S.L": 23.8,
+      "VÍAS Y CONSTRUCCIONES, S.A.": 25.1
+    },
+    "SEGURIDAD Y SALUD": {
+      "AGLOMERADOS LOS SERRANOS, S.A.": 3.6,
+      "BECSA, S.A.": 3.6,
+      "CHM OBRAS E INFRAESTRUCTURAS, S.A.": 4.0,
+      "ECISA, CIA GENERAL DE CONSTRUCCIONES, S.A.": 3.6,
+      "FERROVIAL CONSTRUCCIÓN, S.A.": 3.2,
+      "GRUPO BERTOLÍN, S.A.U.": 3.6,
+      "OBRASCON HUARTE LAIN, S.A. (OHL)": 3.6,
+      "PAVASAL EMPRESA CONSTRUCTORA, S.A.": 3.2,
+      "ROVER INFRAESTRUCTURAS, S.A.": 3.6,
+      "TECNOLOGÍA DE LA CONSTRUCCIÓN Y OBRAS PÚBLICAS, S.A. (TECOPSA)": 3.6,
+      "UTE CONTRATAS VILOR, S.L. - GUEROLA TRANSER, S.L.U.": 4.0,
+      "VIALOBRA, S.L": 4.0,
+      "VÍAS Y CONSTRUCCIONES, S.A.": 3.6
+    }
+  },
+  "¿ES LA EMPRESA ADJUDICATARIA ANORMAL?": false
+}

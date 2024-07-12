@@ -1,0 +1,26 @@
+.searchButton {
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: transparent;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.428);
+}
+
+.searchButton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: transparent;
+}
+
+.dropdownButton {
+  height: 50px;
+}
+
+.dropdownMenu {
+  width: 95vw;
+  padding-right: 0px;
+}
+
+.mainForm {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}

@@ -1,0 +1,48 @@
+.custom-switch .form-check-input {
+  width: 50px;
+  height: 25px;
+  position: relative;
+  appearance: none;
+  background-color: #b6fbff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-switch .form-check-input:checked {
+  background-color: #0e0f55;
+}
+
+.custom-switch .form-check-input::before {
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background-color: rgb(255, 238, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d2ab0e;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-switch .form-check-input:checked::before {
+  transform: translateX(25px);
+  background-color: rgb(166, 166, 166);
+  border-color: #727272;
+}
+
+/* .custom-switch .form-check-input::before {
+  background-image: url("assets/light-theme-icon.png"); 
+  background-size: cover;
+}
+
+.custom-switch .form-check-input:checked::before {
+  background-image: url("assets/dark-theme-icon.png");
+}
+ */
