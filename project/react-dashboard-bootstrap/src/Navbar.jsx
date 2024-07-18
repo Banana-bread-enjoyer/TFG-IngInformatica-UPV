@@ -37,7 +37,7 @@ const MyNavbar = ({ toggleTheme }) => {
       {["md"].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">MyApp</Navbar.Brand>
+            <Navbar.Brand href="#">SmarTender AI</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

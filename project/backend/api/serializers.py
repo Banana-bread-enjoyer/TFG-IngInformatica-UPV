@@ -59,7 +59,15 @@ class CpvlicitacionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cpvlicitacion
         fields = '__all__'
+
+
+class TipolinkSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tipolink
+        fields = '__all__'
+
 class LinksSerializer(serializers.ModelSerializer):
+    type_link=TipolinkSerializer(read_only=True)
     class Meta:
         model = Links
         fields = '__all__'
@@ -69,19 +77,6 @@ class ParticipacionesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Participaciones
         fields = '__all__'
-
-
-
-
-
-class TipolinkSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Tipolink
-        fields = '__all__'
-
-
-
-
 
 class ValoracionesSerializer(serializers.ModelSerializer):
     id_criterio=CriteriosSerializer(read_only=True)

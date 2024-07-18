@@ -70,7 +70,15 @@ const TabEmpresas = ({ valoraciones, participaciones, empresas }) => {
           path="list"
           element={<TableEmpresas empresas={filteredEmpresas} />}
         />
-        <Route path="stats" element={<StatsEmpresas empresas={empresas} />} />
+        <Route
+          path="stats"
+          element={
+            <StatsEmpresas
+              empresas={empresas}
+              participaciones={participaciones}
+            />
+          }
+        />
       </Routes>
     </>
   );

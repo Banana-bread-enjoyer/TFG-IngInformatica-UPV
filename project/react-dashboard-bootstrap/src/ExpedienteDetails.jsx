@@ -16,7 +16,14 @@ import AssignmentIcon from "@mui/icons-material/Assignment";
 import BasicInfo from "./BasicInfo";
 import InsertLinkIcon from "@mui/icons-material/InsertLink";
 import CritAdjudicacion from "./CritAdjudicacion";
-const ExpedienteDetails = ({ empresas, participaciones, valoraciones }) => {
+import LinksDocs from "./LinksDocs";
+import ImportesyPagos from "./ImportesyPagos";
+const ExpedienteDetails = ({
+  empresas,
+  participaciones,
+  valoraciones,
+  tableRefs,
+}) => {
   const { expedienteId } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
@@ -135,7 +142,15 @@ const ExpedienteDetails = ({ empresas, participaciones, valoraciones }) => {
           path="fechas"
           element={<FechasyPlazos licitacion={licitacion} />}
         />
-        <Route path="importes" element={<h4>Importes y Pagos</h4>} />
+        <Route
+          path="importes"
+          element={
+            <ImportesyPagos
+              licitacion={licitacion}
+              participaciones={participaciones}
+            />
+          }
+        />
         <Route
           path="criterios"
           element={
@@ -144,10 +159,11 @@ const ExpedienteDetails = ({ empresas, participaciones, valoraciones }) => {
               participaciones={participaciones}
               empresas={empresas}
               valoraciones={valoraciones}
+              tableRefs={tableRefs}
             />
           }
         />
-        <Route path="links" element={<h4>Links a Documentos</h4>} />
+        <Route path="links" element={<LinksDocs licitacion={expedienteId} />} />
       </Routes>
     </div>
   );

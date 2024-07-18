@@ -82,8 +82,10 @@ const CritAdjudicacion = ({
         <thead>
           <tr>
             <th>Criterio</th>
-            <th>Valor Máximo</th>
-            <th>Valor Mínimo</th>
+            <th>Peso</th>
+            <th>Calidad inaceptable</th>
+            <th>Valoración Máxima</th>
+            <th>Valoración Mínima</th>
             <th>Media</th>
             <th>Mediana</th>
             <th>Desviación Típica</th>
@@ -95,11 +97,14 @@ const CritAdjudicacion = ({
           {statistics.map((stat) => (
             <tr key={stat.criterio}>
               <td>{stat.criterio}</td>
+              <td>{stat.peso}</td>
+              <td>{stat.inaceptable ? "<" + stat.inaceptable : ""}</td>
               <td>{stat.max}</td>
               <td>{stat.min}</td>
               <td>{stat.average}</td>
               <td>{stat.median}</td>
               <td>{stat.standard_deviation}</td>
+              <td>{stat.diferencia}</td>
             </tr>
           ))}
         </tbody>

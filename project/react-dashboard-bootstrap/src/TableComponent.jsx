@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import UnfoldMoreOutlinedIcon from "@mui/icons-material/UnfoldMoreOutlined";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
-import "./CustomTable.css";
 import {
   Table,
   Header,
@@ -21,8 +20,35 @@ import {
 } from "@table-library/react-table-library/sort";
 import { parse, compareAsc } from "date-fns";
 import { es } from "date-fns/locale";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./CustomTable.css";
+import Dropdown from "react-bootstrap/Dropdown";
+import Form from "react-bootstrap/Form";
+import ExportarExcel from "./ExportarExcel";
+const TableComponent = ({
+  licitaciones,
+  participaciones,
+  valoraciones,
+  visibleColumns,
+  setVisibleColumns,
+  empresas,
+}) => {
+  const columns = [
+    { key: "EXPEDIENTE", label: "Expediente" },
+    { key: "OBJETO", label: "Objeto del Contrato" },
+    { key: "PLAZO_PRESENTACION", label: "Plazo de Presentación" },
+    { key: "DURACION", label: "Duración del Contrato" },
+    { key: "PROCEDIMIENTO", label: "Tipo de Procedimiento" },
+    { key: "TRAMITACION", label: "Tipo de Tramitación" },
+    { key: "IMPORTE", label: "Importe" },
+    { key: "ADJUDICATARIO", label: "Empresa Adjudicataria" },
+    { key: "OFERTA_ADJ", label: "Oferta del Adjudicatario" },
+    { key: "NUM_OFERTAS", label: "Número de Ofertas" },
+    { key: "CRITERIOS", label: "Criterios de Adjudicación" },
+    { key: "LUGAR", label: "Lugar de Ejecución" },
+    { key: "UNIDAD", label: "Unidad Encargada" },
+  ];
 
-const TableComponent = ({ licitaciones }) => {
   const sort = useSort(
     licitaciones,
     {
@@ -88,8 +114,42 @@ const TableComponent = ({ licitaciones }) => {
               b.adjudicatario.nombre_empresa
             )
           ),
-        ESTADO: (array) =>
-          array.sort((a, b) => a.estado.estado.localeCompare(b.estado.estado)),
+        NUM_OFERTAS: (array) =>
+          array.sort(
+            (a, b) => getOfertas(a.id_licitacion) - getOfertas(b.id_licitacion)
+          ),
+        CRITERIOS: (array) =>
+          array.sort((a, b) =>
+            numCriterios(a.id_licitacion).localeCompare(
+              numCriterios(b.id_licitacion)
+            )
+          ),
+        OFERTA_ADJ: (array) =>
+          array.sort(
+            (a, b) => getOfertaAdjudicatario(a) - getOfertaAdjudicatario(b)
+          ),
+        DURACION: (array) =>
+          array.sort((a, b) => {
+            const getDurationValue = (duration) => {
+              const [num, unit] = duration.split(" ");
+              return { num: parseInt(num, 10), unit };
+            };
+
+            const unitWeights = {
+              "Día(s)": 1,
+              "Mes(es)": 2,
+              "Año(s)": 3,
+            };
+
+            const durationA = getDurationValue(a.plazo_ejecucion);
+            const durationB = getDurationValue(b.plazo_ejecucion);
+
+            if (unitWeights[durationA.unit] === unitWeights[durationB.unit]) {
+              return durationA.num - durationB.num;
+            } else {
+              return unitWeights[durationA.unit] - unitWeights[durationB.unit];
+            }
+          }),
       },
     }
   );
@@ -98,106 +158,214 @@ const TableComponent = ({ licitaciones }) => {
     console.log(action, state);
   }
 
-  return (
-    <Table data={{ nodes: licitaciones }} sort={sort}>
-      {(tableList) => (
-        <>
-          <Header>
-            <HeaderRow>
-              <HeaderCellSort sortKey="EXPEDIENTE">Expediente</HeaderCellSort>
-              <HeaderCellSort sortKey="OBJETO">
-                Objeto del Contrato
-              </HeaderCellSort>
-              <HeaderCellSort sortKey="ESTADO">Estado</HeaderCellSort>
-              <HeaderCellSort sortKey="PLAZO_PRESENTACION">
-                <div style={{ whiteSpace: "normal" }}>
-                  Plazo de Presentación
-                </div>
-              </HeaderCellSort>
-              <HeaderCellSort sortKey="PROCEDIMIENTO">
-                <div style={{ whiteSpace: "normal" }}>
-                  Tipo de Procedimiento
-                </div>
-              </HeaderCellSort>
-              <HeaderCellSort sortKey="TRAMITACION">
-                Tipo de Tramitación
-              </HeaderCellSort>
-              <HeaderCellSort sortKey="IMPORTE">Importe</HeaderCellSort>
-              <HeaderCellSort sortKey="ADJUDICATARIO">
-                <div style={{ whiteSpace: "normal" }}>
-                  Empresa Adjudicataria
-                </div>
-              </HeaderCellSort>
-              <HeaderCellSort sortKey="LUGAR">
-                <div style={{ whiteSpace: "normal" }}>Lugar de Ejecución</div>
-              </HeaderCellSort>
-              <HeaderCellSort sortKey="UNIDAD">
-                <div style={{ whiteSpace: "normal" }}>Unidad Encargada</div>
-              </HeaderCellSort>
-            </HeaderRow>
-          </Header>
+  const handleSelect = (key) => {
+    setVisibleColumns((prev) =>
+      prev.includes(key) ? prev.filter((col) => col !== key) : [...prev, key]
+    );
+  };
+  const getOfertas = (idLicitacion) => {
+    var numOfertas = 0;
+    participaciones.map((participacion) => {
+      if (participacion.id_licitacion == idLicitacion) {
+        numOfertas += 1;
+      }
+    });
+    return numOfertas;
+  };
+  const numCriterios = (idLicitacion) => {
+    const participacionesLicit = participaciones.filter(
+      (participacion) => participacion.id_licitacion == idLicitacion
+    );
+    const participacionIds = participacionesLicit.map(
+      (participacion) => participacion.id_participacion
+    );
 
-          <Body>
-            {tableList.map((licitacion) => (
-              <Row item={licitacion} key={licitacion.id_licitacion}>
-                <Cell style={{ width: "400px" }} className="cellStyle">
-                  <Link
-                    to={`/licitaciones/list/expediente/${licitacion.id_licitacion}`}
+    const valoracionesFiltered = valoraciones.filter((valoracion) =>
+      participacionIds.includes(valoracion.id_participacion)
+    );
+    const uniqueCriterios = new Set(
+      valoracionesFiltered.map(
+        (valoracion) => valoracion.id_criterio.id_criterio
+      )
+    );
+    return uniqueCriterios.size == 1 ? "Único criterio" : "Varios Criterios";
+  };
+  const getOfertaAdjudicatario = (licitacion) => {
+    const idLicitacion = licitacion.id_licitacion;
+    const idAdjudicatario = licitacion.adjudicatario.id_empresa;
+    const participacionAdjudicatario = participaciones.find(
+      (participacion) =>
+        participacion.id_licitacion == idLicitacion &&
+        participacion.id_empresa == idAdjudicatario
+    );
+    return participacionAdjudicatario.importe_ofertado_sin_iva;
+  };
+
+  return (
+    <div>
+      <Dropdown>
+        <div>
+          <Dropdown.Toggle
+            className="ms-3 me-3"
+            variant="success"
+            id="dropdown-basic"
+          >
+            Columnas Visibles
+          </Dropdown.Toggle>
+          <ExportarExcel
+            participaciones={participaciones}
+            valoraciones={valoraciones}
+            empresas={empresas}
+            filteredLicitaciones={licitaciones}
+          />
+        </div>
+        <Dropdown.Menu>
+          <Form>
+            {columns.map(
+              (column) =>
+                column.key != "EXPEDIENTE" && (
+                  <Dropdown.Item
+                    key={column.key}
+                    onClick={() => handleSelect(column.key)}
                   >
-                    {licitacion.num_expediente}
-                  </Link>
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {licitacion.objeto}
-                  </div>
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {licitacion.estado.estado}
-                  </div>
-                </Cell>
-                <Cell className="cellStyle">
-                  {licitacion.plazo_presentacion}
-                </Cell>
-                <Cell className="cellStyle">
-                  {licitacion.procedimiento.nombre_procedimiento}
-                </Cell>
-                <Cell className="cellStyle">
-                  {licitacion.tramitacion.nombre_tramitacion}
-                </Cell>
-                <Cell className="cellStyle">
-                  {licitacion.importe_sin_impuestos
-                    ? parseFloat(
-                        licitacion.importe_sin_impuestos
-                      ).toLocaleString("es-ES", {
-                        style: "currency",
-                        currency: "EUR",
-                        minimumFractionDigits: 2,
-                      })
-                    : "N/A"}
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {licitacion.adjudicatario.nombre_empresa}
-                  </div>
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {licitacion.lugar_ejecucion}
-                  </div>
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {licitacion.unidad_encargada}
-                  </div>
-                </Cell>
-              </Row>
-            ))}
-          </Body>
-        </>
-      )}
-    </Table>
+                    <Form.Check
+                      type="checkbox"
+                      checked={visibleColumns.includes(column.key)}
+                      label={column.label}
+                      readOnly
+                    />
+                  </Dropdown.Item>
+                )
+            )}
+          </Form>
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <Table data={{ nodes: licitaciones }} sort={sort}>
+        {(tableList) => (
+          <>
+            <Header>
+              <HeaderRow>
+                {columns.map((column) => (
+                  <HeaderCellSort
+                    key={column.key}
+                    sortKey={column.key}
+                    hide={!visibleColumns.includes(column.key)}
+                  >
+                    <div style={{ whiteSpace: "normal" }}>{column.label}</div>
+                  </HeaderCellSort>
+                ))}
+              </HeaderRow>
+            </Header>
+
+            <Body>
+              {tableList.map((licitacion) => (
+                <Row item={licitacion} key={licitacion.id_licitacion}>
+                  {visibleColumns.includes("EXPEDIENTE") && (
+                    <Cell className="cellStyle">
+                      <Link
+                        to={`/licitaciones/list/expediente/${licitacion.id_licitacion}`}
+                      >
+                        {licitacion.num_expediente}
+                      </Link>
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("OBJETO") && (
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {licitacion.objeto}
+                      </div>
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("PLAZO_PRESENTACION") && (
+                    <Cell className="cellStyle">
+                      {licitacion.plazo_presentacion}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("DURACION") && (
+                    <Cell className="cellStyle">
+                      {licitacion.plazo_ejecucion}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("PROCEDIMIENTO") && (
+                    <Cell className="cellStyle">
+                      {licitacion.procedimiento.nombre_procedimiento}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("TRAMITACION") && (
+                    <Cell className="cellStyle">
+                      {licitacion.tramitacion.nombre_tramitacion}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("IMPORTE") && (
+                    <Cell className="cellStyle">
+                      {licitacion.importe_sin_impuestos
+                        ? parseFloat(
+                            licitacion.importe_sin_impuestos
+                          ).toLocaleString("es-ES", {
+                            style: "currency",
+                            currency: "EUR",
+                            minimumFractionDigits: 2,
+                          })
+                        : "N/A"}
+                    </Cell>
+                  )}
+
+                  {visibleColumns.includes("ADJUDICATARIO") && (
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {licitacion.adjudicatario.nombre_empresa}
+                      </div>
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("OFERTA_ADJ") && (
+                    <Cell className="cellStyle">
+                      {getOfertaAdjudicatario(licitacion)
+                        ? parseFloat(
+                            getOfertaAdjudicatario(licitacion)
+                          ).toLocaleString("es-ES", {
+                            style: "currency",
+                            currency: "EUR",
+                            minimumFractionDigits: 2,
+                          })
+                        : "N/A"}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("NUM_OFERTAS") && (
+                    <Cell className="cellStyle">
+                      {getOfertas(licitacion.id_licitacion)
+                        ? getOfertas(licitacion.id_licitacion)
+                        : "N/A"}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("CRITERIOS") && (
+                    <Cell className="cellStyle">
+                      {numCriterios(licitacion.id_licitacion)
+                        ? numCriterios(licitacion.id_licitacion)
+                        : "N/A"}
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("LUGAR") && (
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {licitacion.lugar_ejecucion}
+                      </div>
+                    </Cell>
+                  )}
+                  {visibleColumns.includes("UNIDAD") && (
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {licitacion.unidad_encargada}
+                      </div>
+                    </Cell>
+                  )}
+                </Row>
+              ))}
+            </Body>
+          </>
+        )}
+      </Table>
+    </div>
   );
 };
 
