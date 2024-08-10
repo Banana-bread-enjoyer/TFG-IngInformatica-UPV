@@ -18,6 +18,7 @@ const TabLicitaciones = ({ valoraciones, participaciones, empresas }) => {
   const [filters, setFilters] = useState(null);
   const [licitaciones, setLicitaciones] = useState([]);
   const [statistics, setStatistics] = useState({});
+  const [cpvLicitacion, setCpvLicitacion] = useState([]);
   const [visibleColumns, setVisibleColumns] = useState(
     JSON.parse(localStorage.getItem("visibleColumns")) || [
       "EXPEDIENTE",
@@ -39,15 +40,29 @@ const TabLicitaciones = ({ valoraciones, participaciones, empresas }) => {
     localStorage.setItem("visibleColumns", JSON.stringify(visibleColumns));
   }, [visibleColumns]);
   useEffect(() => {
+    // Fetch data from licitaciones endpoint
     fetch("http://localhost:8000/api/licitaciones/")
       .then((response) => response.json())
       .then((data) => {
         setLicitaciones(data);
+
+        // Fetch data from cpvlicitacion endpoint after the first fetch completes
+        return fetch("http://localhost:8000/api/cpvlicitacion/");
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        setCpvLicitacion(data);
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
   }, []);
+
+  const getCpvCodesForLicitacion = (id_licitacion) => {
+    return cpvLicitacion
+      .filter((item) => item.id_licitacion === id_licitacion)
+      .map((item) => item.id_cpv.id_cpv);
+  };
 
   const applyFilters = (newFilters) => {
     setFilters(newFilters);
@@ -116,9 +131,6 @@ const TabLicitaciones = ({ valoraciones, participaciones, empresas }) => {
           return false;
         }
       }
-      if (filters.estado && filters.estado != licitacion.estado.id_estado) {
-        return false;
-      }
       if (
         filters.tipoContrato &&
         filters.tipoContrato != licitacion.tipo_contrato.id_tipo_contrato
@@ -134,6 +146,17 @@ const TabLicitaciones = ({ valoraciones, participaciones, empresas }) => {
       if (
         filters.tipoTramitacion &&
         filters.tipoTramitacion != licitacion.tramitacion.id_tramitacion
+      ) {
+        return false;
+      }
+      if (
+        filters.codigoCPV &&
+        filters.codigoCPV.length > 0 &&
+        !filters.codigoCPV.some((cpv) =>
+          getCpvCodesForLicitacion(licitacion.id_licitacion).includes(
+            cpv.id_cpv
+          )
+        )
       ) {
         return false;
       }
@@ -496,6 +519,8 @@ const TabLicitaciones = ({ valoraciones, participaciones, empresas }) => {
               visibleColumns={visibleColumns}
               setVisibleColumns={setVisibleColumns}
               empresas={empresas}
+              filters={filters}
+              query={searchQuery}
             />
           }
         />

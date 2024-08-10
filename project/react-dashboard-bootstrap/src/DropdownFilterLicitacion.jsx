@@ -11,7 +11,6 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
   const [tipoprocedimiento, setTipoprocedimiento] = useState([]);
   const [tipocontrato, setTipocontrato] = useState([]);
   const [tipotramitacion, setTipotramitacion] = useState([]);
-  const [estados, setEstados] = useState([]);
   const [filters, setFilters] = useState({
     lugarEjecucion: "",
     importeMax: "",
@@ -19,7 +18,6 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
     unidadEncargada: "",
     plazoPresentacionDesde: "",
     plazoPresentacionHasta: "",
-    estado: "",
     tipoContrato: "",
     tipoProcedimiento: "",
     tipoTramitacion: "",
@@ -27,12 +25,26 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
   });
 
   const [appliedFilters, setAppliedFilters] = useState({});
+  const [selectedItems, setSelectedItems] = useState([]);
+
+  const handleSelectionChange = (selected) => {
+    if (selected.length != selectedItems.length) {
+      setSelectedItems(selected);
+    }
+  };
+  useEffect(() => {
+    if (selectedItems !== filters.codigoCPV) {
+      setFilters((prevFilters) => ({
+        ...prevFilters,
+        codigoCPV: selectedItems,
+      }));
+    }
+  }, [selectedItems]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const urls = [
-          "http://localhost:8000/api/estados/",
           "http://localhost:8000/api/tipocontrato/",
           "http://localhost:8000/api/tipoprocedimiento/",
           "http://localhost:8000/api/tipotramitacion/",
@@ -41,10 +53,9 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
         const data = await Promise.all(
           responses.map((response) => response.json())
         );
-        setEstados(data[0]);
-        setTipocontrato(data[1]);
-        setTipoprocedimiento(data[2]);
-        setTipotramitacion(data[3]);
+        setTipocontrato(data[0]);
+        setTipoprocedimiento(data[1]);
+        setTipotramitacion(data[2]);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -65,9 +76,11 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
   const applyFilters = () => {
     setAppliedFilters(filters);
     onFilterChange(filters);
+    console.log(filters);
   };
 
   const handleClearFilters = () => {
+    setSelectedItems([]);
     setFilters({
       lugarEjecucion: "",
       importeMax: "",
@@ -75,7 +88,6 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
       unidadEncargada: "",
       plazoPresentacionDesde: "",
       plazoPresentacionHasta: "",
-      estado: "",
       tipoContrato: "",
       tipoProcedimiento: "",
       tipoTramitacion: "",
@@ -161,21 +173,6 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
           </Form.Group>
         </div>
         <div className="row mt-3">
-          <Form.Group controlId="estado" className="col">
-            <Form.Label>Estado de la Licitación</Form.Label>
-            <Form.Select
-              value={filters.estado}
-              onChange={handleFilterChange}
-              id="estado"
-            >
-              <option value="">Seleccionar Estado</option>
-              {estados.map((estado) => (
-                <option key={estado.id_estado} value={estado.id_estado}>
-                  {estado.estado}
-                </option>
-              ))}
-            </Form.Select>
-          </Form.Group>
           <Form.Group controlId="formContrato" className="col">
             <Form.Label>Tipo de Contrato</Form.Label>
             <Form.Select
@@ -231,7 +228,10 @@ const DropdownFilterLicitacion = ({ onFilterChange }) => {
             </Form.Select>
           </Form.Group>
         </div>
-        <SearchDropdown />
+        <SearchDropdown
+          onSelectionChange={handleSelectionChange}
+          selectedItems={selectedItems}
+        />
         <div className="row ms-1 mt-3 mb-2">
           <div className="col-2 d-grid gap-2">
             <Button variant="primary" type="submit" onClick={applyFilters}>

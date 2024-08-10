@@ -32,6 +32,8 @@ const TableComponent = ({
   visibleColumns,
   setVisibleColumns,
   empresas,
+  filters,
+  query,
 }) => {
   const columns = [
     { key: "EXPEDIENTE", label: "Expediente" },
@@ -217,6 +219,8 @@ const TableComponent = ({
             valoraciones={valoraciones}
             empresas={empresas}
             filteredLicitaciones={licitaciones}
+            filters={filters}
+            query={query}
           />
         </div>
         <Dropdown.Menu>

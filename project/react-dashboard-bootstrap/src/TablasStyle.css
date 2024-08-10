@@ -1,0 +1,12 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Fondo blanco para que se vea bien */
+  z-index: 1; /* Asegurarse de que esté por encima del contenido de la tabla */
+}
+.sticky-header-level-2 {
+  position: sticky;
+  top: 40px; /* Ajusta esta altura según sea necesario */
+  background-color: white;
+  z-index: 1;
+}

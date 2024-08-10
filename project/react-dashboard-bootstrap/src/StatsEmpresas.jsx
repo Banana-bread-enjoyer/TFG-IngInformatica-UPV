@@ -1,23 +1,11 @@
 import React, { useState, useEffect } from "react";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  PieChart,
-  Pie,
-  Cell,
-  Legend,
-  ResponsiveContainer,
-  ComposedChart,
-  CartesianGrid,
-  Line,
-} from "recharts";
-import Table from "react-bootstrap/Table";
+import { Tooltip, PieChart, Pie, Cell, Legend } from "recharts";
 import { parse, compareAsc } from "date-fns";
 import { es } from "date-fns/locale";
-
+import "./TablasStyle.css";
+import EmpresaTableByYear from "./EmpresaTableByYear";
+import Table from "react-bootstrap/Table";
+import Accordion from "react-bootstrap/Accordion";
 const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
   const [empresaData, setEmpresaData] = useState([]);
   const [sortBy, setSortBy] = useState("participacionesCount");
@@ -61,29 +49,6 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
     { name: "No", value: pymeStats.noPymeCount || 0 },
     { name: "Desconocido", value: pymeStats.unknownCount || 0 },
   ];
-  const sortEmpresaData = (data) => {
-    const sortedData = [...data];
-    sortedData.sort((a, b) => {
-      if (a[sortBy] === b[sortBy]) {
-        // Tie-breaking criteria, change 'adjudicatarioCount' to any desired field
-        if (sortBy == "participacionesCount") {
-          return sortOrder === "asc"
-            ? a.adjudicatarioCount - b.adjudicatarioCount
-            : b.adjudicatarioCount - a.adjudicatarioCount;
-        }
-        return sortOrder === "asc"
-          ? a.participacionesCount - b.participacionesCount
-          : b.participacionesCount - a.participacionesCount;
-      }
-
-      if (sortOrder === "asc") {
-        return a[sortBy] - b[sortBy];
-      } else {
-        return b[sortBy] - a[sortBy];
-      }
-    });
-    return sortedData.slice(0, 20);
-  };
 
   // Helper function to aggregate data
 
@@ -108,13 +73,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
     "#b01041",
     "#223f5a",
   ];
-  const tooltipStyles = {
-    backgroundColor: "#333",
-    color: "#fff",
-    border: "1px solid #ccc",
-    padding: "10px",
-    borderRadius: "5px",
-  };
+
   const startYear = 2019;
   const currentYear = new Date().getFullYear() - 1;
   const years = Array.from(
@@ -138,7 +97,6 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
           );
         });
         const numParticipaciones = participacionesYear.length;
-
         const numAdjudicaciones = licitaciones.filter(
           (l) =>
             l.adjudicatario.id_empresa == empresa.id_empresa &&
@@ -173,7 +131,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
 
       return { year, metrics };
     });
-
+    console.log(metricsByYear);
     return metricsByYear;
   };
 
@@ -194,6 +152,14 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
   ];
   const computeMetricsByRange = () => {
     const metricsByRange = empresas.map((empresa) => {
+      const totalParticipations = participaciones.filter(
+        (p) => p.id_empresa === empresa.id_empresa
+      ).length;
+      const totalWins = licitaciones.filter(
+        (l) => l.adjudicatario.id_empresa === empresa.id_empresa
+      ).length;
+      const totalSuccessPercentage =
+        totalParticipations > 0 ? (totalWins / totalParticipations) * 100 : 0;
       const metrics = ranges.map((range) => {
         const participacionesInRange = participaciones.filter((p) => {
           const licitacion = licitaciones.find(
@@ -233,6 +199,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
 
       return {
         empresa: empresa.nombre_empresa,
+        totalSuccessPercentage: totalSuccessPercentage.toFixed(2),
         metrics,
       };
     });
@@ -274,99 +241,133 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
           </PieChart>
         </div>
       </div>
-      <div
-        className="border ms-3 me-3"
-        style={{ overflowX: "scroll", overflowY: "scroll", height: "700px" }}
-        width="100%"
-      >
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>Empresa</th>
-              {years.map((year) => (
-                <th colSpan={3} key={year}>
-                  {year}
-                </th>
-              ))}
-            </tr>
-            <tr>
-              <th></th>
-              {years.map((year) => (
-                <>
-                  <th key={`${year}-baja`} style={{ fontSize: "12px" }}>
-                    Baja Media
-                  </th>
-                  <th
-                    key={`${year}-adjudicaciones`}
-                    style={{ fontSize: "12px" }}
-                  >
-                    Adjudicaciones
-                  </th>
-                  <th
-                    key={`${year}-participaciones`}
-                    style={{ fontSize: "12px" }}
-                  >
-                    Participaciones
-                  </th>
-                </>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {empresas.map((empresa) => (
-              <tr key={empresa.id_empresa}>
-                <td>{empresa.nombre_empresa}</td>
-                {years.map((year) => {
-                  const metrics = metricsByYear.find(
-                    (m) => m.year === year
-                  ).metrics;
-                  const empresaMetrics = metrics.find(
-                    (m) => m.name === empresa.nombre_empresa
-                  );
+      <Accordion className="ms-3 me-3" defaultActiveKey="0" alwaysOpen>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            Baja Media, Adjudicaciones y Participaciones de cada Empresa por año
+          </Accordion.Header>
+          <Accordion.Body>
+            <div
+              className="border ms-3 me-3"
+              style={{
+                overflowX: "scroll",
+                overflowY: "scroll",
+                height: "700px",
+              }}
+              width="100%"
+            >
+              <Table striped bordered hover>
+                <thead className="sticky-top">
+                  <tr>
+                    <th>Empresa</th>
+                    {years.map((year) => (
+                      <th colSpan={3} key={year}>
+                        {year}
+                      </th>
+                    ))}
+                  </tr>
+                  <tr>
+                    <th></th>
+                    {years.map((year) => (
+                      <>
+                        <th key={`${year}-baja`} style={{ fontSize: "12px" }}>
+                          Baja Media
+                        </th>
+                        <th
+                          key={`${year}-adjudicaciones`}
+                          style={{ fontSize: "12px" }}
+                        >
+                          Adjudicaciones
+                        </th>
+                        <th
+                          key={`${year}-participaciones`}
+                          style={{ fontSize: "12px" }}
+                        >
+                          Participaciones
+                        </th>
+                      </>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {empresas.map((empresa) => (
+                    <tr key={empresa.id_empresa}>
+                      <td>{empresa.nombre_empresa}</td>
+                      {years.map((year) => {
+                        const metrics = metricsByYear.find(
+                          (m) => m.year === year
+                        ).metrics;
+                        const empresaMetrics = metrics.find(
+                          (m) => m.name === empresa.nombre_empresa
+                        );
 
-                  return (
-                    <React.Fragment key={year}>
-                      <td>
-                        {empresaMetrics ? empresaMetrics.percentage : "N/A"}
-                      </td>
-                      <td>{empresaMetrics ? empresaMetrics.wins : "N/A"}</td>
-                      <td>
-                        {empresaMetrics ? empresaMetrics.participations : "N/A"}
-                      </td>
-                    </React.Fragment>
-                  );
-                })}
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-      </div>
-      <div
-        className="border ms-3 me-3"
-        style={{ overflowX: "scroll", overflowY: "scroll", height: "700px" }}
-        width="100%"
-      >
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>Empresa</th>
-              {ranges.map((range) => (
-                <th key={range.label}>{range.label}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {metricsByRange.map((empresaMetrics) => (
-              <tr key={empresaMetrics.empresa}>
-                <td>{empresaMetrics.empresa}</td>
-                {empresaMetrics.metrics.map((metric) => (
-                  <td key={metric.rangeLabel}>{metric.successPercentage}%</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-      </div>
+                        return (
+                          <React.Fragment key={year}>
+                            <td>
+                              {empresaMetrics
+                                ? empresaMetrics.percentage
+                                : "N/A"}
+                            </td>
+                            <td>
+                              {empresaMetrics ? empresaMetrics.wins : "N/A"}
+                            </td>
+                            <td>
+                              {empresaMetrics
+                                ? empresaMetrics.participations
+                                : "N/A"}
+                            </td>
+                          </React.Fragment>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </Table>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>
+            Porcentaje de éxito de cada empresa por tamaño de contrato
+          </Accordion.Header>
+          <Accordion.Body>
+            <div
+              className="border ms-3 me-3"
+              style={{
+                overflowX: "scroll",
+                overflowY: "scroll",
+                height: "700px",
+              }}
+              width="100%"
+            >
+              <Table striped bordered hover>
+                <thead className="sticky-top">
+                  <tr>
+                    <th>Empresa</th>
+                    <th>Total</th>
+                    {ranges.map((range) => (
+                      <th key={range.label}>{range.label}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {metricsByRange.map((empresaMetrics) => (
+                    <tr key={empresaMetrics.empresa}>
+                      <td>{empresaMetrics.empresa}</td>
+                      <td>{empresaMetrics.totalSuccessPercentage}%</td>
+                      {empresaMetrics.metrics.map((metric) => (
+                        <td key={metric.rangeLabel}>
+                          {metric.successPercentage}%
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </Table>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
     </div>
   );
 };

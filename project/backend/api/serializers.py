@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Cpvlicitacion, Codigoscpv, Criterios, Empresas, Estados, Licitaciones, Links, Participaciones, Tipocontrato, Tipolink, Tipoprocedimiento, Tipotramitacion, Valoraciones
+from .models import Cpvlicitacion, Codigoscpv, Criterios, Empresas, Licitaciones, Links, Participaciones, Tipocontrato, Tipolink, Tipoprocedimiento, Tipotramitacion, Valoraciones
 
 
 
@@ -23,12 +23,6 @@ class EmpresasSerializer(serializers.ModelSerializer):
         model = Empresas
         fields = '__all__'
 
-
-class EstadosSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Estados
-        fields = '__all__'
-
 class TipoprocedimientoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tipoprocedimiento
@@ -50,12 +44,12 @@ class LicitacionesSerializer(serializers.ModelSerializer):
     tramitacion = TipotramitacionSerializer(read_only=True)
     tipo_contrato = TipocontratoSerializer(read_only=True)
     adjudicatario= EmpresasSerializer(read_only=True)
-    estado = EstadosSerializer(read_only=True)
     class Meta:
         model = Licitaciones
         fields = '__all__'
 
 class CpvlicitacionSerializer(serializers.ModelSerializer):
+    id_cpv = CodigoscpvSerializer(read_only=True)
     class Meta:
         model = Cpvlicitacion
         fields = '__all__'

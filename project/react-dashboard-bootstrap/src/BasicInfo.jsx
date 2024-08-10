@@ -34,10 +34,6 @@ const BasicInfo = ({ licitacion }) => {
                     ? licitacion.procedimiento.nombre_procedimiento
                     : "N/A"}
                 </ListGroup.Item>
-                <ListGroup.Item>
-                  <strong>Estado:</strong>{" "}
-                  {licitacion.estado ? licitacion.estado.estado : "N/A"}
-                </ListGroup.Item>
 
                 <ListGroup.Item>
                   <strong>Códigos CPV: </strong>{" "}

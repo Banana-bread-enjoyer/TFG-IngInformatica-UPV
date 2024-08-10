@@ -82,7 +82,6 @@ const StatsComponent = ({
   }, [empresas, participaciones, licitaciones, sortBy, sortOrder]);
 
   const aggregateData = () => {
-    const estados = {};
     const procedimientos = {};
     const tramitaciones = {};
     const unidades = {};
@@ -90,9 +89,6 @@ const StatsComponent = ({
     const tiposContrato = {};
 
     licitaciones.forEach((licitacion) => {
-      const estado = licitacion.estado.estado;
-      estados[estado] = (estados[estado] || 0) + 1;
-
       const procedimiento = licitacion.procedimiento.nombre_procedimiento;
       procedimientos[procedimiento] = (procedimientos[procedimiento] || 0) + 1;
 
@@ -110,7 +106,6 @@ const StatsComponent = ({
     });
 
     return {
-      estados,
       procedimientos,
       tramitaciones,
       unidades,
@@ -119,14 +114,8 @@ const StatsComponent = ({
     };
   };
 
-  const {
-    estados,
-    procedimientos,
-    tramitaciones,
-    unidades,
-    importe,
-    tiposContrato,
-  } = aggregateData();
+  const { procedimientos, tramitaciones, unidades, importe, tiposContrato } =
+    aggregateData();
 
   const empresaChartData = empresaData.map((empresa) => ({
     name: empresa.name,
@@ -135,10 +124,6 @@ const StatsComponent = ({
     expulsadaCount: empresa.expulsadaCount,
   }));
 
-  const estadoData = Object.keys(estados).map((key) => ({
-    name: key,
-    value: estados[key],
-  }));
   const procedimientoData = Object.keys(procedimientos).map((key) => ({
     name: key,
     value: procedimientos[key],

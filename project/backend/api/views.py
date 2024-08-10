@@ -4,13 +4,13 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.core.exceptions import ObjectDoesNotExist
 from .models import (
-    Cpvlicitacion, Codigoscpv, Criterios, Empresas, Estados,
+    Cpvlicitacion, Codigoscpv, Criterios, Empresas, 
     Licitaciones, Links, Participaciones, Tipocontrato,
     Tipolink, Tipoprocedimiento, Tipotramitacion, Valoraciones
 )
 from .serializers import (
     CpvlicitacionSerializer, CodigoscpvSerializer, CriteriosSerializer,
-    EmpresasSerializer, EstadosSerializer, LicitacionesSerializer,
+    EmpresasSerializer, LicitacionesSerializer,
     LinksSerializer, ParticipacionesSerializer, TipocontratoSerializer,
     TipolinkSerializer, TipoprocedimientoSerializer, TipotramitacionSerializer,
     ValoracionesSerializer
@@ -33,9 +33,6 @@ class EmpresasViewSet(viewsets.ModelViewSet):
     queryset = Empresas.objects.all()
     serializer_class = EmpresasSerializer
 
-class EstadosViewSet(viewsets.ModelViewSet):
-    queryset = Estados.objects.all()
-    serializer_class = EstadosSerializer
 
 class LicitacionesViewSet(viewsets.ModelViewSet):
     queryset = Licitaciones.objects.all()

@@ -52,14 +52,6 @@ class Empresas(models.Model):
         db_table = 'Empresas'
 
 
-class Estados(models.Model):
-    id_estado = models.AutoField(primary_key=True)
-    estado = models.CharField(max_length=50, db_collation='Modern_Spanish_CI_AS')
-
-    class Meta:
-        managed = False
-        db_table = 'Estados'
-
 
 class Licitaciones(models.Model):
     id_licitacion = models.AutoField(primary_key=True) 
@@ -123,7 +115,6 @@ class Licitaciones(models.Model):
     num_seleccionadas = models.IntegerField(blank=True, null=True)
     num_licitadores = models.IntegerField(blank=True, null=True)
     num_excluidas = models.IntegerField(blank=True, null=True)
-    estado = models.ForeignKey(Estados, models.DO_NOTHING, db_column='estado', blank=True, null=True)
 
     class Meta:
         managed = False
