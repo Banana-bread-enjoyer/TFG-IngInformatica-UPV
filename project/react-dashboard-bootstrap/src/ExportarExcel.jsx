@@ -1,17 +1,77 @@
 import React from "react";
-
 import { saveAs } from "file-saver";
 import ExcelJS from "exceljs";
 import Button from "react-bootstrap/Button";
-
+import CalculateIcon from "@mui/icons-material/Calculate";
 const ExportarExcel = ({
   valoraciones,
   participaciones,
   empresas,
   filteredLicitaciones,
+  filters,
+  query,
 }) => {
+  const names = {
+    lugarEjecucion: "Lugar de Ejecución",
+    importeMax: "Importe Máximo",
+    importeMin: "Importe Mínimo",
+    unidadEncargada: "Unidad Encargada",
+    plazoPresentacionDesde: "Plazo de Presentación (Desde)",
+    plazoPresentacionHasta: "Plazo de Presentación (Hasta)",
+    tipoContrato: "Tipo de Contrato",
+    tipoProcedimiento: "Tipo de Procedimiento",
+    tipoTramitacion: "Tipo de Tramitación",
+    codigoCPV: "Código CPV",
+  };
   const handleExportToExcel = async () => {
+    console.log(filters);
+
     const workbook = new ExcelJS.Workbook();
+
+    if (filters || query) {
+      const filtrosWorsheet = workbook.addWorksheet("Filtros");
+      filtrosWorsheet.columns = [
+        { header: "Filtro", key: "filter", width: 30 },
+        { header: "Valor", key: "value", width: 50 },
+      ];
+      if (query && query != "") {
+        filtrosWorsheet.addRow({
+          filter: "Búsqueda",
+          value: query || "N/A", // Use 'N/A' if the filter value is empty
+        });
+      }
+      if (filters) {
+        Object.entries(filters)
+          .filter(([key, value]) => {
+            // Handle lists separately
+            if (Array.isArray(value)) {
+              return value.length > 0; // Include if list is not empty
+            }
+            // Ensure value is treated as a string and check if it's not empty
+            return value && String(value).trim() !== "";
+          })
+          .forEach(([key, value]) => {
+            if (Array.isArray(value)) {
+              // If value is a list, add each element in a new row
+              value.forEach((item, index) => {
+                filtrosWorsheet.addRow({
+                  filter: ${names[key]} [${index + 1}], // Include index to differentiate items
+                  value: ${item.num_cpv} - ${item.descripcion} || "N/A", // Use 'N/A' if item is empty
+                });
+              });
+            } else {
+              // Convert value to string for consistency
+              const strValue = String(value);
+              const nameFilter = names[key];
+              filtrosWorsheet.addRow({
+                filter: nameFilter,
+                value: strValue || "N/A", // Use 'N/A' if the filter value is empty
+              });
+            }
+          });
+      }
+      filtrosWorsheet.getRow(1).font = { bold: true };
+    }
 
     // Add worksheet for Licitaciones
     const licitacionesWorksheet = workbook.addWorksheet("Licitaciones");
@@ -41,6 +101,19 @@ const ExportarExcel = ({
         width: 50,
       },
       { header: "ADJUDICATARIO", key: "adjudicatario", width: 50 },
+      { header: "NIF", key: "nif", width: 50 },
+      { header: "¿ES PYME?", key: "pyme", width: 50 },
+      {
+        header: "OFERTA ADJUDICATARIO",
+        key: "oferta_adjudicatario",
+        width: 50,
+      },
+      {
+        header: "PUNTUACIÓN ECONÓMICA",
+        key: "puntuacion_economica",
+        width: 50,
+      },
+      { header: "PUNTUACIÓN TÉCNICA", key: "puntuacion_tecnica", width: 50 },
       { header: "LUGAR", key: "lugar_ejecucion", width: 50 },
       { header: "UNIDAD", key: "unidad_encargada", width: 50 },
       { header: "ABONOS A CUENTAS", key: "abonos_cuenta", width: 50 },
@@ -177,13 +250,79 @@ const ExportarExcel = ({
     licitacionesWorksheet.columns = licitacionesHeaders;
 
     // Populate data rows for Licitaciones worksheet
-    filteredLicitaciones.forEach((licitacion) => {
+    const licitacionesData = filteredLicitaciones.map((licitacion) => {
       const row = {};
       licitacionesHeaders.forEach((header) => {
-        row[header.key] = licitacion[header.key] || "";
+        var dato = licitacion[header.key];
+        const participacionAdjudicatario = participaciones.find(
+          (participacion) =>
+            participacion.id_licitacion == licitacion.id_licitacion &&
+            participacion.id_empresa == licitacion.adjudicatario?.id_empresa
+        );
+        const puntuaciones = valoraciones.filter(
+          (valoracion) =>
+            valoracion.id_participacion ==
+              participacionAdjudicatario?.id_participacion &&
+            valoracion.id_criterio.id_padre == null
+        );
+
+        if (header.key == "oferta_adjudicatario") {
+          if (participacionAdjudicatario) {
+            dato = participacionAdjudicatario?.importe_ofertado_sin_iva;
+          }
+        } else if (header.key == "puntuacion_economica") {
+          const puntEconomica = puntuaciones.find(
+            (valoracion) =>
+              valoracion.id_criterio.nombre.toUpperCase().includes("OFERTA") ||
+              valoracion.id_criterio.nombre.toUpperCase().includes("PRECIO") ||
+              valoracion.id_criterio.nombre.toUpperCase().includes("ECONÓMIC")
+          );
+          const puntFormulas = puntuaciones.find(
+            (valoracion) =>
+              valoracion.id_criterio.nombre.toUpperCase().includes("FÓRMULA") ||
+              valoracion.id_criterio.nombre.toUpperCase().includes("FORMULA")
+          );
+          if (puntEconomica && puntFormulas) {
+            dato = puntEconomica.puntuacion + puntFormulas.puntuacion;
+          } else {
+            dato = puntEconomica?.puntuacion || puntFormulas?.puntuacion || "";
+          }
+        } else if (header.key == "puntuacion_tecnica") {
+          const puntTecnica = puntuaciones.find(
+            (valoracion) =>
+              valoracion.id_criterio.nombre.toUpperCase().includes("JUICIO") ||
+              valoracion.id_criterio.nombre.toUpperCase().includes("MEMORIA")
+          );
+          dato = puntTecnica?.puntuacion ?? "";
+        } else if (header.key == "adjudicatario") {
+          dato = licitacion.adjudicatario?.nombre_empresa ?? "";
+        } else if (header.key == "tipo_contrato") {
+          dato = licitacion.tipo_contrato?.nombre_tipo_contrato ?? "";
+        } else if (header.key == "procedimiento") {
+          dato = licitacion.procedimiento?.nombre_procedimiento ?? "";
+        } else if (header.key == "tramitacion") {
+          dato = licitacion.tramitacion?.nombre_tramitacion ?? "";
+        } else if (header.key == "nif") {
+          dato = licitacion.adjudicatario?.nif ?? "";
+        } else if (header.key == "pyme") {
+          dato = licitacion.adjudicatario?.pyme ?? "";
+        }
+        if (typeof dato == "boolean") {
+          dato = dato ? "Sí" : "No";
+        }
+        const numberPattern = /^-?\d+(\.\d+)?$/;
+        if (
+          typeof dato == "string" &&
+          numberPattern.test(dato) &&
+          !header.key.includes("prev")
+        ) {
+          dato = Number(dato);
+        }
+        row[header.key] = dato || "";
       });
-      licitacionesWorksheet.addRow(row);
+      return row;
     });
+    licitacionesWorksheet.addRows(licitacionesData);
 
     // Step 1: Filter participaciones based on filteredLicitaciones
     const participacionesFiltradas = participaciones.filter((participacion) =>
@@ -208,95 +347,158 @@ const ExportarExcel = ({
         }
         return null;
       })
-      .filter((valoracion) => valoracion.puntuacion !== null);
+      .filter((valoracion) => valoracion && valoracion.puntuacion !== null);
 
     // Step 3: Get unique criterio.nombre values from valoracionesFiltradas
-    const uniquePairs = [
-      ...new Set(
-        valoracionesFiltradas.map(
-          (valoracion) =>
-            `${valoracion.id_criterio.nombre}_${valoracion.id_licitacion}`
-        )
-      ),
-    ];
-    const normalizeName = (name) => {
-      return name.toUpperCase().replace(/[*/:?\\[\]]/g, ""); // Remove forbidden characters
-    };
     const uniqueCriterios = [
       ...new Set(
         valoracionesFiltradas.map((valoracion) =>
-          normalizeName(valoracion.id_criterio.nombre)
+          valoracion.id_criterio.nombre
+            .toUpperCase()
+            .replace(/[*/:?\\[\]]/g, "")
         )
       ),
     ];
-
-    const summarySheet = workbook.addWorksheet("Summary");
-    summarySheet.addRow(["Unique Criterios"]);
+    //Hoja de Empresas
+    const empresasSheet = workbook.addWorksheet("Listado de Empresas");
+    const headersEmpresas = [
+      "EMPRESAS",
+      "PARTICIPACIONES",
+      "ADJUDICACIONES",
+      "PORCENTAJE DE ÉXITO",
+    ];
+    empresasSheet.addRow(headersEmpresas);
+    empresas.forEach((empresa) => {
+      const participacionesEmpresa = participacionesFiltradas.filter(
+        (participacion) => participacion.id_empresa == empresa.id_empresa
+      ).length;
+      const adjudicacionesEmpresa = filteredLicitaciones.filter(
+        (licitacion) =>
+          licitacion.adjudicatario?.id_empresa == empresa.id_empresa
+      ).length;
+      const exito =
+        participacionesEmpresa != 0
+          ? (adjudicacionesEmpresa / participacionesEmpresa) * 100
+          : 0;
+      const row = [
+        empresa.nombre_empresa,
+        participacionesEmpresa,
+        adjudicacionesEmpresa,
+        exito,
+      ];
+      empresasSheet.addRow(row);
+      const columnWidths = [70, 20, 20, 20]; // Width for 'EMPRESAS Y ESTADÍSTICAS'
+      empresasSheet.columns = columnWidths.map((width) => ({ width }));
+    });
+    //Hoja de criterios
+    const summarySheet = workbook.addWorksheet("Listado de Criterios");
+    summarySheet.columns = [
+      { header: "Criterios", key: "criterio", width: 200 }, // Adjust width as needed
+    ];
     uniqueCriterios.forEach((criterioNombre, index) => {
-      summarySheet.addRow([`${index + 1}-${criterioNombre}`]);
+      summarySheet.addRow([${index + 1}-${criterioNombre}]);
     });
 
+    const participacionesMap = new Map();
+    participacionesFiltradas.forEach((participacion) => {
+      const key = ${participacion.id_licitacion}_${participacion.id_empresa};
+      participacionesMap.set(key, participacion);
+    });
+
+    //Hoja oferta economica
+    const ofertaWorksheet = workbook.addWorksheet("OFERTA ECONÓMICA");
+    const headers = ["EMPRESAS Y PRESUPUESTO"];
+    filteredLicitaciones.forEach((licitacion) => {
+      headers.push(LICITACION (${licitacion.id_licitacion}));
+    });
+    ofertaWorksheet.addRow(headers);
+    const columnWidths = [70]; // Width for 'EMPRESAS Y ESTADÍSTICAS'
+    filteredLicitaciones.forEach(() => {
+      columnWidths.push(20); // Width for each 'LICITACION' column
+    });
+    ofertaWorksheet.columns = columnWidths.map((width) => ({ width }));
+    const rowPresupuesto = ["PRESUPUESTO BASE DE LICITACIÓN SIN IVA"];
+    filteredLicitaciones.forEach((licitacion) => {
+      rowPresupuesto.push(
+        licitacion.importe_sin_impuestos
+          ? Number(licitacion.importe_sin_impuestos)
+          : licitacion.importe_sin_impuestos
+      );
+    });
+    ofertaWorksheet.addRow(rowPresupuesto);
+    empresas.forEach((empresa) => {
+      const row = [empresa.nombre_empresa];
+      filteredLicitaciones.forEach((licitacion) => {
+        const key = ${licitacion.id_licitacion}_${empresa.id_empresa};
+        const participacion = participacionesMap.get(key);
+        row.push(
+          participacion
+            ? participacion.importe_ofertado_sin_iva
+              ? Number(participacion.importe_ofertado_sin_iva)
+              : ""
+            : ""
+        );
+      });
+      ofertaWorksheet.addRow(row);
+    });
+    //Hoja individual para cada criterio
     const criterioWorksheets = {};
     uniqueCriterios.forEach((criterioNombre, index) => {
-      const numberedCriterioNombre = `${index + 1}-${criterioNombre}`;
-      const normalizedCriterioNombre = numberedCriterioNombre;
-      const worksheet = workbook.addWorksheet(normalizedCriterioNombre);
+      const numberedCriterioNombre = ${index + 1}-${criterioNombre};
+      const worksheet = workbook.addWorksheet(numberedCriterioNombre);
 
       // Add headers for each licitacion
       const headers = ["EMPRESAS Y ESTADÍSTICAS"];
       filteredLicitaciones.forEach((licitacion) => {
-        headers.push(`LICITACION (${licitacion.id_licitacion})`);
+        headers.push(LICITACION (${licitacion.id_licitacion}));
       });
       worksheet.addRow(headers);
-
+      const columnWidths = [70]; // Width for 'EMPRESAS Y ESTADÍSTICAS'
+      filteredLicitaciones.forEach(() => {
+        columnWidths.push(20); // Width for each 'LICITACION' column
+      });
+      worksheet.columns = columnWidths.map((width) => ({ width }));
       criterioWorksheets[criterioNombre] = worksheet;
     });
+
     const valoracionesMap = new Map();
     valoracionesFiltradas.forEach((valoracion) => {
-      const key = `${normalizeName(valoracion.id_criterio.nombre)}_${
-        valoracion.id_licitacion
-      }_${valoracion.id_empresa}`;
+      const key = ${valoracion.id_criterio.nombre
+        .toUpperCase()
+        .replace(/[*/:?\\[\]]/g, "")}_${valoracion.id_licitacion}_${
+        valoracion.id_empresa
+      };
       valoracionesMap.set(key, valoracion);
     });
-    const valoracionesLicit = new Map();
-    valoracionesFiltradas.forEach((valoracion) => {
-      const key = `${normalizeName(valoracion.id_criterio.nombre)}_${
-        valoracion.id_licitacion
-      }`;
-      valoracionesLicit.set(key, valoracion);
-    });
+
     // Step 5: Populate valoraciones in each worksheet
     uniqueCriterios.forEach((criterioNombre) => {
       const worksheet = criterioWorksheets[criterioNombre];
+
       const rowPeso = ["PESO"];
       filteredLicitaciones.forEach((licitacion) => {
-        var peso = "";
-        const key = `${criterioNombre}_${licitacion.id_licitacion}`;
-        const valoracion = valoracionesLicit.get(key);
-        if (valoracion) {
-          const criterio = valoracion.id_criterio;
-          if (criterio) {
-            peso = criterio.valor_max;
-          }
-        }
-        rowPeso.push(peso);
+        const key = ${criterioNombre}_${licitacion.id_licitacion};
+        const valoracion = valoracionesFiltradas.find(
+          (val) =>
+            ${val.id_criterio.nombre
+              .toUpperCase()
+              .replace(/[*/:?\\[\]]/g, "")}_${val.id_licitacion} === key
+        );
+        rowPeso.push(valoracion ? valoracion.id_criterio.valor_max : "");
       });
       worksheet.addRow(rowPeso);
+
       empresas.forEach((empresa) => {
         const row = [empresa.nombre_empresa];
         filteredLicitaciones.forEach((licitacion) => {
-          const key = `${criterioNombre}_${licitacion.id_licitacion}_${empresa.id_empresa}`;
+          const key = ${criterioNombre}_${licitacion.id_licitacion}_${empresa.id_empresa};
           const valoracion = valoracionesMap.get(key);
-
-          if (valoracion) {
-            row.push(valoracion.puntuacion);
-          } else {
-            row.push(""); // or any placeholder for missing values
-          }
+          row.push(valoracion ? valoracion.puntuacion : "");
         });
         worksheet.addRow(row);
       });
     });
+
     // Generate Excel file and initiate download
     const buffer = await workbook.xlsx.writeBuffer();
     const blob = new Blob([buffer], {
@@ -308,6 +510,7 @@ const ExportarExcel = ({
   return (
     <>
       <Button variant="warning" onClick={handleExportToExcel}>
+        <CalculateIcon className="me-2" />
         Exportar a Excel
       </Button>
     </>
