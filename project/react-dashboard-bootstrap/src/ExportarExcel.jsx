@@ -11,6 +11,18 @@ const ExportarExcel = ({
   filters,
   query,
 }) => {
+  const names = {
+    lugarEjecucion: "Lugar de Ejecución",
+    importeMax: "Importe Máximo",
+    importeMin: "Importe Mínimo",
+    unidadEncargada: "Unidad Encargada",
+    plazoPresentacionDesde: "Plazo de Presentación (Desde)",
+    plazoPresentacionHasta: "Plazo de Presentación (Hasta)",
+    tipoContrato: "Tipo de Contrato",
+    tipoProcedimiento: "Tipo de Procedimiento",
+    tipoTramitacion: "Tipo de Tramitación",
+    codigoCPV: "Código CPV",
+  };
   const handleExportToExcel = async () => {
     // Configurar los parámetros de la consulta
     const params = new URLSearchParams({
