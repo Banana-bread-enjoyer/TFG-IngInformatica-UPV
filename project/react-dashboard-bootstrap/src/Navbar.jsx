@@ -9,7 +9,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
-import CustomSwitch from "./CustomSwitch";
+import BotonCargarExpedientes from "./CargarExpedientes";
 import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
 import BusinessIcon from "@mui/icons-material/Business";
 
@@ -96,7 +96,7 @@ const MyNavbar = ({ toggleTheme }) => {
                   </NavDropdown> */}
                 </Nav>
 
-                <CustomSwitch onChange={handleTheme} />
+                <BotonCargarExpedientes />
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

@@ -106,7 +106,6 @@ def levenshtein_distance(str1, str2):
 
 def dictValoraciones(dictValores, listCriterios, dictOferta):
     aux = dictValores
-    print(dictValores)
     if dictValores:
         for dato in dictValores:
             if aux == dictValores:
@@ -377,7 +376,6 @@ def insertar_licitacion(data, idAdjudicatario):
         column_names=column_names, placeholders=placeholders
     )
     num_expediente = data["EXPEDIENTE"]
-    print(num_expediente, idAdjudicatario)
     clasificacion = data["CLASIFICACIÓN"]
     cursor.execute(
         "SELECT id_licitacion FROM Licitaciones WHERE num_expediente=?", num_expediente
@@ -787,3 +785,4 @@ def insertar_expediente(data):
             data, idAdjudicatario, idLicitacion, dictEmpresas, idCriterios
         )
         insertar_part_empresas(dictEmpresas, idCriterios, idLicitacion, idAdjudicatario)
+    conn.close()

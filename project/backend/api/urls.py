@@ -19,4 +19,7 @@ router.register(r'valoraciones', views.ValoracionesViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('statistics/<int:licitacion_id>/', views.StatisticsView.as_view(), name='statistics'),
+    path('exportar_excel/', views.export_licitaciones, name='export_licitaciones'),
+    path('run-script-extraccion/', views.run_script_extraccion, name='run_script'),
+    path('cpv/<int:licitacion_id>/', views.CPVListView.as_view(), name='cpv-list'),
 ]

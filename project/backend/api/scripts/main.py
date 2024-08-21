@@ -1,11 +1,10 @@
 import asyncio
 import json
-from AccessPagePlaywright import access_page
 from bs4 import BeautifulSoup
 import requests
-from extraerPliego import extraer_info_pliego
-from extraerAdjudicacion import extraer_info_adjudicacion, extraer_fecha
-from extraerTablas import (
+from .extraerPliego import extraer_info_pliego
+from .extraerAdjudicacion import extraer_info_adjudicacion, extraer_fecha
+from .extraerTablas import (
     extract_table_info,
     extract_text,
     texto_juicio_valor,
@@ -15,8 +14,8 @@ from extraerTablas import (
 )
 import csv
 import os
-from AccessPagePlaywright import scrape_expedientes
-from introducirDatosBD import insertar_expediente
+from .AccessPagePlaywright import scrape_expedientes
+from .introducirDatosBD import insertar_expediente
 # mongo = "mongodb+srv://martaramalho:tfg_etsinf@licitacionessectorpubli.veo3b98.mongodb.net/?retryWrites=true&w=majority&appName=LicitacionesSectorPublico"
 links = {
     "Licitación": "",
@@ -212,14 +211,14 @@ async def main():
             if infoActa:
                 myDict = {**infoActa, **myDict}
             results.append(myDict)
-            save_dict_to_json(
+            """ save_dict_to_json(
                 myDict, "../JSONExpedientes/" + expediente.replace("/", "_") + ".json"
-            )
+            ) """
             insertar_expediente(myDict)
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"Error processing expediente {expediente}: {e}")
             continue
-        return results
+    return results
         
         
         

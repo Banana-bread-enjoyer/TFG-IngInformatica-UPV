@@ -51,42 +51,49 @@ async def access_page():
         )
 
         expedientes_list = []
-        for tipo in ["Servicios"]:
+        for name in ["CMAYOR/2021/06Y07/97"]:
             await page.fill(
-                'input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:text71ExpMAQ"]',
-                "CNMY18",
-            )
-            print(tipo)
-            await page.select_option(
-                'select[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:combo1MAQ"]',
-                tipo,
-            )
-            await page.select_option(
-                'select[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:menu1MAQ1"]',
-                "España",
-            )
-            await page.click('a[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:linkSeleccionNUTS"]')
-            await page.select_option(
-                'select[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:listbox11MAQ"]',
-                "ES52 Comunitat Valenciana",
-            )
-            await page.click('input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:buttonAceptarSeleccionNUTS"]')
-            await page.click('input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:button1"]')
-            await page.wait_for_load_state("load")
-            
-            while True:
-                expedientes = await collect_expedientes_from_page(page)
-                for expediente in expedientes:
-                    expediente_name = await expediente.text_content()
-                    if not await is_expediente_in_database(expediente_name):
-                        expedientes_list.append(expediente_name)
+                    'input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:text71ExpMAQ"]',
+                    "",
+                )
+            await page.fill(
+                    'input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:text71ExpMAQ"]',
+                    name,
+                )
+            for tipo in ["Obras","Servicios"]:
+                
+                print(tipo)
+                await page.select_option(
+                    'select[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:combo1MAQ"]',
+                    tipo,
+                )
+                await page.select_option(
+                    'select[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:menu1MAQ1"]',
+                    "España",
+                )
+                await page.click('a[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:linkSeleccionNUTS"]')
+                await page.select_option(
+                    'select[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:listbox11MAQ"]',
+                    "ES52 Comunitat Valenciana",
+                )
+                await page.click('input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:buttonAceptarSeleccionNUTS"]')
+                await page.click('input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:button1"]')
+                await page.wait_for_load_state("load")
+                
+                while True:
+                    expedientes = await collect_expedientes_from_page(page)
+                    for expediente in expedientes:
+                        expediente_name = await expediente.text_content()
+                        if not await is_expediente_in_database(expediente_name):
+                            expedientes_list.append(expediente_name)
 
-                next_page_button = await page.query_selector('input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:footerSiguiente"]')
-                if next_page_button:
-                    await next_page_button.click()
-                    await page.wait_for_load_state("load")
-                else:
-                    break
+                    next_page_button = await page.query_selector('input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:footerSiguiente"]')
+                    if next_page_button:
+                        await next_page_button.click()
+                        await page.wait_for_load_state("load")
+                    else:
+                        break
+                print(expedientes_list)
 
         await browser.close()
         return expedientes_list

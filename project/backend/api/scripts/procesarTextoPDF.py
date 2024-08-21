@@ -8,7 +8,7 @@ from unidecode import unidecode
 from PIL import Image
 import pytesseract
 import io
-from extraerSeccionesLLM import info_sections
+from .extraerSeccionesLLM import info_sections
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 

@@ -1,7 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card, Col, Row, ListGroup } from "react-bootstrap";
 
 const BasicInfo = ({ licitacion }) => {
+  const [cpvCodigos, setCpvCodigos] = useState([]);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchCPVCodigos = async () => {
+      try {
+        const response = await fetch(
+          `http://localhost:8000/api/cpv/${licitacion.id_licitacion}/`
+        );
+        if (!response.ok) {
+          throw new Error("Error al obtener los códigos CPV");
+        }
+        const data = await response.json();
+        setCpvCodigos(data.cpv_codigos);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+    console.log(cpvCodigos);
+    fetchCPVCodigos();
+  }, [licitacion]); // El efecto se ejecuta cuando cambie `licitacionId`
   return (
     <>
       <Card className="mb-4 mt-3">
@@ -38,11 +62,11 @@ const BasicInfo = ({ licitacion }) => {
                 <ListGroup.Item>
                   <strong>Códigos CPV: </strong>{" "}
                   <ul style={{ listStyleType: "disc" }}>
-                    <li>Grupo: {licitacion.clasificacion_grupo || "N/A"}</li>
-                    <li>
-                      Subgrupo: {licitacion.clasificacion_subgrupo || "N/A"}
-                    </li>
-                    <li>Categoría: {licitacion.clasificacion_cat || "N/A"}</li>
+                    {cpvCodigos.map((cpv) => (
+                      <li key={cpv[0]}>
+                        {cpv[0] || "N/A"} - {cpv[1] || "N/A"}
+                      </li>
+                    ))}
                   </ul>
                 </ListGroup.Item>
               </ListGroup>

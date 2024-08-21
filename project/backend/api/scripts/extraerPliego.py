@@ -5,8 +5,8 @@ import pandas as pd
 import re
 from io import BytesIO
 import fitz
-from procesarTextoPDF import separar_por_secciones
-from extraerSeccionesLLM import info_sections
+from .procesarTextoPDF import separar_por_secciones
+from .extraerSeccionesLLM import info_sections
 
 
 def guardar_html_en_archivo(html, nombre_archivo="respuesta.html"):

@@ -84,31 +84,37 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
   const computeMetricsByYear = () => {
     const metricsByYear = years.map((year) => {
       const metrics = empresas.map((empresa) => {
+        // Filter participaciones based on the empresa and licitaciones with adjudicatario
         const participacionesYear = participaciones.filter((p) => {
           const licitacion = licitaciones.find(
-            (l) => l.id_licitacion == p.id_licitacion
+            (l) => l.id_licitacion == p.id_licitacion && l.adjudicatario
           );
           return (
             p.id_empresa == empresa.id_empresa &&
             licitacion &&
-            new parse(licitacion.plazo_presentacion, "dd/MM/yyyy", new Date(), {
+            parse(licitacion.plazo_presentacion, "dd/MM/yyyy", new Date(), {
               locale: es,
             }).getFullYear() === year
           );
         });
+
         const numParticipaciones = participacionesYear.length;
+
+        // Filter licitaciones where the empresa is the adjudicatario and adjudicatario exists
         const numAdjudicaciones = licitaciones.filter(
           (l) =>
-            l.adjudicatario.id_empresa == empresa.id_empresa &&
+            l.adjudicatario?.id_empresa == empresa.id_empresa &&
             parse(l.plazo_presentacion, "dd/MM/yyyy", new Date(), {
               locale: es,
             }).getFullYear() == year
         ).length;
+
+        // Calculate percentage only for valid licitaciones
         const percentage =
           numParticipaciones > 0
             ? (participacionesYear.reduce((acc, p) => {
                 const licitacion = licitaciones.find(
-                  (l) => l.id_licitacion === p.id_licitacion
+                  (l) => l.id_licitacion === p.id_licitacion && l.adjudicatario
                 );
                 return (
                   acc +
@@ -120,6 +126,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
                 numParticipaciones) *
               100
             : 0;
+
         return {
           name: empresa.nombre_empresa,
           year: year,
@@ -131,6 +138,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
 
       return { year, metrics };
     });
+
     console.log(metricsByYear);
     return metricsByYear;
   };
@@ -156,7 +164,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
         (p) => p.id_empresa === empresa.id_empresa
       ).length;
       const totalWins = licitaciones.filter(
-        (l) => l.adjudicatario.id_empresa === empresa.id_empresa
+        (l) => l.adjudicatario?.id_empresa === empresa.id_empresa
       ).length;
       const totalSuccessPercentage =
         totalParticipations > 0 ? (totalWins / totalParticipations) * 100 : 0;
@@ -181,7 +189,7 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
               p.id_empresa == empresa.id_empresa
           );
           return (
-            l.adjudicatario.id_empresa == empresa.id_empresa &&
+            l.adjudicatario?.id_empresa == empresa.id_empresa &&
             participacion &&
             participacion.importe_ofertado_sin_iva >= range.min &&
             participacion.importe_ofertado_sin_iva < range.max

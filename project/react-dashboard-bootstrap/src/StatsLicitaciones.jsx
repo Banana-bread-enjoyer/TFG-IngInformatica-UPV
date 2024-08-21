@@ -56,10 +56,12 @@ const StatsComponent = ({
                 licitacion.id_licitacion === participacion.id_licitacion
             )
         ).length;
+
         const adjudicatarioCount = licitaciones.filter(
           (licitacion) =>
-            licitacion.adjudicatario.id_empresa === empresa.id_empresa
+            licitacion.adjudicatario?.id_empresa === empresa.id_empresa
         ).length;
+
         const expulsadaCount = participaciones.filter(
           (participacion) =>
             participacion.excluida === true &&
@@ -69,6 +71,7 @@ const StatsComponent = ({
                 licitacion.id_licitacion === participacion.id_licitacion
             )
         ).length;
+
         return {
           id: empresa.id_empresa,
           name: empresa.nombre_empresa,
@@ -77,6 +80,7 @@ const StatsComponent = ({
           expulsadaCount,
         };
       });
+
       setEmpresaData(sortEmpresaData(aggregatedData));
     }
   }, [empresas, participaciones, licitaciones, sortBy, sortOrder]);
@@ -89,13 +93,15 @@ const StatsComponent = ({
     const tiposContrato = {};
 
     licitaciones.forEach((licitacion) => {
-      const procedimiento = licitacion.procedimiento.nombre_procedimiento;
+      const procedimiento =
+        licitacion.procedimiento?.nombre_procedimiento || "";
       procedimientos[procedimiento] = (procedimientos[procedimiento] || 0) + 1;
 
-      const tramitacion = licitacion.tramitacion.nombre_tramitacion;
+      const tramitacion = licitacion.tramitacion?.nombre_tramitacion || "";
       tramitaciones[tramitacion] = (tramitaciones[tramitacion] || 0) + 1;
 
-      const tipoContrato = licitacion.tipo_contrato.nombre_tipo_contrato.trim();
+      const tipoContrato =
+        licitacion.tipo_contrato?.nombre_tipo_contrato.trim() || "";
       tiposContrato[tipoContrato] = (tiposContrato[tipoContrato] || 0) + 1;
 
       const unidad = licitacion.unidad_encargada;
@@ -230,6 +236,9 @@ const StatsComponent = ({
         participacion.id_licitacion == licitacion.id_licitacion &&
         participacion.id_empresa == licitacion.adjudicatario.id_empresa
     );
+    if (adjudicatarioParticipacion == null) {
+      return null;
+    }
     const baja =
       ((importe - adjudicatarioParticipacion.importe_ofertado_sin_iva) /
         importe) *

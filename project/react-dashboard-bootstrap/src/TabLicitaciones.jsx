@@ -145,6 +145,7 @@ const TabLicitaciones = ({ valoraciones, participaciones, empresas }) => {
       }
       if (
         filters.tipoTramitacion &&
+        licitacion.tramitacion &&
         filters.tipoTramitacion != licitacion.tramitacion.id_tramitacion
       ) {
         return false;

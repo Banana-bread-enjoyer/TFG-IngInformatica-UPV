@@ -87,17 +87,17 @@ const TableComponent = ({
             return compareAsc(dateA, dateB);
           }),
         PROCEDIMIENTO: (array) =>
-          array.sort((a, b) =>
-            a.procedimiento.nombre_procedimiento.localeCompare(
-              b.procedimiento.nombre_procedimiento
-            )
-          ),
+          array.sort((a, b) => {
+            const procedimientoA = a.procedimiento?.nombre_procedimiento || "";
+            const procedimientoB = b.procedimiento?.nombre_procedimiento || "";
+            return procedimientoA.localeCompare(procedimientoB);
+          }),
         TRAMITACION: (array) =>
-          array.sort((a, b) =>
-            a.tramitacion.nombre_tramitacion.localeCompare(
-              b.tramitacion.nombre_tramitacion
-            )
-          ),
+          array.sort((a, b) => {
+            const tramitacionA = a.tramitacion?.nombre_tramitacion || "";
+            const tramitacionB = b.tramitacion?.nombre_tramitacion || "";
+            return tramitacionA.localeCompare(tramitacionB);
+          }),
         IMPORTE: (array) =>
           array.sort(
             (a, b) => a.importe_sin_impuestos - b.importe_sin_impuestos
@@ -111,11 +111,11 @@ const TableComponent = ({
             a.unidad_encargada.localeCompare(b.unidad_encargada)
           ),
         ADJUDICATARIO: (array) =>
-          array.sort((a, b) =>
-            a.adjudicatario.nombre_empresa.localeCompare(
-              b.adjudicatario.nombre_empresa
-            )
-          ),
+          array.sort((a, b) => {
+            const nameA = a.adjudicatario?.nombre_empresa || "";
+            const nameB = b.adjudicatario?.nombre_empresa || "";
+            return nameA.localeCompare(nameB);
+          }),
         NUM_OFERTAS: (array) =>
           array.sort(
             (a, b) => getOfertas(a.id_licitacion) - getOfertas(b.id_licitacion)
@@ -194,13 +194,24 @@ const TableComponent = ({
   };
   const getOfertaAdjudicatario = (licitacion) => {
     const idLicitacion = licitacion.id_licitacion;
-    const idAdjudicatario = licitacion.adjudicatario.id_empresa;
+    var idAdjudicatario = null;
+    if (licitacion.adjudicatario != null) {
+      idAdjudicatario = licitacion.adjudicatario.id_empresa;
+    }
+
     const participacionAdjudicatario = participaciones.find(
       (participacion) =>
         participacion.id_licitacion == idLicitacion &&
         participacion.id_empresa == idAdjudicatario
     );
-    return participacionAdjudicatario.importe_ofertado_sin_iva;
+    if (
+      participacionAdjudicatario != null &&
+      participacionAdjudicatario.importe_ofertado_sin_iva != null
+    ) {
+      return participacionAdjudicatario.importe_ofertado_sin_iva;
+    } else {
+      return null;
+    }
   };
 
   return (
@@ -293,12 +304,12 @@ const TableComponent = ({
                   )}
                   {visibleColumns.includes("PROCEDIMIENTO") && (
                     <Cell className="cellStyle">
-                      {licitacion.procedimiento.nombre_procedimiento}
+                      {licitacion.procedimiento?.nombre_procedimiento || ""}
                     </Cell>
                   )}
                   {visibleColumns.includes("TRAMITACION") && (
                     <Cell className="cellStyle">
-                      {licitacion.tramitacion.nombre_tramitacion}
+                      {licitacion.tramitacion?.nombre_tramitacion || ""}
                     </Cell>
                   )}
                   {visibleColumns.includes("IMPORTE") && (
@@ -318,7 +329,7 @@ const TableComponent = ({
                   {visibleColumns.includes("ADJUDICATARIO") && (
                     <Cell className="cellStyle">
                       <div style={{ whiteSpace: "normal" }}>
-                        {licitacion.adjudicatario.nombre_empresa}
+                        {licitacion.adjudicatario?.nombre_empresa || ""}
                       </div>
                     </Cell>
                   )}
