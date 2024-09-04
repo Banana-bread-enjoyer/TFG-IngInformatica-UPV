@@ -1,3 +1,4 @@
+from collections import Counter
 from rest_framework import viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -6,13 +7,13 @@ from django.core.exceptions import ObjectDoesNotExist
 from .models import (
     Cpvlicitacion, Codigoscpv, Criterios, Empresas, 
     Licitaciones, Links, Participaciones, Tipocontrato,
-    Tipolink, Tipoprocedimiento, Tipotramitacion, Valoraciones
+    Tipolink, Tipoprocedimiento, Tipotramitacion, UpdateDate, Valoraciones
 )
 from .serializers import (
     CpvlicitacionSerializer, CodigoscpvSerializer, CriteriosSerializer,
     EmpresasSerializer, LicitacionesSerializer,
     LinksSerializer, ParticipacionesSerializer, TipocontratoSerializer,
-    TipolinkSerializer, TipoprocedimientoSerializer, TipotramitacionSerializer,
+    TipolinkSerializer, TipoprocedimientoSerializer, TipotramitacionSerializer, UpdateDateSerializer,
     ValoracionesSerializer
 )
 import numpy as np
@@ -27,6 +28,7 @@ from django.views.decorators.csrf import csrf_exempt
 import subprocess
 import asyncio
 from .scripts.main import main
+from rest_framework.decorators import api_view
 class CpvlicitacionViewSet(viewsets.ModelViewSet):
     queryset = Cpvlicitacion.objects.all()
     serializer_class = CpvlicitacionSerializer
@@ -79,12 +81,12 @@ class ValoracionesViewSet(viewsets.ModelViewSet):
 class StatisticsView(APIView):
     def get(self, request, licitacion_id):
         try:
-            # Get all participaciones related to this licitacion
+            # Recuperar las participaciones relacionadas con la licitacion
             participaciones = Participaciones.objects.filter(id_licitacion=licitacion_id)
             
-            # Get all valoraciones related to these participaciones
+            # Recuperar las valoraciones relacionadas con las participaciones
             valoraciones = Valoraciones.objects.filter(id_participacion__in=participaciones)
-            # Get unique criterios for which we have valoraciones
+            # Recuperar los criterios unicos relacionadas con las valoraciones
             criterios = Criterios.objects.filter(id_criterio__in=valoraciones.values_list('id_criterio', flat=True)).distinct()
             criteriosSumar = Criterios.objects.filter(
                 id_criterio__in=valoraciones.values_list('id_criterio', flat=True),
@@ -93,7 +95,7 @@ class StatisticsView(APIView):
             statistics = []
             empresas_total_points = {}
             for participacion in participaciones:
-                empresa_id = participacion.id_empresa.id_empresa  # Assuming Participaciones has a foreign key to Empresa
+                empresa_id = participacion.id_empresa.id_empresa  
                 total_points = 0
                 for criterio in criteriosSumar:
                     valoracion = valoraciones.filter(
@@ -108,7 +110,7 @@ class StatisticsView(APIView):
                 else:
                     empresas_total_points[empresa_id] = total_points
 
-            # Determine the first and second highest total points
+            # Determinar la primera y segunda posicion
             sorted_empresas = sorted(empresas_total_points.items(), key=lambda item: item[1], reverse=True)
             top_empresas = sorted_empresas[:2] if sorted_empresas else []
             if len(top_empresas) == 2:
@@ -135,7 +137,7 @@ class StatisticsView(APIView):
                         diferencia=puntuacion_1-puntuacion_2
                         diferencia=round(diferencia,2)
 
-                # Get puntuaciones for the current criterio
+                # Recuperar las puntuaciones relacionadas el criterio
                 puntuaciones = valoraciones.filter(id_criterio=criterio).values_list('puntuacion', flat=True)
                 puntuaciones = list(puntuaciones)
                 median = average = standard_deviation = valor_max=valor_min=0
@@ -164,10 +166,6 @@ class StatisticsView(APIView):
                     'diferencia':diferencia
                 })
             
-
-                
-                    
-
             return Response(statistics, status=status.HTTP_200_OK)
 
         except ObjectDoesNotExist as e:
@@ -206,14 +204,18 @@ def export_licitaciones(request):
             "codigoCPV": "Código CPV",
         };
         filtros_ws = wb.create_sheet(title="Filtros")
+        filtros_ws.append(["Última Actualización", UpdateDateSerializer(UpdateDate.objects.latest('id')).data['last_update']])
         filtros_ws.append(["Filtro", "Valor"])
         # Agregar filtros
         if 'query' in request.GET:
-            filtros_ws.append(["Búsqueda", request.GET.get('query', "N/A")])
+            query=request.GET.get('query', "N/A")
+            filtros_ws.append(["Búsqueda", query])
+            filtered_licitaciones = filtered_licitaciones.filter(Q(objeto__icontains=query) | Q(lugar_ejecucion__icontains=query))
         if 'filtros' in request.GET:
             filtros = request.GET.get('filtros')
             if filtros:
                 filtros_dict = json.loads(filtros.strip())
+                
             else:
                 filtros_dict = {}
             for filtro in filtros_dict:
@@ -570,3 +572,173 @@ class CPVListView(APIView):
             return JsonResponse({'status': 'success', 'cpv_codigos': cpv_codigos})
         except Exception as e:
             return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+        
+
+
+@api_view(['GET'])
+def get_last_update(request):
+    try:
+        update_date = UpdateDate.objects.latest('id')  # Get the most recent entry
+        serializer = UpdateDateSerializer(update_date)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+    except UpdateDate.DoesNotExist:
+        return Response({'last_update': 'No disponible'}, status=status.HTTP_404_NOT_FOUND)
+
+@api_view(['POST'])
+def set_last_update(request):
+    serializer = UpdateDateSerializer(data=request.data)
+    if serializer.is_valid():
+        # Create or update the record
+        UpdateDate.objects.create(last_update=serializer.validated_data['last_update'])
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    else:
+        # Print or log the serializer errors
+        print("Serializer errors:", serializer.errors)
+        return Response({'errors': serializer.errors, 'message': 'Invalid data'}, status=status.HTTP_400_BAD_REQUEST)
+    
+
+def get_metrics_by_year(request):
+    start_year = 2019
+    current_year = datetime.now().year -1
+    years = list(range(start_year, current_year + 1))
+
+    metrics_by_year = []
+    empresas = Empresas.objects.all()
+    licitaciones = Licitaciones.objects.all()
+    participaciones = Participaciones.objects.all()
+    
+    for year in years:
+        metrics = []
+
+        for empresa in empresas:
+            participaciones_year = participaciones.filter(
+                id_licitacion__in=licitaciones.filter(
+                    plazo_presentacion__year=year
+                ).values_list('id_licitacion', flat=True),
+                id_empresa=empresa
+            )
+            num_participaciones = participaciones_year.count()
+
+            num_adjudicaciones = licitaciones.filter(
+                adjudicatario=empresa,
+                plazo_presentacion__year=year
+            ).count()
+            if num_participaciones > 0:
+                total_percentage = 0
+                for participacion in participaciones_year:
+                    licitacion = licitaciones.get(id_licitacion=participacion.id_licitacion.id_licitacion)
+                    if licitacion.importe_sin_impuestos and participacion.importe_ofertado_sin_iva:
+                        total_percentage += (licitacion.importe_sin_impuestos - participacion.importe_ofertado_sin_iva) / licitacion.importe_sin_impuestos
+                
+                percentage = (total_percentage / num_participaciones) * 100
+            else:
+                percentage = 0
+
+            metrics.append({
+                'name': empresa.nombre_empresa,
+                'year': year,
+                'participations': num_participaciones,
+                'wins': num_adjudicaciones,
+                'percentage': round(percentage, 2),
+            })
+
+        metrics_by_year.append({
+            'year': year,
+            'metrics': metrics,
+        })
+
+    return JsonResponse(metrics_by_year, safe=False)
+
+class AggregatePYMEView(APIView):
+    def get(self, request, *args, **kwargs):
+        empresas = Empresas.objects.all()
+        pyme_counts = Counter()
+
+        for empresa in empresas:
+            pyme = empresa.pyme
+            if pyme:
+                pyme = "PYME"
+            elif pyme is None:
+                pyme = "Sin Especificar"
+            else:
+                pyme = "No PYME"
+            
+            pyme_counts[pyme] += 1
+
+        total_empresas = empresas.count()
+        
+        pymes_data = [
+            {"name": key, "value": (count / total_empresas) * 100}
+            for key, count in pyme_counts.items()
+        ]
+        
+        return Response(pymes_data, status=status.HTTP_200_OK)
+    
+
+class MetricsByRangeView(APIView):
+    def get(self, request, *args, **kwargs):
+        empresas = Empresas.objects.all()
+        ranges = [
+            {"min": 0, "max": 100000, "label": "0 - 100,000"},
+            {"min": 100000, "max": 500000, "label": "100,000 - 500,000"},
+            {"min": 500000, "max": 1000000, "label": "500,000 - 1,000,000"},
+            {"min": 1000000, "max": 2000000, "label": "1,000,000 - 2,000,000"},
+            {"min": 2000000, "max": 3000000, "label": "2,000,000 - 3,000,000"},
+            {"min": 3000000, "max": 4000000, "label": "3,000,000 - 4,000,000"},
+            {"min": 4000000, "max": 5000000, "label": "4,000,000 - 5,000,000"},
+            {"min": 5000000, "max": 6000000, "label": "5,000,000 - 6,000,000"},
+            {"min": 6000000, "max": 7000000, "label": "6,000,000 - 7,000,000"},
+            {"min": 7000000, "max": float('inf'), "label": "7,000,000+"},
+        ]
+
+        metrics_by_range = []
+
+        for empresa in empresas:
+            total_participations = Participaciones.objects.filter(
+                id_empresa=empresa.id_empresa
+            ).count()
+            total_wins = Licitaciones.objects.filter(
+                adjudicatario__id_empresa=empresa.id_empresa
+            ).count()
+            total_success_percentage = (
+                (total_wins / total_participations) * 100
+                if total_participations > 0
+                else 0
+            )
+
+            metrics = []
+            for range in ranges:
+                participaciones_in_range = Participaciones.objects.filter(
+                    id_empresa=empresa.id_empresa,
+                    importe_ofertado_sin_iva__gte=range['min'],
+                    importe_ofertado_sin_iva__lt=range['max']
+                )
+
+                num_participations = participaciones_in_range.count()
+                if num_participations>0:
+                    num_wins = participaciones_in_range.filter(
+                        id_licitacion__in=Licitaciones.objects.filter(
+                            adjudicatario__id_empresa=empresa.id_empresa,
+                        ).values_list('id_licitacion', flat=True)
+                    ).count()
+                else:
+                    num_wins=0
+                
+                success_percentage = (
+                    (num_wins / num_participations) * 100
+                    if num_participations > 0
+                    else 0
+                )
+
+                metrics.append({
+                    "rangeLabel": range['label'],
+                    "successPercentage": round(success_percentage, 2)
+                })
+
+            metrics_by_range.append({
+                "empresa": empresa.nombre_empresa,
+                "totalSuccessPercentage": round(total_success_percentage, 2),
+                "metrics": metrics
+            })
+
+        return Response(metrics_by_range, status=status.HTTP_200_OK)

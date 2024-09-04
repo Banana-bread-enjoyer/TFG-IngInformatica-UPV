@@ -25,7 +25,6 @@ def extraer_info_pliego(data):
         "OBJETO",
         "LUGAR DE EJECUCIÓN",
         "TIPO DE CONTRATO",
-        # "Nº DE LOTES",
         "TRAMITACIÓN",
         "IMPORTE (SIN IMPUESTOS)",
         "IMPORTE",

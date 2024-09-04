@@ -12,6 +12,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import BotonCargarExpedientes from "./CargarExpedientes";
 import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
 import BusinessIcon from "@mui/icons-material/Business";
+import "./NavbarStyle.css";
 
 const MyNavbar = ({ toggleTheme }) => {
   const [isExpanded, setIsExpanded] = useState(window.innerWidth >= 768);
@@ -35,9 +36,11 @@ const MyNavbar = ({ toggleTheme }) => {
   return (
     <>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+        <Navbar key={expand} expand={expand} className="nav-main">
           <Container fluid>
-            <Navbar.Brand href="#">SmarTender AI</Navbar.Brand>
+            <Navbar.Brand href="#" className="pb-2 ms-2 pe-3 nav-brand">
+              SmarTender AI
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -51,22 +54,15 @@ const MyNavbar = ({ toggleTheme }) => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav
-                  className="justify-content-begining flex-grow-1 pe-3"
+                  className="justify-content-begining flex-grow-1 "
                   defaultActiveKey={location.pathname}
                   variant={isExpanded ? "tabs" : undefined}
                 >
-                  {/* <Nav.Link
-                    as={Link}
-                    to="/home"
-                    active={location.pathname === "/home"}
-                  >
-                    <HomeIcon />
-                    Home
-                  </Nav.Link> */}
                   <Nav.Link
                     as={Link}
                     to="/licitaciones"
                     active={location.pathname.startsWith("/licitaciones")}
+                    className="nav-tab-main"
                   >
                     <HistoryEduIcon />
                     Licitaciones
@@ -75,25 +71,11 @@ const MyNavbar = ({ toggleTheme }) => {
                     as={Link}
                     to="/empresas"
                     active={location.pathname.startsWith("/empresas")}
+                    className="nav-tab-main"
                   >
                     <BusinessIcon />
                     Empresas
                   </Nav.Link>
-                  {/* <NavDropdown
-                    title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item as={Link} to="#action3">
-                      Action
-                    </NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item as={Link} to="#action5">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown> */}
                 </Nav>
 
                 <BotonCargarExpedientes />

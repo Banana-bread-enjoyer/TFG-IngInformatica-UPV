@@ -408,12 +408,20 @@ def insertar_licitacion(data, idAdjudicatario):
             "SELECT id_procedimiento FROM TipoProcedimiento WHERE nombre_procedimiento=?",
             data["PROCEDIMIENTO"],
         )
-        tipo_procedimiento = cursor.fetchone()[0]
+        result = cursor.fetchone()
+        if result:
+            tipo_procedimiento = result[0]
+        else:
+            tipo_procedimiento = None
         cursor.execute(
             "SELECT id_tipo_contrato FROM TipoContrato WHERE nombre_tipo_contrato=?",
             data["TIPO DE CONTRATO"],
         )
-        tipo_contrato = cursor.fetchone()[0]
+        result = cursor.fetchone()
+        if result:
+            tipo_contrato = result[0]
+        else:
+            tipo_contrato = None
         cursor.execute(
             "SELECT id_tramitacion FROM TipoTramitacion WHERE nombre_tramitacion=?",
             data["TRAMITACIÓN"],
@@ -498,6 +506,7 @@ def insertar_licitacion(data, idAdjudicatario):
         )
         idLicitacion = cursor.fetchone()
     idLicitacion = idLicitacion[0]
+    print(idLicitacion)
     # insertamos los links en su tabla correspondiente
     sql_links = """
     INSERT INTO Links (link, type_link, id_licitacion)
@@ -508,6 +517,7 @@ def insertar_licitacion(data, idAdjudicatario):
             "SELECT id_tipo_link FROM TipoLink WHERE texto_tipo_link=?", linkType
         )
         idTipoLink = cursor.fetchone()[0]
+        print(idTipoLink)
         linkList = data["Links"][linkType]
         if type(linkList) == list:
             for link in linkList:

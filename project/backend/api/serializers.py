@@ -1,7 +1,12 @@
 from rest_framework import serializers
-from .models import Cpvlicitacion, Codigoscpv, Criterios, Empresas, Licitaciones, Links, Participaciones, Tipocontrato, Tipolink, Tipoprocedimiento, Tipotramitacion, Valoraciones
+from .models import Cpvlicitacion, Codigoscpv, Criterios, Empresas, Licitaciones, Links, Participaciones, Tipocontrato, Tipolink, Tipoprocedimiento, Tipotramitacion, UpdateDate, Valoraciones
 
 
+class UpdateDateSerializer(serializers.ModelSerializer):
+    last_update = serializers.DateTimeField(format='%d/%m/%Y, %H:%M:%S', input_formats=['%d/%m/%Y, %H:%M:%S'])
+    class Meta:
+        model = UpdateDate
+        fields = ['last_update']
 
 
 

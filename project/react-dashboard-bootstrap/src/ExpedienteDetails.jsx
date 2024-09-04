@@ -31,7 +31,7 @@ const ExpedienteDetails = ({
   const [licitacion, setLicitacion] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/api/licitaciones`)
+    fetch(`http://localhost:8000/api/licitaciones/${expedienteId}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -39,10 +39,8 @@ const ExpedienteDetails = ({
         return response.json();
       })
       .then((data) => {
-        const foundLicitacion = data.find(
-          (licitacion) => licitacion.id_licitacion == expedienteId
-        );
-        setLicitacion(foundLicitacion);
+        // Since we're fetching a specific `id_licitacion`, we assume `data` is the correct object
+        setLicitacion(data);
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -77,10 +75,13 @@ const ExpedienteDetails = ({
   const currentPath = location.pathname;
 
   return (
-    <div className="ms-3 mt-3 me-3">
-      <Button variant="secondary" className="ms-2" onClick={handleGoBack}>
-        <ArrowBackIcon />
-      </Button>
+    <div className=" mt-3">
+      <div className="d-flex align-items-center">
+        <Button variant="secondary" className="ms-2" onClick={handleGoBack}>
+          <ArrowBackIcon />
+        </Button>
+        <h3 className="ms-5 mt-1">{licitacion.num_expediente}</h3>
+      </div>
       <Nav
         justify
         variant="tabs"
@@ -88,7 +89,12 @@ const ExpedienteDetails = ({
         activeKey={location.pathname}
       >
         <Nav.Item>
-          <Nav.Link as={Link} to="main" active={currentPath.endsWith("/main")}>
+          <Nav.Link
+            as={Link}
+            to="main"
+            active={currentPath.endsWith("/main")}
+            className="licitaciones-tab"
+          >
             <InfoIcon />
             Información
           </Nav.Link>
@@ -98,6 +104,7 @@ const ExpedienteDetails = ({
             as={Link}
             to="fechas"
             active={currentPath.endsWith("/fechas")}
+            className="licitaciones-tab"
           >
             <DateRangeIcon />
             Fechas y Plazos
@@ -108,6 +115,7 @@ const ExpedienteDetails = ({
             as={Link}
             to="importes"
             active={currentPath.endsWith("/importes")}
+            className="licitaciones-tab"
           >
             <EuroIcon />
             Importes y Pagos
@@ -118,6 +126,7 @@ const ExpedienteDetails = ({
             as={Link}
             to="criterios"
             active={currentPath.endsWith("/criterios")}
+            className="licitaciones-tab"
           >
             <AssignmentIcon />
             Criterios de Adjudicación
@@ -128,6 +137,7 @@ const ExpedienteDetails = ({
             as={Link}
             to="links"
             active={currentPath.endsWith("/links")}
+            className="licitaciones-tab"
           >
             <InsertLinkIcon />
             Links a Documentos

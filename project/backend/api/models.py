@@ -7,6 +7,11 @@
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
 
+class UpdateDate(models.Model):
+    last_update = models.DateTimeField(null=True, blank=True)
+
+    def __str__(self):
+        return str(self.last_update)
 
 class Cpvlicitacion(models.Model):
     id_combinacion = models.AutoField(primary_key=True)
@@ -91,7 +96,7 @@ class Licitaciones(models.Model):
     penalidades_incumplimiento = models.TextField(db_collation='Modern_Spanish_CI_AS', blank=True, null=True)
     plazo_ejecucion = models.CharField(max_length=50, db_collation='Modern_Spanish_CI_AS', blank=True, null=True)
     plazo_garantia = models.CharField(max_length=2000, db_collation='Modern_Spanish_CI_AS', blank=True, null=True)
-    plazo_presentacion = models.CharField(max_length=200, db_collation='Modern_Spanish_CI_AS', blank=True, null=True)
+    plazo_presentacion = models.DateField(blank=True, null=True)
     plazo_recepcion = models.TextField(db_collation='Modern_Spanish_CI_AS', blank=True, null=True)
     plazo_maximo_prorrogas = models.CharField(max_length=200, db_collation='Modern_Spanish_CI_AS', blank=True, null=True)
     ampliacion_presentacion = models.TextField(db_collation='Modern_Spanish_CI_AS', blank=True, null=True)

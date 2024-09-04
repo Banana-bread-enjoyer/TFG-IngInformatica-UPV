@@ -19,7 +19,7 @@ class TestPDFProcessing(unittest.TestCase):
     
     @patch("fitz.open")
     def test_read_pdf(self, mock_fitz_open):
-        # Mocking the fitz Document object
+        # Simulación del objeto Document de fitz
         mock_doc = MagicMock()
         mock_fitz_open.return_value = mock_doc
         mock_page = MagicMock()
@@ -28,6 +28,7 @@ class TestPDFProcessing(unittest.TestCase):
 
         text, page_count = read_pdf("dummy.pdf")
 
+        # Verifica que el texto extraído y el número de páginas sean correctos
         self.assertEqual(text, " \n Texto de prueba")
         self.assertEqual(page_count, mock_doc.page_count)
 
@@ -46,9 +47,9 @@ class TestPDFProcessing(unittest.TestCase):
         }
         mock_df = pd.DataFrame(data)
 
-        # Mocking the Camelot table extraction
+        # Simulación de la extracción de tablas con Camelot
         mock_table = MagicMock()
-        mock_table.df = mock_df  # Asignando el DataFrame con datos específicos al mock de la tabla
+        mock_table.df = mock_df  # Asignar DataFrame al mock de la tabla
         mock_camelot_read_pdf.return_value = [mock_table]
 
         # Ejecutar la función con los mocks
@@ -76,9 +77,9 @@ class TestPDFProcessing(unittest.TestCase):
         }
         mock_df = pd.DataFrame(data)
 
-        # Mocking the Camelot table extraction
+        # Simulación de la extracción de tablas con Camelot
         mock_table = MagicMock()
-        mock_table.df = mock_df  # Asignando el DataFrame con datos específicos al mock de la tabla
+        mock_table.df = mock_df  # Asignar DataFrame al mock de la tabla
         mock_camelot_read_pdf.return_value = [mock_table]
 
         # Ejecutar la función con los mocks
@@ -106,9 +107,9 @@ class TestPDFProcessing(unittest.TestCase):
         }
         mock_df = pd.DataFrame(data)
 
-        # Mocking the Camelot table extraction
+        # Simulación de la extracción de tablas con Camelot
         mock_table = MagicMock()
-        mock_table.df = mock_df  # Asignando el DataFrame con datos específicos al mock de la tabla
+        mock_table.df = mock_df  # Asignar DataFrame al mock de la tabla
         mock_camelot_read_pdf.return_value = [mock_table]
 
         # Ejecutar la función con los mocks
@@ -124,7 +125,7 @@ class TestPDFProcessing(unittest.TestCase):
     @patch("tempfile.NamedTemporaryFile")
     @patch("pdfplumber.open")
     def test_extract_text(self, mock_pdfplumber_open, mock_tempfile):
-        # Mocking pdfplumber
+        # Simulación de pdfplumber
         mock_page = MagicMock()
         mock_page.extract_text.return_value = "Texto de prueba"
         mock_pdf = MagicMock()
@@ -135,13 +136,13 @@ class TestPDFProcessing(unittest.TestCase):
         mock_tempfile.return_value = tempfile.NamedTemporaryFile(suffix=".pdf", delete=False)
         result = extract_text(b"dummy.pdf")
 
-        # Verificar si el resultado es un diccionario
+        # Verificar si el resultado es un diccionario y contiene claves esperadas
         self.assertIsInstance(result, dict)
         self.assertIn("NÚMERO DE EMPRESAS INVITADAS", result)
 
     @patch("extraerTablas.extract_table_info")
     def test_extraer_ofertas(self, mock_extract_table_info):
-        # Mocking the function result
+        # Simulación del resultado de la función extract_table_info
         mock_extract_table_info.return_value = {"Empresa A": "1000 €"}
         
         result = extraer_ofertas([b"dummy.pdf"])
@@ -153,7 +154,7 @@ class TestPDFProcessing(unittest.TestCase):
     @patch("extraerTablas.extract_text")
     @patch("extraerTablas.extract_table_info")
     def test_extraer_info_acta(self, mock_extract_table_info, mock_extract_text):
-        # Mocking the function results
+        # Simulación de los resultados de las funciones extract_table_info y extract_text
         mock_extract_table_info.return_value = {"Empresa A": {"Criterio 1": 85}}
         mock_extract_text.return_value = {
             "NÚMERO DE EMPRESAS INVITADAS": 3,
@@ -167,11 +168,10 @@ class TestPDFProcessing(unittest.TestCase):
 
         result = extraer_info_acta([b"dummy.pdf"], ["Criterio 1"])
 
-        # Verificar si el resultado es un diccionario
+        # Verificar si el resultado es un diccionario y contiene claves esperadas
         self.assertIsInstance(result, dict)
         self.assertIn("VALORACIONES DE EMPRESAS", result)
         self.assertIn("NÚMERO DE EMPRESAS INVITADAS", result)
-
 
 if __name__ == "__main__":
     unittest.main()

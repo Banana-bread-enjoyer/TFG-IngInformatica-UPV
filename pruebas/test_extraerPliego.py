@@ -2,19 +2,20 @@ import unittest
 from bs4 import BeautifulSoup
 import requests
 from unittest.mock import patch, MagicMock
-from extraerPliego import extraer_info_pliego  # Asegúrate de importar la función desde el módulo correspondiente
+from extraerPliego import extraer_info_pliego
 from procesarTextoPDF import separar_por_secciones
 from extraerSeccionesLLM import info_sections
+
 class TestExtraerInfoPliego(unittest.TestCase):
     def setUp(self):
-        self.maxDiff = None  # Permite que se muestren diferencias completas
+        self.maxDiff = None  # Permite que se muestren diferencias completas en los errores
 
     @patch('requests.get')
     @patch('extraerPliego.separar_por_secciones')
     @patch('fitz.open')
     @patch('extraerPliego.info_sections')
-    def test_extraer_info_pliego_completo(self,mock_separar_por_secciones,mock_info_sections,mock_fitz_open, mock_get):
-        # Simulación del HTML y PDF completo
+    def test_extraer_info_pliego_completo(self, mock_info_sections, mock_fitz_open, mock_separar_por_secciones, mock_get):
+        # Simulación del HTML completo y del contenido del PDF
         html = """
         <html>
             <strong>Expediente 12345</strong>
@@ -46,13 +47,13 @@ class TestExtraerInfoPliego(unittest.TestCase):
         # Simulación del contenido del PDF
         mock_pdf_content = b'%PDF-1.4 ... (contenido binario del PDF)'
 
-        # Configurando mock para las diferentes respuestas
+        # Configurando el comportamiento de los mocks
         mock_get.side_effect = [
             MagicMock(content=html_meta.encode('utf-8')),  # HTML del meta
             MagicMock(content=mock_pdf_content)  # Contenido del PDF
         ]
 
-        # Simulación de resultado esperado de la función
+        # Resultado esperado de la función
         expected_result = {
             "EXPEDIENTE": "Expediente 12345",
             "OBJETO": "Construcción de un puente",
@@ -75,16 +76,15 @@ class TestExtraerInfoPliego(unittest.TestCase):
             'DETALLE2_ANEXO': 'Valor Detalle 2',
         }
 
-        # Simular el comportamiento de fitz.open
+        # Configuración de mocks para funciones externas
         mock_fitz_open.return_value = MagicMock()
-          # Simular el valor de retorno de separar_por_secciones
-       # Configurar el mock para las funciones de procesarTextoPDF
         mock_separar_por_secciones.return_value = simulated_anexo_dict
         mock_info_sections.return_value = simulated_anexo_dict
+
+        # Ejecución de la función bajo prueba
         result, link_anexo = extraer_info_pliego(html)
-        self.assertDictEqual(result, expected_result)
-        self.assertEqual(link_anexo, "https://contrataciondelestado.es/doc.pdf")
-    
+        self.assertDictEqual(result, expected_result)  # Verifica que el resultado es el esperado
+        self.assertEqual(link_anexo, "https://contrataciondelestado.es/doc.pdf")  # Verifica que el enlace del anexo es el esperado
 
     @patch('requests.get')
     def test_extraer_info_pliego_sin_anexo(self, mock_get):
@@ -106,10 +106,10 @@ class TestExtraerInfoPliego(unittest.TestCase):
         </html>
         """
 
-        # No hay contenido de PDF porque no hay anexo
+        # Simulación de la ausencia de contenido de PDF
         mock_get.return_value = MagicMock(content=None)
 
-        # Simulación de resultado esperado de la función
+        # Resultado esperado de la función
         expected_result = {
             "EXPEDIENTE": "Expediente 67890",
             "OBJETO": "Reparación de carretera",
@@ -126,10 +126,10 @@ class TestExtraerInfoPliego(unittest.TestCase):
             "CLASIFICACIÓN CPV": None,
         }
 
+        # Ejecución de la función bajo prueba
         result, link_anexo = extraer_info_pliego(html)
-        self.assertDictEqual(result, expected_result)
-        self.assertIsNone(link_anexo)
-
+        self.assertDictEqual(result, expected_result)  # Verifica que el resultado es el esperado
+        self.assertIsNone(link_anexo)  # Verifica que no se encuentra el enlace del anexo
 
     @patch('requests.get')
     def test_extraer_info_pliego_con_lotes(self, mock_get):
@@ -153,14 +153,13 @@ class TestExtraerInfoPliego(unittest.TestCase):
         </html>
         """
 
-        # Simulación de resultado esperado de la función
+        # Simulación de la función con lotes
         expected_result = None
 
-
+        # Ejecución de la función bajo prueba
         result, link_anexo = extraer_info_pliego(html)
-        self.assertEqual(result, expected_result)
-        self.assertIsNone(link_anexo)
-
+        self.assertEqual(result, expected_result)  # Verifica que no se extrae información cuando hay lotes
+        self.assertIsNone(link_anexo)  # Verifica que no se encuentra el enlace del anexo
 
     @patch('requests.get')
     def test_extraer_info_pliego_html_incompleto(self, mock_get):
@@ -177,7 +176,7 @@ class TestExtraerInfoPliego(unittest.TestCase):
         </html>
         """
 
-        # Simulación de resultado esperado de la función
+        # Resultado esperado de la función
         expected_result = {
             "EXPEDIENTE": "Expediente 11111",
             "OBJETO": "Construcción de parque",
@@ -194,53 +193,95 @@ class TestExtraerInfoPliego(unittest.TestCase):
             "CLASIFICACIÓN CPV": None,
         }
 
-
+        # Ejecución de la función bajo prueba
         result, link_anexo = extraer_info_pliego(html)
-        self.assertDictEqual(result, expected_result)
-        self.assertIsNone(link_anexo)
+        self.assertDictEqual(result, expected_result)  # Verifica que el resultado es el esperado
+        self.assertIsNone(link_anexo)  # Verifica que no se encuentra el enlace del anexo
 
 
     @patch('requests.get')
-    def test_extraer_info_pliego_anexo_fallido(self, mock_get):
-        # Simulación del HTML que referencia un anexo PDF, pero el PDF no contiene información válida
+    def test_extraer_info_pliego_html_con_informacion_inesperada(self, mock_get):
+        # Simulación del HTML con información inesperada
         html = """
         <html>
-            <strong>Expediente 54321</strong>
+            <strong>Expediente 99999</strong>
             <h2>
-                <div>Renovación de instalaciones</div>
+                <div>Reparación de equipo</div>
             </h2>
             <span>PLAZO DE EJECUCIÓN</span>
-            <div>12 meses</div>
-            <span>IMPORTE</span>
-            <div>363,000 EUR</div>
-             <span>IMPORTE (SIN IMPUESTOS)</span>
-            <div>300,000 EUR</div>
+            <div>24 meses</div>
+            <span>OTROS DATOS</span>
+            <div>Datos adicionales no estándar</div>
             <span>PLAZO DE PRESENTACIÓN</span>
-            <div>25/12/2024</div>
-            <a href="http://example.com/anexo.pdf">Anexo I BIS</a>
+            <div>01/01/2025</div>
         </html>
         """
 
-        # Simulación de resultado esperado de la función
+        # Resultado esperado de la función
         expected_result = {
-            "EXPEDIENTE": "Expediente 54321",
-            "OBJETO": "Renovación de instalaciones",
+            "EXPEDIENTE": "Expediente 99999",
+            "OBJETO": "Reparación de equipo",
             "LUGAR DE EJECUCIÓN": None,
             "TIPO DE CONTRATO": None,
             "TRAMITACIÓN": None,
-            "IMPORTE (SIN IMPUESTOS)": "300,000 EUR",
-            "IMPORTE": "363,000 EUR",
+            "IMPORTE (SIN IMPUESTOS)": None,
+            "IMPORTE": None,
             "VALOR ESTIMADO DEL CONTRATO": None,
             "PROCEDIMIENTO": None,
-            "PLAZO DE EJECUCIÓN": "12 meses",
+            "PLAZO DE EJECUCIÓN": "24 meses",
             "CONDICIONES ESPECIALES DE EJECUCIÓN": None,
-            "PLAZO DE PRESENTACIÓN": "25/12/2024",
+            "PLAZO DE PRESENTACIÓN": "01/01/2025",
             "CLASIFICACIÓN CPV": None,
         }
 
+        # Ejecución de la función bajo prueba
         result, link_anexo = extraer_info_pliego(html)
-        self.assertDictEqual(result, expected_result)
-        self.assertEqual(link_anexo, None)
+        self.assertDictEqual(result, expected_result)  # Verifica que el resultado es el esperado
+        self.assertIsNone(link_anexo)  # Verifica que no se encuentra el enlace del anexo
+
+    @patch('requests.get')
+    def test_extraer_info_pliego_html_con_datos_duplicados(self, mock_get):
+        # Simulación del HTML con datos duplicados
+        html = """
+        <html>
+            <strong>Expediente 77777</strong>
+            <h2>
+                <div>Renovación de edificios</div>
+            </h2>
+            <span>PLAZO DE EJECUCIÓN</span>
+            <div>24 meses</div>
+            <span>IMPORTE</span>
+            <div>500,000 EUR</div>
+            <span>IMPORTE (SIN IMPUESTOS)</span>
+            <div>400,000 EUR</div>
+            <span>IMPORTE</span> <!-- Duplicado -->
+            <div>500,000 EUR</div> <!-- Duplicado -->
+            <span>PLAZO DE PRESENTACIÓN</span>
+            <div>30/09/2024</div>
+        </html>
+        """
+
+        # Resultado esperado de la función, considerando los datos duplicados
+        expected_result = {
+            "EXPEDIENTE": "Expediente 77777",
+            "OBJETO": "Renovación de edificios",
+            "LUGAR DE EJECUCIÓN": None,
+            "TIPO DE CONTRATO": None,
+            "TRAMITACIÓN": None,
+            "IMPORTE (SIN IMPUESTOS)": "400,000 EUR",
+            "IMPORTE": "500,000 EUR",
+            "VALOR ESTIMADO DEL CONTRATO": None,
+            "PROCEDIMIENTO": None,
+            "PLAZO DE EJECUCIÓN": "24 meses",
+            "CONDICIONES ESPECIALES DE EJECUCIÓN": None,
+            "PLAZO DE PRESENTACIÓN": "30/09/2024",
+            "CLASIFICACIÓN CPV": None,
+        }
+
+        # Ejecución de la función bajo prueba
+        result, link_anexo = extraer_info_pliego(html)
+        self.assertDictEqual(result, expected_result)  # Verifica que el resultado es el esperado
+        self.assertIsNone(link_anexo)  # Verifica que no se encuentra el enlace del anexo
 
 if __name__ == '__main__':
     unittest.main()

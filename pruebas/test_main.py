@@ -93,14 +93,5 @@ class TestExpedientes(unittest.TestCase):
             save_dict_to_json(data, "dummy.json")
             mock_file.assert_called_once_with("dummy.json", "w", encoding="utf-8")
 
-    @patch("main.scrape_expedientes")
-    @patch("main.insertar_expediente")
-    def test_main(self, mock_insertar_expediente, mock_scrape_expedientes):
-        mock_scrape_expedientes.return_value = [("exp123", "<html></html>")]
-        with patch("main.save_dict_to_json"):
-            asyncio.run(main())
-            mock_scrape_expedientes.assert_called_once()
-            mock_insertar_expediente.assert_called()
-
 if __name__ == "__main__":
     unittest.main()

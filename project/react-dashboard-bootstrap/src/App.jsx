@@ -62,7 +62,6 @@ function App() {
       <Router>
         <MyNavbar toggleTheme={toggleTheme} />
 
-        <hr className="solid"></hr>
         {/* <LicitacionesList></LicitacionesList> */}
         <Routes>
           <Route path="/home" element={<div></div>} />

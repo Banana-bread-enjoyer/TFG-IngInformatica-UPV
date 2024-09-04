@@ -22,4 +22,9 @@ urlpatterns = [
     path('exportar_excel/', views.export_licitaciones, name='export_licitaciones'),
     path('run-script-extraccion/', views.run_script_extraccion, name='run_script'),
     path('cpv/<int:licitacion_id>/', views.CPVListView.as_view(), name='cpv-list'),
+    path('last-update/', views.get_last_update, name='get_last_update'),
+    path('last-update/set/', views.set_last_update, name='set_last_update'),
+    path('metrics-by-year/', views.get_metrics_by_year, name='metrics-by-year'),
+    path('pymes/aggregate/', views.AggregatePYMEView.as_view(), name='aggregate_pymes'),
+    path('metrics-by-range/', views.MetricsByRangeView.as_view(), name='metrics_by_range'),
 ]

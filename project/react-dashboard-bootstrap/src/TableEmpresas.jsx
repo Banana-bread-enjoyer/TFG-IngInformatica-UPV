@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import UnfoldMoreOutlinedIcon from "@mui/icons-material/UnfoldMoreOutlined";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
-import "./CustomTable.css";
+import "./TableCustom.css";
 import {
   Table,
   Header,
@@ -62,46 +62,56 @@ const TableEmpresas = ({ empresas }) => {
   }
 
   return (
-    <Table
-      theme={theme}
-      data={{ nodes: empresas }}
-      sort={sort}
-      layout={{ custom: true }}
-    >
-      {(tableList) => (
-        <>
-          <Header>
-            <HeaderRow>
-              <HeaderCellSort sortKey="NOMBRE">Nombre Empresa</HeaderCellSort>
-              <HeaderCellSort sortKey="NIF">NIF Empresa</HeaderCellSort>
-              <HeaderCellSort sortKey="PYME">¿Es PYME?</HeaderCellSort>
-            </HeaderRow>
-          </Header>
+    <div className="main-container ps-3 pe-3 pt-3">
+      <div className="table-container">
+        <Table
+          theme={theme}
+          data={{ nodes: empresas }}
+          sort={sort}
+          layout={{ custom: true }}
+        >
+          {(tableList) => (
+            <>
+              <Header>
+                <HeaderRow>
+                  <HeaderCellSort sortKey="NOMBRE">
+                    Nombre Empresa
+                  </HeaderCellSort>
+                  <HeaderCellSort sortKey="NIF">NIF Empresa</HeaderCellSort>
+                  <HeaderCellSort sortKey="PYME">¿Es PYME?</HeaderCellSort>
+                </HeaderRow>
+              </Header>
 
-          <Body>
-            {tableList.map((empresa) => (
-              <Row item={empresa} key={empresa.id_empresa}>
-                <Cell className="cellStyle">
-                  <Link to={`/empresas/list/empresa/${empresa.id_empresa}`}>
-                    {empresa.nombre_empresa}
-                  </Link>
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {empresa.nif === null ? "-" : empresa.nif}
-                  </div>
-                </Cell>
-                <Cell className="cellStyle">
-                  <div style={{ whiteSpace: "normal" }}>
-                    {empresa.pyme === null ? "-" : empresa.pyme ? "Sí" : "No"}
-                  </div>
-                </Cell>
-              </Row>
-            ))}
-          </Body>
-        </>
-      )}
-    </Table>
+              <Body>
+                {tableList.map((empresa) => (
+                  <Row item={empresa} key={empresa.id_empresa}>
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {empresa.nombre_empresa}
+                      </div>
+                    </Cell>
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {empresa.nif === null ? "-" : empresa.nif}
+                      </div>
+                    </Cell>
+                    <Cell className="cellStyle">
+                      <div style={{ whiteSpace: "normal" }}>
+                        {empresa.pyme === null
+                          ? "-"
+                          : empresa.pyme
+                          ? "Sí"
+                          : "No"}
+                      </div>
+                    </Cell>
+                  </Row>
+                ))}
+              </Body>
+            </>
+          )}
+        </Table>
+      </div>
+    </div>
   );
 };
 

@@ -6,59 +6,94 @@ import "./TablasStyle.css";
 import EmpresaTableByYear from "./EmpresaTableByYear";
 import Table from "react-bootstrap/Table";
 import Accordion from "react-bootstrap/Accordion";
+import "./StatsStyle.css";
+import Spinner from "react-bootstrap/Spinner";
+import PieChartComponent from "./PieChartComponent";
 const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
   const [empresaData, setEmpresaData] = useState([]);
   const [sortBy, setSortBy] = useState("participacionesCount");
   const [sortOrder, setSortOrder] = useState("desc");
   const [pymeStats, setPymeStats] = useState({});
   const [licitaciones, setLicitaciones] = useState([]);
+  const [metricsByYear, setMetricsByYear] = useState([]);
+  const [metricsByRange, setMetricsByRange] = useState([]);
+  const [loading, setLoading] = useState(true); // Loading state
+  const [loadingRange, setLoadingRange] = useState(true); // Loading state
+  const [pymesData, setPymesData] = useState([]);
+  const [loadingPymes, setLoadingPymes] = useState(true); // Loading state
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/licitaciones/")
-      .then((response) => response.json())
-      .then((data) => {
-        setLicitaciones(data);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
-  useEffect(() => {
-    // Calculate PYME stats
-    const calculatePymeStats = () => {
-      const pymeCount = empresas.filter(
-        (empresa) => empresa.pyme === true
-      ).length;
-      const noPymeCount = empresas.filter(
-        (empresa) => empresa.pyme === false
-      ).length;
-      const unknownCount = empresas.filter(
-        (empresa) => empresa.pyme === null
-      ).length;
+    const fetchData = async () => {
+      try {
+        setLoadingPymes(true);
 
-      return { pymeCount, noPymeCount, unknownCount };
+        // Fetch aggregated PYME data
+        const response = await fetch(
+          "http://localhost:8000/api/pymes/aggregate/"
+        );
+        const data = await response.json();
+        setPymesData(data);
+      } catch (error) {
+        console.error("Error fetching PYME data:", error);
+      } finally {
+        setLoadingPymes(false);
+      }
     };
 
-    // Set state with calculated stats
-    setPymeStats(calculatePymeStats());
-  }, [empresas]);
+    fetchData();
+  }, []);
 
-  // Data for the pie chart
-  const pieChartData = [
-    { name: "Sí", value: pymeStats.pymeCount || 0 },
-    { name: "No", value: pymeStats.noPymeCount || 0 },
-    { name: "Desconocido", value: pymeStats.unknownCount || 0 },
-  ];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Set loading to true before fetching
+        setLoading(true);
 
+        const metricsByYearResponse = await fetch(
+          "http://localhost:8000/api/metrics-by-year/"
+        );
+        const metricsByYearData = await metricsByYearResponse.json();
+        setMetricsByYear(metricsByYearData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        // Set loading to false after fetching is complete
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Set loading to true before fetching
+        setLoadingRange(true);
+
+        const metricsByRangeResponse = await fetch(
+          "http://localhost:8000/api/metrics-by-range/"
+        );
+        const metricsByRangeData = await metricsByRangeResponse.json();
+        setMetricsByRange(metricsByRangeData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        // Set loading to false after fetching is complete
+        setLoadingRange(false);
+      }
+    };
+
+    fetchData();
+  }, []);
   // Helper function to aggregate data
 
   const COLORS = [
-    "#d0848d",
-    "#82ca9d",
-    "#ffc658",
+    "#22577a",
+    "#38a3a5",
+    "#57cc99",
     "#84d8c6",
-    "#c684d8",
-    "#8884d8",
+    "#80ed99",
+    "#c7f9cc",
     "#d8a384",
     "#B6E2DD",
     "#C8DDBB",
@@ -81,71 +116,6 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
     (_, i) => startYear + i
   );
 
-  const computeMetricsByYear = () => {
-    const metricsByYear = years.map((year) => {
-      const metrics = empresas.map((empresa) => {
-        // Filter participaciones based on the empresa and licitaciones with adjudicatario
-        const participacionesYear = participaciones.filter((p) => {
-          const licitacion = licitaciones.find(
-            (l) => l.id_licitacion == p.id_licitacion && l.adjudicatario
-          );
-          return (
-            p.id_empresa == empresa.id_empresa &&
-            licitacion &&
-            parse(licitacion.plazo_presentacion, "dd/MM/yyyy", new Date(), {
-              locale: es,
-            }).getFullYear() === year
-          );
-        });
-
-        const numParticipaciones = participacionesYear.length;
-
-        // Filter licitaciones where the empresa is the adjudicatario and adjudicatario exists
-        const numAdjudicaciones = licitaciones.filter(
-          (l) =>
-            l.adjudicatario?.id_empresa == empresa.id_empresa &&
-            parse(l.plazo_presentacion, "dd/MM/yyyy", new Date(), {
-              locale: es,
-            }).getFullYear() == year
-        ).length;
-
-        // Calculate percentage only for valid licitaciones
-        const percentage =
-          numParticipaciones > 0
-            ? (participacionesYear.reduce((acc, p) => {
-                const licitacion = licitaciones.find(
-                  (l) => l.id_licitacion === p.id_licitacion && l.adjudicatario
-                );
-                return (
-                  acc +
-                  (licitacion.importe_sin_impuestos -
-                    p.importe_ofertado_sin_iva) /
-                    licitacion.importe_sin_impuestos
-                );
-              }, 0) /
-                numParticipaciones) *
-              100
-            : 0;
-
-        return {
-          name: empresa.nombre_empresa,
-          year: year,
-          participations: numParticipaciones,
-          wins: numAdjudicaciones,
-          percentage: percentage.toFixed(2), // Keeping two decimal places for percentage
-        };
-      });
-
-      return { year, metrics };
-    });
-
-    console.log(metricsByYear);
-    return metricsByYear;
-  };
-
-  // Compute the data for the chart
-  const metricsByYear = computeMetricsByYear();
-
   const ranges = [
     { min: 0, max: 100000, label: "0 - 100,000" },
     { min: 100000, max: 500000, label: "100,000 - 500,000" },
@@ -158,97 +128,66 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
     { min: 6000000, max: 7000000, label: "6,000,000 - 7,000,000" },
     { min: 7000000, max: Infinity, label: "7,000,000+" },
   ];
-  const computeMetricsByRange = () => {
-    const metricsByRange = empresas.map((empresa) => {
-      const totalParticipations = participaciones.filter(
-        (p) => p.id_empresa === empresa.id_empresa
-      ).length;
-      const totalWins = licitaciones.filter(
-        (l) => l.adjudicatario?.id_empresa === empresa.id_empresa
-      ).length;
-      const totalSuccessPercentage =
-        totalParticipations > 0 ? (totalWins / totalParticipations) * 100 : 0;
-      const metrics = ranges.map((range) => {
-        const participacionesInRange = participaciones.filter((p) => {
-          const licitacion = licitaciones.find(
-            (l) => l.id_licitacion === p.id_licitacion
-          );
-          return (
-            p.id_empresa === empresa.id_empresa &&
-            licitacion &&
-            p.importe_ofertado_sin_iva >= range.min &&
-            p.importe_ofertado_sin_iva < range.max
-          );
-        });
 
-        const numParticipations = participacionesInRange.length;
-        const numWins = licitaciones.filter((l) => {
-          const participacion = participaciones.find(
-            (p) =>
-              p.id_licitacion == l.id_licitacion &&
-              p.id_empresa == empresa.id_empresa
-          );
-          return (
-            l.adjudicatario?.id_empresa == empresa.id_empresa &&
-            participacion &&
-            participacion.importe_ofertado_sin_iva >= range.min &&
-            participacion.importe_ofertado_sin_iva < range.max
-          );
-        }).length;
-
-        const successPercentage =
-          numParticipations > 0 ? (numWins / numParticipations) * 100 : 0;
-
-        return {
-          rangeLabel: range.label,
-          successPercentage: successPercentage.toFixed(2),
-        };
-      });
-
-      return {
-        empresa: empresa.nombre_empresa,
-        totalSuccessPercentage: totalSuccessPercentage.toFixed(2),
-        metrics,
-      };
-    });
-
-    return metricsByRange;
+  const renderCustomizedLabel = ({ name, value }) => {
+    return `${value.toFixed(2)}%`;
   };
 
-  // Example usage
-  const metricsByRange = computeMetricsByRange();
   return (
-    <div>
+    <div className="main-container pe-3 ps-3">
+      <div className="row justify-content-md-center pt-5 mb-5">
+        <div className="col-lg-3 ms-3 me-3">
+          <div className="row importe-box">
+            <h5>Número de Empresas: </h5>
+            <h3>{empresas.length}</h3>
+          </div>
+          <div className="row importe-box">
+            <h5>Número de Participaciones: </h5>
+            <h3>{participaciones.length}</h3>
+          </div>
+        </div>
+        <div className="col-xl-3 col-md-6 chart-container">
+          <h4>Tamaño de empresas</h4>
+          {loadingPymes ? (
+            <div
+              className="d-flex justify-content-center align-items-center"
+              style={{ height: "100%" }}
+            >
+              <Spinner animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </Spinner>
+            </div>
+          ) : (
+            <PieChart width={400} height={400}>
+              <Pie
+                data={pymesData}
+                dataKey="value"
+                nameKey="name"
+                cx="50%"
+                cy="50%"
+                outerRadius={120}
+                fill="#8884d8"
+                label={renderCustomizedLabel}
+              >
+                {pymesData.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={COLORS[index]} />
+                ))}
+              </Pie>
+              <Tooltip
+                formatter={(value, name, props) => `${value.toFixed(2)}%`}
+              />
+              <Legend />
+            </PieChart>
+          )}
+        </div>
+      </div>
       <div
         style={{
           display: "flex",
           justifyContent: "space-around",
           flexWrap: "wrap",
         }}
-      >
-        <div>
-          <h3>Empresas PYME</h3>
-
-          <PieChart width={400} height={400}>
-            <Pie
-              data={pieChartData}
-              dataKey="value"
-              nameKey="name"
-              cx="50%"
-              cy="50%"
-              outerRadius={150}
-              fill="#8884d8"
-              label
-            >
-              {pieChartData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index]} />
-              ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
-        </div>
-      </div>
+      ></div>
       <Accordion className="ms-3 me-3" defaultActiveKey="0" alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
@@ -264,73 +203,85 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
               }}
               width="100%"
             >
-              <Table striped bordered hover>
-                <thead className="sticky-top">
-                  <tr>
-                    <th>Empresa</th>
-                    {years.map((year) => (
-                      <th colSpan={3} key={year}>
-                        {year}
-                      </th>
-                    ))}
-                  </tr>
-                  <tr>
-                    <th></th>
-                    {years.map((year) => (
-                      <>
-                        <th key={`${year}-baja`} style={{ fontSize: "12px" }}>
-                          Baja Media
+              {loading ? (
+                <div
+                  className="d-flex justify-content-center align-items-center"
+                  style={{ height: "100%" }}
+                >
+                  <Spinner animation="border" role="status">
+                    <span className="visually-hidden">Loading...</span>
+                  </Spinner>
+                </div>
+              ) : (
+                <Table striped bordered hover>
+                  <thead className="sticky-top">
+                    <tr>
+                      <th>Empresa</th>
+                      {years.map((year) => (
+                        <th colSpan={3} key={year}>
+                          {year}
                         </th>
-                        <th
-                          key={`${year}-adjudicaciones`}
-                          style={{ fontSize: "12px" }}
-                        >
-                          Adjudicaciones
-                        </th>
-                        <th
-                          key={`${year}-participaciones`}
-                          style={{ fontSize: "12px" }}
-                        >
-                          Participaciones
-                        </th>
-                      </>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {empresas.map((empresa) => (
-                    <tr key={empresa.id_empresa}>
-                      <td>{empresa.nombre_empresa}</td>
-                      {years.map((year) => {
-                        const metrics = metricsByYear.find(
-                          (m) => m.year === year
-                        ).metrics;
-                        const empresaMetrics = metrics.find(
-                          (m) => m.name === empresa.nombre_empresa
-                        );
-
-                        return (
-                          <React.Fragment key={year}>
-                            <td>
-                              {empresaMetrics
-                                ? empresaMetrics.percentage
-                                : "N/A"}
-                            </td>
-                            <td>
-                              {empresaMetrics ? empresaMetrics.wins : "N/A"}
-                            </td>
-                            <td>
-                              {empresaMetrics
-                                ? empresaMetrics.participations
-                                : "N/A"}
-                            </td>
-                          </React.Fragment>
-                        );
-                      })}
+                      ))}
                     </tr>
-                  ))}
-                </tbody>
-              </Table>
+                    <tr>
+                      <th></th>
+                      {years.map((year) => (
+                        <React.Fragment key={`${year}-headers`}>
+                          <th key={`${year}-baja`} style={{ fontSize: "12px" }}>
+                            Baja Media
+                          </th>
+                          <th
+                            key={`${year}-adjudicaciones`}
+                            style={{ fontSize: "12px" }}
+                          >
+                            Adjudicaciones
+                          </th>
+                          <th
+                            key={`${year}-participaciones`}
+                            style={{ fontSize: "12px" }}
+                          >
+                            Participaciones
+                          </th>
+                        </React.Fragment>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {empresas.map((empresa) => (
+                      <tr key={empresa.id_empresa}>
+                        <td>{empresa.nombre_empresa}</td>
+                        {years.map((year) => {
+                          const metrics = metricsByYear.find(
+                            (m) => m.year === year
+                          ).metrics;
+                          const empresaMetrics = metrics.find(
+                            (m) => m.name === empresa.nombre_empresa
+                          );
+
+                          return (
+                            <React.Fragment key={year}>
+                              <td>
+                                {empresaMetrics
+                                  ? empresaMetrics.percentage
+                                  : "N/A"}
+                                %
+                              </td>
+                              <td>
+                                {empresaMetrics ? empresaMetrics.wins : "N/A"}
+                              </td>
+                              <td>
+                                {empresaMetrics
+                                  ? empresaMetrics.participations
+                                  : "N/A"}
+                              </td>
+                            </React.Fragment>
+                          );
+                        })}
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              )}
             </div>
           </Accordion.Body>
         </Accordion.Item>
@@ -348,30 +299,41 @@ const StatsEmpresas = ({ valoraciones, participaciones, empresas }) => {
               }}
               width="100%"
             >
-              <Table striped bordered hover>
-                <thead className="sticky-top">
-                  <tr>
-                    <th>Empresa</th>
-                    <th>Total</th>
-                    {ranges.map((range) => (
-                      <th key={range.label}>{range.label}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {metricsByRange.map((empresaMetrics) => (
-                    <tr key={empresaMetrics.empresa}>
-                      <td>{empresaMetrics.empresa}</td>
-                      <td>{empresaMetrics.totalSuccessPercentage}%</td>
-                      {empresaMetrics.metrics.map((metric) => (
-                        <td key={metric.rangeLabel}>
-                          {metric.successPercentage}%
-                        </td>
+              {loadingRange ? (
+                <div
+                  className="d-flex justify-content-center align-items-center"
+                  style={{ height: "100%" }}
+                >
+                  <Spinner animation="border" role="status">
+                    <span className="visually-hidden">Loading...</span>
+                  </Spinner>
+                </div>
+              ) : (
+                <Table striped bordered hover>
+                  <thead className="sticky-top">
+                    <tr>
+                      <th>Empresa</th>
+                      <th>Total</th>
+                      {ranges.map((range) => (
+                        <th key={range.label}>{range.label}</th>
                       ))}
                     </tr>
-                  ))}
-                </tbody>
-              </Table>
+                  </thead>
+                  <tbody>
+                    {metricsByRange.map((empresaMetrics) => (
+                      <tr key={empresaMetrics.empresa}>
+                        <td>{empresaMetrics.empresa}</td>
+                        <td>{empresaMetrics.totalSuccessPercentage}%</td>
+                        {empresaMetrics.metrics.map((metric) => (
+                          <td key={metric.rangeLabel}>
+                            {metric.successPercentage}%
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              )}
             </div>
           </Accordion.Body>
         </Accordion.Item>

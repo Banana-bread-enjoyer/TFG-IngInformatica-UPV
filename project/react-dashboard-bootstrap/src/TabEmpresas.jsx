@@ -32,7 +32,7 @@ const TabEmpresas = ({ valoraciones, participaciones, empresas }) => {
 
   return (
     <>
-      <div className="mb-3">
+      <div className="">
         <SearchBarEmpresas
           className="pt-5"
           setSearchQuery={setSearchQuery}
@@ -49,6 +49,7 @@ const TabEmpresas = ({ valoraciones, participaciones, empresas }) => {
               as={Link}
               to="list"
               active={location.pathname === "/empresas/list"}
+              className="licitaciones-tab"
             >
               <FormatListBulletedIcon /> Lista
             </Nav.Link>
@@ -58,6 +59,7 @@ const TabEmpresas = ({ valoraciones, participaciones, empresas }) => {
               as={Link}
               to="stats"
               active={location.pathname === "/empresas/stats"}
+              className="licitaciones-tab"
             >
               <EqualizerIcon /> Estadísticas
             </Nav.Link>

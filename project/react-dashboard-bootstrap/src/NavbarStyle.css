@@ -1,0 +1,13 @@
+.nav-main {
+  background-color: #22577a;
+  padding: 10px 0px 0px 0px;
+}
+.nav-main .nav-tab-main {
+  color: white;
+}
+
+.nav-brand {
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+}

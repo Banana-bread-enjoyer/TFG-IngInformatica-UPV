@@ -12,9 +12,10 @@ import {
   ResponsiveContainer,
   CartesianGrid,
   Rectangle,
+  Label,
 } from "recharts";
-import { Chart } from "react-google-charts";
-
+import { Form, Button } from "react-bootstrap";
+import PieChartComponent from "./PieChartComponent";
 const StatsComponent = ({
   licitaciones,
   valoraciones,
@@ -94,14 +95,16 @@ const StatsComponent = ({
 
     licitaciones.forEach((licitacion) => {
       const procedimiento =
-        licitacion.procedimiento?.nombre_procedimiento || "";
+        licitacion.procedimiento?.nombre_procedimiento || "Sin especificar";
       procedimientos[procedimiento] = (procedimientos[procedimiento] || 0) + 1;
 
-      const tramitacion = licitacion.tramitacion?.nombre_tramitacion || "";
+      const tramitacion =
+        licitacion.tramitacion?.nombre_tramitacion || "Sin especificar";
       tramitaciones[tramitacion] = (tramitaciones[tramitacion] || 0) + 1;
 
       const tipoContrato =
-        licitacion.tipo_contrato?.nombre_tipo_contrato.trim() || "";
+        licitacion.tipo_contrato?.nombre_tipo_contrato.trim() ||
+        "Sin especificar";
       tiposContrato[tipoContrato] = (tiposContrato[tipoContrato] || 0) + 1;
 
       const unidad = licitacion.unidad_encargada;
@@ -132,28 +135,24 @@ const StatsComponent = ({
 
   const procedimientoData = Object.keys(procedimientos).map((key) => ({
     name: key,
-    value: procedimientos[key],
+    value: (procedimientos[key] / licitaciones.length) * 100,
   }));
   const tramitacionData = Object.keys(tramitaciones).map((key) => ({
     name: key,
-    value: tramitaciones[key],
-  }));
-  const unidadData = Object.keys(unidades).map((key) => ({
-    name: key,
-    value: unidades[key],
+    value: (tramitaciones[key] / licitaciones.length) * 100,
   }));
   const tiposData = Object.keys(tiposContrato).map((key) => ({
     name: key,
-    value: tiposContrato[key],
+    value: (tiposContrato[key] / licitaciones.length) * 100,
   }));
 
   const COLORS = [
-    "#d0848d",
-    "#82ca9d",
-    "#ffc658",
+    "#22577a",
+    "#38a3a5",
+    "#57cc99",
     "#84d8c6",
-    "#c684d8",
-    "#8884d8",
+    "#80ed99",
+    "#c7f9cc",
     "#d8a384",
     "#B6E2DD",
     "#C8DDBB",
@@ -169,14 +168,6 @@ const StatsComponent = ({
     "#223f5a",
   ];
 
-  const tooltipStyles = {
-    backgroundColor: "#333",
-    color: "#fff",
-    border: "1px solid #ccc",
-    padding: "10px",
-    borderRadius: "5px",
-  };
-
   const getNumberOfParticipations = (idLicitacion) => {
     let numOfertas = 0;
     participaciones.forEach((participacion) => {
@@ -188,16 +179,14 @@ const StatsComponent = ({
   };
 
   const ranges = [
-    { min: 0, max: 100000, label: "0 - 100,000" },
-    { min: 100000, max: 500000, label: "100,000 - 500,000" },
-    { min: 500000, max: 1000000, label: "500,000 - 1,000,000" },
-    { min: 1000000, max: 2000000, label: "1,000,000 - 2,000,000" },
-    { min: 2000000, max: 3000000, label: "2,000,000 - 3,000,000" },
-    { min: 3000000, max: 4000000, label: "3,000,000 - 4,000,000" },
-    { min: 4000000, max: 5000000, label: "4,000,000 - 5,000,000" },
-    { min: 5000000, max: 6000000, label: "5,000,000 - 6,000,000" },
-    { min: 6000000, max: 7000000, label: "6,000,000 - 7,000,000" },
-    { min: 7000000, max: Infinity, label: "7,000,000+" },
+    { min: 0, max: 1000000, label: "0 - 1M" },
+    { min: 1000000, max: 2000000, label: "1M - 2M" },
+    { min: 2000000, max: 3000000, label: "2M - 3M" },
+    { min: 3000000, max: 4000000, label: "3M - 4M" },
+    { min: 4000000, max: 5000000, label: "4M - 5M" },
+    { min: 5000000, max: 6000000, label: "5M - 6M" },
+    { min: 6000000, max: 7000000, label: "6M - 7M" },
+    { min: 7000000, max: Infinity, label: "7M+" },
   ];
 
   const calculateParticipationsPerRange = (licitaciones) => {
@@ -313,25 +302,34 @@ const StatsComponent = ({
 
   const criteriosData = Object.keys(criteriosCounts).map((key) => ({
     name: key,
-    value: criteriosCounts[key],
+    value: (criteriosCounts[key] / licitaciones.length) * 100,
   }));
+
   return (
-    <div>
-      <div style={{ marginTop: "20px", textAlign: "center" }}>
-        <h3>
-          Importe Total:{" "}
-          {importe.total.toLocaleString("es-ES", {
-            style: "currency",
-            currency: "EUR",
-          })}
-        </h3>
-        <h4>
-          Importe Medio:{" "}
-          {(importe.total / importe.count).toLocaleString("es-ES", {
-            style: "currency",
-            currency: "EUR",
-          })}
-        </h4>
+    <div className="main-container pe-3 ps-3">
+      <div className="row pt-5 mb-5">
+        <div className="col importe-box ms-3 me-3">
+          <h5>Número de Licitaciones: </h5>
+          <h3>{licitaciones.length}</h3>
+        </div>
+        <div className="col importe-box">
+          <h5>Importe Total: </h5>
+          <h3>
+            {importe.total.toLocaleString("es-ES", {
+              style: "currency",
+              currency: "EUR",
+            })}
+          </h3>
+        </div>
+        <div className="col importe-box ms-3 me-3">
+          <h5>Importe Medio: </h5>
+          <h3>
+            {(importe.total / importe.count).toLocaleString("es-ES", {
+              style: "currency",
+              currency: "EUR",
+            })}
+          </h3>
+        </div>
       </div>
       <div
         style={{
@@ -340,125 +338,134 @@ const StatsComponent = ({
           flexWrap: "wrap",
         }}
       >
-        <div>
+        <div className="chart-container">
           <h3>Procedimientos</h3>
-          <PieChart width={400} height={400}>
-            <Pie
-              data={procedimientoData}
-              dataKey="value"
-              nameKey="name"
-              cx="50%"
-              cy="50%"
-              outerRadius={150}
-              fill="#8884d8"
-              label
-            >
-              {procedimientoData.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
-                />
-              ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
+          <PieChartComponent data={procedimientoData} colors={COLORS} />
         </div>
-        <div>
+        <div className="chart-container">
           <h3>Tramitaciones</h3>
-          <PieChart width={400} height={400}>
-            <Pie
-              data={tramitacionData}
-              dataKey="value"
-              nameKey="name"
-              cx="50%"
-              cy="50%"
-              outerRadius={150}
-              fill="#8884d8"
-              label
-            >
-              {tramitacionData.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
-                />
-              ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
+          <PieChartComponent data={tramitacionData} colors={COLORS} />
         </div>
-        <div>
+        <div className="chart-container">
           <h3>Tipo de Contrato</h3>
-          <PieChart width={400} height={400}>
-            <Pie
-              data={tiposData}
-              dataKey="value"
-              nameKey="name"
-              cx="50%"
-              cy="50%"
-              outerRadius={150}
-              fill="#8884d8"
-              label
-            >
-              {tiposData.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
-                />
-              ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
+          <PieChartComponent data={tiposData} colors={COLORS} />
         </div>
-        <div>
+        <div className="chart-container">
           <h3>Número de Criterios</h3>
-          <PieChart width={400} height={400}>
-            <Pie
-              data={criteriosData}
-              dataKey="value"
-              nameKey="name"
-              cx="50%"
-              cy="50%"
-              outerRadius={150}
-              fill="#8884d8"
-              label
+          <PieChartComponent data={criteriosData} colors={COLORS} />
+        </div>
+        <div class="row pe-3">
+          <div class="col-md-6 ">
+            <ResponsiveContainer
+              width="100%"
+              height={550}
+              aspect={2}
+              className="mt-5 chart-with-controls pb-3 pt-3"
             >
-              {procedimientoData.map((entry, index) => (
-                <Cell
-                  key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
+              <h4 className="ms-3">
+                Número medio de Licitadores por Rango de Importes
+              </h4>
+              <BarChart
+                data={histogramData}
+                margin={{
+                  top: 5,
+                  right: 10,
+                  left: 10,
+                  bottom: 20,
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name">
+                  <Label
+                    value="Rangos de Importes en Millones de Euros"
+                    offset={0}
+                    position="bottom"
+                  />
+                </XAxis>
+                <YAxis />
+                <Tooltip
+                  formatter={(value, name, props) => `${value.toFixed(2)}`}
                 />
-              ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
+                <Bar
+                  dataKey="ml"
+                  fill={COLORS[1]}
+                  name={"Número Medio de Licitadores"}
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+          <div class="col-md-6">
+            <ResponsiveContainer
+              width="100%"
+              height={550}
+              aspect={2}
+              className="mt-5  chart-with-controls pb-3 pt-3"
+            >
+              <h4 className="ms-3">
+                Porcentaje medio de Baja de Adjudicatarios por Rango de Importes
+              </h4>
+              <BarChart
+                data={bajasData}
+                margin={{
+                  top: 5,
+                  right: 10,
+                  left: 10,
+                  bottom: 20,
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name">
+                  <Label
+                    value="Rangos de Importes en Millones de Euros"
+                    offset={0}
+                    position="bottom"
+                  />
+                </XAxis>
+                <YAxis />
+                <Tooltip
+                  formatter={(value, name, props) => `${value.toFixed(2)}%`}
+                />
+
+                <Bar
+                  dataKey="mb"
+                  fill={COLORS[2]}
+                  name={"Valor Medio de la Baja del Adjudicatario"}
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </div>
         <ResponsiveContainer
           width="100%"
-          height={empresaChartData.length * 50 + 100}
-          className={"mb-5"}
+          height={empresaChartData.length * 47}
+          className="mt-5 ms-3 me-3 chart-with-controls pt-3 pb-3 ps-3 pe-3"
+          minHeight={"1050px"}
         >
-          <div style={{ marginBottom: "10px" }}>
-            <label>Ordenar Por:</label>
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              style={{ marginLeft: "10px" }}
-            >
-              <option value="participacionesCount">Participaciones</option>
-              <option value="adjudicatarioCount">Adjudicaciones</option>
-              <option value="expulsadaCount">Exclusiones</option>
-            </select>
-            <button
-              onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
-            >
-              {sortOrder === "asc" ? "Descendente" : "Ascendente"}
-            </button>
+          <div className="d-flex justify-content-between align-items-center mb-3">
+            <h3 className="mb-0">Top 20 Empresas</h3>
+            <Form className="d-flex align-items-center">
+              <Form.Label className="me-2">Ordenar Por:</Form.Label>
+              <Form.Select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="me-2"
+                style={{ width: "200px" }}
+              >
+                <option value="participacionesCount">Participaciones</option>
+                <option value="adjudicatarioCount">Adjudicaciones</option>
+                <option value="expulsadaCount">Exclusiones</option>
+              </Form.Select>
+              <Button
+                variant="primary"
+                onClick={() =>
+                  setSortOrder(sortOrder === "asc" ? "desc" : "asc")
+                }
+              >
+                {sortOrder === "asc" ? "Descendente" : "Ascendente"}
+              </Button>
+            </Form>
           </div>
-          <h3>Top Empresas</h3>
+
           <BarChart
             layout="vertical"
             data={empresaChartData}
@@ -469,9 +476,9 @@ const StatsComponent = ({
               bottom: 5,
             }}
           >
-            <XAxis type="number" />
+            <XAxis type="number" orientation="top" />
             <YAxis dataKey="name" type="category" width={400} />
-            <Tooltip contentStyle={tooltipStyles} />
+            <Tooltip />
             <Legend />
             <Bar dataKey="value" name={"Participaciones"} fill={COLORS[0]} />
             <Bar
@@ -483,50 +490,6 @@ const StatsComponent = ({
               dataKey="expulsadaCount"
               name={"Exclusiones"}
               fill={COLORS[2]}
-            />
-          </BarChart>
-        </ResponsiveContainer>
-        <ResponsiveContainer width="100%" height={500} className={"mt-5"}>
-          <BarChart
-            data={histogramData}
-            margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar
-              dataKey="ml"
-              fill={COLORS[5]}
-              name={"Número Medio de Licitadores"}
-            />
-          </BarChart>
-        </ResponsiveContainer>
-        <ResponsiveContainer width="100%" height={500} className={"mt-5"}>
-          <BarChart
-            data={bajasData}
-            margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar
-              dataKey="mb"
-              fill={COLORS[6]}
-              name={"Valor Medio de la Baja del Adjudicatario"}
             />
           </BarChart>
         </ResponsiveContainer>

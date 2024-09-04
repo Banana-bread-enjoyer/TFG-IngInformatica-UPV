@@ -45,13 +45,15 @@ def get_names(criterios, sub):
 
 
 def open_link(a_html):
-    response = requests.get(a_html.get("href"))
+    link = a_html.get("href")
+    
+    """ response = requests.get(a_html.get("href"))
     html_pdf = response.content
     soup_pdf = BeautifulSoup(html_pdf, "html.parser")
     link = soup_pdf.find("meta")
     link = "https://contrataciondelestado.es" + link.get("content").split("url=")[
         1
-    ].strip("'")
+    ].strip("'") """
     data = requests.get(link)
     data = data.content
     return data, link
@@ -220,7 +222,20 @@ async def main():
             continue
     return results
         
-        
+def save_html_to_file(html_content, file_path):
+    """
+    Save HTML content to a file.
+
+    :param html_content: The HTML content as a string.
+    :param file_path: The path to the file where the HTML content will be saved.
+    """
+    try:
+        # Open the file in write mode ('w') and write the HTML content to it
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(html_content)
+        print(f"HTML content successfully saved to {file_path}")
+    except Exception as e:
+        print(f"An error occurred while saving the file: {e}")       
         
 
 

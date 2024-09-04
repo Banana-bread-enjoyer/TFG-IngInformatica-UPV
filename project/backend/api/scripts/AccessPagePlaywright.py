@@ -51,7 +51,7 @@ async def access_page():
         )
 
         expedientes_list = []
-        for name in ["CMAYOR/2021/06Y07/97"]:
+        for name in ["CMAYOR","CNMY","PAS"]:
             await page.fill(
                     'input[id="viewns_Z7_AVEQAI930OBRD02JPMTPG21004_:form1:text71ExpMAQ"]',
                     "",

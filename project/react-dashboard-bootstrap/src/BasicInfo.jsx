@@ -27,8 +27,8 @@ const BasicInfo = ({ licitacion }) => {
     fetchCPVCodigos();
   }, [licitacion]); // El efecto se ejecuta cuando cambie `licitacionId`
   return (
-    <>
-      <Card className="mb-4 mt-3">
+    <div className="main-container ps-4 pe-4 pt-4">
+      <Card className="mb-4">
         <Card.Header as="h4" className="bg-primary text-white">
           Información Básica
         </Card.Header>
@@ -205,7 +205,7 @@ const BasicInfo = ({ licitacion }) => {
           </Card>
         </Card.Body>
       </Card>
-    </>
+    </div>
   );
 };
 

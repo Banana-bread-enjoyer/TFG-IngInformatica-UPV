@@ -253,6 +253,7 @@ def agrupar_empresas(dictValoraciones, dictValSubcriterios, dictOfertas, dictAno
                         dictEmpresas[empresa][word] = dictF[nombre]
                     else:
                         dictEmpresas[empresa][word] = None
+    print(dictEmpresas)
     return dictEmpresas
 
 
@@ -266,57 +267,58 @@ def insertar_criterios(dictCriterios, dictSubcriterios, data):
     idJV = None
     if dictCriterios:
         for criterio in dictCriterios:
+            print(criterio)
             nombre = criterio["Nombre"]
-            if not ("INICIAL" in nombre.upper() or "TOTAL" in nombre.upper()):
-                valorMax = criterio["Puntuación máxima"]
-                if valorMax == None:
-                    valorMax = 0
-                siglas = criterio["Siglas"]
-                valorMin = (
-                    criterio["Puntuación Mínima"]
-                    if "Puntuación Mínima" in criterio
-                    else None
-                )
-                if all(word in nombre.upper() for word in "JUICIO DE VALOR".split(" ")):
-                    if valorMin == None:
-                        if valorMax == 40:
-                            valorMin = 27
-                        elif valorMax == 25:
-                            valorMin = 15
-                if type(valorMax) == str:
-                    valorMax = re.findall(r"\d+", valorMax)[0]
-                cursor.execute(query, nombre, valorMax)
-                idCriterio = cursor.fetchone()
-                if not idCriterio:
-                    cursor.execute(sql_criterios, nombre, siglas, valorMax, valorMin, None)
-                    conn.commit()
+            if not any(sub["Nombre"] in nombre for sub in dictSubcriterios):
+                print("no es sub", criterio)
+                if not ("INICIAL" in nombre.upper() or "TOTAL" in nombre.upper()):
+                    valorMax = criterio["Puntuación máxima"]
+                    if valorMax == None:
+                        valorMax = 0
+                    siglas = criterio["Siglas"]
+                    valorMin = (
+                        criterio["Puntuación Mínima"]
+                        if "Puntuación Mínima" in criterio
+                        else None
+                    )
+                    if all(word in nombre.upper() for word in "JUICIO DE VALOR".split(" ")):
+                        if valorMin == None:
+                            if valorMax == 40:
+                                valorMin = 27
+                            elif valorMax == 25:
+                                valorMin = 15
+                    if type(valorMax) == str:
+                        valorMax = re.findall(r"\d+", valorMax)[0]
                     cursor.execute(query, nombre, valorMax)
                     idCriterio = cursor.fetchone()
-                    if all(word in nombre.upper() for word in "JUICIO DE VALOR".split(" ")):
-                        idJV = idCriterio[0]
-                if siglas:
-                    nombreSiglas = nombre + " (" + siglas + ")"
-                else:
-                    nombreSiglas = nombre
-                dictConjunto[nombreSiglas] = idCriterio[0]
+                    if not idCriterio:
+                        cursor.execute(sql_criterios, nombre, siglas, valorMax, valorMin, None)
+                        conn.commit()
+                        cursor.execute(query, nombre, valorMax)
+                        idCriterio = cursor.fetchone()
+                        if all(word in nombre.upper() for word in "JUICIO DE VALOR".split(" ")):
+                            idJV = idCriterio[0]
+                    if siglas:
+                        nombreSiglas = nombre + " (" + siglas + ")"
+                    else:
+                        nombreSiglas = nombre
+                    dictConjunto[nombreSiglas] = idCriterio[0]
     if dictSubcriterios and data["VALORACIONES SUBCRITERIOS"]:
         for subcriterio in dictSubcriterios:
             nombre = subcriterio["Nombre"]
             valorMax = subcriterio["Puntuación máxima"]
             if valorMax:
                 siglas = subcriterio["Siglas"] if "Siglas" in subcriterio else None
+                cursor.execute(sql_criterios, nombre, siglas, valorMax, valorMin, idJV)
+                conn.commit()
                 cursor.execute(query, nombre, valorMax)
                 idCriterio = cursor.fetchone()
-                if not idCriterio:
-                    cursor.execute(sql_criterios, nombre, siglas, valorMax, valorMin, idJV)
-                    conn.commit()
-                    cursor.execute(query, nombre, valorMax)
-                    idCriterio = cursor.fetchone()
-                    if not siglas:
-                        nombreSiglas = nombre
-                    else:
-                        nombreSiglas = nombre + " (" + siglas + ")"
-                    dictConjunto[nombreSiglas] = idCriterio[0]
+                if not siglas:
+                    nombreSiglas = nombre
+                else:
+                    nombreSiglas = nombre + " (" + siglas + ")"
+                dictConjunto[nombreSiglas] = idCriterio[0]
+    print(dictConjunto)
     return dictConjunto
 
 
@@ -554,6 +556,7 @@ def insertar_licitacion(data, idAdjudicatario):
             conn.commit()
         except:
             print("Ya existe")
+    print(f'Licitación {data["EXPEDIENTE"]} insertada con id {idLicitacion}')
     return idLicitacion
 
 
@@ -595,6 +598,7 @@ def insertar_participacion_adjudicatario(
 
 
 def insertar_part_empresas(dictEmpresas, idCriterios, idLicitacion, idAdjudicatario):
+    print(dictEmpresas)
     sql_participacion = """
     INSERT INTO Participaciones(id_licitacion,id_empresa,importe_ofertado_sin_iva,importe_ofertado_con_iva,excluida,anormalidad_economica)
     VALUES (?,?,?,?,?,?)
@@ -640,6 +644,9 @@ def insertar_valoracion(idCriterios, idParticipacion, dictEmpresa):
     INSERT INTO Valoraciones(id_participacion,id_criterio,puntuacion)
     VALUES (?,?,?)
     """
+    print("---------------------------------VALORACIONES--------------------------------------")
+    print(dictEmpresa)
+    print(idCriterios)
     for criterio in idCriterios:
         cursor.execute(
             "SELECT COUNT(*) FROM Valoraciones WHERE id_participacion=? AND id_criterio=?",
@@ -733,7 +740,7 @@ def insertar_expediente(data):
                 if "Firmat" in aux:
                     aux = re.sub(r"Firmat.*", "", aux, flags=re.IGNORECASE)
         data[item] = aux
-
+    
     data["OFERTA ECONÓMICA"] = dict_ofertas(data["OFERTA ECONÓMICA"])
     data["VALORACIONES DE EMPRESAS"] = dictValoraciones(
         data["VALORACIONES DE EMPRESAS"],
@@ -745,6 +752,7 @@ def insertar_expediente(data):
         data["SUBCRITERIOS"],
         data["OFERTA ECONÓMICA"],
     )
+    print(data["CRITERIOS DE ADJUDICACIÓN"],data["VALORACIONES DE EMPRESAS"],data["SUBCRITERIOS"], data["VALORACIONES SUBCRITERIOS"])
     dictEmpresas = agrupar_empresas(
         data["VALORACIONES DE EMPRESAS"],
         data["VALORACIONES SUBCRITERIOS"],
@@ -785,4 +793,3 @@ def insertar_expediente(data):
             data, idAdjudicatario, idLicitacion, dictEmpresas, idCriterios
         )
         insertar_part_empresas(dictEmpresas, idCriterios, idLicitacion, idAdjudicatario)
-    conn.close()

@@ -55,7 +55,7 @@ const FechasyPlazos = ({ licitacion }) => {
                   <li className="items-list">
                     <div className="px-4">
                       <div className="event-date badge bg-success">
-                        {licitacion.plazo_presentacion}
+                        {formatDate(licitacion.plazo_presentacion)}
                       </div>
                       <h5 className="pt-2">Fecha de Presentación</h5>
                     </div>
